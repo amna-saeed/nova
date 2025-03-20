@@ -25,4 +25,24 @@ class HomeController extends Controller
     {
         return view('pages.contact-us');
     }
+    public function aboutPage()
+    {
+        return view('pages.about-us');
+    }
+    public function packagesPage()
+    {
+        return view('pages.packages');
+    }
+    public function customerPage()
+    {
+        return view('pages.customer-center');
+    }
+    public function carePage()
+    {
+        return view('pages.customer-care');
+    }
+    public function internetPage()
+    {
+        return view('pages.internet');
+    }
 }

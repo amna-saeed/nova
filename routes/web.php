@@ -15,6 +15,12 @@ use App\Http\Controllers\{UserController,WhatsAppController,TestimonialsControll
 
 Route::get('/', [HomeController::class, 'home']);
 Route::get('/contact-us', [HomeController::class, 'ContactPage'])->name('contact-us');
+Route::get('/about-us', [HomeController::class, 'aboutPage'])->name('about-us');
+Route::get('/packages', [HomeController::class, 'packagesPage'])->name('packages');
+Route::get('/customer-center', [HomeController::class, 'customerPage'])->name('customer-center');
+Route::get('/customer-care', [HomeController::class, 'carePage'])->name('customer-care');
+// services
+Route::get('/internet', [HomeController::class, 'internetPage'])->name('internet');
 
 Route::post('/webhook/whatsapp', [WhatsAppController::class, 'handleIncoming']);
 

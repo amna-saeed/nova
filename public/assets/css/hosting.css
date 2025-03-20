@@ -103,6 +103,7 @@
 img.disc-100 {
     width: 100%;
     border-radius: 15px;
+    margin-bottom: 45px;
 }
 .pricingTable-header > .price-value > .mo{
     font-size: 15px;

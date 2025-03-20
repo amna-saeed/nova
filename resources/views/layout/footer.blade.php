@@ -1,4 +1,43 @@
-    <!--Footer div-->
+    <!--Start call to action Area-->
+    <div class="footer-call-to-action">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 sm-text-center text-center">
+                    <h3>Follow Us</h3>
+                    <p>Connect with us on social media for updates, promotions, and the latest news</p>
+                </div>
+                <div class="col-md-12 text-right sm-text-center">
+                    <div class="linez-same">
+                        <div class="bg-outer-100">
+                        <a href="#"><img src="{{asset('assets/images/webImg/fb.png')}}" class="follow-scl" /></a>
+                            <p class="need-txt-10">Follow us on Facebook</p>
+                        </div>
+                        <div class="bg-outer-100">
+                        <a href="#"><img src="{{asset('assets/images/webImg/insta.png')}}" class="follow-scl" /></a>
+                            <p class="need-txt-10">Follow us on Instagram</p>
+                        </div>
+                        <div class="bg-outer-100">
+                        <a href="#"><img src="{{asset('assets/images/webImg/LinkedIn.png')}}" class="follow-scl" /></a>
+                            <p class="need-txt-10">Follow us on Linkedin</p>
+                        </div>
+                        <div class="bg-outer-100">
+                        <a href="#"><img src="{{asset('assets/images/webImg/headphone.png')}}" class="follow-scl" /></a>
+                            <p class="need-txt-10">24/7 Available</p>
+                        </div>
+                        <div class="bg-outer-100">
+                        <a href="#"><img src="{{asset('assets/images/webImg/x.png')}}" class="follow-scl" /></a>
+                            <p class="need-txt-10">Follow us on Twitter</p>
+                        </div>
+                        <div class="bg-outer-100">
+                        <a href="#"><img src="{{asset('assets/images/webImg/email.png')}}" class="follow-scl" /></a>
+                            <p class="need-txt-10">Follow us on Email</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>   
+   <!--Footer div-->
     <footer class="footer sec-padding" style=" padding:55px 0;">
         <div class="container">
             <div class="row">
@@ -21,13 +60,13 @@
                             <li>
                                 <span class="border"></span>
                                 <div class="content">
-                                    <a href="classes-list.html">Home</a>
+                                    <a href="/">Home</a>
                                 </div>
                             </li>
                             <li>
                                 <span class="border"></span>
                                 <div class="content">
-                                    <a href="classes-list.html">About Us</a>
+                                    <a href="{{ route('about-us') }}">About Us</a>
                                 </div>
                             </li>
                             <li>
@@ -39,7 +78,7 @@
                             <li>
                                 <span class="border"></span>
                                 <div class="content">
-                                    <a href="classes-list.html">Packages</a>
+                                    <a href="{{ route('packages') }}">Packages</a>
                                 </div>
                             </li>
                             <li>
@@ -57,7 +96,7 @@
                             <li>
                                 <span class="border"></span>
                                 <div class="content">
-                                    <a href="classes-list.html">Contact</a>
+                                    <a href="{{ route('contact-us') }}">Contact</a>
                                 </div>
                             </li>
                         </ul>

@@ -72,20 +72,14 @@
         </div>
     </div>
 
-    <section class="speed-banner">
-        <div class="overlay-11"></div>
-        <div class="banner-content">
-            <h1>Same Speed.</h1>
-            <h1>All day. all night.</h1>
-        </div>
-    </section>
+    @include('components.speed')
 
     <!-- Pricing Table -->
     <section class="pricingTable-1 pt-20 pb-30">
         <div class="container">
             <div class="sec-title text-center wow fadeInUp" data-wow-delay="200ms" data-wow-duration="2500ms">
                 <span class="double-line"></span> &ensp;
-                <h2>Our Packages</h2>
+                <h2>Budget Friendly Packages</h2>
                 &ensp; <span class="double-line"></span>
             </div>
             <div class="sec-content">
@@ -156,10 +150,10 @@
         </div>
     </section>
 
-    <section class="parallax-banner"></section>
+    @include('components.coverage')
 
     <!-- services slider -->
-    <section  class="home-serivce sec-padding pb-0 pt-40">
+    {{-- <section  class="home-serivce sec-padding pb-0 pt-40">
         <div class="container">
             <div class="container">
                 <div class="row">
@@ -188,7 +182,54 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
+    <section class="pricingTable-1 pt-20 pb-30">
+        <div class="container">
+            <div class="sec-content">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="{{asset('assets/images/webImg/banner20(2).png')}}" class="whoz-pic" alt="" />
+                    </div>
+                    {{-- <div class="col-md-3">
+                        <img src="{{asset('assets/images/webImg/agency-2.webp')}}" class="whoz-pic" alt="" />
+                    </div> --}}
+                    <div class="col-md-6">
+                        <p class="whoz-100">Who we are </p>
+                        <h2 class="agency-internet">Best Internet
+                        Providing Agency</h2>
+                        <p class="whoz-para">
+                            Nova Communications is a trusted ISP and ICT service provider with over two decades of industry experience. We are committed to transforming the digital landscape in Pakistan through 
+                            innovative technology and customer-centric solutions.
+                        </p>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="same-box-10">
+                                    <div class="icnz">
+                                        <img src="{{asset('assets/images/webImg/dish.png')}}" class="100-icnz" alt="" />   
+                                    </div>
+                                    <div class="tx-content headline text-uppercase pera-content">
+                                        <h3 class="tx-count"><span class="counter" data-txcounter="">4K</span></h3>
+                                        <p>Ultra HD Quality</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="same-box-10">
+                                    <div class="icnz">
+                                        <img src="{{asset('assets/images/webImg/Home-Icons-01.png')}}" class="100-icnz" alt="" />    
+                                    </div>
+                                    <div class="tx-content headline text-uppercase pera-content">
+                                        <h3 class="tx-count"><span class="counter" data-txcounter="">200+</span></h3>
+                                        <p>Online Channels</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- End about area -->
 
     <section class="discount-bnr">
@@ -204,6 +245,7 @@
         </div>
     </section> 
 
+    @include('components.novaApp')
   
     <!--Blog Section-->
     <section class="blog-section pt-40 pb-30">
@@ -301,45 +343,7 @@
         </div>
     </section>
    
-    <!--Start call to action Area-->
-    <div class="footer-call-to-action">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 sm-text-center text-center">
-                    <h3>Follow Us</h3>
-                    <p>Connect with us on social media for updates, promotions, and the latest news</p>
-                </div>
-                <div class="col-md-12 text-right sm-text-center">
-                    <div class="linez-same">
-                        <div class="bg-outer-100">
-                        <a href="#"><img src="{{asset('assets/images/webImg/fb.png')}}" class="follow-scl" /></a>
-                            <p class="need-txt-10">Follow us on Facebook</p>
-                        </div>
-                        <div class="bg-outer-100">
-                        <a href="#"><img src="{{asset('assets/images/webImg/insta.png')}}" class="follow-scl" /></a>
-                            <p class="need-txt-10">Follow us on Instagram</p>
-                        </div>
-                        <div class="bg-outer-100">
-                        <a href="#"><img src="{{asset('assets/images/webImg/LinkedIn.png')}}" class="follow-scl" /></a>
-                            <p class="need-txt-10">Follow us on Linkedin</p>
-                        </div>
-                        <div class="bg-outer-100">
-                        <a href="#"><img src="{{asset('assets/images/webImg/headphone.png')}}" class="follow-scl" /></a>
-                            <p class="need-txt-10">24/7 Available</p>
-                        </div>
-                        <div class="bg-outer-100">
-                        <a href="#"><img src="{{asset('assets/images/webImg/x.png')}}" class="follow-scl" /></a>
-                            <p class="need-txt-10">Follow us on Twitter</p>
-                        </div>
-                        <div class="bg-outer-100">
-                        <a href="#"><img src="{{asset('assets/images/webImg/email.png')}}" class="follow-scl" /></a>
-                            <p class="need-txt-10">Follow us on Email</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
 @stop
 @section('js')
    
