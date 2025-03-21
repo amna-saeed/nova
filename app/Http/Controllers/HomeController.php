@@ -45,4 +45,16 @@ class HomeController extends Controller
     {
         return view('pages.internet');
     }
+    public function careerPage()
+    {
+        return view('pages.career');
+    }
+    public function privacyPage()
+    {
+        return view('pages.privacy-policy');
+    }
+    public function termsPage()
+    {
+        return view('pages.terms-condition');
+    }
 }

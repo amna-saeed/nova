@@ -133,19 +133,6 @@
     </div>
 </div>
 
-{{-- <section class="about-content-padding">
-    <div class="container">
-        <div class="box-radius">
-            <img src="{{asset('assets/images/webImg/service-10-1.webp')}}" class="speed-100" alt="" />
-            <div class="btmz-img">
-                <img src="{{asset('assets/images/webImg/')}}" class="speed-100" alt="" />
-                <p class="sevz-200">Ultra-speed <br/>
-                    Connection</p>
-            </div>
-        </div>
-    </div>
-</section> --}}
-
 <section class="about-content-padding">
     <div class="container-fluid p-0">
         <div class="row">
@@ -206,6 +193,7 @@
         </div>
     </div>
 </section>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <script>
     document.querySelectorAll(".accordion-button").forEach(button => {
@@ -253,112 +241,3 @@
 @section('js')
 @endsection
 
-<style>
-
-ul#myTab {
-    text-align: center;
-    justify-content: center;
-    width: 100%;
-}
-.bg-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
-    border-radius: 29px;
-    z-index: 0; /* Keeps the overlay behind text */
-}
-button.btn.btn-red {
-    background-color: #ff0000 !important;
-    color: #ffffff !important;
-    border-radius: 59px;
-    border: none;
-    padding: 10px 34px;
-    min-height: 50px;
-    font-size: 15px;
-}
-.custom-tabs .nav-link {
-    background-color: #fff !important;
-    color: #000 !important;
-    border-radius: 59px;
-    border: none;
-    padding: 4px 38px;
-    min-height: 51px;
-    font-size: 15px;
-    position: relative;
-    font-weight: 700;
-    margin-right: 11px;
-}
-.nav-link.active {
-    background-color: #ff0000 !important;
-    color: #ffffff !important;
-    border-radius: 59px;
-    border: none;
-    padding: 4px 38px;
-    min-height: 51px;
-    font-size: 15px;
-    position: relative;
-    font-weight: 700;
-    margin-right: 11px;
-}
-.nav-link.active::after {
-    content: "";
-    position: absolute;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    border-bottom: 15px solid #ff0000;
-    left: 50%;
-    transform: translateX(-50%);
-    top: -13px;
-}
-.nav-tabs{
-    border: none !important;
-}
-p.snce-para {
-    font-size: 21px;
-    width: 51%;
-    margin-bottom: 20px;
-}
-p.tx-price {
-    font-size: 33px;
-    font-weight: 600;
-    margin: 12px;
-    color: #da0000 !important;
-}
-span#banner-price {
-    font-size: 52px;
-}
-h2#banner-title {
-    font-size: 53px;
-    line-height: 55px;
-    font-family: cursive;
-}
-.banner-content {
-    position: relative;
-    z-index: 2; /* Ensures text appears above overlay */
-}
-
-.banner-content h2,
-.banner-content p,
-#banner-subtitle {
-    color: #fff; /* Ensure bright text */
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8); /* Improves visibility */
-}
-
-p#banner-subtitle {
-    background: #3b3a3a;
-    display: inline-block;
-    padding: 12px;
-    border-radius: 27px;
-    font-size: 15px;
-    color: #fff;
-    z-index: 2; /* Keeps subtitle above overlay */
-}
-
-
-
-
-
-</style>

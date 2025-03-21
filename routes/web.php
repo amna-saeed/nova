@@ -19,6 +19,9 @@ Route::get('/about-us', [HomeController::class, 'aboutPage'])->name('about-us');
 Route::get('/packages', [HomeController::class, 'packagesPage'])->name('packages');
 Route::get('/customer-center', [HomeController::class, 'customerPage'])->name('customer-center');
 Route::get('/customer-care', [HomeController::class, 'carePage'])->name('customer-care');
+Route::get('/career', [HomeController::class, 'careerPage'])->name('career');
+Route::get('/privacy-policy', [HomeController::class, 'privacyPage'])->name('privacy-policy');
+Route::get('/terms-condition', [HomeController::class, 'termsPage'])->name('terms-condition');
 // services
 Route::get('/internet', [HomeController::class, 'internetPage'])->name('internet');
 

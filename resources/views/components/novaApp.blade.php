@@ -20,7 +20,9 @@
                             </div>
                         </div>
                         <div class="col-md-5">
-                            <div class="app_screen_holder"><img loading="eager" src="https://transworld-home.com/wp-content/uploads/2023/06/app_screen.png" alt="screen" /></div>
+                            <div class="app_screen_holder">
+                                <img loading="eager" src="{{asset('assets/images/webImg/mobileeee.png')}}"  alt="screen"  />
+                            </div>
                         </div>
                     </div>
                 </article>

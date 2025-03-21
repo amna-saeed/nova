@@ -4,6 +4,8 @@
         <div class="container">
         </div>
     </section>
+    
+  
 
     <section class="about-content-bordz">
         <div class="container">
@@ -82,6 +84,13 @@
                     <img src="{{asset('assets/images/webImg/TV1.webp')}}" class="disc-100" alt="" />
                 </div>
             </div>
+        </div>
+    </section>
+
+    @include('components.coverage')
+    
+    <section class="about-content-padding">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-4">
                     <div class="border-plan">
