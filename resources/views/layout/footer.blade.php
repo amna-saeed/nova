@@ -1,6 +1,6 @@
 <div class="row">
     <div class="col-lg-12 p-0">
-        <div class="footer-call-to-action">
+        {{-- <div class="footer-call-to-action">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 sm-text-center text-center">
@@ -37,7 +37,7 @@
                     </div>
                 </div>
             </div>
-        </div>   
+        </div>    --}}
         <!--Footer div-->
         <footer class="footer sec-padding" style=" padding:55px 0;">
             <div class="container">

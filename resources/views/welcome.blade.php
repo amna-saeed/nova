@@ -6,12 +6,56 @@
 
     @include('components.services')
 
-    @include('components.novaApp')
+    {{-- follow us --}}
+    <div class="row">
+        <div class="col-lg-12 p-0">
+            <div class="footer-call-to-action">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 sm-text-center text-center">
+                            <h3>Follow Us</h3>
+                            <p>Connect with us on social media for updates, promotions, and the latest news</p>
+                        </div>
+                        <div class="col-md-12 text-right sm-text-center">
+                            <div class="linez-same">
+                                <div class="bg-outer-100">
+                                <a href="#"><img src="{{asset('assets/images/webImg/fb.png')}}" class="follow-scl" /></a>
+                                    <p class="need-txt-10">Follow us on Facebook</p>
+                                </div>
+                                <div class="bg-outer-100">
+                                <a href="#"><img src="{{asset('assets/images/webImg/insta.png')}}" class="follow-scl" /></a>
+                                    <p class="need-txt-10">Follow us on Instagram</p>
+                                </div>
+                                <div class="bg-outer-100">
+                                <a href="#"><img src="{{asset('assets/images/webImg/LinkedIn.png')}}" class="follow-scl" /></a>
+                                    <p class="need-txt-10">Follow us on Linkedin</p>
+                                </div>
+                                <div class="bg-outer-100">
+                                <a href="#"><img src="{{asset('assets/images/webImg/headphone.png')}}" class="follow-scl" /></a>
+                                    <p class="need-txt-10">24/7 Available</p>
+                                </div>
+                                <div class="bg-outer-100">
+                                <a href="#"><img src="{{asset('assets/images/webImg/x.png')}}" class="follow-scl" /></a>
+                                    <p class="need-txt-10">Follow us on Twitter</p>
+                                </div>
+                                <div class="bg-outer-100">
+                                <a href="#"><img src="{{asset('assets/images/webImg/email.png')}}" class="follow-scl" /></a>
+                                    <p class="need-txt-10">Follow us on Email</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div> 
+    </div> 
+   
 
     @include('components.coverage')
 
     @include('components.who-we')
 
+    @include('components.novaApp')
 
     <!-- Pricing Table -->
     {{-- <section class="pricingTable-1 pt-20 pb-30">
