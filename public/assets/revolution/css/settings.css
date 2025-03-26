@@ -131,7 +131,12 @@ website:   	http://www.themepunch.com
 	border:none;
 	width:100%;
 }
-
+div#slider1{
+	height: 475px !important;
+}
+.rev_slider_wrapper.bannercontainer{
+	height: 475px !important;
+}
 .rev_slider .no-slides-text{
 	font-weight:bold;
 	text-align:center;

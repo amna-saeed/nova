@@ -1,4 +1,4 @@
-<section class="pricingTable-1 pt-20 pb-30">
+<section class="pricingTable-1 pt-20 pb-0">
     <div class="container">
         <div class="sec-content">
             <div class="row">

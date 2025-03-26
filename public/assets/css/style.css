@@ -1888,7 +1888,9 @@ h2#banner-title {
     position: relative;
     z-index: 2; /* Ensures text appears above overlay */
 }
-
+header.header {
+    background: #ffffff;
+}
 .banner-content h2,
 .banner-content p,
 #banner-subtitle {
@@ -4108,79 +4110,9 @@ h2.pkgzhead-busi {
     margin: 0 auto;
     max-width: 900px;
 }
-.uk-position-relative {
-    position: relative;
-	margin-bottom: 10px;
-}
 
-.img-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgb(93 51 51 / 46%); 
-    border-radius: 14px;
-}
 
-.uk-srvce, .uk-srvce2 {
-    width: 100%;
-    height: auto;
-    border-radius: 14px;
-    display: block;
-}
 
-.uk-srvce-2-txt{
-    position: absolute;
-    bottom: 0; /* Align text at the bottom */
-    left: 0;
-    width: 100%; 
-    text-align: center;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    background:rgb(93 51 51 / 46%); 
-    padding: 15px 10px;
-    border-radius: 0 0 14px 14px; 
-}
-.uk-srvce-txt{
-    position: absolute;
-    bottom: 0;
-	left: 15px;
-    width: 94%; 
-    max-width: 100%; 
-    text-align: center;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    background: rgb(93 51 51 / 67%); 
-    padding: 15px 10px;
-    border-radius: 0 0 14px 14px; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.uk-srvce-txt p {
-    font-size: 18px;
-    font-weight: 100 !important;
-    margin: 0px 0px 5px;
-}
-.uk-srvce-txt h4 {
-	font-size: 21px;
-    font-weight: 500;
-    margin: 0px;
-}
-.uk-srvce-2-txt p {
-    font-size: 18px;
-    font-weight: 100 !important;
-    margin: 0px 0px 5px;
-}
-.uk-srvce-2-txt h4 {
-	font-size: 21px;
-    font-weight: 500;
-    margin: 0px;
-}
 .clients-carousel .item {
     position: relative;
     text-align: center;

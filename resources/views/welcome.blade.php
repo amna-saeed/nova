@@ -2,80 +2,19 @@
 @section('content')
    
     @include('components.home-slider')
+    @include('components.packages')
 
-    <div class="container-half-100 pt-20 pb-30">
-        <div class="sec-title text-center wow fadeInUp" data-wow-delay="200ms" data-wow-duration="2500ms">
-            <span class="double-line"></span> &ensp;
-            <h2>Our Services</h2>
-            &ensp; <span class="double-line"></span>
-        </div>
-        <div class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="2500ms">
-            <div class="row uk-padding">
-                <div class="col-md-7 col-sm-4 uk-first-column">
-                    <a href="">
-                        <div class="single_thumb fade_anim uk-scrollspy-inview" style="">
-                            <div class="img UH_ProjectContentImage">
-                                <img src="{{asset('assets/images/hosting/580.png')}}" class="uk-srvce" alt="" />
-                            </div>
-                            <div class="uk-srvce-txt">
-                                <h4>Voice & Telephony Services</h4>
-                                <div class="srvce-box-200">
-                                    <p>Crystal-Clear Voice</p>
-                                    <p>Competitive Calling Plans</p>
-                                    <p>Customizable Residential & Business Plans</p>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-5 col-sm-4">
-                    <div class="single_thumb">
-                        <div class="uk-child-width-1-1 uk-grid uk-grid-stack">
-                            <div class="fade_anim uk-scrollspy-inview uk-first-column" style="">
-                                <a href="">
-                                    <div class="uk-position-relative">
-                                        <div class="img UH_ProjectContentImage">
-                                        <img src="{{asset('assets/images/hosting/909-ezgif.com-png.webp')}}" class="uk-srvce2" alt="" />
-                                        </div>
-                                        <div class="uk-srvce-2-txt">
-                                            <h4>High-Speed Internet</h4>
-                                            <div class="srvce-box-200">
-                                                <p>Fiber-to-the-Home</p>
-                                                <p>Advanced GPON Technology</p>
-                                                <p>Customizable Residential & Business Plans</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="uk-margin-small-top fade_anim uk-grid-margin uk-first-column uk-scrollspy-inview">
-                                <a href="https://stormfiber.com/products/hdtv/">
-                                    <div class="uk-position-relative">
-                                        <div class="img UH_ProjectContentImage">
-                                            <img src="{{asset('assets/images/hosting/022.webp')}}" class="uk-srvce2" alt="" />
-                                        </div>
-                                        <div class="uk-srvce-2-txt">
-                                            <h4>Digital TV & Entertainment</h4>
-                                            <div class="srvce-box-200">
-                                                <p>NovaTV App</p>
-                                                <p>Interactive Entertainment</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('components.services')
 
-    @include('components.speed')
+    @include('components.novaApp')
+
+    @include('components.coverage')
+
+    @include('components.who-we')
+
 
     <!-- Pricing Table -->
-    <section class="pricingTable-1 pt-20 pb-30">
+    {{-- <section class="pricingTable-1 pt-20 pb-30">
         <div class="container">
             <div class="sec-title text-center wow fadeInUp" data-wow-delay="200ms" data-wow-duration="2500ms">
                 <span class="double-line"></span> &ensp;
@@ -148,15 +87,85 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
-    @include('components.coverage')
+    {{-- <div class="container-half-100 pt-20 pb-30">
+        <div class="sec-title text-center wow fadeInUp" data-wow-delay="200ms" data-wow-duration="2500ms">
+            <span class="double-line"></span> &ensp;
+            <h2>Our Services</h2>
+            &ensp; <span class="double-line"></span>
+        </div>
+        <div class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="2500ms">
+            <div class="row uk-padding">
+                <div class="col-md-7 col-sm-4 uk-first-column">
+                    <a href="">
+                        <div class="single_thumb fade_anim uk-scrollspy-inview" style="">
+                            <div class="img UH_ProjectContentImage">
+                                <img src="{{asset('assets/images/hosting/580.png')}}" class="uk-srvce" alt="" />
+                            </div>
+                            <div class="uk-srvce-txt">
+                                <h4>Voice & Telephony Services</h4>
+                                <div class="srvce-box-200">
+                                    <p>Crystal-Clear Voice</p>
+                                    <p>Competitive Calling Plans</p>
+                                    <p>Customizable Residential & Business Plans</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-5 col-sm-4">
+                    <div class="single_thumb">
+                        <div class="uk-child-width-1-1 uk-grid uk-grid-stack">
+                            <div class="fade_anim uk-scrollspy-inview uk-first-column" style="">
+                                <a href="">
+                                    <div class="uk-position-relative">
+                                        <div class="img UH_ProjectContentImage">
+                                        <img src="{{asset('assets/images/hosting/909-ezgif.com-png.webp')}}" class="uk-srvce2" alt="" />
+                                        </div>
+                                        <div class="uk-srvce-2-txt">
+                                            <h4>High-Speed Internet</h4>
+                                            <div class="srvce-box-200">
+                                                <p>Fiber-to-the-Home</p>
+                                                <p>Advanced GPON Technology</p>
+                                                <p>Customizable Residential & Business Plans</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="uk-margin-small-top fade_anim uk-grid-margin uk-first-column uk-scrollspy-inview">
+                                <a href="https://stormfiber.com/products/hdtv/">
+                                    <div class="uk-position-relative">
+                                        <div class="img UH_ProjectContentImage">
+                                            <img src="{{asset('assets/images/hosting/022.webp')}}" class="uk-srvce2" alt="" />
+                                        </div>
+                                        <div class="uk-srvce-2-txt">
+                                            <h4>Digital TV & Entertainment</h4>
+                                            <div class="srvce-box-200">
+                                                <p>NovaTV App</p>
+                                                <p>Interactive Entertainment</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> --}}
 
-    @include('components.who-we')
+    {{-- @include('components.speed') --}}
+
+    
+
     
     <!-- End about area -->
 
-    <section class="discount-bnr">
+    {{-- <section class="discount-bnr">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 pt-15 pb-40 text-center wow slideInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
@@ -167,12 +176,12 @@
                 </div>
             </div>
         </div>
-    </section> 
+    </section>  --}}
 
-    @include('components.novaApp')
+   
   
     <!--Blog Section-->
-    <section class="blog-section pt-40 pb-30">
+    <section class="blog-section pt-15 pb-30">
         <div class="container">
             <div class="sec-title">
                 <span class="double-line"></span> &ensp;

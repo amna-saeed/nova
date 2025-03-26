@@ -1,4 +1,4 @@
-<div class="top-bar hidden-xs">
+{{-- <div class="top-bar hidden-xs">
     <div class="container">
         <div class="social-icons pull-left">
             <ul>
@@ -31,55 +31,56 @@
         </div>
         <!-- /.left-text -->
     </div>
-</div>
+</div> --}}
 <!-- /.top-bar -->
-<header class="header">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-4 col-md-4">
-                <a href="/">
-                    <div class="logo">
-                        <img src="{{asset('assets/images/webImg/final-logo.png')}}" alt="Awesome Image" />
-                    </div>
-                </a>
-            </div>
-            <div class="col-xs-12 col-sm-8 col-md-8 hidden-xs">
-                <div class="header-right-info pull-right sm-pull-none clearfix">
-                    <div class="single-header-info pb-sm-20">
-                        <div class="icon-box">
-                            <div class="inner-box">
-                                <i class="flaticon-interface-2"></i>
+
+<!-- /.header -->
+ 
+<nav class="mainmenu-area stricky">
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <a href="/">
+                        <div class="logo">
+                            <img src="{{asset('assets/images/webImg/final-logo.png')}}" alt="Awesome Image" />
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-8 hidden-xs">
+                    <div class="header-right-info pull-right sm-pull-none clearfix">
+                        <div class="single-header-info pb-sm-20">
+                            <div class="icon-box">
+                                <div class="inner-box">
+                                    <i class="flaticon-interface-2"></i>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <a href="{{ route('contact-us') }}">
+                                <h3>Pay Now</h3></a>
+                                {{-- <p>help@nova.net.pk</p> --}}
                             </div>
                         </div>
-                        <div class="content">
-                            <a href="{{ route('contact-us') }}">
-                            <h3>Pay Now</h3></a>
-                            {{-- <p>help@nova.net.pk</p> --}}
-                        </div>
-                    </div>
-                    <div class="single-header-info">
-                        <div class="icon-box">
-                            <a href="{{ route('contact-us') }}">
-                            <div class="inner-box">
-                                <i class="flaticon-telephone"></i>
+                        <div class="single-header-info">
+                            <div class="icon-box">
+                                <a href="{{ route('contact-us') }}">
+                                <div class="inner-box">
+                                    <i class="flaticon-telephone"></i>
+                                </div>
+                                </a>
                             </div>
-                            </a>
-                        </div>
-                        <div class="content">
-                            <a href="{{ route('contact-us') }}">
-                            <h3>Contact Us</h3>
-                            </a>
-                            {{-- <p><b>051-111-111-872</b></p> --}}
+                            <div class="content">
+                                <a href="{{ route('contact-us') }}">
+                                <h3>Contact Us</h3>
+                                </a>
+                                {{-- <p><b>051-111-111-872</b></p> --}}
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</header>
-<!-- /.header -->
- 
-<nav class="mainmenu-area stricky">
+    </header>
     <div class="container">
         <div class="row">
             <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">

@@ -3,17 +3,13 @@
     <div id="slider1" class="rev_slider" data-version="5.0">
         <ul>
             <li data-index="rs-1" data-transition="fade">
-                <!-- MAIN IMAGE -->
                 <img src="{{asset('assets/images/hosting/slider/Final1.webp')}}" alt="" width="1920" height="1280" />
-                <!-- LAYER NR. 1 -->
-
-                <!-- LAYER NR. 1 -->
                 <div
                     class="tp-caption montserrat fweight-6 text-white tp-resizeme start"
                     data-x="['left','left','center','center']"
                     data-hoffset="['0','50','0','0']"
                     data-y="['top','top','top','top']"
-                    data-voffset="['180','100','100','110']"
+                    data-voffset="['90','100','100','110']"
                     data-fontsize="['65','60','50','30']"
                     data-lineheight="['100','100','100','50']"
                     data-width="none"
@@ -32,14 +28,12 @@
                 >
                     <span class="text-thm">Unmatched</span>  
                 </div>
-
-                <!-- LAYER NR. 2 -->
                 <div
                     class="tp-caption montserrat fweight-6 text-white tp-resizeme"
                     data-x="['left','left','center','center']"
-                    data-hoffset="['0','50','0','0']"
+                    data-hoffset="['6','50','0','0']"
                     data-y="['top','top','top','top']"
-                    data-voffset="['280','180','180','180']"
+                    data-voffset="['174','180','180','180']"
                     data-fontsize="['36','32','32','32']"
                     data-lineheight="['50','40','40','30']"
                     data-width="none"
@@ -56,17 +50,15 @@
                     data-responsive_offset="on"
                     style="z-index: 7; white-space: nowrap;color: rgb(85, 85, 85);font-weight: 600;"
                 >
-                Connectivity &
+                    Connectivity &
                 </div>
-
-                <!-- LAYER NR. 3 -->
                 <div
                     class="tp-caption raleway white text-white tp-resizeme"
                     data-x="['left','left','center','center']"
-                    data-hoffset="['0','50','0','0']"
+                    data-hoffset="['13','50','0','0']"
                     data-y="['top','top','top','top']"
-                    data-voffset="['330','220','220','220']"
-                    data-fontsize="['16','16','14','14']"
+                    data-voffset="['206','220','220','220']"
+                    data-fontsize="['20','16','14','14']"
                     data-lineheight="['70','70','70','50']"
                     data-width="none"
                     data-height="none"
@@ -84,15 +76,13 @@
                 >
                 Innovative ICT Solutions
                 </div>
-
-                <!-- LAYER NR. 3 -->
                 <div
                     class="tp-caption raleway white text-white tp-resizeme"
                     data-x="['left','left','center','center']"
-                    data-hoffset="['0','50','0','0']"
+                    data-hoffset="['15','50','0','0']"
                     data-y="['top','top','top','top']"
-                    data-voffset="['360','260','260','260']"
-                    data-fontsize="['16','16','14','14']"
+                    data-voffset="['236','260','260','260']"
+                    data-fontsize="['20','16','14','14']"
                     data-lineheight="['70','70','70','50']"
                     data-width="none"
                     data-height="none"
@@ -110,15 +100,12 @@
                 >
                     Across Pakistan with Nova i-Box
                 </div>
-
-
-                <!-- LAYER NR. 2 -->
                 <div
                     class="tp-caption sbut2 btn-round"
                     data-x="['left','left','center','center']"
                     data-hoffset="['0','200','0','0']"
                     data-y="['top','top','top','top']"
-                    data-voffset="['465','360','360','360']"
+                    data-voffset="['298','360','360','360']"
                     data-whitespace="nowrap"
                     data-type="text"
                     data-responsive_offset="on"
@@ -134,16 +121,14 @@
                 </div>
             </li>
            <!-- SLIDE  -->
-           <li data-index="rs-2" data-transition="slideup">
-                <!-- MAIN IMAGE -->
+            <li data-index="rs-2" data-transition="slideup">
                 <img src="{{asset('assets/images/hosting/slider/final2.webp')}}" alt="" width="1920" height="1280" />
-                <!-- LAYER NR. 1 -->
                 <div
                     class="tp-caption montserrat fweight-6 text-white tp-resizeme start"
                     data-x="['left','left','center','center']"
                     data-hoffset="['0','50','0','0']"
                     data-y="['top','top','top','top']"
-                    data-voffset="['180','100','100','110']"
+                    data-voffset="['90','100','100','110']"
                     data-fontsize="['65','60','50','30']"
                     data-lineheight="['100','100','100','50']"
                     data-width="none"
@@ -163,13 +148,12 @@
                     <span class="text-thm">Smart</span> Tv
                 </div>
 
-                <!-- LAYER NR. 2 -->
                 <div
                     class="tp-caption montserrat fweight-6 text-white tp-resizeme"
                     data-x="['left','left','center','center']"
-                    data-hoffset="['0','50','0','0']"
+                    data-hoffset="['6','50','0','0']"
                     data-y="['top','top','top','top']"
-                    data-voffset="['280','180','180','180']"
+                    data-voffset="['174','180','180','180']"
                     data-fontsize="['36','32','32','32']"
                     data-lineheight="['50','40','40','30']"
                     data-width="none"
@@ -189,14 +173,13 @@
                     Experience
                 </div>
 
-                <!-- LAYER NR. 3 -->
                 <div
                     class="tp-caption raleway white text-white tp-resizeme"
                     data-x="['left','left','center','center']"
-                    data-hoffset="['0','50','0','0']"
+                    data-hoffset="['9','50','0','0']"
                     data-y="['top','top','top','top']"
-                    data-voffset="['330','220','220','220']"
-                    data-fontsize="['16','16','14','14']"
+                    data-voffset="['207','180','180','180']"
+                    data-fontsize="['20','16','14','14']"
                     data-lineheight="['70','70','70','50']"
                     data-width="none"
                     data-height="none"
@@ -215,13 +198,12 @@
                     with Nova I-Box
                 </div>
 
-                <!-- LAYER NR. 2 -->
                 <div
                     class="tp-caption sbut2 btn-round"
                     data-x="['left','left','center','center']"
                     data-hoffset="['0','200','0','0']"
                     data-y="['top','top','top','top']"
-                    data-voffset="['465','360','360','360']"
+                    data-voffset="['265','360','360','360']"
                     data-whitespace="nowrap"
                     data-type="text"
                     data-responsive_offset="on"
@@ -236,17 +218,14 @@
                     <a class="btn thm-btn inverse" href="#">Order Now!</a>
                 </div>
             </li>
-             <!-- SLIDE  -->
-             <li data-index="rs-3" data-transition="slideup">
-                <!-- MAIN IMAGE -->
+            <li data-index="rs-3" data-transition="slideup">
                 <img src="{{asset('assets/images/hosting/slider/final3.webp')}}" alt="" width="1920" height="1280" />
-                <!-- LAYER NR. 1 -->
                 <div
                     class="tp-caption montserrat fweight-6 text-white tp-resizeme start"
                     data-x="['left','left','center','center']"
                     data-hoffset="['0','50','0','0']"
                     data-y="['top','top','top','top']"
-                    data-voffset="['180','100','100','110']"
+                    data-voffset="['90','100','100','110']"
                     data-fontsize="['65','60','50','30']"
                     data-lineheight="['100','100','100','50']"
                     data-width="none"
@@ -266,13 +245,12 @@
                     <span class="text-thm">Non</span> Stop
                 </div>
 
-                <!-- LAYER NR. 2 -->
                 <div
                     class="tp-caption montserrat fweight-6 text-white tp-resizeme"
                     data-x="['left','left','center','center']"
                     data-hoffset="['0','50','0','0']"
                     data-y="['top','top','top','top']"
-                    data-voffset="['280','180','180','180']"
+                    data-voffset="['177','180','180','180']"
                     data-fontsize="['36','32','32','32']"
                     data-lineheight="['50','40','40','30']"
                     data-width="none"
@@ -292,14 +270,13 @@
                     Entertainment
                 </div>
 
-                <!-- LAYER NR. 3 -->
                 <div
                     class="tp-caption raleway white text-white tp-resizeme"
                     data-x="['left','left','center','center']"
-                    data-hoffset="['0','50','0','0']"
+                    data-hoffset="['8','50','0','0']"
                     data-y="['top','top','top','top']"
-                    data-voffset="['330','220','220','220']"
-                    data-fontsize="['16','16','14','14']"
+                    data-voffset="['208','220','220','220']"
+                    data-fontsize="['20','16','14','14']"
                     data-lineheight="['70','70','70','50']"
                     data-width="none"
                     data-height="none"
@@ -315,15 +292,14 @@
                     data-responsive_offset="on"
                     style="z-index: 7; white-space: nowrap;color: rgb(218 217 217);font-size: 17px;"
                 >
-                   With High Speed Internet
+                    With High Speed Internet
                 </div>
-                <!-- LAYER NR. 2 -->
                 <div
                     class="tp-caption sbut2 btn-round"
                     data-x="['left','left','center','center']"
                     data-hoffset="['0','200','0','0']"
                     data-y="['top','top','top','top']"
-                    data-voffset="['465','360','360','360']"
+                    data-voffset="['265px','360','360','360']"
                     data-whitespace="nowrap"
                     data-type="text"
                     data-responsive_offset="on"
