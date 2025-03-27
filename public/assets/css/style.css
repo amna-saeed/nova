@@ -414,7 +414,7 @@ blockquote {
     font-size: 14px;
     font-weight: 600;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #da0000;
     margin: 26px 22px;
     position: relative; /* Required for the ::after to work */
     transition: all 0.3s ease;
@@ -466,9 +466,27 @@ blockquote {
 
 .navigation .nav-header > ul > li > ul.dropz {
     position: absolute;
+    top: 121%;
+    left: -64%;
+    width: 100vw;
+    background: #ffffff;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    box-shadow: 2px 0 11px -3px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    padding: 7px 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* .navigation .nav-header > ul > li > ul.dropz {
+    position: absolute;
     top: 100%;
     left: -72px;
-    width: 100vw; /* Ensure full width */
+    width: 100vw; 
     background:#ffffff;
     opacity: 0;
     visibility: hidden;
@@ -479,7 +497,7 @@ blockquote {
     padding: 5px 0;
     display: flex;
     justify-content: center;
-}
+} */
 
 /* Show dropdown on hover */
 .navigation .nav-header > ul > li:hover > ul.dropz {

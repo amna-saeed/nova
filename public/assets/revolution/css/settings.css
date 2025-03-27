@@ -131,12 +131,49 @@ website:   	http://www.themepunch.com
 	border:none;
 	width:100%;
 }
+/* @media (min-width: 1266px) and (max-width: 1920px) {
+	.rev_slider_wrapper.bannercontainer {
+        height: 200px ;
+    }
+	div#slider1{
+		height: 200px ;
+	}
+}
 div#slider1{
-	height: 475px !important;
+	height: 475px ;
 }
 .rev_slider_wrapper.bannercontainer{
-	height: 475px !important;
+	height: 475px ;
+} */
+
+#slider1 {
+    width: 100%;
+    height: 100vh; 
+    max-height: 400px; 
 }
+.rev_slider_wrapper.bannercontainer{
+	height: 100vh; 
+    max-height: 400px;
+}
+
+@media (max-width: 1366px) {
+    #slider1 {
+        max-height: 500px;
+    }
+	.rev_slider_wrapper.bannercontainer{
+		max-height: 500px;
+	}
+}
+
+@media (max-width: 1280px) {
+    #slider1 {
+        max-height:510px;
+    }
+	.rev_slider_wrapper.bannercontainer{
+		max-height:510px;
+	}
+}
+
 .rev_slider .no-slides-text{
 	font-weight:bold;
 	text-align:center;
@@ -1327,6 +1364,14 @@ body.rtl .tp-kbimg {left: 0 !important}
 
 }
 
+/*  */
+@media (max-width: 1200px) {
+    .rev_slider_wrapper, .rev_slider { height: 400px !important; }
+}
+
+
+/*  */
+
 @media screen and (max-width: 640px) {
 
 .slide-tmargin.mar-6 {
@@ -1340,7 +1385,9 @@ body.rtl .tp-kbimg {left: 0 !important}
 .slide-tmargin.mar-6 {
     margin-top: 0px;
 }
-
+.rev_slider_wrapper, .rev_slider { 
+	height: 400px !important; 
+}
 
 }
 @media screen and (max-width: 480px) {
@@ -1348,6 +1395,6 @@ body.rtl .tp-kbimg {left: 0 !important}
 .slide-tmargin.mar-6 {
     margin-top: 0px;
 }
-
+.rev_slider_wrapper, .rev_slider { height: 300px !important; }
 
 }

@@ -44,7 +44,7 @@ function revolutionSliderActiver () {
 				arrows:{enable:true} 
 			}, 
 			gridwidth:1170,
-			gridheight:770 
+			gridheight:window.innerHeight 
 		});
 	};
 }

@@ -261,7 +261,7 @@
 }
 
 .mainmenu-area {
-	background: #000000;
+	background: #ffffff;
     border-bottom: 4px solid #da0000;
 }
 
@@ -527,7 +527,7 @@
 }
 
 .footer-call-to-action {
-	background: #da0000;
+	background: linear-gradient(to bottom, #470303, #000000);
 	padding: 28px 0;
 }
 
