@@ -33,20 +33,14 @@
                                         </div>
             
                                         <div class="tx-pricingBox-price text-center mt-20">
-                                            <sub class="tx-price__currency">PKR</sub>
+                                            <sub class="tx-price__currency">PKR</sub><br />
             
-                                            <span class="tx-price__price"> 2,999 </span>
+                                            <span class="tx-price__price"> 2,999 </span><br />
             
                                             <sub class="tx-price__period">+ Tax 100</sub>
                                         </div>
             
                                         <div class="tx-wrapper">
-                                            <div class="tx-featureImg-wrapper m-auto pt-20">
-                                                <div class="tx-thumb tx-outherHoverEffect">
-                                                    <img decoding="async" class="w-100" src="https://themexriver.com/wp/telnet-wp/wp-content/uploads/2023/08/price-1-1.webp" alt="" />
-                                                </div>
-                                            </div>
-            
                                             <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
                                                 <li>
                                                     <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
@@ -84,20 +78,14 @@
                                         </div>
             
                                         <div class="tx-pricingBox-price text-center mt-20">
-                                            <sub class="tx-price__currency">PKR</sub>
+                                            <sub class="tx-price__currency">PKR</sub><br />
             
-                                            <span class="tx-price__price"> 3,299 </span>
+                                            <span class="tx-price__price"> 3,299 </span><br />
             
                                             <sub class="tx-price__period">+ Tax 100</sub>
                                         </div>
             
                                         <div class="tx-wrapper">
-                                            <div class="tx-featureImg-wrapper m-auto pt-20">
-                                                <div class="tx-thumb tx-outherHoverEffect">
-                                                    <img decoding="async" class="w-100" src="https://themexriver.com/wp/telnet-wp/wp-content/uploads/2023/08/price-1-1.webp" alt="" />
-                                                </div>
-                                            </div>
-            
                                             <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
                                                 <li>
                                                     <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
@@ -134,20 +122,14 @@
                                         </div>
             
                                         <div class="tx-pricingBox-price text-center mt-20">
-                                            <sub class="tx-price__currency">PKR</sub>
+                                            <sub class="tx-price__currency">PKR</sub><br />
             
-                                            <span class="tx-price__price"> 4,099 </span>
+                                            <span class="tx-price__price"> 4,099 </span><br />
             
                                             <sub class="tx-price__period">+ Tax 100</sub>
                                         </div>
             
                                         <div class="tx-wrapper">
-                                            <div class="tx-featureImg-wrapper m-auto pt-20">
-                                                <div class="tx-thumb tx-outherHoverEffect">
-                                                    <img decoding="async" class="w-100" src="https://themexriver.com/wp/telnet-wp/wp-content/uploads/2023/08/price-1-1.webp" alt="" />
-                                                </div>
-                                            </div>
-            
                                             <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
                                                 <li>
                                                     <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
@@ -184,20 +166,14 @@
                                         </div>
             
                                         <div class="tx-pricingBox-price text-center mt-20">
-                                            <sub class="tx-price__currency">PKR</sub>
+                                            <sub class="tx-price__currency">PKR</sub><br />
             
-                                            <span class="tx-price__price">5,799 </span>
+                                            <span class="tx-price__price">5,799 </span><br />
             
-                                            <sub class="tx-price__period">+ Tax 100</sub>
+                                            <sub class="tx-price__period">+ Tax 100</sub><br />
                                         </div>
             
                                         <div class="tx-wrapper">
-                                            <div class="tx-featureImg-wrapper m-auto pt-20">
-                                                <div class="tx-thumb tx-outherHoverEffect">
-                                                    <img decoding="async" class="w-100" src="https://themexriver.com/wp/telnet-wp/wp-content/uploads/2023/08/price-1-1.webp" alt="" />
-                                                </div>
-                                            </div>
-            
                                             <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
                                                 <li>
                                                     <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
@@ -234,20 +210,14 @@
                                         </div>
             
                                         <div class="tx-pricingBox-price text-center mt-20">
-                                            <sub class="tx-price__currency">PKR</sub>
+                                            <sub class="tx-price__currency">PKR</sub><br />
             
-                                            <span class="tx-price__price">8,099 </span>
+                                            <span class="tx-price__price">8,099 </span><br />
             
-                                            <sub class="tx-price__period">+ Tax 100</sub>
+                                            <sub class="tx-price__period">+ Tax 100</sub><br />
                                         </div>
             
                                         <div class="tx-wrapper">
-                                            <div class="tx-featureImg-wrapper m-auto pt-20">
-                                                <div class="tx-thumb tx-outherHoverEffect">
-                                                    <img decoding="async" class="w-100" src="https://themexriver.com/wp/telnet-wp/wp-content/uploads/2023/08/price-1-1.webp" alt="" />
-                                                </div>
-                                            </div>
-            
                                             <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
                                                 <li>
                                                     <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
@@ -299,20 +269,14 @@
                                         </div>
             
                                         <div class="tx-pricingBox-price text-center mt-20">
-                                            <sub class="tx-price__currency">PKR</sub>
+                                            <sub class="tx-price__currency">PKR</sub><br />
             
-                                            <span class="tx-price__price">10,000 </span>
+                                            <span class="tx-price__price">10,000 </span><br />
             
-                                            <sub class="tx-price__period">+ Tax </sub>
+                                            <sub class="tx-price__period">+ Tax </sub><br />
                                         </div>
             
                                         <div class="tx-wrapper">
-                                            <div class="tx-featureImg-wrapper m-auto pt-20">
-                                                <div class="tx-thumb tx-outherHoverEffect">
-                                                    <img decoding="async" class="w-100" src="https://themexriver.com/wp/telnet-wp/wp-content/uploads/2023/08/price-1-1.webp" alt="" />
-                                                </div>
-                                            </div>
-            
                                             <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
                                                 <li>
                                                     <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
@@ -357,12 +321,6 @@
                                         </div>
             
                                         <div class="tx-wrapper">
-                                            <div class="tx-featureImg-wrapper m-auto pt-20">
-                                                <div class="tx-thumb tx-outherHoverEffect">
-                                                    <img decoding="async" class="w-100" src="https://themexriver.com/wp/telnet-wp/wp-content/uploads/2023/08/price-1-1.webp" alt="" />
-                                                </div>
-                                            </div>
-            
                                             <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
                                                 <li>
                                                     <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
@@ -399,20 +357,14 @@
                                         </div>
             
                                         <div class="tx-pricingBox-price text-center mt-20">
-                                            <sub class="tx-price__currency">PKR</sub>
+                                            <sub class="tx-price__currency">PKR</sub><br />
             
-                                            <span class="tx-price__price"> 3,299 </span>
+                                            <span class="tx-price__price"> 3,299 </span><br />
             
-                                            <sub class="tx-price__period">+ Tax 100</sub>
+                                            <sub class="tx-price__period">+ Tax 100</sub><br />
                                         </div>
             
                                         <div class="tx-wrapper">
-                                            <div class="tx-featureImg-wrapper m-auto pt-20">
-                                                <div class="tx-thumb tx-outherHoverEffect">
-                                                    <img decoding="async" class="w-100" src="https://themexriver.com/wp/telnet-wp/wp-content/uploads/2023/08/price-1-1.webp" alt="" />
-                                                </div>
-                                            </div>
-            
                                             <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
                                                 <li>
                                                     <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
@@ -449,20 +401,14 @@
                                         </div>
             
                                         <div class="tx-pricingBox-price text-center mt-20">
-                                            <sub class="tx-price__currency">PKR</sub>
+                                            <sub class="tx-price__currency">PKR</sub><br />
             
-                                            <span class="tx-price__price"> 4,099 </span>
+                                            <span class="tx-price__price"> 4,099 </span><br />
             
-                                            <sub class="tx-price__period">+ Tax 100</sub>
+                                            <sub class="tx-price__period">+ Tax 100</sub><br />
                                         </div>
             
                                         <div class="tx-wrapper">
-                                            <div class="tx-featureImg-wrapper m-auto pt-20">
-                                                <div class="tx-thumb tx-outherHoverEffect">
-                                                    <img decoding="async" class="w-100" src="https://themexriver.com/wp/telnet-wp/wp-content/uploads/2023/08/price-1-1.webp" alt="" />
-                                                </div>
-                                            </div>
-            
                                             <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
                                                 <li>
                                                     <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
@@ -499,20 +445,14 @@
                                         </div>
             
                                         <div class="tx-pricingBox-price text-center mt-20">
-                                            <sub class="tx-price__currency">PKR</sub>
+                                            <sub class="tx-price__currency">PKR</sub><br />
             
-                                            <span class="tx-price__price">5,799 </span>
+                                            <span class="tx-price__price">5,799 </span><br />
             
-                                            <sub class="tx-price__period">+ Tax 100</sub>
+                                            <sub class="tx-price__period">+ Tax 100</sub><br />
                                         </div>
             
                                         <div class="tx-wrapper">
-                                            <div class="tx-featureImg-wrapper m-auto pt-20">
-                                                <div class="tx-thumb tx-outherHoverEffect">
-                                                    <img decoding="async" class="w-100" src="https://themexriver.com/wp/telnet-wp/wp-content/uploads/2023/08/price-1-1.webp" alt="" />
-                                                </div>
-                                            </div>
-            
                                             <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
                                                 <li>
                                                     <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
@@ -555,20 +495,14 @@
                                                 </div>
                     
                                                 <div class="tx-pricingBox-price text-center mt-20">
-                                                    <sub class="tx-price__currency">PKR</sub>
+                                                    <sub class="tx-price__currency">PKR</sub><br />
                     
-                                                    <span class="tx-price__price">8,099 </span>
+                                                    <span class="tx-price__price">8,099 </span><br />
                     
-                                                    <sub class="tx-price__period">+ Tax 100</sub>
+                                                    <sub class="tx-price__period">+ Tax 100</sub><br />
                                                 </div>
                     
                                                 <div class="tx-wrapper">
-                                                    <div class="tx-featureImg-wrapper m-auto pt-20">
-                                                        <div class="tx-thumb tx-outherHoverEffect">
-                                                            <img decoding="async" class="w-100" src="https://themexriver.com/wp/telnet-wp/wp-content/uploads/2023/08/price-1-1.webp" alt="" />
-                                                        </div>
-                                                    </div>
-                    
                                                     <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
                                                         <li>
                                                             <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
@@ -607,20 +541,14 @@
                                         </div>
             
                                         <div class="tx-pricingBox-price text-center mt-20">
-                                            <sub class="tx-price__currency">PKR</sub>
+                                            <sub class="tx-price__currency">PKR</sub><br />
             
-                                            <span class="tx-price__price"> 2,999 </span>
+                                            <span class="tx-price__price"> 2,999 </span><br />
             
-                                            <sub class="tx-price__period">+ Tax 100</sub>
+                                            <sub class="tx-price__period">+ Tax 100</sub><br />
                                         </div>
             
                                         <div class="tx-wrapper">
-                                            <div class="tx-featureImg-wrapper m-auto pt-20">
-                                                <div class="tx-thumb tx-outherHoverEffect">
-                                                    <img decoding="async" class="w-100" src="https://themexriver.com/wp/telnet-wp/wp-content/uploads/2023/08/price-1-1.webp" alt="" />
-                                                </div>
-                                            </div>
-            
                                             <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
                                                 <li>
                                                     <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
@@ -657,20 +585,14 @@
                                         </div>
             
                                         <div class="tx-pricingBox-price text-center mt-20">
-                                            <sub class="tx-price__currency">PKR</sub>
+                                            <sub class="tx-price__currency">PKR</sub><br />
             
-                                            <span class="tx-price__price"> 2,999 </span>
+                                            <span class="tx-price__price"> 2,999 </span><br />
             
-                                            <sub class="tx-price__period">+ Tax 100</sub>
+                                            <sub class="tx-price__period">+ Tax 100</sub><br />
                                         </div>
             
                                         <div class="tx-wrapper">
-                                            <div class="tx-featureImg-wrapper m-auto pt-20">
-                                                <div class="tx-thumb tx-outherHoverEffect">
-                                                    <img decoding="async" class="w-100" src="https://themexriver.com/wp/telnet-wp/wp-content/uploads/2023/08/price-1-1.webp" alt="" />
-                                                </div>
-                                            </div>
-            
                                             <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
                                                 <li>
                                                     <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
@@ -701,26 +623,20 @@
                                 <div class="no-stylz">
                                     <div class="tx-pricingBox tx-pricingBox__styleTwo">
                                         <div class="tx-pricingBox-header d-block text-center pt-25">
-                                            <span class="tx-subTitle">Residential Packages</span>
+                                            <span class="tx-subTitle">Business & Enterprise Packages</span>
             
-                                            <h5 class="tx-title">Starter &amp; Nova</h5>
+                                            <h5 class="tx-title">SME Pro & &amp; Connection</h5>
                                         </div>
             
                                         <div class="tx-pricingBox-price text-center mt-20">
-                                            <sub class="tx-price__currency">PKR</sub>
+                                            <sub class="tx-price__currency">PKR</sub><br />
             
-                                            <span class="tx-price__price"> 2,999 </span>
+                                            <span class="tx-price__price"> 2,999 </span><br />
             
-                                            <sub class="tx-price__period">+ Tax 100</sub>
+                                            <sub class="tx-price__period">+ Tax 100</sub><br />
                                         </div>
             
                                         <div class="tx-wrapper">
-                                            <div class="tx-featureImg-wrapper m-auto pt-20">
-                                                <div class="tx-thumb tx-outherHoverEffect">
-                                                    <img decoding="async" class="w-100" src="https://themexriver.com/wp/telnet-wp/wp-content/uploads/2023/08/price-1-1.webp" alt="" />
-                                                </div>
-                                            </div>
-            
                                             <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
                                                 <li>
                                                     <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
@@ -760,20 +676,14 @@
                                         </div>
             
                                         <div class="tx-pricingBox-price text-center mt-20">
-                                            <sub class="tx-price__currency">PKR</sub>
+                                            <sub class="tx-price__currency">PKR</sub><br />
             
-                                            <span class="tx-price__price">10,000 </span>
+                                            <span class="tx-price__price">10,000 </span><br />
             
-                                            <sub class="tx-price__period">+ Tax </sub>
+                                            <sub class="tx-price__period">+ Tax </sub><br />
                                         </div>
             
                                         <div class="tx-wrapper">
-                                            <div class="tx-featureImg-wrapper m-auto pt-20">
-                                                <div class="tx-thumb tx-outherHoverEffect">
-                                                    <img decoding="async" class="w-100" src="https://themexriver.com/wp/telnet-wp/wp-content/uploads/2023/08/price-1-1.webp" alt="" />
-                                                </div>
-                                            </div>
-            
                                             <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
                                                 <li>
                                                     <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
@@ -818,12 +728,6 @@
                                         </div>
             
                                         <div class="tx-wrapper">
-                                            <div class="tx-featureImg-wrapper m-auto pt-20">
-                                                <div class="tx-thumb tx-outherHoverEffect">
-                                                    <img decoding="async" class="w-100" src="https://themexriver.com/wp/telnet-wp/wp-content/uploads/2023/08/price-1-1.webp" alt="" />
-                                                </div>
-                                            </div>
-            
                                             <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
                                                 <li>
                                                     <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
@@ -860,20 +764,14 @@
                                         </div>
             
                                         <div class="tx-pricingBox-price text-center mt-20">
-                                            <sub class="tx-price__currency">PKR</sub>
+                                            <sub class="tx-price__currency">PKR</sub><br />
             
-                                            <span class="tx-price__price"> 2,999 </span>
+                                            <span class="tx-price__price"> 2,999 </span><br />
             
-                                            <sub class="tx-price__period">+ Tax 100</sub>
+                                            <sub class="tx-price__period">+ Tax 100</sub><br />
                                         </div>
             
                                         <div class="tx-wrapper">
-                                            <div class="tx-featureImg-wrapper m-auto pt-20">
-                                                <div class="tx-thumb tx-outherHoverEffect">
-                                                    <img decoding="async" class="w-100" src="https://themexriver.com/wp/telnet-wp/wp-content/uploads/2023/08/price-1-1.webp" alt="" />
-                                                </div>
-                                            </div>
-            
                                             <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
                                                 <li>
                                                     <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
@@ -910,20 +808,14 @@
                                         </div>
             
                                         <div class="tx-pricingBox-price text-center mt-20">
-                                            <sub class="tx-price__currency">PKR</sub>
+                                            <sub class="tx-price__currency">PKR</sub><br />
             
-                                            <span class="tx-price__price"> 2,999 </span>
+                                            <span class="tx-price__price"> 2,999 </span><br />
             
-                                            <sub class="tx-price__period">+ Tax 100</sub>
+                                            <sub class="tx-price__period">+ Tax 100</sub><br />
                                         </div>
             
                                         <div class="tx-wrapper">
-                                            <div class="tx-featureImg-wrapper m-auto pt-20">
-                                                <div class="tx-thumb tx-outherHoverEffect">
-                                                    <img decoding="async" class="w-100" src="https://themexriver.com/wp/telnet-wp/wp-content/uploads/2023/08/price-1-1.webp" alt="" />
-                                                </div>
-                                            </div>
-            
                                             <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
                                                 <li>
                                                     <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
@@ -1104,7 +996,7 @@ ul#mainTabs {
     justify-content: space-between;
     transform: translateY(-50%);
     pointer-events: none;
-    bottom: -265px;
+    bottom: -260px;
 }
 
 #prevBtn, #nextBtn {
@@ -1193,8 +1085,8 @@ ul#mainTabs {
 }
 .nav-links {
     background: #fff;
-    border: 1px solid #da0000;
-    color: #da0000;
+    border: 1px solid black;
+    color: black;
     padding: 13px 30px;
     border-radius: 7px;
     font-size: 15px;
@@ -1212,8 +1104,8 @@ button.city-nav-links.active {
 }
 button.city-nav-links{
     background: #fff;
-    border: 1px solid #da0000;
-    color: #da0000;
+    border: 1px solid black;
+    color: black;
     padding: 4px 27px;
     border-radius: 22px;
     font-size: 15px;
@@ -1316,10 +1208,11 @@ ul#cityTabs {
     transition: background .3s, border .3s, border-radius .3s, box-shadow .3s, transform var(--e-transform-transition-duration, .4s);
 }
 .tx-pricingBox__styleTwo {
-    border-radius: 40px;
+    border-radius: 24px;
     background: #ffffff;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: rgb(99 99 99 / 49%) 0px 2px 8px 0px;
     margin: 5px 5px;
+    border: 1px solid #5c5b5b;
 }
 .tx-pricingBox__styleTwo .tx-pricingBox-header {
     padding-left: 15px;
@@ -1327,44 +1220,60 @@ ul#cityTabs {
 }
 .tx-pricingBox__styleTwo .tx-subTitle {
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 0px;
     color: #020626;
     font-size: 13px;
     font-weight: 600;
+    font-family: 'Poppins';
 }
 .tx-pricingBox__styleTwo .tx-title {
-    font-size: 24px;
+    font-size: 25px;
     font-weight: 700;
-    color: #020626;
-    font-family: system-ui;
+    color: #da0000;
     margin: 0px;
+    font-family: 'Poppins';
 }
 .tx-pricingBox__styleTwo .tx-pricingBox-price {
     min-height: 70px;
-    padding: 18px 0;
+    padding: 44px 9px;
     position: relative;
     z-index: 1;
+    width: 59%;
+    background: #da0000;
+    border-radius: 118px;
+    height: 182px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
 }
 .tx-pricingBox .tx-price__currency {
-    font-size: 25px;
+    font-size: 26px;
     transform: translate(0px, -5px);
     display: inline-block;
-    color: #da0000;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: 'Poppins';
+    margin: 0px 0px 21px;
 }
 .tx-pricingBox .tx-price__price {
-    font-size: 32px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 100%;
-    color: #da0000;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: 'Poppins';
 }
 .tx-pricingBox .tx-price__period {
-    font-size: 13px;
+    font-size: 19px;
     text-transform: uppercase;
     transform: translate(0px, -5px);
     display: inline-block;
-    color: #da0000;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: 'Poppins';
+    margin-top: 19px;
 }
-.tx-pricingBox__styleTwo .tx-pricingBox-price::after {
+/* .tx-pricingBox__styleTwo .tx-pricingBox-price::after {
     position: absolute;
     left: 0;
     content: "";
@@ -1377,7 +1286,7 @@ ul#cityTabs {
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     z-index: -1;
-}
+} */
 .tx-pricingBox__styleTwo .tx-featureImg-wrapper {
     max-width: 100%;
 }
@@ -1429,7 +1338,8 @@ ul#cityTabs {
     gap: 10px;
 }
 .tx-pricingBox__styleTwo .tx-listItems {
-    padding: 15px 45px;
+    padding: 24px 35px;
+    margin: 0px;
 }
 .tx-pricingBox .tx-listItems li {
     display: flex;
@@ -1475,32 +1385,41 @@ ul#cityTabs {
 }
 .tx-pricingBox__styleTwo .tx-button {
     font-size: 16px;
-    padding: 17px 17px;
-    background: #da0000;
-    border-bottom-left-radius: 0px;
-    width: 52%;
-    border-bottom-right-radius: 35px;
-    border-top-right-radius: 35px;
+    padding: 9px 12px;
+    background: black;
+    width: 44%;
+    border-radius: 38px;
     color: #fff;
     font-weight: 600;
     letter-spacing: 1px;
     cursor: pointer;
     text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 18px;
+    font-family: 'Poppins';
 }
-.tx-pricingBox__styleTwo .tx-button:hover {
+.tx-pricingBox__styleTwo:hover{
+    border: 1px solid #da0000;
+    cursor: pointer !important;
+    box-shadow: rgb(225 41 41 / 41%) 0px 2px 8px 0px;
+}
+.tx-pricingBox__styleTwo:hover .tx-button{
+   color:#ffff;
+    background-color: #da0000;
+    border: 1px solid #da0000;
     font-size: 16px;
-    padding: 17px 17px;
-    background: #fbf2f2;
-    border-bottom-left-radius: 0px;
-    width: 52%;
-    border-bottom-right-radius: 35px;
-    border-top-right-radius: 35px;
-    color: #da0000;
+    padding: 8px 12px;
+    width: 44%;
+    border-radius: 38px;
     font-weight: 600;
     letter-spacing: 1px;
-    cursor: pointer;
+    cursor: pointer !important;
     text-align: center;
-    border: 1px solid #da0000;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 18px;
+    font-family: 'Poppins';
 }
 .tx-pricingBox__styleTwo .tx-pricingBox-fees {
     padding: 14px 50px;

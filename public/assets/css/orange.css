@@ -1,11 +1,11 @@
 /*===================================================================================*/
 /*  ORANGE Color #da0000
 /*===================================================================================*/
- /*  */
+/*  */
 .parallax-banner {
-	background: url(../images/webImg/coverage.webp);
+	background: url(../images/webImg/coverage1.png);
     background-size: cover;
-    height: 445px;
+    height: 350px;
 	margin-top: 39px;
 }
 
