@@ -1105,7 +1105,8 @@ button.city-nav-links.active {
 button.city-nav-links{
     background: #fff;
     border: 1px solid black;
-    color: black;
+    color: #fff;
+    background-color: black;
     padding: 4px 27px;
     border-radius: 22px;
     font-size: 15px;
