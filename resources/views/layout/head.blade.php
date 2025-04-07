@@ -2,7 +2,7 @@
     <meta charset="UTF-8" />
     <!-- responsive meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{{ $seo->meta_title ?? 'Default Title' }}</title>
+    <title>{{ $seo->meta_title ?? 'Nova Communication' }}</title>
     <meta name="description" content="{{ $seo->meta_description ?? 'Default description' }}">
     <meta name="keywords" content="{{ $seo->keywords ?? 'default, keywords' }}">
 
