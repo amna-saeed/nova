@@ -5,7 +5,7 @@
 .parallax-banner {
 	background: url(../images/webImg/coverage1.png);
     background-size: cover;
-    height: 350px;
+    height: 372px;
 	margin-top: 39px;
 }
 
@@ -13,7 +13,7 @@
     font-size: 40px;
     font-weight: bold;
     text-transform: uppercase;
-    color: #ffff;
+    color: #72ff;
     margin-bottom: 0px;
 }
 
@@ -526,10 +526,6 @@
   background: #da0000;
 }
 
-.footer-call-to-action {
-	background: linear-gradient(to bottom, #470303, #000000);
-	padding: 28px 0;
-}
 
 .footer-widget .social li a:hover {
 	background: #da0000;
@@ -954,18 +950,18 @@
 }
 
 .featured-blog-post .post-header .date{
-	position:absolute;
-	left:-20px;
-	top:0px;
-	padding:7px 0px;
-	width:80px;
-	height:80px;
-	color:#ffffff;
-	background:#da0000;
-	font-size:16px;
-	line-height:30px;
-	font-weight:600;
-	text-align:center;
+    position: absolute;
+    left: -20px;
+    top: 0px;
+    padding: 10px 0px;
+    width: 80px;
+    height: 52px;
+    color: #ffffff;
+    background: #da0000;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 600;
+    text-align: center;
 }
 
 .featured-blog-post .post-header .title a:hover{

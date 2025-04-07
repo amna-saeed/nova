@@ -1063,8 +1063,8 @@ ul#mainTabs {
 #prevBtn, #nextBtn {
     position: absolute;
     transform: translateY(-50%);
-    background: red;
-    color: white;
+    background: rgba(255, 255, 255, 0.7);
+    color: rgb(81 89 108);
     padding: 10px 15px;
     border: none;
     cursor: pointer;

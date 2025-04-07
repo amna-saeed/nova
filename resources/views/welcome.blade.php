@@ -7,7 +7,7 @@
     @include('components.services')
 
     {{-- follow us --}}
-    <div class="row">
+    {{-- <div class="row">
         <div class="col-lg-12 p-0">
             <div class="footer-call-to-action">
                 <div class="container">
@@ -41,6 +41,33 @@
                                 <div class="bg-outer-100">
                                 <a href="#"><img src="{{asset('assets/images/webImg/email.png')}}" class="follow-scl" /></a>
                                     <p class="need-txt-10">Follow us on Email</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div> 
+    </div>  --}}
+    <div class="row">
+        <div class="col-lg-12 p-0">
+            <div class="footer-call-to-action">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 sm-text-center text-center">
+                            <h3>Follow Us</h3>
+                            <h3 class="stay-100">Stay connected for the latest updates, offers, and <br/>
+                                behind-the-scenes content</h3>
+                                <h3 class="follow-fnt-100">Follow us and be part of the journey!</h3>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="linez-same">
+                                <div class="bg-outer-100">
+                                    <a href="#"> <img src="{{asset('assets/images/webImg/fbicon.png')}}" class="follow-scl" /></a>
+                                    <a href="#"><img src="{{asset('assets/images/webImg/instgramicon.png')}}" class="follow-scl" /></a>
+                                    <a href="#"><img src="{{asset('assets/images/webImg/LinkedInIcon.png')}}" class="follow-scl" /></a>
+                                    <a href="#"><img src="{{asset('assets/images/webImg/xicon.png')}}" class="follow-scl" /></a>
+                                    <a href="#"><img src="{{asset('assets/images/webImg/whatsappicon.png')}}" class="follow-scl" /></a>
                                 </div>
                             </div>
                         </div>
@@ -238,19 +265,19 @@
                     <div class="col-xs-12 col-sm-6 col-md-4 featured-blog-post wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <article class="inner-box hvr-float-shadow">
                             <figure class="image">
-                                <a href="blog-details.html"><img src="assets/images/hosting/blog/1.jpg" alt="" /></a>
+                                <a href="blog-details.html"><img src="{{asset('assets/images/webImg/phone-2.webp')}}" alt="" /></a>
                             </figure>
                             <div class="post-lower">
                                 <div class="post-header">
                                     <div class="date">
-                                        <span class="day">28</span> <br />
+                                        <span class="day">28</span> 
                                         APR
                                     </div>
                                     <h3 class="title"><a href="blog-details.html">Digital Marketing</a></h3>
-                                    <ul class="post-info fs-13 pl-0">
+                                    {{-- <ul class="post-info fs-13 pl-0">
                                         <li><span class="icon fa fa-user"></span> <a href="#">Jonathan Doe</a></li>
                                         <li><span class="icon fa fa-tag pl-5"></span> <a href="#">CEO Village</a></li>
-                                    </ul>
+                                    </ul> --}}
                                 </div>
                                 <div class="post-desc">
                                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam era...</p>
@@ -265,19 +292,19 @@
                     <div class="col-xs-12 col-sm-6 col-md-4 featured-blog-post wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                         <article class="inner-box hvr-float-shadow">
                             <figure class="image">
-                                <a href="blog-details.html"><img src="assets/images/hosting/blog/2.jpg" alt="" /></a>
+                                <a href="blog-details.html"><img src="{{asset('assets/images/webImg/ONT1.webp')}}" alt="" /></a>
                             </figure>
                             <div class="post-lower">
                                 <div class="post-header">
                                     <div class="date">
-                                        <span class="day">15</span> <br />
+                                        <span class="day">15</span> 
                                         APR
                                     </div>
                                     <h3 class="title"><a href="blog-details.html">Digital Photography</a></h3>
-                                    <ul class="post-info fs-13 pl-0">
+                                    {{-- <ul class="post-info fs-13 pl-0">
                                         <li><span class="icon fa fa-user"></span> <a href="#">Jonathan Doe</a></li>
                                         <li><span class="icon fa fa-tag pl-5"></span> <a href="#">CEO Village</a></li>
-                                    </ul>
+                                    </ul> --}}
                                 </div>
                                 <div class="post-desc">
                                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam era...</p>
@@ -292,19 +319,19 @@
                     <div class="col-xs-12 col-sm-6 col-md-4 featured-blog-post wow fadeInRight" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <article class="inner-box hvr-float-shadow">
                             <figure class="image">
-                                <a href="blog-details.html"><img src="assets/images/hosting/blog/3.jpg" alt="" /></a>
+                                <a href="blog-details.html"><img src="{{asset('assets/images/webImg/TV1.webp')}}" alt="" /></a>
                             </figure>
                             <div class="post-lower">
                                 <div class="post-header">
                                     <div class="date">
-                                        <span class="day">09</span> <br />
+                                        <span class="day">09</span> 
                                         APR
                                     </div>
                                     <h3 class="title"><a href="blog-details.html">Outsourcing Tips</a></h3>
-                                    <ul class="post-info fs-13 pl-0">
+                                    {{-- <ul class="post-info fs-13 pl-0">
                                         <li><span class="icon fa fa-user"></span> <a href="#">Jonathan Doe</a></li>
                                         <li><span class="icon fa fa-tag pl-5"></span> <a href="#">CEO Village</a></li>
-                                    </ul>
+                                    </ul> --}}
                                 </div>
                                 <div class="post-desc">
                                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam era...</p>

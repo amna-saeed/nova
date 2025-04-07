@@ -8,6 +8,7 @@
         <div class="services-slider-wrapper">
             <!-- Sliders for Services -->
             <div id="services-slider" class="services-slider">
+               
                 <div class="services-slide-container">
                     <div class="services-slider-items">
                         <div class="slide-content">
@@ -18,6 +19,7 @@
                                     <div class="srvce-box-200">
                                         <p>Crystal-Clear Voice</p>
                                         <p>Competitive Calling Plans</p>
+                                        <p>Customizable Residential & Business Plans</p>
                                         <p>Customizable Residential & Business Plans</p>
                                     </div>
                                 </div>  
@@ -33,6 +35,7 @@
                                     <div class="srvce-box-200">
                                         <p>Crystal-Clear Voice</p>
                                         <p>Competitive Calling Plans</p>
+                                        <p>Customizable Residential & Business Plans</p>
                                         <p>Customizable Residential & Business Plans</p>
                                     </div>
                                 </div>  
@@ -109,7 +112,7 @@
      }
  
      function startAutoplay() {
-        autoplayInterval = setInterval(nextSlide, 3000); // Change slide every 3 seconds
+        autoplayInterval = setInterval(nextSlide, 3000); 
      }
  
      function stopAutoplay() {
@@ -140,7 +143,7 @@
 <style>
 /* General Styles */
 .bg-services-light {
-    margin: 0px 0px 18px;
+    margin:18px 0px 30px;
 }
 
 /* Slider Navigation */
@@ -151,10 +154,10 @@
     justify-content: space-between;
     transform: translateY(-50%);
     pointer-events: none;
-    bottom: -733px;
+    bottom: -723px;
 }
 
-#services-prevBtn, #services-nextBtn {
+ #services-prevBtn, #services-nextBtn {
     background: none;
     border: none;
     font-size: 24px;
@@ -172,14 +175,14 @@
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.7);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    transition: background 0.3s ease-in-out;
+    transition: background 0.3s ease-in-out; */
 }
 
 #services-prevBtn:hover, #services-nextBtn:hover {
     background: rgb(133 10 10);
 }
 #services-prevBtn {
-    left: 40px;
+    left: 12px;
 }
 #services-nextBtn {
     right:200px;
@@ -200,15 +203,16 @@
 .services-slider {
     position: relative;
     width: 100%;
-    max-width: 880px;
+    max-width: 1170px;
     margin: auto;
     overflow: hidden;
 }
 
-.services-slider-wrapper {
-    width: 100%;
-    overflow: hidden;
-}
+/* .services-slider-wrapper {
+    max-width: 1170px;
+    margin: 0 auto; 
+    padding: 0 15px; 
+} */
 
 .services-slide-container {
     display: flex;
@@ -219,14 +223,14 @@
 .services-slider-items {
     flex: 0 0 100%;
     box-sizing: border-box;
-    padding: 20px;
+    padding: 6px 85px;
 }
 
 /* Slide Content */
 .slide-content {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 0px;
 }
 
 /* Reverse Layout for Alternating Slides */
@@ -236,7 +240,7 @@
 
 /* Image Styling */
 .slide-content img {
-    width: 460px;
+    width: 496px;
     height: auto;
     border-radius: 10px;
 }
@@ -244,7 +248,7 @@
 /* Text Styling */
 .slide-text {
     max-width: 500px;
-    margin-left: 30px;
+    margin-left: 27px;
 }
 .slide-text h2 {
     font-size: 24px;
