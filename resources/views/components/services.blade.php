@@ -8,7 +8,6 @@
         <div class="services-slider-wrapper">
             <!-- Sliders for Services -->
             <div id="services-slider" class="services-slider">
-               
                 <div class="services-slide-container">
                     <div class="services-slider-items">
                         <div class="slide-content">
@@ -42,7 +41,6 @@
                             </div>
                         </div>
                     </div>
-                  
                 </div>
             </div>
         </div>
@@ -59,84 +57,94 @@
 
 <script>
     document.addEventListener("DOMContentLoaded", function () {
-     const slideContainer = document.querySelector(".services-slide-container");
-     const slides = Array.from(document.querySelectorAll(".services-slider-items"));
-     const prevBtn = document.getElementById("services-prevBtn");
-     const nextBtn = document.getElementById("services-nextBtn");
- 
-     const slidesToShow = 1; // Show 1 slide at a time
-     let currentIndex = slidesToShow;
-     let totalSlides = slides.length;
-     let autoplayInterval;
- 
-     // Clone first and last slides for infinite effect
-     slides.slice(0, slidesToShow).forEach(slide => {
-         slideContainer.appendChild(slide.cloneNode(true));
-     });
- 
-     slides.slice(-slidesToShow).forEach(slide => {
-         slideContainer.prepend(slide.cloneNode(true));
-     });
- 
-     // Update slide references after cloning
-     const allSlides = document.querySelectorAll(".services-slider-items");
-     const slideWidth = allSlides[0].offsetWidth;
-     slideContainer.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
- 
-     function updateSliderPosition() {
-         slideContainer.style.transition = "transform 0.5s ease-in-out";
-         slideContainer.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
- 
-         setTimeout(() => {
-             if (currentIndex >= totalSlides) {
-                 slideContainer.style.transition = "none";
-                 currentIndex = slidesToShow;
-                 slideContainer.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
-             }
-             if (currentIndex <= 0) {
-                 slideContainer.style.transition = "none";
-                 currentIndex = totalSlides;
-                 slideContainer.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
-             }
-         }, 500);
-     }
- 
-     function nextSlide() {
-         currentIndex++;
-         updateSliderPosition();
-     }
- 
-     function prevSlide() {
-         currentIndex--;
-         updateSliderPosition();
-     }
- 
-     function startAutoplay() {
-        autoplayInterval = setInterval(nextSlide, 3000); 
-     }
- 
-     function stopAutoplay() {
-         clearInterval(autoplayInterval);
-     }
- 
-     startAutoplay();
- 
-     nextBtn.addEventListener("click", function () {
-         nextSlide();
-         stopAutoplay(); 
-         startAutoplay();
-     });
- 
-     prevBtn.addEventListener("click", function () {
-         prevSlide();
-         stopAutoplay(); 
-         startAutoplay();
-     });
- 
-     slideContainer.addEventListener("mouseenter", stopAutoplay);
-     slideContainer.addEventListener("mouseleave", startAutoplay);
- });
- </script>
+        const slideContainer = document.querySelector(".services-slide-container");
+        const originalSlides = Array.from(document.querySelectorAll(".services-slider-items"));
+        const prevBtn = document.getElementById("services-prevBtn");
+        const nextBtn = document.getElementById("services-nextBtn");
+    
+        const slidesToShow = 1;
+        let currentIndex = slidesToShow;
+        let autoplayInterval;
+    
+        // Clone first and last slides
+        originalSlides.slice(0, slidesToShow).forEach(slide => {
+            slideContainer.appendChild(slide.cloneNode(true));
+        });
+    
+        originalSlides.slice(-slidesToShow).forEach(slide => {
+            slideContainer.prepend(slide.cloneNode(true));
+        });
+    
+        // Get all slides including clones
+        let allSlides = Array.from(document.querySelectorAll(".services-slider-items"));
+        let slideWidth = allSlides[0].offsetWidth;
+        let totalSlides = allSlides.length - (slidesToShow * 2); // exclude clones
+    
+        // Initial position
+        slideContainer.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+    
+        function updateSliderPosition() {
+            slideContainer.style.transition = "transform 0.5s ease-in-out";
+            slideContainer.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+    
+            setTimeout(() => {
+                if (currentIndex >= totalSlides + slidesToShow) {
+                    slideContainer.style.transition = "none";
+                    currentIndex = slidesToShow;
+                    slideContainer.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+                }
+                if (currentIndex <= 0) {
+                    slideContainer.style.transition = "none";
+                    currentIndex = totalSlides;
+                    slideContainer.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+                }
+            }, 500);
+        }
+    
+        function nextSlide() {
+            currentIndex++;
+            updateSliderPosition();
+        }
+    
+        function prevSlide() {
+            currentIndex--;
+            updateSliderPosition();
+        }
+    
+        function startAutoplay() {
+            autoplayInterval = setInterval(nextSlide, 3000);
+        }
+    
+        function stopAutoplay() {
+            clearInterval(autoplayInterval);
+        }
+    
+        nextBtn.addEventListener("click", () => {
+            nextSlide();
+            stopAutoplay();
+            startAutoplay();
+        });
+    
+        prevBtn.addEventListener("click", () => {
+            prevSlide();
+            stopAutoplay();
+            startAutoplay();
+        });
+    
+        slideContainer.addEventListener("mouseenter", stopAutoplay);
+        slideContainer.addEventListener("mouseleave", startAutoplay);
+    
+        // Handle responsive width on resize
+        window.addEventListener("resize", () => {
+            slideWidth = allSlides[0].offsetWidth;
+            slideContainer.style.transition = "none";
+            slideContainer.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+        });
+    
+        startAutoplay();
+    });
+</script>
+    
  
 
 
@@ -208,11 +216,11 @@
     overflow: hidden;
 }
 
-/* .services-slider-wrapper {
+.services-slider-wrapper {
     max-width: 1170px;
     margin: 0 auto; 
     padding: 0 15px; 
-} */
+}
 
 .services-slide-container {
     display: flex;
