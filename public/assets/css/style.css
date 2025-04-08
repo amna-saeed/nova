@@ -353,15 +353,6 @@ blockquote {
 	margin-right: 15px;
 }
 
-.single-header-info .content h3 {
-	font-size: 13px;
-	text-transform: uppercase;
-	color: #2B2B2B;
-	font-family: 'Lato', sans-serif;
-	font-weight: 800;
-	margin: 0;
-	margin-bottom: 5px;
-}
 .single-header-info .content p {
 	font-size: 13px;
 	margin: 0;
@@ -415,7 +406,7 @@ blockquote {
     font-size: 14px;
     font-weight: 600;
     text-transform: uppercase;
-    color: #da0000;
+    color: #000000;
     margin: 26px 22px;
     position: relative; /* Required for the ::after to work */
     transition: all 0.3s ease;

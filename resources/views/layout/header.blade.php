@@ -200,7 +200,7 @@
 <style>
 .mainmenu-area {
     background: #ffffff;
-    border-bottom: 4px solid #da0000;
+    border-bottom: 4px solid #000000;
     height: 95px;
     padding: 10px 0px;
 }
@@ -213,7 +213,7 @@
 .single-header-info .content h3 {
     font-size: 14px;
     text-transform: uppercase;
-    color: #da0000;
+    color: #000000;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     margin: 0;
@@ -235,7 +235,7 @@
 }
 .single-header-info .icon-box .inner-box i:before {
     font-size: 26px;
-    color: #da0000;
+    color: #000000;
 }
 .navigation .nav-header > ul > li > a{
     margin: 26px 16px;

@@ -14,7 +14,7 @@
                 <button class="nav-links active tabs-outer" id="internet_offer_tab">Internet Offers</button>
             </li>
             <li class="nav-item">
-                <button class="nav-links tabs-outer" id="internet_trutv_tab">My TruTV App</button>
+                <button class="nav-links tabs-outer" id="internet_trutv_tab">ITV Application</button>
             </li>
         </ul>
         <div class="slider-wrapper">
