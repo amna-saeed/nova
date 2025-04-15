@@ -274,10 +274,6 @@
                                         APR
                                     </div>
                                     <h3 class="title"><a href="blog-details.html">Digital Marketing</a></h3>
-                                    {{-- <ul class="post-info fs-13 pl-0">
-                                        <li><span class="icon fa fa-user"></span> <a href="#">Jonathan Doe</a></li>
-                                        <li><span class="icon fa fa-tag pl-5"></span> <a href="#">CEO Village</a></li>
-                                    </ul> --}}
                                 </div>
                                 <div class="post-desc">
                                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam era...</p>
@@ -301,10 +297,6 @@
                                         APR
                                     </div>
                                     <h3 class="title"><a href="blog-details.html">Digital Photography</a></h3>
-                                    {{-- <ul class="post-info fs-13 pl-0">
-                                        <li><span class="icon fa fa-user"></span> <a href="#">Jonathan Doe</a></li>
-                                        <li><span class="icon fa fa-tag pl-5"></span> <a href="#">CEO Village</a></li>
-                                    </ul> --}}
                                 </div>
                                 <div class="post-desc">
                                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam era...</p>
@@ -328,10 +320,6 @@
                                         APR
                                     </div>
                                     <h3 class="title"><a href="blog-details.html">Outsourcing Tips</a></h3>
-                                    {{-- <ul class="post-info fs-13 pl-0">
-                                        <li><span class="icon fa fa-user"></span> <a href="#">Jonathan Doe</a></li>
-                                        <li><span class="icon fa fa-tag pl-5"></span> <a href="#">CEO Village</a></li>
-                                    </ul> --}}
                                 </div>
                                 <div class="post-desc">
                                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam era...</p>

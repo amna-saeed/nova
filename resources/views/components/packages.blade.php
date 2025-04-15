@@ -1,5 +1,4 @@
 
-{{-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"> --}}
 
 <div class="bg-pkg-light-200">
     <div class="sec-title text-center wow fadeInUp" data-wow-delay="200ms" data-wow-duration="2500ms">
@@ -11,971 +10,1010 @@
         <!-- Main Tabs -->
         <ul class="nav nav-tabs" id="mainTabs">
             <li class="nav-item">
-                <button class="nav-links active tabs-outer" id="internet_offer_tab">Internet Offers</button>
+                <button class="nav-links active tabs-outer" id="internet_trutv_tab">Internet</button>
             </li>
             <li class="nav-item">
-                <button class="nav-links tabs-outer" id="internet_trutv_tab">ITV Application</button>
+                <button class="nav-links tabs-outer" id="phone_tab">TV</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-links tabs-outer" id="remote_tab">Phone</button>
             </li>
         </ul>
         <div class="slider-wrapper">
-        <!-- Sliders for Main Tabs -->
-            <div id="sliderz-pkg" class="slider">
-                <div class="slide-container">
-                    <div class="slider-items">
-                        <div class="no-stylz">
-                            <div class="elementor-widget-container">
-                                <div class="no-stylz">
-                                    <div class="tx-pricingBox tx-pricingBox__styleTwo">
-                                        <div class="tx-pricingBox-header d-block text-center pt-25">
-                                            <span class="tx-subTitle">Residential Packages</span>
-            
-                                            <h5 class="tx-title">Starter &amp; Nova</h5>
-                                        </div>
-            
-                                        <div class="tx-pricingBox-price text-center mt-20">
-                                            <sub class="tx-price__currency">PKR</sub><br />
-            
-                                            <span class="tx-price__price"> 2,999 </span><br />
-            
-                                            <sub class="tx-price__period">+ Tax 100</sub>
-                                        </div>
-            
-                                        <div class="tx-wrapper">
-                                            <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>Mbps boost on peak hours</p>
-                                                </li>
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>150GB volume</p>
-                                                </li>
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>secure connection</p>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="slider-items">
-                        <div class="no-stylz">
-                            <div class="elementor-widget-container">
-                                <div>
-                                    <div class="tx-pricingBox tx-pricingBox__styleTwo">
-                                        <div class="tx-pricingBox-header d-block text-center pt-25">
-                                            <span class="tx-subTitle">Residential Packages</span>
-            
-                                            <h5 class="tx-title">Silver &amp; Nova</h5>
-                                        </div>
-            
-                                        <div class="tx-pricingBox-price text-center mt-20">
-                                            <sub class="tx-price__currency">PKR</sub><br />
-            
-                                            <span class="tx-price__price"> 3,299 </span><br />
-            
-                                            <sub class="tx-price__period">+ Tax 100</sub>
-                                        </div>
-            
-                                        <div class="tx-wrapper">
-                                            <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>Mbps boost on peak hours</p>
-                                                </li>
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>250GB volume</p>
-                                                </li>
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>HD streaming</p>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slider-items">
-                        <div class="no-stylz">
-                            <div class="elementor-widget-container">
-                                <div class="no-stylz">
-                                    <div class="tx-pricingBox tx-pricingBox__styleTwo">
-                                        <div class="tx-pricingBox-header d-block text-center pt-25">
-                                            <span class="tx-subTitle">Residential Packages</span>
-            
-                                            <h5 class="tx-title">Gold &amp; Nova</h5>
-                                        </div>
-            
-                                        <div class="tx-pricingBox-price text-center mt-20">
-                                            <sub class="tx-price__currency">PKR</sub><br />
-            
-                                            <span class="tx-price__price"> 4,099 </span><br />
-            
-                                            <sub class="tx-price__period">+ Tax 100</sub>
-                                        </div>
-            
-                                        <div class="tx-wrapper">
-                                            <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>Mbps boost on peak hours</p>
-                                                </li>
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>unlimited downloads</p>
-                                                </li>
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>secure connection</p>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slider-items">
-                        <div class="no-stylz">
-                            <div class="elementor-widget-container">
-                                <div class="no-stylz">
-                                    <div class="tx-pricingBox tx-pricingBox__styleTwo">
-                                        <div class="tx-pricingBox-header d-block text-center pt-25">
-                                            <span class="tx-subTitle">Residential Packages</span>
-            
-                                            <h5 class="tx-title">Platinum &amp; Nova</h5>
-                                        </div>
-            
-                                        <div class="tx-pricingBox-price text-center mt-20">
-                                            <sub class="tx-price__currency">PKR</sub><br />
-            
-                                            <span class="tx-price__price">5,799 </span><br />
-            
-                                            <sub class="tx-price__period">+ Tax 100</sub><br />
-                                        </div>
-            
-                                        <div class="tx-wrapper">
-                                            <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>Unlimited downloads</p>
-                                                </li>
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>seamless streaming</p>
-                                                </li>
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>secure connection</p>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slider-items">
-                        <div class="no-stylz">
-                            <div class="elementor-widget-container">
-                                <div class="no-stylz">
-                                    <div class="tx-pricingBox tx-pricingBox__styleTwo">
-                                        <div class="tx-pricingBox-header d-block text-center pt-25">
-                                            <span class="tx-subTitle">Residential Packages</span>
-            
-                                            <h5 class="tx-title">Ultra &amp; Nova</h5>
-                                        </div>
-            
-                                        <div class="tx-pricingBox-price text-center mt-20">
-                                            <sub class="tx-price__currency">PKR</sub><br />
-            
-                                            <span class="tx-price__price">8,099 </span><br />
-            
-                                            <sub class="tx-price__period">+ Tax 100</sub><br />
-                                        </div>
-            
-                                        <div class="tx-wrapper">
-                                            <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>Unlimited downloads</p>
-                                                </li>
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>superior connectivity</p>
-                                                </li>
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>secure connection</p>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    {{-- end --}}
-                </div>
-            </div>
-
-            <div id="slider2" class="slider hidden">
+            {{-- slider2 --}}
+            <div id="slider2" class="slider" data-type="nested">
                 <!-- Nested Tabs -->
                 <ul class="nav nav-tabs" id="cityTabs">
-                    <li class="nav-item"><button class="city-nav-links active" data-city="lahore">Lahore</button></li>
-                    <li class="nav-item"><button class="city-nav-links" data-city="karachi">Karachi</button></li>
-                    <li class="nav-item"><button class="city-nav-links" data-city="islamabad">Islamabad</button></li>
+                    <li class="nav-item"><button class="city-nav-links active" data-city="islamabad ">Islamabad</button></li>
+                    <li class="nav-item"><button class="city-nav-links" data-city="lahore">Lahore</button></li>
+                    <li class="nav-item"><button class="city-nav-links" data-city="risalpur">Risalpul</button></li>
                 </ul>
             
                 <!-- Sliders for Nested Tabs -->
-                <div class="slide-container city-slider" data-city="lahore">
+                <div class="slide-container city-slider" data-city="islamabad">
                     <div class="slider-items inner-tabs-outer">
-                        <div class="no-stylz">
-                            <div class="elementor-widget-container">
-                                <div class="no-stylz">
-                                    <div class="tx-pricingBox tx-pricingBox__styleTwo">
-                                        <div class="tx-pricingBox-header d-block text-center pt-25">
-                                            <span class="tx-subTitle">Business & Enterprise Packages</span>
-            
-                                            <h5 class="tx-title">SME Pro &amp; Connection</h5>
-                                        </div>
-            
-                                        <div class="tx-pricingBox-price text-center mt-20">
-                                            <sub class="tx-price__currency">PKR</sub><br />
-            
-                                            <span class="tx-price__price">10,000 </span><br />
-            
-                                            <sub class="tx-price__period">+ Tax </sub><br />
-                                        </div>
-            
-                                        <div class="tx-wrapper">
-                                            <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>Dedicated bandwidth</p>
-                                                </li>
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>24/7 support</p>
-                                                </li>
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>secure connection</p>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
-                                    </div>
-                                </div>
+                        <div class="tx-pricingBox tx-pricingBox__styleTwo">
+                            <div class="tx-pricingBox-header d-block text-center pt-25">
+                                <h5 class="tx-title">Speed starter</h5>
                             </div>
+
+                            <div class="tx-pricingBox-price text-center mt-20">
+                                <sub class="tx-price__currency">PKR</sub><br />
+
+                                <span class="tx-price__price">1,849</span><br />
+
+                                <sub class="tx-price__period">10 MBPS </sub><br />
+                            </div>
+
+                            <div class="tx-wrapper">
+                                <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+
+                                        <p>Great for Light Users</p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+
+                                        <p>Perfect for browsing</p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+
+                                        <p>Ideal for individualsn</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
                         </div>
-                    </div>
-                    <div class="slider-items inner-tabs-outer">
-                        <div class="no-stylz">
-                            <div class="elementor-widget-container">
-                                <div class="no-stylz">
-                                    <div class="tx-pricingBox tx-pricingBox__styleTwo">
-                                        <div class="tx-pricingBox-header d-block text-center pt-25">
-                                            <span class="tx-subTitle">Business & Enterprise Packages</span>
-            
-                                            <h5 class="tx-title">Enterprise &amp; Connect</h5>
-                                        </div>
-            
-                                        <div class="tx-pricingBox-price text-center mt-20">
-                                            <sub class="tx-price__currency">Custom </sub>
-            
-                                            <span class="tx-price__price"> Pricing</span>
-            
-                                            {{-- <sub class="tx-price__period">+ Tax 100</sub> --}}
-                                        </div>
-            
-                                        <div class="tx-wrapper">
-                                            <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>Fully tailored solutions</p>
-                                                </li>
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>managed IT & cloud services</p>
-                                                </li>
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>24/7 support</p>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
-                                    </div>
-                                </div>
+                        <div class="tx-pricingBox tx-pricingBox__styleTwo">
+                            <div class="tx-pricingBox-header d-block text-center pt-25">
+                                <h5 class="tx-title">Turbo lite</h5>
                             </div>
+
+                            <div class="tx-pricingBox-price text-center mt-20">
+                                <sub class="tx-price__currency">PKR </sub><br />
+
+                                <span class="tx-price__price">2,549</span><br />
+
+                                <sub class="tx-price__period">20 MBPS</sub><br />
+                            </div>
+
+                            <div class="tx-wrapper">
+                                <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+
+                                        <p>A Step Up for Small Families</p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+
+                                        <p>Stream HD videos buffer-free</p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+
+                                        <p>More bandwidth for uploading</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
                         </div>
-                    </div>
-                    <div class="slider-items inner-tabs-outer">
-                        <div class="no-stylz">
-                            <div class="elementor-widget-container">
-                                <div>
-                                    <div class="tx-pricingBox tx-pricingBox__styleTwo">
-                                        <div class="tx-pricingBox-header d-block text-center pt-25">
-                                            <span class="tx-subTitle">Residential Packages</span>
-            
-                                            <h5 class="tx-title">Silver &amp; Nova</h5>
-                                        </div>
-            
-                                        <div class="tx-pricingBox-price text-center mt-20">
-                                            <sub class="tx-price__currency">PKR</sub><br />
-            
-                                            <span class="tx-price__price"> 3,299 </span><br />
-            
-                                            <sub class="tx-price__period">+ Tax 100</sub><br />
-                                        </div>
-            
-                                        <div class="tx-wrapper">
-                                            <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>Mbps boost on peak hours</p>
-                                                </li>
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>250GB volume</p>
-                                                </li>
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>HD streaming</p>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
-                                    </div>
-                                </div>
+                        <div class="tx-pricingBox tx-pricingBox__styleTwo">
+                            <div class="tx-pricingBox-header d-block text-center pt-25">
+                                <h5 class="tx-title">Blaze</h5>
                             </div>
+
+                            <div class="tx-pricingBox-price text-center mt-20">
+                                <sub class="tx-price__currency">PKR</sub><br />
+
+                                <span class="tx-price__price">3,349</span><br />
+
+                                <sub class="tx-price__period">30 MBPS
+                                </sub><br />
+                            </div>
+
+                            <div class="tx-wrapper">
+                                <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+
+                                        <p>Affordable and reliable</p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+
+                                        <p>optical Fiber</p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+
+                                        <p>download full speed</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
                         </div>
-                    </div>
-                    <div class="slider-items inner-tabs-outer">
-                        <div class="no-stylz">
-                            <div class="elementor-widget-container">
-                                <div class="no-stylz">
-                                    <div class="tx-pricingBox tx-pricingBox__styleTwo">
-                                        <div class="tx-pricingBox-header d-block text-center pt-25">
-                                            <span class="tx-subTitle">Residential Packages</span>
-            
-                                            <h5 class="tx-title">Gold &amp; Nova</h5>
-                                        </div>
-            
-                                        <div class="tx-pricingBox-price text-center mt-20">
-                                            <sub class="tx-price__currency">PKR</sub><br />
-            
-                                            <span class="tx-price__price"> 4,099 </span><br />
-            
-                                            <sub class="tx-price__period">+ Tax 100</sub><br />
-                                        </div>
-            
-                                        <div class="tx-wrapper">
-                                            <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>Mbps boost on peak hours</p>
-                                                </li>
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>unlimited downloads</p>
-                                                </li>
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>secure connection</p>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
-                                    </div>
-                                </div>
+                        <div class="tx-pricingBox tx-pricingBox__styleTwo">
+                            <div class="tx-pricingBox-header d-block text-center pt-25">
+                                <h5 class="tx-title">Breeze</h5>
                             </div>
+
+                            <div class="tx-pricingBox-price text-center mt-20">
+                                <sub class="tx-price__currency">PKR</sub><br />
+
+                                <span class="tx-price__price">6,149</span><br />
+
+                                <sub class="tx-price__period">50 MBPS</sub><br />
+                            </div>
+
+                            <div class="tx-wrapper">
+                                <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+
+                                        <p>Stream HD content on multiple devices</p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+
+                                        <p>Play online games</p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+
+                                        <p>Handle video conferencing</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
                         </div>
-                    </div>
-                    <div class="slider-items inner-tabs-outer">
-                        <div class="no-stylz">
-                            <div class="elementor-widget-container">
-                                <div class="no-stylz">
-                                    <div class="tx-pricingBox tx-pricingBox__styleTwo">
-                                        <div class="tx-pricingBox-header d-block text-center pt-25">
-                                            <span class="tx-subTitle">Residential Packages</span>
-            
-                                            <h5 class="tx-title">Platinum &amp; Nova</h5>
-                                        </div>
-            
-                                        <div class="tx-pricingBox-price text-center mt-20">
-                                            <sub class="tx-price__currency">PKR</sub><br />
-            
-                                            <span class="tx-price__price">5,799 </span><br />
-            
-                                            <sub class="tx-price__period">+ Tax 100</sub><br />
-                                        </div>
-            
-                                        <div class="tx-wrapper">
-                                            <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>Unlimited downloads</p>
-                                                </li>
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>seamless streaming</p>
-                                                </li>
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>secure connection</p>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
-                                    </div>
-                                </div>
+                        <div class="tx-pricingBox tx-pricingBox__styleTwo">
+                            <div class="tx-pricingBox-header d-block text-center pt-25">
+                                <h5 class="tx-title">Hyperstream</h5>
                             </div>
+
+                            <div class="tx-pricingBox-price text-center mt-20">
+                                <sub class="tx-price__currency">PKR</sub><br />
+
+                                <span class="tx-price__price">1,1649</span><br />
+
+                                <sub class="tx-price__period">100 MBPS</sub><br />
+                            </div>
+
+                            <div class="tx-wrapper">
+                                <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                        <p>Ultra-smooth streaming in HD and 4K</p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+
+                                        <p>Seamless online gaming </p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+
+                                        <p>High performance WiFi</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
                         </div>
-                    </div>
-                    
-                </div>
-            
-                <div class="slide-container city-slider hidden" data-city="karachi">
-                    <div class="slider-items">
-                        <div class="no-stylz">
-                            <div class="elementor-widget-container">
-                                <div class="no-stylz">
-                                    <div class="elementor-widget-container">
-                                        <div class="no-stylz">
-                                            <div class="tx-pricingBox tx-pricingBox__styleTwo">
-                                                <div class="tx-pricingBox-header d-block text-center pt-25">
-                                                    <span class="tx-subTitle">Residential Packages</span>
-                    
-                                                    <h5 class="tx-title">Ultra &amp; Nova</h5>
-                                                </div>
-                    
-                                                <div class="tx-pricingBox-price text-center mt-20">
-                                                    <sub class="tx-price__currency">PKR</sub><br />
-                    
-                                                    <span class="tx-price__price">8,099 </span><br />
-                    
-                                                    <sub class="tx-price__period">+ Tax 100</sub><br />
-                                                </div>
-                    
-                                                <div class="tx-wrapper">
-                                                    <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
-                                                        <li>
-                                                            <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-                    
-                                                            <p>Unlimited downloads</p>
-                                                        </li>
-                                                        <li>
-                                                            <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-                    
-                                                            <p>superior connectivity</p>
-                                                        </li>
-                                                        <li>
-                                                            <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-                    
-                                                            <p>secure connection</p>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                        <div class="tx-pricingBox tx-pricingBox__styleTwo">
+                            <div class="tx-pricingBox-header d-block text-center pt-25">
+                                <h5 class="tx-title">Wrap zone</h5>
                             </div>
-                        </div>
-                    </div>
-                    <div class="slider-items">
-                        <div class="no-stylz">
-                            <div class="elementor-widget-container">
-                                <div class="no-stylz">
-                                    <div class="tx-pricingBox tx-pricingBox__styleTwo">
-                                        <div class="tx-pricingBox-header d-block text-center pt-25">
-                                            <span class="tx-subTitle">Residential Packages</span>
-            
-                                            <h5 class="tx-title">Starter &amp; Nova</h5>
-                                        </div>
-            
-                                        <div class="tx-pricingBox-price text-center mt-20">
-                                            <sub class="tx-price__currency">PKR</sub><br />
-            
-                                            <span class="tx-price__price"> 2,999 </span><br />
-            
-                                            <sub class="tx-price__period">+ Tax 100</sub><br />
-                                        </div>
-            
-                                        <div class="tx-wrapper">
-                                            <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>Mbps boost on peak hours</p>
-                                                </li>
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>150GB volume</p>
-                                                </li>
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>secure connection</p>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
-                                    </div>
-                                </div>
+
+                            <div class="tx-pricingBox-price text-center mt-20">
+                                <sub class="tx-price__currency">PKR</sub><br />
+
+                                <span class="tx-price__price">1,8000</span><br />
+
+                                <sub class="tx-price__period">200 MBPS</sub><br />
                             </div>
-                        </div>
-                    </div>
-                    <div class="slider-items">
-                        <div class="no-stylz">
-                            <div class="elementor-widget-container">
-                                <div class="no-stylz">
-                                    <div class="tx-pricingBox tx-pricingBox__styleTwo">
-                                        <div class="tx-pricingBox-header d-block text-center pt-25">
-                                            <span class="tx-subTitle">Residential Packages</span>
-            
-                                            <h5 class="tx-title">Starter &amp; Nova</h5>
-                                        </div>
-            
-                                        <div class="tx-pricingBox-price text-center mt-20">
-                                            <sub class="tx-price__currency">PKR</sub><br />
-            
-                                            <span class="tx-price__price"> 2,999 </span><br />
-            
-                                            <sub class="tx-price__period">+ Tax 100</sub><br />
-                                        </div>
-            
-                                        <div class="tx-wrapper">
-                                            <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>Mbps boost on peak hours</p>
-                                                </li>
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>150GB volume</p>
-                                                </li>
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>secure connection</p>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
-                                    </div>
-                                </div>
+
+                            <div class="tx-wrapper">
+                                <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                        <p>No interruptions</p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+
+                                        <p>Reliable for heavy-duty online work</p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+
+                                        <p>Blazing-fast downloads/uploads</p>
+                                    </li>
+                                </ul>
                             </div>
-                        </div>
-                    </div>
-                    <div class="slider-items">
-                        <div class="no-stylz">
-                            <div class="elementor-widget-container">
-                                <div class="no-stylz">
-                                    <div class="tx-pricingBox tx-pricingBox__styleTwo">
-                                        <div class="tx-pricingBox-header d-block text-center pt-25">
-                                            <span class="tx-subTitle">Business & Enterprise Packages</span>
-            
-                                            <h5 class="tx-title">SME Pro & &amp; Connection</h5>
-                                        </div>
-            
-                                        <div class="tx-pricingBox-price text-center mt-20">
-                                            <sub class="tx-price__currency">PKR</sub><br />
-            
-                                            <span class="tx-price__price"> 2,999 </span><br />
-            
-                                            <sub class="tx-price__period">+ Tax 100</sub><br />
-                                        </div>
-            
-                                        <div class="tx-wrapper">
-                                            <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>Mbps boost on peak hours</p>
-                                                </li>
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>150GB volume</p>
-                                                </li>
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>secure connection</p>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
                         </div>
                     </div>
                 </div>
             
-                <div class="slide-container city-slider hidden" data-city="islamabad">
+                <div class="slide-container city-slider hidden" data-city="lahore">
                     <div class="slider-items">
-                        <div class="no-stylz">
-                            <div class="elementor-widget-container">
-                                <div class="no-stylz">
-                                    <div class="tx-pricingBox tx-pricingBox__styleTwo">
-                                        <div class="tx-pricingBox-header d-block text-center pt-25">
-                                            <span class="tx-subTitle">Business & Enterprise Packages</span>
-            
-                                            <h5 class="tx-title">SME Pro &amp; Connection</h5>
-                                        </div>
-            
-                                        <div class="tx-pricingBox-price text-center mt-20">
-                                            <sub class="tx-price__currency">PKR</sub><br />
-            
-                                            <span class="tx-price__price">10,000 </span><br />
-            
-                                            <sub class="tx-price__period">+ Tax </sub><br />
-                                        </div>
-            
-                                        <div class="tx-wrapper">
-                                            <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>Dedicated bandwidth</p>
-                                                </li>
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>24/7 support</p>
-                                                </li>
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>secure connection</p>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
-                                    </div>
-                                </div>
+                        <div class="tx-pricingBox tx-pricingBox__styleTwo">
+                            <div class="tx-pricingBox-header d-block text-center pt-25">
+                                <h5 class="tx-title">Bronze</h5>
                             </div>
+    
+                            <div class="tx-pricingBox-price text-center mt-20">
+                                <sub class="tx-price__currency">PKR</sub><br />
+    
+                                <span class="tx-price__price">1,849</span><br />
+    
+                                <sub class="tx-price__period">10 MBPS</sub><br />
+                            </div>
+    
+                            <div class="tx-wrapper">
+                                <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+    
+                                        <p>Affordable entry-level plan</p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+    
+                                        <p>Ideal for solo users </p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+    
+                                        <p>Light video calls and basic streaming</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                        </div>
+                        <div class="tx-pricingBox tx-pricingBox__styleTwo">
+                            <div class="tx-pricingBox-header d-block text-center pt-25">
+                                 <h5 class="tx-title">Silver</h5>
+                            </div>
+    
+                            <div class="tx-pricingBox-price text-center mt-20">
+                                <sub class="tx-price__currency">PKR</sub><br />
+    
+                                <span class="tx-price__price">2,310 </span><br />
+    
+                                <sub class="tx-price__period">20 MBPS</sub><br />
+                            </div>
+    
+                            <div class="tx-wrapper">
+                                <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+    
+                                        <p>Light Household Use</p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+    
+                                        <p>Stable video conferencing</p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+    
+                                        <p>Supports small households</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                        </div>
+                        <div class="tx-pricingBox tx-pricingBox__styleTwo">
+                            <div class="tx-pricingBox-header d-block text-center pt-25">
+                                <h5 class="tx-title">Gold</h5>
+                            </div>
+    
+                            <div class="tx-pricingBox-price text-center mt-20">
+                                <sub class="tx-price__currency">PKR</sub><br />
+    
+                                <span class="tx-price__price">2,649</span><br />
+    
+                                <sub class="tx-price__period">30 MBPS</sub><br />
+                            </div>
+    
+                            <div class="tx-wrapper">
+                                <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+    
+                                        <p>Great for students, online classes</p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+    
+                                        <p>Future-proof your internet experience</p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+    
+                                        <p>More bandwidth</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                        </div>
+                        <div class="tx-pricingBox tx-pricingBox__styleTwo">
+                            <div class="tx-pricingBox-header d-block text-center pt-25">
+                                <h5 class="tx-title">Platinum</h5>
+                            </div>
+    
+                            <div class="tx-pricingBox-price text-center mt-20">
+                                <sub class="tx-price__currency">PKR</sub><br />
+    
+                                <span class="tx-price__price">3,649 </span><br />
+    
+                                <sub class="tx-price__period">50 MBPS</sub><br />
+                            </div>
+    
+                            <div class="tx-wrapper">
+                                <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+    
+                                        <p>Fast browsing, downloads, and cloud use</p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+    
+                                        <p>Ideal for remote work and casual gaming</p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+    
+                                        <p>stream HD content on multiple devices</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                        </div>
+                        <div class="tx-pricingBox tx-pricingBox__styleTwo">
+                            <div class="tx-pricingBox-header d-block text-center pt-25">
+                                <h5 class="tx-title">Diamond</h5>
+                            </div>
+    
+                            <div class="tx-pricingBox-price text-center mt-20">
+                                <sub class="tx-price__currency">PKR</sub><br />
+    
+                                <span class="tx-price__price">5,649 </span><br />
+    
+                                <sub class="tx-price__period">75 MBPS</sub><br />
+                            </div>
+    
+                            <div class="tx-wrapper">
+                                <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+    
+                                        <p>All-Purpose Internet</p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+    
+                                        <p>HD & 4K streaming with no buffering</p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+    
+                                        <p>Fast uploads and downloads</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                        </div>
+                        <div class="tx-pricingBox tx-pricingBox__styleTwo">
+                            <div class="tx-pricingBox-header d-block text-center pt-25">
+                                <h5 class="tx-title">Titanium</h5>
+                            </div>
+    
+                            <div class="tx-pricingBox-price text-center mt-20">
+                                <sub class="tx-price__currency">PKR</sub><br />
+    
+                                <span class="tx-price__price">8,000</span><br />
+    
+                                <sub class="tx-price__period">100 MBPS</sub><br />
+                            </div>
+    
+                            <div class="tx-wrapper">
+                                <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+    
+                                        <p>Stream, game, and work from home without lag</p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+    
+                                        <p>Upload and back up large files quickly</p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+    
+                                        <p>Perfect for content creators</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
                         </div>
                     </div>
+                </div>
+            
+                <div class="slide-container city-slider hidden" data-city="risalpur">
                     <div class="slider-items">
-                        <div class="no-stylz">
-                            <div class="elementor-widget-container">
-                                <div class="no-stylz">
-                                    <div class="tx-pricingBox tx-pricingBox__styleTwo">
-                                        <div class="tx-pricingBox-header d-block text-center pt-25">
-                                            <span class="tx-subTitle">Business & Enterprise Packages</span>
-            
-                                            <h5 class="tx-title">Enterprise &amp; Connect</h5>
-                                        </div>
-            
-                                        <div class="tx-pricingBox-price text-center mt-20">
-                                            <sub class="tx-price__currency">Custom </sub>
-            
-                                            <span class="tx-price__price"> Pricing</span>
-            
-                                            {{-- <sub class="tx-price__period">+ Tax 100</sub> --}}
-                                        </div>
-            
-                                        <div class="tx-wrapper">
-                                            <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>Fully tailored solutions</p>
-                                                </li>
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>managed IT & cloud services</p>
-                                                </li>
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>24/7 support</p>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
-                                    </div>
-                                </div>
+                        <div class="tx-pricingBox tx-pricingBox__styleTwo">
+                            <div class="tx-pricingBox-header d-block text-center pt-25">
+                                <h5 class="tx-title">Chill Connect</h5>
                             </div>
+
+                            <div class="tx-pricingBox-price text-center mt-20">
+                                <sub class="tx-price__currency">PKR</sub><br />
+
+                                <span class="tx-price__price">2,099</span><br />
+
+                                <sub class="tx-price__period">10 MBPS</sub>
+                            </div>
+
+                            <div class="tx-wrapper">
+                                <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                        <p>Virtually zero buffering</p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                        <p>Ideal for streamers</p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                        <p>Perfect for browsing</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
                         </div>
-                    </div>
-                    <div class="slider-items">
-                        <div class="no-stylz">
-                            <div class="elementor-widget-container">
-                                <div class="no-stylz">
-                                    <div class="tx-pricingBox tx-pricingBox__styleTwo">
-                                        <div class="tx-pricingBox-header d-block text-center pt-25">
-                                            <span class="tx-subTitle">Residential Packages</span>
-            
-                                            <h5 class="tx-title">Starter &amp; Nova</h5>
-                                        </div>
-            
-                                        <div class="tx-pricingBox-price text-center mt-20">
-                                            <sub class="tx-price__currency">PKR</sub><br />
-            
-                                            <span class="tx-price__price"> 2,999 </span><br />
-            
-                                            <sub class="tx-price__period">+ Tax 100</sub><br />
-                                        </div>
-            
-                                        <div class="tx-wrapper">
-                                            <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>Mbps boost on peak hours</p>
-                                                </li>
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>150GB volume</p>
-                                                </li>
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>secure connection</p>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
-                                    </div>
-                                </div>
+                        <div class="tx-pricingBox tx-pricingBox__styleTwo">
+                            <div class="tx-pricingBox-header d-block text-center pt-25">
+                                <h5 class="tx-title">Infinity Net</h5>
                             </div>
+
+                            <div class="tx-pricingBox-price text-center mt-20">
+                                <sub class="tx-price__currency">PKR</sub><br />
+
+                                <span class="tx-price__price">2,699</span><br />
+
+                                <sub class="tx-price__period">20 MBPS</sub>
+                            </div>
+
+                            <div class="tx-wrapper">
+                                <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                        <p>small households with low data usage</p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                        <p>Affordable and reliable for everyday essentials</p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                        <p>Good for remote work</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
                         </div>
-                    </div>
-                    <div class="slider-items">
-                        <div class="no-stylz">
-                            <div class="elementor-widget-container">
-                                <div class="no-stylz">
-                                    <div class="tx-pricingBox tx-pricingBox__styleTwo">
-                                        <div class="tx-pricingBox-header d-block text-center pt-25">
-                                            <span class="tx-subTitle">Residential Packages</span>
-            
-                                            <h5 class="tx-title">Starter &amp; Nova</h5>
-                                        </div>
-            
-                                        <div class="tx-pricingBox-price text-center mt-20">
-                                            <sub class="tx-price__currency">PKR</sub><br />
-            
-                                            <span class="tx-price__price"> 2,999 </span><br />
-            
-                                            <sub class="tx-price__period">+ Tax 100</sub><br />
-                                        </div>
-            
-                                        <div class="tx-wrapper">
-                                            <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>Mbps boost on peak hours</p>
-                                                </li>
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>150GB volume</p>
-                                                </li>
-                                                <li>
-                                                    <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-            
-                                                    <p>secure connection</p>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
-                                    </div>
-                                </div>
+                        <div class="tx-pricingBox tx-pricingBox__styleTwo">
+                            <div class="tx-pricingBox-header d-block text-center pt-25">
+                                <h5 class="tx-title">Flashline</h5>
                             </div>
+
+                            <div class="tx-pricingBox-price text-center mt-20">
+                                <sub class="tx-price__currency">PKR</sub><br />
+
+                                <span class="tx-price__price">3,599</span><br />
+
+                                <sub class="tx-price__period">30 MBPS</sub>
+                            </div>
+
+                            <div class="tx-wrapper">
+                                <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                        <p>Multiple HD streams</p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                        <p>better multitasking</p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                        <p>faster downloads</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
                         </div>
                     </div>
                 </div>
             </div>
+            
+            {{-- slider3 --}}
+            <div id="slider3" class="slider hidden" data-type="nested">
+                <!-- Nested Tabs -->
+                <ul class="nav nav-tabs" id="cityTabs">
+                    <li class="nav-item"><button class="city-nav-links active" data-city="islamabad">Islamabad</button></li>
+                    <li class="nav-item"><button class="city-nav-links" data-city="lahore">Lahore</button></li>
+                    <li class="nav-item"><button class="city-nav-links" data-city="risalpur">Risalpul</button></li>
+                </ul>
+        
+                <!-- Sliders for Nested Tabs -->
+                <div class="slide-container city-slider" data-city="islamabad">
+                    <div class="slider-items inner-tabs-outer">
+                        <div class="tx-pricingBox tx-pricingBox__styleTwo">
+                            <div class="tx-pricingBox-header d-block text-center pt-25">
+                                <h5 class="tx-title">ANALOG </h5>
+                            </div>
+                            <div class="tx-pricingBox-price text-center mt-20">
+                                <sub class="tx-price__currency">PKR</sub><br />
+                                <span class="tx-price__price">400</span><br />
+                                <sub class="tx-price__period"> MBPS</sub>
+                            </div>
+
+                            <div class="tx-wrapper">
+                                <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                        <p>Lower Cost </p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                        <p>Natural Representation of Signals</p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                        <p>Effective in Certain Audio and Video Applications</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                        </div>
+                        <div class="tx-pricingBox tx-pricingBox__styleTwo">
+                            <div class="tx-pricingBox-header d-block text-center pt-25">
+                                <h5 class="tx-title">DIGITAL SERVICES </h5>
+                            </div>
+                            <div class="tx-pricingBox-price text-center mt-20">
+                                <sub class="tx-price__currency">PKR</sub><br />
+                                <span class="tx-price__price">800</span><br />
+                                <sub class="tx-price__period"> MBPS</sub>
+                            </div>
+
+                            <div class="tx-wrapper">
+                                <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                        <p>Higher Quality</p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                        <p>Longer Transmission Range</p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                        <p>Better Signal Integrity</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                        </div>
+                       
+                    </div>
+                </div>
+        
+                <div class="slide-container city-slider hidden" data-city="lahore">
+                    <div class="slider-items">
+                        <div class="tx-pricingBox tx-pricingBox__styleTwo">
+                            <div class="tx-pricingBox-header d-block text-center pt-25">
+                                <h5 class="tx-title">ANALOG</h5>
+                            </div>
+                            <div class="tx-pricingBox-price text-center mt-20">
+                                <sub class="tx-price__currency">PKR</sub><br />
+                                <span class="tx-price__price">400</span><br />
+                                <sub class="tx-price__period"> MBPS</sub>
+                            </div>
+
+                            <div class="tx-wrapper">
+                                <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                        <p></p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                        <p></p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                        <p></p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                        </div>
+                        <div class="tx-pricingBox tx-pricingBox__styleTwo">
+                            <div class="tx-pricingBox-header d-block text-center pt-25">
+                                <h5 class="tx-title">DIGITAL SERVICES</h5>
+                            </div>
+                            <div class="tx-pricingBox-price text-center mt-20">
+                                <sub class="tx-price__currency">PKR</sub><br />
+                                <span class="tx-price__price">800</span><br />
+                                <sub class="tx-price__period"> MBPS</sub>
+                            </div>
+
+                            <div class="tx-wrapper">
+                                <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                        <p></p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                        <p></p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                        <p></p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                        </div>
+                        <div class="tx-pricingBox tx-pricingBox__styleTwo">
+                            <div class="tx-pricingBox-header d-block text-center pt-25">
+                                <h5 class="tx-title">IPLAY TV  SERVICES</h5>
+                            </div>
+                            <div class="tx-pricingBox-price text-center mt-20">
+                                <sub class="tx-price__currency">PKR</sub><br />
+                                <span class="tx-price__price">300</span><br />
+                                <sub class="tx-price__period"> MBPS</sub>
+                            </div>
+
+                            <div class="tx-wrapper">
+                                <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                        <p></p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                        <p></p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                        <p></p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                        </div>
+
+                    </div>
+                </div>
+        
+                <div class="slide-container city-slider hidden" data-city="risalpur">
+                    <div class="slider-items">
+                        <div class="tx-pricingBox tx-pricingBox__styleTwo">
+                            <div class="tx-pricingBox-header d-block text-center pt-25">
+                                <h5 class="tx-title">IPLAY TV SERVICES</h5>
+                            </div>
+                            <div class="tx-pricingBox-price text-center mt-20">
+                                <sub class="tx-price__currency">PKR</sub><br />
+                                <span class="tx-price__price">600</span><br />
+                                <sub class="tx-price__period"> MBPS</sub>
+                            </div>
+
+                            <div class="tx-wrapper">
+                                <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                        <p></p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                        <p></p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                        <p></p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            {{-- slider4 --}}
+            <div id="slider4" class="slider hidden" data-type="nested">
+                <ul class="nav nav-tabs" id="cityTabs">
+                    <li class="nav-item"><button class="city-nav-links active" data-city="islamabad">Islamabad</button></li>
+                    <li class="nav-item"><button class="city-nav-links" data-city="lahore">Lahore</button></li>
+                    <li class="nav-item"><button class="city-nav-links" data-city="risalpur">Risalpul</button></li>
+                </ul>
+                <div class="slide-container city-slider" data-city="islamabad">
+                    <div class="slider-items inner-tabs-outer">
+                        <div class="tx-pricingBox tx-pricingBox__styleTwo">
+                            <div class="tx-pricingBox-header d-block text-center pt-25">
+                                <h5 class="tx-title"></h5>
+                            </div>
+                            <div class="tx-pricingBox-price text-center mt-20">
+                                <sub class="tx-price__currency">PKR</sub><br />
+                                <span class="tx-price__price">200</span><br />
+                                <sub class="tx-price__period"> MBPS</sub>
+                            </div>
+
+                            <div class="tx-wrapper">
+                                <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                        <p>Reliability</p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                        <p>Better Sound Quality</p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                        <p>Cost-Effective for Basic Communication</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-container city-slider hidden" data-city="lahore">
+                    <div class="slider-items">
+                        <div class="tx-pricingBox tx-pricingBox__styleTwo">
+                            <div class="tx-pricingBox-header d-block text-center pt-25">
+                                <h5 class="tx-title"></h5>
+                            </div>
+                            <div class="tx-pricingBox-price text-center mt-20">
+                                <sub class="tx-price__currency">PKR</sub><br />
+                                <span class="tx-price__price">200</span><br />
+                                <sub class="tx-price__period"> MBPS</sub>
+                            </div>
+
+                            <div class="tx-wrapper">
+                                <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                        <p></p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                        <p></p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                        <p></p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                        </div>
+                    </div>
+                </div>
+                {{-- <div class="slide-container city-slider hidden" data-city="risalpur">
+                    <div class="slider-items">
+                        <div class="tx-pricingBox tx-pricingBox__styleTwo">
+                            <div class="tx-pricingBox-header d-block text-center pt-25">
+                                <h5 class="tx-title"></h5>
+                            </div>
+                            <div class="tx-pricingBox-price text-center mt-20">
+                                <sub class="tx-price__currency">PKR</sub><br />
+                                <span class="tx-price__price"></span><br />
+                                <sub class="tx-price__period"> MBPS</sub>
+                            </div>
+
+                            <div class="tx-wrapper">
+                                <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                        <p></p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                        <p></p>
+                                    </li>
+                                    <li>
+                                        <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                        <p></p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                        </div>
+                    </div>
+                </div> --}}
+            </div>
+            <div class="slide-buttons text-center my-3">
+                <button id="prevBtn" class="btn btn-primary mx-2">
+                    <i class="fa fa-arrow-left"></i>
+                </button>
+                <button id="nextBtn" class="btn btn-primary mx-2">
+                    <i class="fa fa-arrow-right"></i>
+                </button>
+            </div>
         </div>
-        <div class="slider-nav">
-            <button id="prevBtn" class="btn btn-outline-primary">
-                <i class="fa fa-arrow-left"></i>
-            </button>
-            <button id="nextBtn" class="btn btn-outline-primary">
-                <i class="fa fa-arrow-right"></i>
-            </button>
-        </div>
+       
     </div>
 </div>
 
 <script>
-   document.addEventListener("DOMContentLoaded", function () {
-    const slideContainer = document.querySelector(".slide-container");
-    const slides = Array.from(document.querySelectorAll(".slider-items"));
-    const prevBtn = document.getElementById("prevBtn");
-    const nextBtn = document.getElementById("nextBtn");
-
-    const slidesToShow = 3; // Show 3 slides at a time
-    let currentIndex = slidesToShow; // Start from the first real slide
-    let totalSlides = slides.length;
-
-    // Clone first and last slides for infinite effect
-    slides.slice(0, slidesToShow).forEach(slide => {
-        slideContainer.appendChild(slide.cloneNode(true));
-    });
-
-    slides.slice(-slidesToShow).forEach(slide => {
-        slideContainer.prepend(slide.cloneNode(true));
-    });
-
-    // Update slide references after cloning
-    const allSlides = document.querySelectorAll(".slider-items");
-    const slideWidth = allSlides[0].offsetWidth;
-    slideContainer.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
-
-    function updateSliderPosition() {
-        slideContainer.style.transition = "transform 0.5s ease-in-out";
-        slideContainer.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
-
-        setTimeout(() => {
-            if (currentIndex >= totalSlides) {
-                slideContainer.style.transition = "none";
-                currentIndex = slidesToShow;
-                slideContainer.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
-            }
-            if (currentIndex <= 0) {
-                slideContainer.style.transition = "none";
-                currentIndex = totalSlides;
-                slideContainer.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
-            }
-        }, 500);
-    }
-
-    nextBtn.addEventListener("click", function () {
-        currentIndex++;
-        updateSliderPosition();
-    });
-
-    prevBtn.addEventListener("click", function () {
-        currentIndex--;
-        updateSliderPosition();
-    });
-});
-
- 
-</script>
-
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        const mainTabs = document.querySelectorAll("#mainTabs .nav-links");
-        const sliders = document.querySelectorAll(".slider");
-        let currentIndex = 0;
-        let activeSlider = document.querySelector("#sliderz-pkg .slide-container");
-
-        // Main Tab Switching
-        mainTabs.forEach((tab, index) => {
-            tab.addEventListener("click", function () {
-                mainTabs.forEach(t => t.classList.remove("active"));
-                tab.classList.add("active");
-
-                sliders.forEach(s => s.classList.add("hidden"));
-                sliders[index].classList.remove("hidden");
-
-                // Update active slider
-                activeSlider = sliders[index].querySelector(".slide-container");
-                currentIndex = 0;
-                updateSliderPosition();
-            });
-        });
-
-        // Nested City Tabs in Second Tab
+    document.addEventListener("DOMContentLoaded", () => {
+        const mainTabs = document.querySelectorAll("#mainTabs .tabs-outer");
+        const sliders = document.querySelectorAll(".slider[data-type='nested']");
         const cityTabs = document.querySelectorAll(".city-nav-links");
         const citySliders = document.querySelectorAll(".city-slider");
-
-        cityTabs.forEach(tab => {
-            tab.addEventListener("click", function () {
-                // Remove active class from all tabs
-                cityTabs.forEach(t => t.classList.remove("active"));
+    
+        mainTabs.forEach(tab => {
+            tab.addEventListener("click", () => {
+                mainTabs.forEach(t => t.classList.remove("active"));
                 tab.classList.add("active");
-
-                // Hide all sliders
-                citySliders.forEach(s => s.classList.add("hidden"));
-                document.querySelector(`.city-slider[data-city="${tab.dataset.city}"]`).classList.remove("hidden");
+    
+                sliders.forEach(slider => slider.classList.add("hidden"));
+    
+                let sliderId = "";
+                if (tab.id === "internet_trutv_tab") sliderId = "slider2";
+                else if (tab.id === "phone_tab") sliderId = "slider3";
+                else if (tab.id === "remote_tab") sliderId = "slider4";
+    
+                const nestedSlider = document.getElementById(sliderId);
+                nestedSlider.classList.remove("hidden");
+    
+                const defaultCity = "islamabad";
+                cityTabs.forEach(btn => {
+                    const city = btn.getAttribute("data-city").trim().toLowerCase();
+                    btn.classList.toggle("active", city === defaultCity);
+                });
+    
+                citySliders.forEach(slider => {
+                    const city = slider.getAttribute("data-city").trim().toLowerCase();
+                    slider.classList.toggle("hidden", city !== defaultCity);
+    
+                    const items = slider.querySelector(".slider-items");
+                    if (items) {
+                        items.style.transform = "translateX(0px)";
+                        items.dataset.offset = "0";
+                    }
+                });
+    
+                attachSlideEvents();
             });
         });
+    
+        cityTabs.forEach(cityTab => {
+            cityTab.addEventListener("click", () => {
+                cityTabs.forEach(t => t.classList.remove("active"));
+                cityTab.classList.add("active");
+    
+                const selectedCity = cityTab.getAttribute("data-city").trim().toLowerCase();
+    
+                citySliders.forEach(slider => {
+                    const city = slider.getAttribute("data-city").trim().toLowerCase();
+                    slider.classList.toggle("hidden", city !== selectedCity);
+    
+                    const items = slider.querySelector(".slider-items");
+                    if (items) {
+                        items.style.transform = "translateX(0px)";
+                        items.dataset.offset = "0";
+                    }
+                });
+    
+                attachSlideEvents();
+            });
+        });
+    
+        attachSlideEvents();
+    });
+    
+    function attachSlideEvents() {
+        const prevBtn = document.getElementById("prevBtn");
+        const nextBtn = document.getElementById("nextBtn");
+    
+        if (prevBtn && nextBtn) {
+            prevBtn.onclick = () => slide("prev");
+            nextBtn.onclick = () => slide("next");
+        }
+    }
+    
+    function getCurrentSliderItems() {
+        const nestedSlider = document.querySelector(".slider[data-type='nested']:not(.hidden) .city-slider:not(.hidden) .slider-items");
+        return nestedSlider;
+    }
+    
+    function slide(direction) {
+        const slider = getCurrentSliderItems();
+        if (!slider) return;
+    
+        const itemWidth = slider.children[0]?.offsetWidth + 20 || 320;
+        const visibleCount = 3;
+        const totalItems = slider.children.length;
+    
+        let offset = parseFloat(slider.dataset.offset || "0");
+        const maxOffset = -(itemWidth * (totalItems - visibleCount));
+    
+        if (direction === "next") {
+            offset -= itemWidth;
+            if (offset < maxOffset) offset = maxOffset;
+        } else {
+            offset += itemWidth;
+            if (offset > 0) offset = 0;
+        }
+    
+        slider.style.transform = `translateX(${offset}px)`;
+        slider.dataset.offset = offset;
+    }
+</script>
+    
+{{-- <script>
+    function slide(direction) {
+        const slider = getCurrentSliderItems();
+        if (!slider) return;
 
-        // Slider Navigation
-        function updateSliderPosition() {
-            activeSlider.style.transform = `translateX(-${currentIndex * 100}%)`;
+        const container = slider.parentElement; 
+        const itemWidth = slider.children[0].offsetWidth + 20; 
+        const visibleCount = 3;
+        const totalItems = slider.children.length;
+
+        let offset = parseFloat(slider.dataset.offset || "0");
+
+        const maxOffset = -(itemWidth * (totalItems - visibleCount));
+        if (direction === "next") {
+            offset -= itemWidth;
+            if (offset < maxOffset) offset = maxOffset;
+        } else {
+            offset += itemWidth;
+            if (offset > 0) offset = 0;
         }
 
-        document.getElementById("nextBtn").addEventListener("click", function () {
-            if (currentIndex < activeSlider.children.length - 1) {
-                currentIndex++;
-            } else {
-                currentIndex = 0;
-            }
-            updateSliderPosition();
-        });
+        slider.style.transform = `translateX(${offset}px)`;
+        slider.dataset.offset = offset;
+    }
+</script> --}}
 
-        document.getElementById("prevBtn").addEventListener("click", function () {
-            if (currentIndex > 0) {
-                currentIndex--;
-            } else {
-                currentIndex = activeSlider.children.length - 1;
-            }
-            updateSliderPosition();
-        });
-    });
-</script>
+    
 
 <style>
+    /*  */
+    .slider-items {
+    display: flex;
+    transition: transform 0.3s ease;
+}
+.slider-items > .tx-pricingBox {
+    flex: 0 0 33.3333%;
+    min-width: 33.3333%;
+}
+
+        .slide-container {
+            overflow: hidden;
+        }
+
+        .slider-items > .tx-pricingBox {
+    flex: 0 0 calc((100% - 30px) / 3); /* 3 items, minus 2 gaps (15px each) */
+    min-width: calc((100% - 30px) / 3);
+}
+    /*  */
 svg.svg-inline--fa.fa-check {
     font-size: 12px;
     color: #ffff;
@@ -1027,11 +1065,16 @@ ul#mainTabs {
     outline: none !important;
     border: none !important;
 }
+.slide-buttons.text-center.my-3 {
+    position: absolute;
+    top: 146%;
+    background: red;
+}
 #prevBtn {
     left: 13px;
 }
 #nextBtn {
-    right: 188px;
+    right: -1160px;
 }
 #prevBtn i, #nextBtn i {
     font-size: 24px;
@@ -1052,14 +1095,16 @@ ul#mainTabs {
 }
 
 .slide-container {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
+  overflow: hidden;
+ 
 }
-.slider-items {
+
+/* .slider-items {
     flex: 0 0 calc(100% / 3);
     box-sizing: border-box;
     padding: 10px;
-}
+} */
+
 #prevBtn, #nextBtn {
     position: absolute;
     transform: translateY(-50%);
@@ -1068,7 +1113,8 @@ ul#mainTabs {
     padding: 10px 15px;
     border: none;
     cursor: pointer;
-    bottom: 190px;
+    /* bottom: 190px; */
+    top: 0;
 }
 
 
@@ -1230,7 +1276,7 @@ ul#cityTabs {
 .tx-pricingBox__styleTwo .tx-title {
     font-size: 25px;
     font-weight: 700;
-    color: #da0000;
+    color: #000000;
     margin: 0px;
     font-family: 'Poppins';
 }

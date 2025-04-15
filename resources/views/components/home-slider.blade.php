@@ -124,7 +124,8 @@
                     </li>
                 <!-- SLIDE  -->
                     <li data-index="rs-2" data-transition="slideup">
-                        <img src="{{asset('assets/images/hosting/slider/final2.webp')}}" alt="" width="1920" height="1280" />
+                        {{-- <img src="{{asset('assets/images/hosting/slider/final2.webp')}}" alt="" width="1920" height="1280" /> --}}
+                        <img src="{{asset('assets/images/hosting/slider/WhatsAppImage.jpeg')}}" alt="" width="1920" height="1280" />
                         <div
                             class="tp-caption montserrat fweight-6 text-white tp-resizeme start"
                             data-x="['left','left','center','center']"
@@ -197,7 +198,7 @@
                             data-responsive_offset="on"
                             style="z-index: 7; white-space: nowrap;color: rgb(218 217 217);font-size: 17px;"
                         >
-                            with Nova I-Box
+                            with Nova 
                         </div>
 
                         <div
