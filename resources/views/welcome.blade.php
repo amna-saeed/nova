@@ -82,7 +82,7 @@
 
     @include('components.who-we')
 
-    @include('components.novaApp')
+    {{-- @include('components.novaApp') --}}
 
     <!-- Pricing Table -->
     {{-- <section class="pricingTable-1 pt-20 pb-30">

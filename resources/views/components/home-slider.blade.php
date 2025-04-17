@@ -28,14 +28,14 @@
                             data-responsive_offset="on"
                             style="z-index: 7; white-space: nowrap; font-weight: 600;color: #da0000;"
                         >
-                            <span class="text-thm">Unmatched</span>  
+                            <span class="text-thm">Access to </span>  
                         </div>
                         <div
                             class="tp-caption montserrat fweight-6 text-white tp-resizeme"
                             data-x="['left','left','center','center']"
                             data-hoffset="['6','50','0','0']"
                             data-y="['top','top','top','top']"
-                            data-voffset="['174','180','180','180']"
+                            data-voffset="['168','180','180','180']"
                             data-fontsize="['36','32','32','32']"
                             data-lineheight="['50','40','40','30']"
                             data-width="none"
@@ -52,14 +52,14 @@
                             data-responsive_offset="on"
                             style="z-index: 7; white-space: nowrap;color: rgb(85, 85, 85);font-weight: 600;"
                         >
-                            Connectivity &
+                         Information
                         </div>
                         <div
                             class="tp-caption raleway white text-white tp-resizeme"
                             data-x="['left','left','center','center']"
                             data-hoffset="['13','50','0','0']"
                             data-y="['top','top','top','top']"
-                            data-voffset="['206','220','220','220']"
+                            data-voffset="['196px','220','220','220']"
                             data-fontsize="['20','16','14','14']"
                             data-lineheight="['70','70','70','50']"
                             data-width="none"
@@ -76,14 +76,14 @@
                             data-responsive_offset="on"
                             style="z-index: 7; white-space: nowrap;color: rgb(218 217 217);font-size: 17px;"
                         >
-                        Innovative ICT Solutions
+                        Global Connectivity
                         </div>
                         <div
                             class="tp-caption raleway white text-white tp-resizeme"
                             data-x="['left','left','center','center']"
                             data-hoffset="['15','50','0','0']"
                             data-y="['top','top','top','top']"
-                            data-voffset="['236','260','260','260']"
+                            data-voffset="['225px','260','260','260']"
                             data-fontsize="['20','16','14','14']"
                             data-lineheight="['70','70','70','50']"
                             data-width="none"
@@ -100,14 +100,38 @@
                             data-responsive_offset="on"
                             style="z-index: 7; white-space: nowrap;color: rgb(218 217 217);font-size: 17px;"
                         >
-                            Across Pakistan with Nova i-Box
+                        Convenience & Services
+                        </div>
+                        <div
+                            class="tp-caption raleway white text-white tp-resizeme"
+                            data-x="['left','left','center','center']"
+                            data-hoffset="['15','50','0','0']"
+                            data-y="['top','top','top','top']"
+                            data-voffset="['251px','260','260','260']"
+                            data-fontsize="['20','16','14','14']"
+                            data-lineheight="['70','70','70','50']"
+                            data-width="none"
+                            data-height="none"
+                            data-whitespace="nowrap"
+                            data-transform_idle="o:1;"
+                            data-transform_in="z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
+                            data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                            data-mask_in="x:0px;y:0px;"
+                            data-mask_out="x:inherit;y:inherit;"
+                            data-start="2500"
+                            data-splitin="none"
+                            data-splitout="none"
+                            data-responsive_offset="on"
+                            style="z-index: 7; white-space: nowrap;color: rgb(218 217 217);font-size: 17px;"
+                        >
+                        Across pakistan with Nova
                         </div>
                         <div
                             class="tp-caption sbut2 btn-round"
                             data-x="['left','left','center','center']"
                             data-hoffset="['0','200','0','0']"
                             data-y="['top','top','top','top']"
-                            data-voffset="['298','360','360','360']"
+                            data-voffset="['299','360','360','360']"
                             data-whitespace="nowrap"
                             data-type="text"
                             data-responsive_offset="on"
@@ -124,7 +148,6 @@
                     </li>
                 <!-- SLIDE  -->
                     <li data-index="rs-2" data-transition="slideup">
-                        {{-- <img src="{{asset('assets/images/hosting/slider/final2.webp')}}" alt="" width="1920" height="1280" /> --}}
                         <img src="{{asset('assets/images/hosting/slider/WhatsAppImage.jpeg')}}" alt="" width="1920" height="1280" />
                         <div
                             class="tp-caption montserrat fweight-6 text-white tp-resizeme start"
@@ -148,7 +171,7 @@
                             data-responsive_offset="on"
                             style="z-index: 7; white-space: nowrap; font-weight: 600;color: #da0000;"
                         >
-                            <span class="text-thm">Smart</span> Tv
+                            <span class="text-thm">4000  </span> Movies
                         </div>
 
                         <div
@@ -156,7 +179,7 @@
                             data-x="['left','left','center','center']"
                             data-hoffset="['6','50','0','0']"
                             data-y="['top','top','top','top']"
-                            data-voffset="['174','180','180','180']"
+                            data-voffset="['168px','180','180','180']"
                             data-fontsize="['36','32','32','32']"
                             data-lineheight="['50','40','40','30']"
                             data-width="none"
@@ -173,7 +196,7 @@
                             data-responsive_offset="on"
                             style="z-index: 7; white-space: nowrap;color: rgb(85, 85, 85);font-weight: 600;"
                         >
-                            Experience
+                        Unlimted Contenet
                         </div>
 
                         <div
@@ -181,7 +204,7 @@
                             data-x="['left','left','center','center']"
                             data-hoffset="['9','50','0','0']"
                             data-y="['top','top','top','top']"
-                            data-voffset="['207','180','180','180']"
+                            data-voffset="['190px','180','180','180']"
                             data-fontsize="['20','16','14','14']"
                             data-lineheight="['70','70','70','50']"
                             data-width="none"
@@ -198,7 +221,31 @@
                             data-responsive_offset="on"
                             style="z-index: 7; white-space: nowrap;color: rgb(218 217 217);font-size: 17px;"
                         >
-                            with Nova 
+                        Pernatal Control 
+                        </div>
+                        <div
+                            class="tp-caption raleway white text-white tp-resizeme"
+                            data-x="['left','left','center','center']"
+                            data-hoffset="['9','50','0','0']"
+                            data-y="['top','top','top','top']"
+                            data-voffset="['217px','180','180','180']"
+                            data-fontsize="['20','16','14','14']"
+                            data-lineheight="['70','70','70','50']"
+                            data-width="none"
+                            data-height="none"
+                            data-whitespace="nowrap"
+                            data-transform_idle="o:1;"
+                            data-transform_in="z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
+                            data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                            data-mask_in="x:0px;y:0px;"
+                            data-mask_out="x:inherit;y:inherit;"
+                            data-start="2000"
+                            data-splitin="none"
+                            data-splitout="none"
+                            data-responsive_offset="on"
+                            style="z-index: 7; white-space: nowrap;color: rgb(218 217 217);font-size: 17px;"
+                        >
+                        4k and 8k Supported
                         </div>
 
                         <div
