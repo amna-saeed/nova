@@ -11,15 +11,14 @@
                 <div class="services-slide-container">
                     <div class="services-slider-items">
                         <div class="slide-content">
-                            <img src="{{asset('assets/images/webImg/analogue.png')}}" alt="Slide 1" class="servicesz-slde-img">
+                            <img src="{{asset('assets/images/webImg/services-img.png')}}" alt="Slide 1" class="servicesz-slde-img">
                             <div class="slide-text">
                                 <div class="uk-srvce-txt">
-                                    <h4>Voice & Telephony Services</h4>
+                                    <h4>IPLAY TV</h4>
                                     <div class="srvce-box-200">
-                                        <p>Crystal-Clear Voice</p>
-                                        <p>Competitive Calling Plans</p>
-                                        <p>Customizable Residential & Business Plans</p>
-                                        <p>Customizable Residential & Business Plans</p>
+                                        <p>200+ live channels across all genres</p>
+                                        <p>Catch-up TV and video on demand</p>
+                                        <p>Easy-to-use interface with parental controls</p>
                                     </div>
                                 </div>  
                             </div>
@@ -27,15 +26,29 @@
                     </div>
                     <div class="services-slider-items">
                         <div class="slide-content">
-                            <img src="{{asset('assets/images/webImg/service-HD.png')}}" alt="Slide 1" class="servicesz-slde-img">
+                            <img src="{{asset('assets/images/webImg/b12.png')}}" alt="Slide 1" class="servicesz-slde-img">
                             <div class="slide-text">
                                 <div class="uk-srvce-txt">
-                                    <h4>Voice & Telephony Services</h4>
+                                    <h4>INTERNET</h4>
                                     <div class="srvce-box-200">
-                                        <p>Crystal-Clear Voice</p>
-                                        <p>Competitive Calling Plans</p>
-                                        <p>Customizable Residential & Business Plans</p>
-                                        <p>Customizable Residential & Business Plans</p>
+                                        <p>Fast. Reliable. Unlimited</p>
+                                        <p>Perfect for homes, gamers, and remote workers</p>
+                                        <p>Unlimited data – no throttling, no surprise limits</p>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services-slider-items">
+                        <div class="slide-content">
+                            <img src="{{asset('assets/images/webImg/phone!!.png')}}" alt="Slide 1" class="servicesz-slde-img">
+                            <div class="slide-text">
+                                <div class="uk-srvce-txt">
+                                    <h4>TELEPHONE</h4>
+                                    <div class="srvce-box-200">
+                                        <p>Clear calls. Low rates</p>
+                                        <p>Unlimited local and long-distance calling</p>
+                                        <p>Enjoy crystal-clear voice quality</p>
                                     </div>
                                 </div>  
                             </div>
@@ -151,7 +164,7 @@
 <style>
 /* General Styles */
 .bg-services-light {
-    margin:18px 0px 30px;
+    margin:23px 0px 30px;
 }
 
 /* Slider Navigation */
@@ -162,7 +175,7 @@
     justify-content: space-between;
     transform: translateY(-50%);
     pointer-events: none;
-    bottom: -723px;
+    bottom: -690px;
 }
 
  #services-prevBtn, #services-nextBtn {
@@ -187,7 +200,11 @@
 }
 
 #services-prevBtn:hover, #services-nextBtn:hover {
-    background: rgb(133 10 10);
+    background: #da0000;
+}
+.btn.focus, .btn:focus, .btn:hover {
+    color: #e5e5e5 !important;
+    text-decoration: none;
 }
 #services-prevBtn {
     left: 12px;
@@ -256,7 +273,7 @@
 /* Text Styling */
 .slide-text {
     max-width: 500px;
-    margin-left: 27px;
+    margin-left: 31px;
 }
 .slide-text h2 {
     font-size: 24px;

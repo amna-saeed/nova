@@ -1,9 +1,11 @@
 
 
 <div class="bg-pkg-light-200">
-    <div class="sec-title text-center wow fadeInUp" data-wow-delay="200ms" data-wow-duration="2500ms">
-        <h2 class="mb-0">Experience The Freedom With #100MBPS For All</h2>
-        <p>Choose A Monthly Packages That Suits You</p>
+    <div class="sec-title text-center mb-25">
+        <h2 class="mb-0">High-Speed Internet</h2>
+        <h2 class="mb-0">Blazing-Fast Speeds For Smooth Streaming & Downloads</h2>
+        <h2 class="mb-0">NOVA To NOVA Free Calls</h2>
+        <h2 class="mb-0">4000+ Movies Content</h2>
     </div>
     <div class="container mt-4">
         <!-- Main Tabs -->
@@ -889,6 +891,21 @@
 </div>
 
 <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const headings = document.querySelectorAll("h2.mb-0");
+      let current = 0;
+      headings.forEach(h => h.style.display = "none");
+      headings[current].style.display = "block";
+  
+      setInterval(() => {
+        headings[current].style.display = "none";
+        current = (current + 1) % headings.length;
+        headings[current].style.display = "block";
+      }, 3000); 
+    });
+  </script>
+
+<script>
     document.addEventListener("DOMContentLoaded", () => {
         const mainTabs = document.querySelectorAll("#mainTabs .tabs-outer");
         const sliders = document.querySelectorAll(".slider[data-type='nested']");
@@ -1061,11 +1078,10 @@ img.tab-icons.icon-black{
   align-items: flex-start;
 }
 .bg-linear-pkg{
-    background: linear-gradient(45deg, #f4c9cf8c, #fbfbfb);
-    /* background: linear-gradient(90deg, #f4c9cf8c, #ffff, #fbfbfb); */
+    background: linear-gradient(45deg, #f8f8f8, rgb(193 191 192));
     padding: 24px 0px;
     border-radius: 15px;
-    box-shadow: rgb(99 99 99 / 49%) 0px 2px 8px 0px;
+    box-shadow: rgb(81 89 108) 0px 2px 8px 0px;
 }
 
 .city-tabs-sidebar {
@@ -1106,14 +1122,13 @@ svg.svg-inline--fa.fa-check {
     color: #ffff;
 }
 .bg-pkg-light-200 {
-    margin: 20px 0px 5px;
+    margin: 30px 0px 5px;
 }
 ul#mainTabs {
     justify-content: center;
     display: flex;
-    z-index: 111;
     position: relative;
-    top: 13px;
+    top: 0px;
 }
 .slider-nav {
     position: absolute;
@@ -1147,7 +1162,7 @@ ul#mainTabs {
 }
 
 #prevBtn:hover, #nextBtn:hover {
-    background: rgb(133 10 10);
+    background: rgb(218 0 0);
 }
 .btn.focus, .btn:focus{
     outline: none !important;
@@ -1197,8 +1212,8 @@ ul#mainTabs {
 #prevBtn, #nextBtn {
     position: absolute;
     transform: translateY(-50%);
-    background: rgba(255, 255, 255, 0.7);
-    color: rgb(81 89 108);
+    background: rgb(255 255 255);
+    color: rgb(172 171 172);
     padding: 10px 15px;
     border: none;
     cursor: pointer;

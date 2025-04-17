@@ -20,12 +20,12 @@
 
     <!-- Demo Purpose Only. Should be removed in production -->
     <link rel="stylesheet" href="assets/css/config.css" />
-    <link href="assets/css/blue.css" rel="alternate stylesheet" title="Blue color" />
-    <link href="assets/css/light-blue.css" rel="alternate stylesheet" title="light Blue color" />
-    <link href="assets/css/green.css" rel="alternate stylesheet" title="Green color" />
+    {{-- <link href="assets/css/blue.css" rel="alternate stylesheet" title="Blue color" />
+    <link href="assets/css/light-blue.css" rel="alternate stylesheet" title="light Blue color" /> --}}
+    {{-- <link href="assets/css/green.css" rel="alternate stylesheet" title="Green color" />
     <link href="assets/css/orange.css" rel="alternate stylesheet" title="Orange color" />
     <link href="assets/css/purple.css" rel="alternate stylesheet" title="Purple color" />
-    <link href="assets/css/oxford.css" rel="alternate stylesheet" title="Oxford color" />
+    <link href="assets/css/oxford.css" rel="alternate stylesheet" title="Oxford color" /> --}}
     <!-- Demo Purpose Only. Should be removed in production : END -->
 
     <link rel="stylesheet" href="assets/css/responsive.css" />
