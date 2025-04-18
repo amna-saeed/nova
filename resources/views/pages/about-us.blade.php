@@ -58,7 +58,13 @@
 
     <section class="about-content-padding">
         <div class="container">
-            <div class="row mrgnz-down">
+            <p class="about-content-100">
+                Nova Communication is a leading <span class="red-400">ICT provider </span>
+                delivering high-speed internet, <span class="red-400">iPlay (interactive TV)</span>, and <span class="red-400">telephone services</span> to homes and businesses. 
+                We are committed to keeping you connected with reliable, innovative, and customer-focused solutions designed 
+                to meet the demands of both personal and corporate users.
+            </p>
+            {{-- <div class="row mrgnz-down">
                 <div class="col-lg-6">
                     <img src="{{asset('assets/images/webImg/ONT1.webp')}}" class="disc-100" alt="" />
                 </div>
@@ -83,7 +89,7 @@
                 <div class="col-lg-6">
                     <img src="{{asset('assets/images/webImg/TV1.webp')}}" class="disc-100" alt="" />
                 </div>
-            </div>
+            </div> --}}
         </div>
     </section>
 

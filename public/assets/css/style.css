@@ -1821,14 +1821,22 @@ img.follow-scl {
     max-width: 1024px;
     margin: 0 auto;
 }
+span.red-400 {
+    color: #d20000;
+    font-weight: 600;
+}
+p.about-content-100 {
+    font-size: 19px;
+    color: rgb(81 89 108);
+}
 .inner-header {
 	padding-top: 40px;
 	padding-bottom: 40px;
 	position: relative;
-	background: url(../images/resources/About.png) center center no-repeat;
+	background: url(../images/resources/about!!.png) center center no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
-	height: 525px;
+	height:327px;
 }
 .inner-header-career11 {
 	padding-top: 40px;

@@ -25,12 +25,12 @@
                                             </div>
                                             <div class="col-md-4">
                                                 <ul>
-                                                    <li class="drop-txt"><a href="{{ route('internet') }}">TV</a></li>
+                                                    <li class="drop-txt"><a href="{{ route('internet') }}">Cable</a></li>
                                                 </ul>
                                             </div>
                                             <div class="col-md-4">
                                                 <ul>
-                                                    <li class="drop-txt"><a href="{{ route('internet') }}">Telephone</a></li>
+                                                    <li class="drop-txt"><a href="{{ route('internet') }}">LandLine</a></li>
                                                 </ul>
                                             </div>
                                         </div>

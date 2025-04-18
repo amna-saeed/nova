@@ -2,10 +2,10 @@
 
 <div class="bg-pkg-light-200">
     <div class="sec-title text-center mb-25">
-        <h2 class="mb-0">High-Speed Internet</h2>
-        <h2 class="mb-0">Blazing-Fast Speeds For Smooth Streaming & Downloads</h2>
-        <h2 class="mb-0">NOVA To NOVA Free Calls</h2>
-        <h2 class="mb-0">4000+ Movies Content</h2>
+        <h2 class="pkg-slidez mb-0">High-Speed Internet</h2>
+        <h2 class="pkg-slidez mb-0">Blazing-Fast Speeds For Smooth Streaming & Downloads</h2>
+        <h2 class="pkg-slidez mb-0">NOVA To NOVA Free Calls</h2>
+        <h2 class="pkg-slidez mb-0">4000+ Movies Content</h2>
     </div>
     <div class="container mt-4">
         <!-- Main Tabs -->
@@ -56,7 +56,7 @@
                                 <div class="tx-pricingBox-price text-center mt-20">
                                     <sub class="tx-price__currency">PKR</sub><br />
 
-                                    <span class="tx-price__price">1,849</span><br />
+                                    <span class="tx-price__price">1,849*</span><br />
 
                                     <sub class="tx-price__period">10 MBPS </sub><br />
                                 </div>
@@ -90,7 +90,7 @@
                                 <div class="tx-pricingBox-price text-center mt-20">
                                     <sub class="tx-price__currency">PKR </sub><br />
 
-                                    <span class="tx-price__price">2,549</span><br />
+                                    <span class="tx-price__price">2,549*</span><br />
 
                                     <sub class="tx-price__period">20 MBPS</sub><br />
                                 </div>
@@ -124,7 +124,7 @@
                                 <div class="tx-pricingBox-price text-center mt-20">
                                     <sub class="tx-price__currency">PKR</sub><br />
 
-                                    <span class="tx-price__price">3,349</span><br />
+                                    <span class="tx-price__price">3,349*</span><br />
 
                                     <sub class="tx-price__period">30 MBPS
                                     </sub><br />
@@ -159,7 +159,7 @@
                                 <div class="tx-pricingBox-price text-center mt-20">
                                     <sub class="tx-price__currency">PKR</sub><br />
 
-                                    <span class="tx-price__price">6,149</span><br />
+                                    <span class="tx-price__price">6,149*</span><br />
 
                                     <sub class="tx-price__period">50 MBPS</sub><br />
                                 </div>
@@ -193,7 +193,7 @@
                                 <div class="tx-pricingBox-price text-center mt-20">
                                     <sub class="tx-price__currency">PKR</sub><br />
 
-                                    <span class="tx-price__price">1,1649</span><br />
+                                    <span class="tx-price__price">1,1649*</span><br />
 
                                     <sub class="tx-price__period">100 MBPS</sub><br />
                                 </div>
@@ -226,7 +226,7 @@
                                 <div class="tx-pricingBox-price text-center mt-20">
                                     <sub class="tx-price__currency">PKR</sub><br />
 
-                                    <span class="tx-price__price">1,8000</span><br />
+                                    <span class="tx-price__price">1,8000*</span><br />
 
                                     <sub class="tx-price__period">200 MBPS</sub><br />
                                 </div>
@@ -263,7 +263,7 @@
                                 <div class="tx-pricingBox-price text-center mt-20">
                                     <sub class="tx-price__currency">PKR</sub><br />
         
-                                    <span class="tx-price__price">1,849</span><br />
+                                    <span class="tx-price__price">1,849*</span><br />
         
                                     <sub class="tx-price__period">10 MBPS</sub><br />
                                 </div>
@@ -296,7 +296,7 @@
                                 <div class="tx-pricingBox-price text-center mt-20">
                                     <sub class="tx-price__currency">PKR</sub><br />
         
-                                    <span class="tx-price__price">2,310 </span><br />
+                                    <span class="tx-price__price">2,310* </span><br />
         
                                     <sub class="tx-price__period">20 MBPS</sub><br />
                                 </div>
@@ -330,7 +330,7 @@
                                 <div class="tx-pricingBox-price text-center mt-20">
                                     <sub class="tx-price__currency">PKR</sub><br />
         
-                                    <span class="tx-price__price">2,649</span><br />
+                                    <span class="tx-price__price">2,649*</span><br />
         
                                     <sub class="tx-price__period">30 MBPS</sub><br />
                                 </div>
@@ -364,7 +364,7 @@
                                 <div class="tx-pricingBox-price text-center mt-20">
                                     <sub class="tx-price__currency">PKR</sub><br />
         
-                                    <span class="tx-price__price">3,649 </span><br />
+                                    <span class="tx-price__price">3,649* </span><br />
         
                                     <sub class="tx-price__period">50 MBPS</sub><br />
                                 </div>
@@ -398,7 +398,7 @@
                                 <div class="tx-pricingBox-price text-center mt-20">
                                     <sub class="tx-price__currency">PKR</sub><br />
         
-                                    <span class="tx-price__price">5,649 </span><br />
+                                    <span class="tx-price__price">5,649* </span><br />
         
                                     <sub class="tx-price__period">75 MBPS</sub><br />
                                 </div>
@@ -431,7 +431,7 @@
         
                                 <div class="tx-pricingBox-price text-center mt-20">
                                     <sub class="tx-price__currency">PKR</sub><br />
-                                    <span class="tx-price__price">8,000</span><br />
+                                    <span class="tx-price__price">8,000*</span><br />
                                     <sub class="tx-price__period">100 MBPS</sub><br />
                                 </div>
         
@@ -466,7 +466,7 @@
                                 <div class="tx-pricingBox-price text-center mt-20">
                                     <sub class="tx-price__currency">PKR</sub><br />
 
-                                    <span class="tx-price__price">2,099</span><br />
+                                    <span class="tx-price__price">2,099*</span><br />
 
                                     <sub class="tx-price__period">10 MBPS</sub>
                                 </div>
@@ -497,7 +497,7 @@
                                 <div class="tx-pricingBox-price text-center mt-20">
                                     <sub class="tx-price__currency">PKR</sub><br />
 
-                                    <span class="tx-price__price">2,699</span><br />
+                                    <span class="tx-price__price">2,699*</span><br />
 
                                     <sub class="tx-price__period">20 MBPS</sub>
                                 </div>
@@ -528,7 +528,7 @@
                                 <div class="tx-pricingBox-price text-center mt-20">
                                     <sub class="tx-price__currency">PKR</sub><br />
 
-                                    <span class="tx-price__price">3,599</span><br />
+                                    <span class="tx-price__price">3,599*</span><br />
 
                                     <sub class="tx-price__period">30 MBPS</sub>
                                 </div>
@@ -575,7 +575,7 @@
                                 </div>
                                 <div class="tx-pricingBox-price-change text-center mt-20">
                                     <sub class="tx-price__currency">PKR</sub><br />
-                                    <span class="tx-price__price">400</span><br />
+                                    <span class="tx-price__price">400*</span><br />
                                 </div>
 
                                 <div class="tx-wrapper">
@@ -602,7 +602,7 @@
                                 </div>
                                 <div class="tx-pricingBox-price-change text-center mt-20">
                                     <sub class="tx-price__currency">PKR</sub><br />
-                                    <span class="tx-price__price">800</span><br />
+                                    <span class="tx-price__price">800*</span><br />
                                 </div>
 
                                 <div class="tx-wrapper">
@@ -629,7 +629,7 @@
                                 </div>
                                 <div class="tx-pricingBox-price-change text-center mt-20">
                                     <sub class="tx-price__currency">PKR</sub><br />
-                                    <span class="tx-price__price">800</span><br />
+                                    <span class="tx-price__price">800*</span><br />
                                 </div>
 
                                 <div class="tx-wrapper">
@@ -661,7 +661,7 @@
                                 </div>
                                 <div class="tx-pricingBox-price-change text-center mt-20">
                                     <sub class="tx-price__currency">PKR</sub><br />
-                                    <span class="tx-price__price">400</span><br />
+                                    <span class="tx-price__price">400*</span><br />
                                 </div>
 
                                 <div class="tx-wrapper">
@@ -688,7 +688,7 @@
                                 </div>
                                 <div class="tx-pricingBox-price-change text-center mt-20">
                                     <sub class="tx-price__currency">PKR</sub><br />
-                                    <span class="tx-price__price">800</span><br />
+                                    <span class="tx-price__price">800*</span><br />
                                 </div>
 
                                 <div class="tx-wrapper">
@@ -715,7 +715,7 @@
                                 </div>
                                 <div class="tx-pricingBox-price-change text-center mt-20">
                                     <sub class="tx-price__currency">PKR</sub><br />
-                                    <span class="tx-price__price">300</span><br />
+                                    <span class="tx-price__price">300*</span><br />
                                 </div>
 
                                 <div class="tx-wrapper">
@@ -747,7 +747,7 @@
                                 </div>
                                 <div class="tx-pricingBox-price-change text-center mt-20">
                                     <sub class="tx-price__currency">PKR</sub><br />
-                                    <span class="tx-price__price">600</span><br />
+                                    <span class="tx-price__price">600*</span><br />
                                 </div>
 
                                 <div class="tx-wrapper">
@@ -785,57 +785,251 @@
                         <div class="slider-items horizontal-slider inner-tabs-outer">
                             <div class="tx-pricingBox tx-pricingBox__styleTwo">
                                 <div class="tx-pricingBox-header d-block text-center pt-10">
-                                    <h5 class="tx-title"></h5>
+                                    <h5 class="tx-title">Essential</h5>
                                 </div>
-                                <div class="tx-pricingBox-price-change text-center mt-20">
+                                <div class="tx-pricingBox-price text-center mt-20">
                                     <sub class="tx-price__currency">PKR</sub><br />
-                                    <span class="tx-price__price">200</span><br />
+                                    <span class="tx-price__price">2,149*</span><br />
+                                    <sub class="tx-price__period">20 MBPS </sub><br />
                                 </div>
-
                                 <div class="tx-wrapper">
                                     <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
                                         <li>
                                             <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-                                            <p>Reliability</p>
+                                            <p>A click away from your world of fun</p>
                                         </li>
                                         <li>
                                             <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-                                            <p>Better Sound Quality</p>
-                                        </li>
-                                        <li>
-                                            <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-                                            <p>Cost-Effective for Basic Communication</p>
+                                            <p>Enjoy seamless internet </p>
                                         </li>
                                     </ul>
                                 </div>
                                 <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
                             </div>
+                            <div class="tx-pricingBox tx-pricingBox__styleTwo">
+                                <div class="tx-pricingBox-header d-block text-center pt-10">
+                                    <h5 class="tx-title">Essential</h5>
+                                </div>
+                                <div class="tx-pricingBox-price text-center mt-20">
+                                    <sub class="tx-price__currency">PKR</sub><br />
+
+                                    <span class="tx-price__price">2,549*</span><br />
+
+                                    <sub class="tx-price__period">25 MBPS </sub><br />
+                                </div>
+                                <div class="tx-wrapper">
+                                    <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
+                                        <li>
+                                            <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                            <p>A click away from your world of fun</p>
+                                        </li>
+                                        <li>
+                                            <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                            <p>Enjoy seamless internet </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                            </div>
+                            <div class="tx-pricingBox tx-pricingBox__styleTwo">
+                                <div class="tx-pricingBox-header d-block text-center pt-10">
+                                    <h5 class="tx-title">Essential</h5>
+                                </div>
+                                <div class="tx-pricingBox-price text-center mt-20">
+                                    <sub class="tx-price__currency">PKR</sub><br />
+
+                                    <span class="tx-price__price">2,949*</span><br />
+
+                                    <sub class="tx-price__period">30 MBPS </sub><br />
+                                </div>
+                                <div class="tx-wrapper">
+                                    <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
+                                        <li>
+                                            <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                            <p>A click away from your world of fun</p>
+                                        </li>
+                                        <li>
+                                            <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                            <p>Enjoy seamless internet </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                            </div>
+                            <div class="tx-pricingBox tx-pricingBox__styleTwo">
+                                <div class="tx-pricingBox-header d-block text-center pt-10">
+                                    <h5 class="tx-title">Ultra</h5>
+                                </div>
+                                <div class="tx-pricingBox-price text-center mt-20">
+                                    <sub class="tx-price__currency">PKR</sub><br />
+
+                                    <span class="tx-price__price">3,349*</span><br />
+
+                                    <sub class="tx-price__period">50 MBPS </sub><br />
+                                </div>
+                                <div class="tx-wrapper">
+                                    <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
+                                        <li>
+                                            <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                            <p>A click away from your world of fun</p>
+                                        </li>
+                                        <li>
+                                            <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                            <p>Enjoy seamless internet </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                            </div>
+                            <div class="tx-pricingBox tx-pricingBox__styleTwo">
+                                <div class="tx-pricingBox-header d-block text-center pt-10">
+                                    <h5 class="tx-title">Ultra</h5>
+                                </div>
+                                <div class="tx-pricingBox-price text-center mt-20">
+                                    <sub class="tx-price__currency">PKR</sub><br />
+
+                                    <span class="tx-price__price">6,149*</span><br />
+
+                                    <sub class="tx-price__period">100 MBPS </sub><br />
+                                </div>
+                                <div class="tx-wrapper">
+                                    <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
+                                        <li>
+                                            <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                            <p>A click away from your world of fun</p>
+                                        </li>
+                                        <li>
+                                            <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                            <p>Enjoy seamless internet </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                            </div>
+                          
+                           
                         </div>
                     </div>
                     <div class="slide-container city-slider hidden" data-city="lahore">
                         <div class="slider-items horizontal-slider">
                             <div class="tx-pricingBox tx-pricingBox__styleTwo">
                                 <div class="tx-pricingBox-header d-block text-center pt-10">
-                                    <h5 class="tx-title"></h5>
+                                    <h5 class="tx-title">Basic Package</h5>
                                 </div>
-                                <div class="tx-pricingBox-price-change text-center mt-20">
+                                <div class="tx-pricingBox-price text-center mt-20">
                                     <sub class="tx-price__currency">PKR</sub><br />
-                                    <span class="tx-price__price">200</span><br />
+                                    <span class="tx-price__price">2,310**</span><br />
+                                    <sub class="tx-price__period">20 MBPS </sub><br />
                                 </div>
-
                                 <div class="tx-wrapper">
                                     <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
                                         <li>
                                             <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-                                            <p></p>
+                                            <p>Unlimited Entertainment <span class="bold-pkg-300">+VOD 2 Screen</span></p>
                                         </li>
                                         <li>
                                             <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-                                            <p></p>
+                                            <p>pay for 20 mbps and enojy </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                            </div>
+                            <div class="tx-pricingBox tx-pricingBox__styleTwo">
+                                <div class="tx-pricingBox-header d-block text-center pt-10">
+                                    <h5 class="tx-title">Basic Package</h5>
+                                </div>
+                                <div class="tx-pricingBox-price text-center mt-20">
+                                    <sub class="tx-price__currency">PKR</sub><br />
+
+                                    <span class="tx-price__price">2,680*</span><br />
+
+                                    <sub class="tx-price__period">35 MBPS </sub><br />
+                                </div>
+                                <div class="tx-wrapper">
+                                    <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
+                                        <li>
+                                            <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                            <p>Unlimited Entertainment <span class="bold-pkg-300">+VOD 2 Screen</span></p>
                                         </li>
                                         <li>
                                             <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-                                            <p></p>
+                                            <p>pay for 20 mbps and enojy </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                            </div>
+                            <div class="tx-pricingBox tx-pricingBox__styleTwo">
+                                <div class="tx-pricingBox-header d-block text-center pt-10">
+                                    <h5 class="tx-title">Basic Package</h5>
+                                </div>
+                                <div class="tx-pricingBox-price text-center mt-20">
+                                    <sub class="tx-price__currency">PKR</sub><br />
+
+                                    <span class="tx-price__price">3,500*</span><br />
+
+                                    <sub class="tx-price__period">45 MBPS </sub><br />
+                                </div>
+                                <div class="tx-wrapper">
+                                    <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
+                                        <li>
+                                            <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                            <p>Unlimited Entertainment <span class="bold-pkg-300">+VOD 2 Screen</span></p>
+                                        </li>
+                                        <li>
+                                            <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                            <p>pay for 20 mbps and enojy </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                            </div>
+                            <div class="tx-pricingBox tx-pricingBox__styleTwo">
+                                <div class="tx-pricingBox-header d-block text-center pt-10">
+                                    <h5 class="tx-title">Advanced</h5>
+                                </div>
+                                <div class="tx-pricingBox-price text-center mt-20">
+                                    <sub class="tx-price__currency">PKR</sub><br />
+
+                                    <span class="tx-price__price">5,000*</span><br />
+
+                                    <sub class="tx-price__period">65 MBPS </sub><br />
+                                </div>
+                                <div class="tx-wrapper">
+                                    <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
+                                        <li>
+                                            <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                            <p>Unlimited Entertainment <span class="bold-pkg-300">+VOD 2 Screen</span></p>
+                                        </li>
+                                        <li>
+                                            <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                            <p>pay for 20 mbps and enojy </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                            </div>
+                            <div class="tx-pricingBox tx-pricingBox__styleTwo">
+                                <div class="tx-pricingBox-header d-block text-center pt-10">
+                                    <h5 class="tx-title">Advanced</h5>
+                                </div>
+                                <div class="tx-pricingBox-price text-center mt-20">
+                                    <sub class="tx-price__currency">PKR</sub><br />
+
+                                    <span class="tx-price__price">8,000*</span><br />
+
+                                    <sub class="tx-price__period">100 MBPS </sub><br />
+                                </div>
+                                <div class="tx-wrapper">
+                                    <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
+                                        <li>
+                                            <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                            <p>Unlimited Entertainment <span class="bold-pkg-300">+VOD 2 Screen</span></p>
+                                        </li>
+                                        <li>
+                                            <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
+                                            <p>pay for 20 mbps and enojy </p>
                                         </li>
                                     </ul>
                                 </div>
@@ -1060,7 +1254,10 @@ img.tab-icons.icon-black{
 .city-slider{
     overflow: visible;
 }
-
+span.bold-pkg-300 {
+    font-weight: 800;
+    color: #555353;
+}
 #slider2.slider {
   display: flex;
   gap: 20px;
@@ -1127,8 +1324,15 @@ svg.svg-inline--fa.fa-check {
 ul#mainTabs {
     justify-content: center;
     display: flex;
+    margin-bottom: 20px;
+}
+.sec-title h2.pkg-slidez {
+    color: #da0000;
     position: relative;
-    top: 0px;
+    display: inline-block;
+    font-size: 33px;
+    font-weight: 800;
+    line-height: 30px;
 }
 .slider-nav {
     position: absolute;
@@ -1417,7 +1621,7 @@ button.city-nav-links{
     margin: 0px 0px 21px;
 }
 .tx-pricingBox .tx-price__price {
-    font-size: 40px;
+    font-size: 34px;
     font-weight: 700;
     line-height: 100%;
     color: #ffffff;
@@ -1535,6 +1739,7 @@ button.city-nav-links{
     font-size: 13px;
     color: rgb(81 89 108);
     line-height: 15px;
+    text-transform: capitalize;
 }
 .tx-pricingBox .tx-pricingBox-fees p {
     font-weight: 500;
