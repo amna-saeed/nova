@@ -2441,32 +2441,43 @@ section.contact-content.sec-padding {
     padding-top: 30px;
 	padding-bottom: 0px;
 }
-img.contact-200 {
-    width: 100%;
-    height: 507px;
-    margin-bottom: 40px;
-}
-.col-md-6.border-curve {
-    position: relative;
-}
-.border-curve-inner-100 {
-	position: absolute;
-    left: -11%;
-    top: 35px;
-    background: #fff;
-    border-radius: 17px;
-    padding: 17px 0px 17px 39px;
-    width: 81%;
-}
+
 .boxing-outer {
     margin-bottom: 36px;
 }
 
 h3.touch-contz {
-    font-size: 32px;
-    color: black;
+    font-size: 38px;
+    color: #da0000;
     font-family: "Unbounded", Sans-serif !important;
     margin-bottom: 16px;
+    text-align: left;
+    margin: 130px 80px 7px;
+    line-height: 39px;
+}
+.spaces-content-100 {
+    padding: 0px 60px 0px;
+}
+.inner-soclz {
+    display: flex;
+    flex-direction: row;
+    gap: 31px;
+    font-size: 30px;
+    margin-left: 18px;
+}
+p.hearing-sson {
+    text-align: left;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #fcfcfc;
+    font-weight: 600;
+    margin: 0px 80px 40px;
+}
+.inner-soclz li a {
+    color: #ffffff;
+}
+.inner-soclz li a:hover {
+    color: #da0000;
 }
 .icon img {
     width: 40px;
@@ -2835,15 +2846,41 @@ p.about-nova {
 .contact-content .contact-form textarea,
 .contact-content .contact-form input {
 	width: 100%;
-	height: 60px;
-	border: 1px solid #F0F0F0;
+	height: 50px;
+	border: 1px solid #666666 !important;
+    background-color: #181818bf !important;
+    color: black !important;
 	outline: none;
-	padding-left: 20px;
+	padding-left: 14px;
 	line-height: 58px;
 	margin-bottom: 20px;
 }
+.mrg-btn-100{
+	padding: 12px 43px !important;
+    border-radius: 7px !important;
+    font-size: 14px !important;
+    margin-right: 17px !important;
+    background: linear-gradient(45deg, #0d0d0d, #e8e3e345) !important;
+	margin-bottom: 35px;
+}
+.mrg-btn-100:hover{
+	padding: 12px 43px !important;
+    border-radius: 7px !important;
+    font-size: 14px !important;
+    margin-right: 17px !important;
+    background: linear-gradient(45deg, #e11313, #e8e3e370) !important;
+    margin-bottom: 35px;
+	color: #fff !important;
+}
+label.error {
+    font-size: 15px;
+    font-weight: 300;
+    color: red;
+    margin-bottom: 14px;
+    margin-top: 0px;
+}
 .contact-content .contact-form textarea {
-	height: 221px;
+	height: 100px;
 }
 .contact-content .contact-form .thm-btn {
 	padding: 12px 42px;
@@ -2852,7 +2889,7 @@ p.about-nova {
 	margin-bottom: 25px;
 }
 .contact-content .contact-info {
-	padding: 0;
+	padding: 21px 20px 0px;
 }
 .contact-content .contact-info li {
 	list-style: none;
@@ -2868,15 +2905,15 @@ p.about-nova {
     margin: 0;
     font-size: 18px;
     text-transform: uppercase;
-    color: #616161;
+    color: #fff;
     font-weight: bold;
     margin-bottom: 0px;
     padding-top: 11px;
 }
 .contact-content .contact-info li .content-box p {
-    color: #7a7676;
+    color: #000000;
     line-height: 20px;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 /* 29 .appointment-content styles */

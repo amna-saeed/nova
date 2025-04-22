@@ -5,92 +5,93 @@
     </section>
     <section class="contact-content sec-padding">
         <div class="container">
-            <div class="sec-content">
-                <div class="row">
-                    <div class="col-md-6">
-                        <img src="{{asset('assets/images/webImg/tna-t3-img-2.jpg')}}" class="contact-200" alt="Happy Customers">
-                    </div>
-                    <div class="col-md-6 border-curve">
-                        <div class="border-curve-inner-100">
-                            <h3 class="touch-contz">Get In Touch With Us</h3>
-                            <div class="boxing-outer">
-                                <div class="contact-info">
-                                    <li>
-                                        <div class="icon-box">
-                                            <div class="inner">
-                                                <i class="fa fa-envelope"></i>
+            <div class="sec-content pt-0">
+                <h3 class="touch-contz">Contact Us</h3>
+                <p class="hearing-sson">We are looking forward to hearing from you soon</p>
+                <div class="spaces-content-100">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="border-curve">
+                                <div class="boxing-outer">
+                                    <div class="contact-info">
+                                        <li>
+                                            <div class="icon-box">
+                                                <div class="inner">
+                                                    <i class="fa fa-envelope"></i>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="content-box">
-                                            <h4>Email</h4>
-                                            <p>info@example.com</p>
-                                        </div>
-                                    </li>
+                                            <div class="content-box">
+                                                <h4>Email</h4>
+                                                <p>info@example.com</p>
+                                            </div>
+                                        </li>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="boxing-outer">
-                                <div class="contact-info">
-                                    <li>
+                                <div class="boxing-outer">
+                                    <div class="contact-info"> 
                                         <div class="icon-box">
-                                            <div class="inner">
-                                                <i class="fa fa-phone"></i>
+                                            <div class="inner-soclz">
+                                                <li><a href="#"  ><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a href="#"  ><i class="fab fa-linkedin-in"></i></a></li>
+                                                <li><a href="#"  ><i class="fab fa-instagram"></i></a></li>
+                                                <li><a href="#"  ><i class="fa-brands fa-x-twitter"></i></a></li>
                                             </div>
                                         </div>
-                                        <div class="content-box">
-                                            <h4>Phone</h4>
-                                            <p>051-111-111-872</p>
-                                        </div>
-                                    </li>
-                                </div>
-                            </div>
-                            <div class="boxing-outer">
-                                <div class="contact-info"> 
-                                    <li>
-                                        <div class="icon-box">
-                                            <div class="inner">
-                                                <i class="fa fa-map-marker"></i>
-                                            </div>
-                                        </div>
-                                        <div class="content-box">
-                                            <h4>Address</h4>
-                                            <p>00 Monroe Ave, Roseland,
-                                             NJ, 07068</p>
-                                        </div> 
-                                    </li>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="sec-title text-center wow fadeInUp" data-wow-delay="200ms" data-wow-duration="2500ms">
-                            <span class="double-line"></span> &ensp;
-                            <h2>Contact Form</h2>
-                            &ensp; <span class="double-line"></span>
+                        <div class="col-md-7">
+                            <form action="#" class="contact-form row" id="contact-page-contact-form">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <input type="text" name="name" placeholder="Name" class="form-control">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <input type="text" name="email" placeholder="Email" class="form-control">
+                                    </div>
+                                </div>
+                        
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <input type="text" name="phone" placeholder="Phone" class="form-control">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <input type="text" name="address" placeholder="Address" class="form-control">
+                                    </div>
+                                </div>
+                        
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <textarea name="message" placeholder="Message" cols="30" rows="5" class="form-control"></textarea>
+                                    </div>
+                                </div>
+                        
+                                <div class="row">
+                                    <div class="col-12  text-right">
+                                        <button class="thm-btn mrg-btn-100" type="submit">Send</button>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
-                        <form action="#" class="contact-form row" id="contact-page-contact-form">
-                            <div class="col-sm-6">
-                                <input type="text" name="name" placeholder="Name">
-                                <input type="text" name="email" placeholder="Email">
-                                <input type="text" name="phone" placeholder="Phone">
-                            </div>
-                            <div class="col-sm-6">
-                                <textarea name="message" placeholder="Message" cols="30" rows="10"></textarea>
-                            </div>
-                            <div class="col-sm-12">
-                                <button class="thm-btn mrg-btn" type="submit">Send</button>
-                            </div>
-                        </form>
+                        
                     </div>
                 </div>
-                <div class="google-map" id="contact-page-google-map" data-icon-path="images/resources/map-marker.png" data-map-lat="-37.812802" data-map-lng="144.956981" data-map-zoom="10" data-map-title="Spidertrix Cons"></div>
             </div>
         </div>
     </section>
  
-    @stop
-@section('js')
-   
+  
+    <style>
+        .contact-content {
+            background-color: #2b2b2d; 
+            color: #fff;
+            padding: 100px 20px;
+            clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+        }
 
+    </style>
+    
 @endsection
+
+
