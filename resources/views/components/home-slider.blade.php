@@ -5,7 +5,7 @@
             <div id="slider1" class="rev_slider" data-version="5.0">
                 <ul>
                     <li data-index="rs-1" data-transition="fade">
-                        <img src="{{asset('assets/images/hosting/slider/Final1.webp')}}" alt="" width="1920" height="1280" />
+                        <img src="{{asset('assets/images/hosting/slider/5.png')}}" alt="" class="slidez-new" />
                         <div
                             class="tp-caption montserrat fweight-6 text-white tp-resizeme start"
                             data-x="['left','left','center','center']"
@@ -28,15 +28,15 @@
                             data-responsive_offset="on"
                             style="z-index: 7; white-space: nowrap; font-weight: 600;color: #da0000;"
                         >
-                            <span class="text-thm">Access to </span>  
+                            <span class="text-thm">Fast, Faster </span>  
                         </div>
                         <div
                             class="tp-caption montserrat fweight-6 text-white tp-resizeme"
                             data-x="['left','left','center','center']"
-                            data-hoffset="['6','50','0','0']"
+                            data-hoffset="['1','50','0','0']"
                             data-y="['top','top','top','top']"
-                            data-voffset="['168','180','180','180']"
-                            data-fontsize="['36','32','32','32']"
+                            data-voffset="['180','180','180','180']"
+                            data-fontsize="['65','32','32','32']"
                             data-lineheight="['50','40','40','30']"
                             data-width="none"
                             data-height="none"
@@ -50,16 +50,16 @@
                             data-splitin="none"
                             data-splitout="none"
                             data-responsive_offset="on"
-                            style="z-index: 7; white-space: nowrap;color: rgb(85, 85, 85);font-weight: 600;"
+                            style="z-index: 7; white-space: nowrap;font-weight: 600; color: #da0000;"
                         >
-                         Information
+                         Fastest
                         </div>
                         <div
                             class="tp-caption raleway white text-white tp-resizeme"
                             data-x="['left','left','center','center']"
-                            data-hoffset="['13','50','0','0']"
+                            data-hoffset="['8','50','0','0']"
                             data-y="['top','top','top','top']"
-                            data-voffset="['196px','220','220','220']"
+                            data-voffset="['220px','220','220','220']"
                             data-fontsize="['20','16','14','14']"
                             data-lineheight="['70','70','70','50']"
                             data-width="none"
@@ -76,14 +76,14 @@
                             data-responsive_offset="on"
                             style="z-index: 7; white-space: nowrap;color: rgb(218 217 217);font-size: 17px;"
                         >
-                        Global Connectivity
+                        Feel The Diffrenece With
                         </div>
                         <div
                             class="tp-caption raleway white text-white tp-resizeme"
                             data-x="['left','left','center','center']"
-                            data-hoffset="['15','50','0','0']"
+                            data-hoffset="['8','50','0','0']"
                             data-y="['top','top','top','top']"
-                            data-voffset="['225px','260','260','260']"
+                            data-voffset="['250px','260','260','260']"
                             data-fontsize="['20','16','14','14']"
                             data-lineheight="['70','70','70','50']"
                             data-width="none"
@@ -100,31 +100,7 @@
                             data-responsive_offset="on"
                             style="z-index: 7; white-space: nowrap;color: rgb(218 217 217);font-size: 17px;"
                         >
-                        Convenience & Services
-                        </div>
-                        <div
-                            class="tp-caption raleway white text-white tp-resizeme"
-                            data-x="['left','left','center','center']"
-                            data-hoffset="['15','50','0','0']"
-                            data-y="['top','top','top','top']"
-                            data-voffset="['251px','260','260','260']"
-                            data-fontsize="['20','16','14','14']"
-                            data-lineheight="['70','70','70','50']"
-                            data-width="none"
-                            data-height="none"
-                            data-whitespace="nowrap"
-                            data-transform_idle="o:1;"
-                            data-transform_in="z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
-                            data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-                            data-mask_in="x:0px;y:0px;"
-                            data-mask_out="x:inherit;y:inherit;"
-                            data-start="2500"
-                            data-splitin="none"
-                            data-splitout="none"
-                            data-responsive_offset="on"
-                            style="z-index: 7; white-space: nowrap;color: rgb(218 217 217);font-size: 17px;"
-                        >
-                        Across pakistan with Nova
+                        Commited Speed 200Mbps
                         </div>
                         <div
                             class="tp-caption sbut2 btn-round"
@@ -147,15 +123,15 @@
                         </div>
                     </li>
                 <!-- SLIDE  -->
-                    <li data-index="rs-2" data-transition="slideup">
-                        <img src="{{asset('assets/images/hosting/slider/WhatsAppImage.jpeg')}}" alt="" width="1920" height="1280" />
+                    {{-- <li data-index="rs-2" data-transition="slideup">
+                        <img src="{{asset('assets/images/hosting/slider/3.png')}}" alt="" width="1920" height="1280" />
                         <div
                             class="tp-caption montserrat fweight-6 text-white tp-resizeme start"
                             data-x="['left','left','center','center']"
                             data-hoffset="['0','50','0','0']"
                             data-y="['top','top','top','top']"
-                            data-voffset="['90','100','100','110']"
-                            data-fontsize="['65','60','50','30']"
+                            data-voffset="['39','100','100','110']"
+                            data-fontsize="['50','60','50','30']"
                             data-lineheight="['100','100','100','50']"
                             data-width="none"
                             data-height="none"
@@ -171,7 +147,7 @@
                             data-responsive_offset="on"
                             style="z-index: 7; white-space: nowrap; font-weight: 600;color: #da0000;"
                         >
-                            <span class="text-thm">4000  </span> Movies
+                            <span class="text-thm">Experience</span> Broadband
                         </div>
 
                         <div
@@ -179,8 +155,8 @@
                             data-x="['left','left','center','center']"
                             data-hoffset="['6','50','0','0']"
                             data-y="['top','top','top','top']"
-                            data-voffset="['168px','180','180','180']"
-                            data-fontsize="['36','32','32','32']"
+                            data-voffset="['126px','180','180','180']"
+                            data-fontsize="['48','32','32','32']"
                             data-lineheight="['50','40','40','30']"
                             data-width="none"
                             data-height="none"
@@ -194,9 +170,9 @@
                             data-splitin="none"
                             data-splitout="none"
                             data-responsive_offset="on"
-                            style="z-index: 7; white-space: nowrap;color: rgb(85, 85, 85);font-weight: 600;"
+                            style="z-index: 7; white-space: nowrap;color: #da0000;font-weight: 600;"
                         >
-                        Unlimted Contenet
+                        Like Never Before
                         </div>
 
                         <div
@@ -204,8 +180,8 @@
                             data-x="['left','left','center','center']"
                             data-hoffset="['9','50','0','0']"
                             data-y="['top','top','top','top']"
-                            data-voffset="['190px','180','180','180']"
-                            data-fontsize="['20','16','14','14']"
+                            data-voffset="['168px','180','180','180']"
+                            data-fontsize="['30','16','14','14']"
                             data-lineheight="['70','70','70','50']"
                             data-width="none"
                             data-height="none"
@@ -219,17 +195,41 @@
                             data-splitin="none"
                             data-splitout="none"
                             data-responsive_offset="on"
-                            style="z-index: 7; white-space: nowrap;color: rgb(218 217 217);font-size: 17px;"
+                            style="z-index: 7; white-space: nowrap;color: rgb(10 16 28);font-size: 17px;"
                         >
-                        Pernatal Control 
+                        End To End Fiber 
+                        </div>
+                        <div
+                            class="tp-caption raleway white text-white tp-resizeme"
+                            data-x="['left','left','center','center']"
+                            data-hoffset="['8','50','0','0']"
+                            data-y="['top','top','top','top']"
+                            data-voffset="['205px','180','180','180']"
+                            data-fontsize="['30','16','14','14']"
+                            data-lineheight="['70','70','70','50']"
+                            data-width="none"
+                            data-height="none"
+                            data-whitespace="nowrap"
+                            data-transform_idle="o:1;"
+                            data-transform_in="z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
+                            data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                            data-mask_in="x:0px;y:0px;"
+                            data-mask_out="x:inherit;y:inherit;"
+                            data-start="2000"
+                            data-splitin="none"
+                            data-splitout="none"
+                            data-responsive_offset="on"
+                            style="z-index: 7; white-space: nowrap;color: rgb(10 16 28);font-size: 17px;"
+                        >
+                        Commited Speed Of 200 Mbps
                         </div>
                         <div
                             class="tp-caption raleway white text-white tp-resizeme"
                             data-x="['left','left','center','center']"
                             data-hoffset="['9','50','0','0']"
                             data-y="['top','top','top','top']"
-                            data-voffset="['217px','180','180','180']"
-                            data-fontsize="['20','16','14','14']"
+                            data-voffset="['246px','180','180','180']"
+                            data-fontsize="['30','16','14','14']"
                             data-lineheight="['70','70','70','50']"
                             data-width="none"
                             data-height="none"
@@ -243,9 +243,9 @@
                             data-splitin="none"
                             data-splitout="none"
                             data-responsive_offset="on"
-                            style="z-index: 7; white-space: nowrap;color: rgb(218 217 217);font-size: 17px;"
+                            style="z-index: 7; white-space: nowrap;color: rgb(10 16 28);font-size: 17px;"
                         >
-                        4k and 8k Supported
+                        Equal Upload and Download speed
                         </div>
 
                         <div
@@ -253,7 +253,7 @@
                             data-x="['left','left','center','center']"
                             data-hoffset="['0','200','0','0']"
                             data-y="['top','top','top','top']"
-                            data-voffset="['265','360','360','360']"
+                            data-voffset="['304px','360','360','360']"
                             data-whitespace="nowrap"
                             data-type="text"
                             data-responsive_offset="on"
@@ -269,13 +269,13 @@
                         </div>
                     </li>
                     <li data-index="rs-3" data-transition="slideup">
-                        <img src="{{asset('assets/images/hosting/slider/final3.webp')}}" alt="" width="1920" height="1280" />
+                        <img src="{{asset('assets/images/hosting/slider/2.png')}}" alt="" width="1920" height="1280" />
                         <div
                             class="tp-caption montserrat fweight-6 text-white tp-resizeme start"
                             data-x="['left','left','center','center']"
                             data-hoffset="['0','50','0','0']"
                             data-y="['top','top','top','top']"
-                            data-voffset="['90','100','100','110']"
+                            data-voffset="['79','100','100','110']"
                             data-fontsize="['65','60','50','30']"
                             data-lineheight="['100','100','100','50']"
                             data-width="none"
@@ -292,7 +292,7 @@
                             data-responsive_offset="on"
                             style="z-index: 7; white-space: nowrap; font-weight: 600;color: #da0000;"
                         >
-                            <span class="text-thm">Non</span> Stop
+                            <span class="text-thm">HD</span> Entertainment
                         </div>
 
                         <div
@@ -300,8 +300,8 @@
                             data-x="['left','left','center','center']"
                             data-hoffset="['0','50','0','0']"
                             data-y="['top','top','top','top']"
-                            data-voffset="['177','180','180','180']"
-                            data-fontsize="['36','32','32','32']"
+                            data-voffset="['159px','180','180','180']"
+                            data-fontsize="['33','32','32','32']"
                             data-lineheight="['50','40','40','30']"
                             data-width="none"
                             data-height="none"
@@ -315,9 +315,9 @@
                             data-splitin="none"
                             data-splitout="none"
                             data-responsive_offset="on"
-                            style="z-index: 7; white-space: nowrap;color: rgb(85, 85, 85);font-weight: 600;"
+                            style="z-index: 7; white-space: nowrap;color: rgb(16 69 87);font-weight: 600;"
                         >
-                            Entertainment
+                        At Your FingerTips (bold line)
                         </div>
 
                         <div
@@ -325,8 +325,8 @@
                             data-x="['left','left','center','center']"
                             data-hoffset="['8','50','0','0']"
                             data-y="['top','top','top','top']"
-                            data-voffset="['208','220','220','220']"
-                            data-fontsize="['20','16','14','14']"
+                            data-voffset="['188','220','220','220']"
+                            data-fontsize="['26','16','14','14']"
                             data-lineheight="['70','70','70','50']"
                             data-width="none"
                             data-height="none"
@@ -340,16 +340,39 @@
                             data-splitin="none"
                             data-splitout="none"
                             data-responsive_offset="on"
-                            style="z-index: 7; white-space: nowrap;color: rgb(218 217 217);font-size: 17px;"
-                        >
-                            With High Speed Internet
+                            style="z-index: 7; white-space: nowrap;color: rgb(34 34 34);"                            >
+                            Redfine Your Digital Entertainment
+                        </div>
+                        <div
+                            class="tp-caption raleway white text-white tp-resizeme"
+                            data-x="['left','left','center','center']"
+                            data-hoffset="['8','50','0','0']"
+                            data-y="['top','top','top','top']"
+                            data-voffset="['221','220','220','220']"
+                            data-fontsize="['26','16','14','14']"
+                            data-lineheight="['70','70','70','50']"
+                            data-width="none"
+                            data-height="none"
+                            data-whitespace="nowrap"
+                            data-transform_idle="o:1;"
+                            data-transform_in="z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
+                            data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                            data-mask_in="x:0px;y:0px;"
+                            data-mask_out="x:inherit;y:inherit;"
+                            data-start="2000"
+                            data-splitin="none"
+                            data-splitout="none"
+                            data-responsive_offset="on"
+                            style="z-index: 7; white-space: nowrap;color: rgb(34 34 34);"
+                            >
+                            Experience With Nova Iplay
                         </div>
                         <div
                             class="tp-caption sbut2 btn-round"
                             data-x="['left','left','center','center']"
                             data-hoffset="['0','200','0','0']"
                             data-y="['top','top','top','top']"
-                            data-voffset="['265px','360','360','360']"
+                            data-voffset="['279px','360','360','360']"
                             data-whitespace="nowrap"
                             data-type="text"
                             data-responsive_offset="on"
@@ -360,10 +383,10 @@
                             data-paddingbottom="[10,10,10,10]"
                             data-paddingleft="[20,20,20,20]"
                             style="z-index: 7;"
-                        >
+                            >
                             <a class="btn thm-btn inverse" href="#">Order Now!</a>
                         </div>
-                    </li>
+                    </li> --}}
                 </ul>
             </div>
         </div>

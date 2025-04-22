@@ -1989,15 +1989,58 @@ p.whoz-100 {
     margin-top: 50px;
 }
 p.whoz-para {
-    font-size: 17px;
+    font-size: 18px;
     text-align: justify;
     margin-left: 18px;
-    color: rgb(81 89 108);
+    color: rgb(77 78 78);
+    line-height: 28px;
+    max-width: 78%;
+    font-weight: 300;
+}
+p.double-head-under {
+    margin-bottom: 12px;
+    font-size: 26px;
+    color: #282828;
+    font-weight: 600;
+}
+h1.why-nova-100 {
+    color: #d20000;
+    font-size: 33px;
+}
+img.img-under-para {
+    width: 38px;
+}
+img.about-us-banner {
+    width: 100%;
+    height: 205px;
+    border: 2px solid #ebf1f4;
+    border-radius: 11px;
+}
+h2.unique-head {
+    text-transform: capitalize;
+    font-size: 36px !important;
+	margin-bottom: 9px;
+    margin-top: 30px;
+}
+p.under-para-500 {
+	max-width: 56%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 18px;
+    color: rgb(77 78 78);
+    text-align: center;
+    line-height: 28px;
+}
+h2.fast-head {
+    font-size: 22px;
+    color: black;
+    font-weight: 600;
+    margin: 25px 0px 10px;
 }
 .icnz {
     background: #eeeeee;
-    border-radius: 50%; /* Makes it a perfect circle */
-    width: 60px; /* Fixed size for consistency */
+    border-radius: 50%; 
+    width: 60px; 
     height: 60px;
     display: flex;
     align-items: center;
@@ -2006,11 +2049,29 @@ p.whoz-para {
     padding: 10px;
     transition: background 0.3s ease-in-out;
 }
+.border-roundz-400 {
+    width: 100px;
+    height: 96px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 73px;
+    padding: 27px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.change-netwrk{
+	width: 34px;
+}
+.outer-box-linez {
+    margin-top: 12px;
+}
+.under-content p {
+    color: rgb(77 78 78);
+    font-size: 18px;
+}
 .icnz img {
     width: 70%;
     height: auto;
 }
-
 .same-box-10 {
     display: flex;
     align-items: center; 

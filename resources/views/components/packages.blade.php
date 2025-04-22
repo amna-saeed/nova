@@ -31,8 +31,9 @@
                     <img class="tab-icons icon-white" src="{{ asset('assets/images/webImg/bundlewhite.png') }}" />
                 </button>
             </li>
+            
         </ul>
-        
+        <h1 class="plans-net-100">Your Net , Your Plan</h1>
         <div class="bg-linear-pkg">
             <div class="slider-wrapper">
                 {{-- slider2 --}}
@@ -1234,12 +1235,18 @@
 .icon-white {
     display: none;
 }
-
+h1.plans-net-100 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 800;
+    color: black;
+    margin-bottom: 15px;
+}
 .nav-links.active .icon-white {
     display: inline-block;
-    width: 22px;
+    width: 17px;
     margin-left: 1px;
-    margin-top: -2px;
+    margin-top: -4px;
 }
 
 .nav-links.active .icon-black {
@@ -1248,8 +1255,9 @@
     margin-left: 1px;
 }
 img.tab-icons.icon-black{
-    width: 22px;
+    width: 17px;
     margin-left: 1px;
+    margin-top: -3px;
 }
 .city-slider{
     overflow: visible;

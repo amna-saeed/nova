@@ -46,14 +46,54 @@
 
   
     <!--Blog Section-->
-    <section class="blog-section pt-15 pb-30">
+    <section class="blog-section pt-15 pb-0">
         <div class="container">
             <div class="sec-title">
-                <span class="double-line"></span> &ensp;
-                <h2>Blogs</h2>
-                &ensp; <span class="double-line"></span>
+                <h2 class="unique-head">Stay ahead Of Time</h2>
+                <p class="double-head-under">Unlimited Data & Calls</p>
+                <p class="under-para-500">
+                    Experience the unlimited thrill of lightning-fast internet speed with Nova 
+                    powered by cutting-edge fiber-optic technology.unlock unlimited broadband plans,seamless internet and entertainment.
+                </p>
+                <h1 class="why-nova-100">Why Nova Fiber?</h1>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="outer-box-linez">
+                            <div class="border-roundz-400">
+                                <img src="{{asset('assets/images/webImg/1c.png')}}" class="img-under-para" />
+                            </div>
+                            <div class="under-content">
+                                <h2 class="fast-head">Super Fast Internet</h2>
+                                <p>Explore at lightning <br />fast speed</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="outer-box-linez">
+                            <div class="border-roundz-400">
+                             <img src="{{asset('assets/images/webImg/secure.png')}}" class="change-netwrk" />
+                            </div>
+                             <div class="under-content">
+                                <h2 class="fast-head">Secured Network</h2>
+                                <p>Trust by majority of <br />users </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="outer-box-linez">
+                            <div class="border-roundz-400">
+                                <img src="{{asset('assets/images/webImg/3c.png')}}" class="img-under-para" />
+                            </div>
+                            <div class="under-content">
+                                <h2 class="fast-head">Unlimited Packages</h2>
+                                <p>Get exciting combo <br />deals for Tv Calling <br/> and broadband</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
             </div>
-            <div class="sec-content">
+            {{-- <div class="sec-content">
                 <div class="row clearfix">
                     <!--Blog Post-->
                     <div class="col-xs-12 col-sm-6 col-md-4 featured-blog-post wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
@@ -125,7 +165,7 @@
                         </article>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </section>
 @stop
