@@ -2438,7 +2438,7 @@ section.srvce-content-padding {
     flex-shrink: 0; /* Prevents icon from shrinking */
 }
 section.contact-content.sec-padding {
-    padding-top: 30px;
+    padding-top: 0px;
 	padding-bottom: 0px;
 }
 
@@ -2452,10 +2452,9 @@ h3.touch-contz {
     font-family: "Unbounded", Sans-serif !important;
     margin-bottom: 16px;
     text-align: left;
-    margin: 130px 20px 7px;
+    margin: 85px 20px 7px;
     line-height: 39px;
 }
-
 .inner-soclz {
     display: flex;
     flex-direction: row;

@@ -1,8 +1,8 @@
 @extends('layout.main')
 @section('content')
 
-    <section class="inner-header-contact">
-    </section>
+    {{-- <section class="inner-header-contact">
+    </section> --}}
     <section class="contact-content sec-padding">
         <div class="container">
             <div class="sec-content pt-0">
@@ -100,7 +100,7 @@
             background-color: #2b2b2d; 
             color: #fff;
             padding: 100px 20px;
-            clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+            clip-path:polygon(0 11%, 100% 0, 100% 100%, 0% 100%);
         }
 
     </style>
