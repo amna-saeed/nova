@@ -1341,6 +1341,7 @@ ul#mainTabs {
     font-size: 33px;
     font-weight: 800;
     line-height: 30px;
+    margin-top: 69px;
 }
 .slider-nav {
     position: absolute;

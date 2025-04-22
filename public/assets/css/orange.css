@@ -614,16 +614,16 @@
 }
 
 .contact-content .contact-info li .icon-box .inner {
-	width: 71px;
+    width: 47px;
     height: 64px;
     border-radius: 0%;
     text-align: center;
     line-height: 0px;
     color: #fff;
-    font-size: 27px;
-    margin-right: 3px;
+    font-size: 22px;
+    margin-right: 0px;
+    margin-left: 15px;
 }
-
 .single-sidebar-widget.search button {
 	width: 66px;
 	height: 55px;

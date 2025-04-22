@@ -5,13 +5,21 @@
             <div id="slider1" class="rev_slider" data-version="5.0">
                 <ul>
                     <li data-index="rs-1" data-transition="fade">
-                        <img src="{{asset('assets/images/hosting/slider/5.png')}}" alt="" class="slidez-new" />
+                        {{-- <img src="{{asset('assets/images/hosting/slider/5.png')}}" alt="" class="slidez-new" /> --}}
+                        <img
+                            src="{{ asset('assets/images/hosting/slider/5.png') }}"
+                            alt=""
+                            class="rev-slidebg"
+                            data-bgfit="cover"
+                            data-bgposition="center center"
+                            data-bgrepeat="no-repeat"
+                        />
                         <div
                             class="tp-caption montserrat fweight-6 text-white tp-resizeme start"
                             data-x="['left','left','center','center']"
                             data-hoffset="['0','50','0','0']"
                             data-y="['top','top','top','top']"
-                            data-voffset="['90','100','100','110']"
+                            data-voffset="['83','100','100','110']"
                             data-fontsize="['65','60','50','30']"
                             data-lineheight="['100','100','100','50']"
                             data-width="none"
@@ -35,7 +43,7 @@
                             data-x="['left','left','center','center']"
                             data-hoffset="['1','50','0','0']"
                             data-y="['top','top','top','top']"
-                            data-voffset="['180','180','180','180']"
+                            data-voffset="['175','180','180','180']"
                             data-fontsize="['65','32','32','32']"
                             data-lineheight="['50','40','40','30']"
                             data-width="none"
@@ -59,8 +67,8 @@
                             data-x="['left','left','center','center']"
                             data-hoffset="['8','50','0','0']"
                             data-y="['top','top','top','top']"
-                            data-voffset="['220px','220','220','220']"
-                            data-fontsize="['20','16','14','14']"
+                            data-voffset="['219px','220','220','220']"
+                            data-fontsize="['30','16','14','14']"
                             data-lineheight="['70','70','70','50']"
                             data-width="none"
                             data-height="none"
@@ -74,7 +82,7 @@
                             data-splitin="none"
                             data-splitout="none"
                             data-responsive_offset="on"
-                            style="z-index: 7; white-space: nowrap;color: rgb(218 217 217);font-size: 17px;"
+                            style="z-index: 7; white-space: nowrap;color: #0c0b0b;"
                         >
                         Feel The Diffrenece With
                         </div>
@@ -83,8 +91,8 @@
                             data-x="['left','left','center','center']"
                             data-hoffset="['8','50','0','0']"
                             data-y="['top','top','top','top']"
-                            data-voffset="['250px','260','260','260']"
-                            data-fontsize="['20','16','14','14']"
+                            data-voffset="['255','260','260','260']"
+                            data-fontsize="['30','16','14','14']"
                             data-lineheight="['70','70','70','50']"
                             data-width="none"
                             data-height="none"
@@ -98,7 +106,7 @@
                             data-splitin="none"
                             data-splitout="none"
                             data-responsive_offset="on"
-                            style="z-index: 7; white-space: nowrap;color: rgb(218 217 217);font-size: 17px;"
+                            style="z-index: 7; white-space: nowrap;color: #0c0b0b;"
                         >
                         Commited Speed 200Mbps
                         </div>
@@ -107,7 +115,7 @@
                             data-x="['left','left','center','center']"
                             data-hoffset="['0','200','0','0']"
                             data-y="['top','top','top','top']"
-                            data-voffset="['299','360','360','360']"
+                            data-voffset="['311','360','360','360']"
                             data-whitespace="nowrap"
                             data-type="text"
                             data-responsive_offset="on"
@@ -124,7 +132,13 @@
                     </li>
                 <!-- SLIDE  -->
                     <li data-index="rs-2" data-transition="slideup">
-                        <img src="{{asset('assets/images/hosting/slider/3.png')}}" alt="" width="1920" height="1280" />
+                        <img src="{{asset('assets/images/hosting/slider/3.png')}}" 
+                        alt=""
+                        class="rev-slidebg"
+                        data-bgfit="cover"
+                        data-bgposition="center center"
+                        data-bgrepeat="no-repeat"
+                        />
                         <div
                             class="tp-caption montserrat fweight-6 text-white tp-resizeme start"
                             data-x="['left','left','center','center']"
@@ -269,7 +283,13 @@
                         </div>
                     </li>
                     <li data-index="rs-3" data-transition="slideup">
-                        <img src="{{asset('assets/images/hosting/slider/2.png')}}" alt="" width="1920" height="1280" />
+                        <img src="{{asset('assets/images/hosting/slider/2.png')}}" 
+                        alt=""
+                        class="rev-slidebg"
+                        data-bgfit="cover"
+                        data-bgposition="center center"
+                        data-bgrepeat="no-repeat"
+                        />
                         <div
                             class="tp-caption montserrat fweight-6 text-white tp-resizeme start"
                             data-x="['left','left','center','center']"

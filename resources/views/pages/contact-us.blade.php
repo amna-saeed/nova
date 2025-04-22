@@ -14,7 +14,7 @@
                             <div class="border-curve">
                                 <div class="boxing-outer">
                                     <div class="contact-info">
-                                        {{-- <li>
+                                        <li>
                                             <div class="icon-box">
                                                 <div class="inner">
                                                     <i class="fa fa-envelope"></i>
@@ -24,7 +24,18 @@
                                                 <h4>Email</h4>
                                                 <p>sales@nova.net.pk</p>
                                             </div>
-                                        </li> --}}
+                                        </li>
+                                        <li>
+                                            <div class="icon-box">
+                                                <div class="inner">
+                                                    <i class="fa fa-phone"></i>
+                                                </div>
+                                            </div>
+                                            <div class="content-box">
+                                                <h4>Contact Number</h4>
+                                                <p>051-111-111-872</p>
+                                            </div>
+                                        </li>
                                         <li>
                                             <div class="icon-box">
                                                 <div class="inner">
@@ -93,12 +104,6 @@
  
   
     <style>
-        /* .contact-content {
-            background-color: #2b2b2d; 
-            color: #fff;
-            padding: 100px 20px;
-            clip-path:polygon(0 11%, 100% 0, 100% 100%, 0% 100%);
-        } */
         .contact-content {
             background: linear-gradient(45deg, #6b6b6b, rgb(0 0 0));
             color: #161515;
@@ -114,7 +119,7 @@
             outline: none;
             padding-left: 14px;
             line-height: 58px;
-            margin-bottom: 20px;
+            margin-bottom: 20px;    
         }
         .contact-content .contact-form textarea {
             height: 145px !important;
