@@ -86,7 +86,7 @@
                             </div>
                             <div class="under-content">
                                 <h2 class="fast-head">Unlimited Packages</h2>
-                                <p>Get exciting combo <br />deals for Tv Calling <br/> and broadband</p>
+                                <p>Get exciting combo deals for Tv Calling <br/> and broadband</p>
                             </div>
                         </div>
                     </div>

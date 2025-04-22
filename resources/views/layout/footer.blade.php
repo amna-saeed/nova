@@ -70,7 +70,7 @@
                                         <a href="{{ route('about-us') }}">About Us</a>
                                     </div>
                                 </li>
-                                <li>
+                                {{-- <li>
                                     <span class="border"></span>
                                     <div class="content">
                                         <a href="classes-list.html">Services</a>
@@ -87,7 +87,7 @@
                                     <div class="content">
                                         <a href="classes-list.html">Blog </a>
                                     </div>
-                                </li>
+                                </li> --}}
                                 <li>
                                     <span class="border"></span>
                                     <div class="content">

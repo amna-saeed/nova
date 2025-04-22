@@ -6,8 +6,9 @@
 <section class="inner-header-internet">
 </section>
 
+@include('components.packages')
 {{-- purchase --}}
-<div class="container">
+{{-- <div class="container">
     <div class="bg-purshaing-100 position-relative">
         <div class="bg-overlay"></div>
         <div class="banner-content">
@@ -45,7 +46,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 
 {{--  --}}
 

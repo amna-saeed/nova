@@ -14,7 +14,7 @@
                             <div class="border-curve">
                                 <div class="boxing-outer">
                                     <div class="contact-info">
-                                        <li>
+                                        {{-- <li>
                                             <div class="icon-box">
                                                 <div class="inner">
                                                     <i class="fa fa-envelope"></i>
@@ -24,7 +24,7 @@
                                                 <h4>Email</h4>
                                                 <p>sales@nova.net.pk</p>
                                             </div>
-                                        </li>
+                                        </li> --}}
                                         <li>
                                             <div class="icon-box">
                                                 <div class="inner">
@@ -73,13 +73,11 @@
                                         <input type="text" name="address" placeholder="Address" class="form-control">
                                     </div>
                                 </div>
-                        
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <textarea name="message" placeholder="Message" cols="30" rows="5" class="form-control"></textarea>
                                     </div>
                                 </div>
-                        
                                 <div class="row">
                                     <div class="col-12  text-right">
                                         <button class="thm-btn mrg-btn-100" type="submit">Send</button>
@@ -87,7 +85,6 @@
                                 </div>
                             </form>
                         </div>
-                        
                     </div>
                 </div>
             </div>
@@ -96,13 +93,32 @@
  
   
     <style>
-        .contact-content {
+        /* .contact-content {
             background-color: #2b2b2d; 
             color: #fff;
             padding: 100px 20px;
             clip-path:polygon(0 11%, 100% 0, 100% 100%, 0% 100%);
+        } */
+        .contact-content {
+            background: linear-gradient(45deg, #6b6b6b, rgb(0 0 0));
+            color: #161515;
+            padding: 100px 20px;
+            clip-path: polygon(0 11%, 100% 0, 100% 100%, 0% 100%);
         }
-
+        .calculate input, .contact-content .contact-form textarea, .contact-content .contact-form input {
+            width: 100% ;
+            height: 50px;
+            border: 1px solid #424242 !important;
+            background-color: #0000004a !important;
+            color: #fff !important;
+            outline: none;
+            padding-left: 14px;
+            line-height: 58px;
+            margin-bottom: 20px;
+        }
+        .contact-content .contact-form textarea {
+            height: 145px !important;
+        }
     </style>
     
 @endsection
