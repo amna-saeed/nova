@@ -2443,7 +2443,7 @@ section.contact-content.sec-padding {
 }
 
 .boxing-outer {
-    margin-bottom: 36px;
+    margin-bottom: 13px;
 }
 
 h3.touch-contz {
@@ -2452,18 +2452,16 @@ h3.touch-contz {
     font-family: "Unbounded", Sans-serif !important;
     margin-bottom: 16px;
     text-align: left;
-    margin: 130px 80px 7px;
+    margin: 130px 20px 7px;
     line-height: 39px;
 }
-.spaces-content-100 {
-    padding: 0px 60px 0px;
-}
+
 .inner-soclz {
     display: flex;
     flex-direction: row;
-    gap: 31px;
-    font-size: 30px;
-    margin-left: 18px;
+    gap: 36px;
+    font-size: 26px;
+    margin-left: 74px;
 }
 p.hearing-sson {
     text-align: left;
@@ -2471,7 +2469,7 @@ p.hearing-sson {
     text-transform: capitalize;
     color: #fcfcfc;
     font-weight: 600;
-    margin: 0px 80px 40px;
+    margin: 0px 20px 40px;
 }
 .inner-soclz li a {
     color: #ffffff;
@@ -2880,7 +2878,7 @@ label.error {
     margin-top: 0px;
 }
 .contact-content .contact-form textarea {
-	height: 100px;
+	height: 145px;
 }
 .contact-content .contact-form .thm-btn {
 	padding: 12px 42px;
@@ -2889,11 +2887,11 @@ label.error {
 	margin-bottom: 25px;
 }
 .contact-content .contact-info {
-	padding: 21px 20px 0px;
+	padding:0px 40px 0px 0px;
 }
 .contact-content .contact-info li {
 	list-style: none;
-	margin-bottom: 23px;
+	margin-bottom: 0px;
 }
 .contact-content .contact-info li .icon-box,
 .contact-content .contact-info li .content-box {
@@ -2903,17 +2901,20 @@ label.error {
 
 .contact-content .contact-info li .content-box h4 {
     margin: 0;
-    font-size: 18px;
+    font-size: 16px;
     text-transform: uppercase;
     color: #fff;
     font-weight: bold;
-    margin-bottom: 0px;
-    padding-top: 11px;
+    margin-bottom: 2px;
+    padding-top: 0px;
 }
 .contact-content .contact-info li .content-box p {
     color: #000000;
     line-height: 20px;
-    font-size: 18px;
+    font-size: 16px;
+    text-align: justify;
+    margin: 0px 0px 10px;
+    line-height: 23px;
 }
 
 /* 29 .appointment-content styles */

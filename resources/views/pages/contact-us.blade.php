@@ -22,7 +22,20 @@
                                             </div>
                                             <div class="content-box">
                                                 <h4>Email</h4>
-                                                <p>info@example.com</p>
+                                                <p>sales@nova.net.pk</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="icon-box">
+                                                <div class="inner">
+                                                    <i class="fa fa-map-marker"></i>
+                                                </div>
+                                            </div>
+                                            <div class="content-box">
+                                                <h4>ISLAMAD ADDRESS</h4>
+                                                <p>Nazim-ud-din Rd,suit no.1 & 2, floor 2nd, Muhammadi plaza F-6/4 Blue Area, Islamabad, Islamabad Capital Territory 46000, Pakistan</p>
+                                                <h4>LAHORE ADDRESS</h4>
+                                                <p>Shop # 10 1st floor Askari Mall Sector B Askari 11 Lahore</p>
                                             </div>
                                         </li>
                                     </div>

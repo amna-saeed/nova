@@ -123,7 +123,7 @@
                         </div>
                     </li>
                 <!-- SLIDE  -->
-                    {{-- <li data-index="rs-2" data-transition="slideup">
+                    <li data-index="rs-2" data-transition="slideup">
                         <img src="{{asset('assets/images/hosting/slider/3.png')}}" alt="" width="1920" height="1280" />
                         <div
                             class="tp-caption montserrat fweight-6 text-white tp-resizeme start"
@@ -386,7 +386,7 @@
                             >
                             <a class="btn thm-btn inverse" href="#">Order Now!</a>
                         </div>
-                    </li> --}}
+                    </li>
                 </ul>
             </div>
         </div>
