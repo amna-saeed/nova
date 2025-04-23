@@ -1383,7 +1383,7 @@ ul#mainTabs {
 }
 .slide-buttons.text-center.my-3 {
     position: absolute;
-    top: 136.5%;
+    top:152.5%;
     background: red;
 }
 #prevBtn {

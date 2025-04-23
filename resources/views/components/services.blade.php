@@ -175,7 +175,7 @@
     justify-content: space-between;
     transform: translateY(-50%);
     pointer-events: none;
-    bottom: -690px;
+    bottom:-787px;
 }
 
  #services-prevBtn, #services-nextBtn {

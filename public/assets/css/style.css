@@ -2463,15 +2463,25 @@ h3.touch-contz {
     margin-left: 74px;
 }
 p.hearing-sson {
-    text-align: left;
+	text-align: left;
     font-size: 24px;
     text-transform: capitalize;
-    color: #fcfcfc;
+    color: #585858;
     font-weight: 600;
     margin: 0px 20px 40px;
 }
+.contact-content {
+	background: linear-gradient(45deg, #f1f1f1, rgb(197 195 196));
+	color: #161515;
+	padding: 100px 20px;
+	clip-path: polygon(0 11%, 100% 0, 100% 100%, 0% 100%);
+}
+
+.contact-content .contact-form textarea {
+	height: 165px !important;
+}
 .inner-soclz li a {
-    color: #ffffff;
+    color: #363636;
 }
 .inner-soclz li a:hover {
     color: #da0000;
@@ -2857,8 +2867,8 @@ p.about-nova {
     border-radius: 7px !important;
     font-size: 14px !important;
     margin-right: 17px !important;
-    background: linear-gradient(45deg, #0d0d0d, #e8e3e345) !important;
-	margin-bottom: 35px;
+    background: linear-gradient(45deg, #464545, #e7e4e445) !important;
+    margin-bottom: 35px;
 }
 .mrg-btn-100:hover{
 	padding: 12px 43px !important;
@@ -2895,22 +2905,21 @@ label.error {
 .contact-content .contact-info li .icon-box,
 .contact-content .contact-info li .content-box {
 	display: table-cell;
-	vertical-align: top;
+	vertical-align: sub;
 }
 
-.contact-content .contact-info li .content-box h4 {
-    margin: 0;
+.contact-content .contact-info li .content-box h1 {
+	margin: 0;
     font-size: 16px;
     text-transform: uppercase;
-    color: #fff;
-    font-weight: bold;
+    color: #282828;
+    font-weight: 800;
     margin-bottom: 2px;
     padding-top: 0px;
 }
 .contact-content .contact-info li .content-box p {
     color: #000000;
-    line-height: 20px;
-    font-size: 16px;
+    font-size: 17px;
     text-align: justify;
     margin: 0px 0px 10px;
     line-height: 23px;

@@ -21,7 +21,7 @@
                                                 </div>
                                             </div>
                                             <div class="content-box">
-                                                <h4>Email</h4>
+                                                <h1>Email</h1>
                                                 <p>sales@nova.net.pk</p>
                                             </div>
                                         </li>
@@ -32,7 +32,7 @@
                                                 </div>
                                             </div>
                                             <div class="content-box">
-                                                <h4>Contact Number</h4>
+                                                <h1>Contact Number</h1>
                                                 <p>051-111-111-872</p>
                                             </div>
                                         </li>
@@ -43,9 +43,9 @@
                                                 </div>
                                             </div>
                                             <div class="content-box">
-                                                <h4>ISLAMAD ADDRESS</h4>
+                                                <h1>ISLAMAD ADDRESS</h1>
                                                 <p>Nazim-ud-din Rd,suit no.1 & 2, floor 2nd, Muhammadi plaza F-6/4 Blue Area, Islamabad, Islamabad Capital Territory 46000, Pakistan</p>
-                                                <h4>LAHORE ADDRESS</h4>
+                                                <h1>LAHORE ADDRESS</h1>
                                                 <p>Shop # 10 1st floor Askari Mall Sector B Askari 11 Lahore</p>
                                             </div>
                                         </li>
@@ -104,25 +104,20 @@
  
   
     <style>
-        .contact-content {
-            background: linear-gradient(45deg, #6b6b6b, rgb(0 0 0));
-            color: #161515;
-            padding: 100px 20px;
-            clip-path: polygon(0 11%, 100% 0, 100% 100%, 0% 100%);
-        }
-        .calculate input, .contact-content .contact-form textarea, .contact-content .contact-form input {
-            width: 100% ;
-            height: 50px;
-            border: 1px solid #424242 !important;
-            background-color: #0000004a !important;
-            color: #fff !important;
+      .calculate input, .contact-content .contact-form textarea, .contact-content .contact-form input {
+            width: 100%;
+            height: 58px;
+            border: 1px solid #a3a1a1 !important;
+            background-color: #bdb9b9 !important;
+            color: black !important;
             outline: none;
             padding-left: 14px;
             line-height: 58px;
-            margin-bottom: 20px;    
+            margin-bottom: 20px;
+            border-radius: 6px;
         }
-        .contact-content .contact-form textarea {
-            height: 145px !important;
+        ::placeholder{
+            color: black !important;
         }
     </style>
     

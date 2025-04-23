@@ -5,39 +5,8 @@
     @include('components.packages')
 
     @include('components.services')
-
-    {{-- follow us --}}
-    <div class="row">
-        <div class="col-lg-12 p-0">
-            <div class="footer-call-to-action">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 sm-text-center text-center">
-                            <h3>Follow Us</h3>
-                            <h3 class="stay-100">Stay connected for the latest updates, offers, and <br/>
-                                behind-the-scenes content</h3>
-                                <h3 class="follow-fnt-100">Follow us and be part of the journey!</h3>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="linez-same">
-                                <div class="bg-outer-100">
-                                    <a href="#"> <img src="{{asset('assets/images/webImg/fbicon.png')}}" class="follow-scl" /></a>
-                                    <a href="#"><img src="{{asset('assets/images/webImg/instgramicon.png')}}" class="follow-scl" /></a>
-                                    <a href="#"><img src="{{asset('assets/images/webImg/LinkedInIcon.png')}}" class="follow-scl" /></a>
-                                    <a href="#"><img src="{{asset('assets/images/webImg/xicon.png')}}" class="follow-scl" /></a>
-                                    <a href="#"><img src="{{asset('assets/images/webImg/whatsappicon.png')}}" class="follow-scl" /></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> 
-        </div> 
-    </div> 
-   
-
     @include('components.coverage')
-
+    
     @include('components.who-we')
 
     {{-- @include('components.novaApp') --}}
@@ -168,6 +137,35 @@
             </div> --}}
         </div>
     </section>
+
+    {{-- follow us --}}
+    <div class="row mb-30">
+        <div class="col-lg-12 p-0">
+            <div class="footer-call-to-action">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 sm-text-center text-center">
+                            <h3>Follow Us</h3>
+                            <h3 class="stay-100">Stay connected for the latest updates, offers, and <br/>
+                                behind-the-scenes content</h3>
+                                <h3 class="follow-fnt-100">Follow us and be part of the journey!</h3>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="linez-same">
+                                <div class="bg-outer-100">
+                                    <a href="#"> <img src="{{asset('assets/images/webImg/fbicon.png')}}" class="follow-scl" /></a>
+                                    <a href="#"><img src="{{asset('assets/images/webImg/instgramicon.png')}}" class="follow-scl" /></a>
+                                    <a href="#"><img src="{{asset('assets/images/webImg/LinkedInIcon.png')}}" class="follow-scl" /></a>
+                                    <a href="#"><img src="{{asset('assets/images/webImg/xicon.png')}}" class="follow-scl" /></a>
+                                    <a href="#"><img src="{{asset('assets/images/webImg/whatsappicon.png')}}" class="follow-scl" /></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div> 
+    </div> 
 @stop
 @section('js')
    

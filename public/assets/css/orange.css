@@ -614,13 +614,13 @@
 }
 
 .contact-content .contact-info li .icon-box .inner {
-    width: 47px;
+	width: 47px;
     height: 64px;
     border-radius: 0%;
     text-align: center;
     line-height: 0px;
-    color: #fff;
-    font-size: 22px;
+    color: #da0000;
+    font-size: 20px;
     margin-right: 0px;
     margin-left: 15px;
 }
