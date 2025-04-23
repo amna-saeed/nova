@@ -133,14 +133,14 @@ website:   	http://www.themepunch.com
 	width: 100% !important;
 	height: 100vh !important;
 }
-.rev_slider,
+/* .rev_slider,
 .rev_slider ul,
 .rev_slider li {
   width: 100% !important;
   height:100vh !important;
   overflow: hidden !important;
 }
-
+ */
 
 
 
@@ -192,6 +192,11 @@ div#slider1{
     }
 	.rev_slider_wrapper.bannercontainer{
 		max-height: 620px;
+	}
+	#slider1 {
+		width: 100%;
+		height: 100vh; 
+		max-height: 700px;
 	}
 }
 
