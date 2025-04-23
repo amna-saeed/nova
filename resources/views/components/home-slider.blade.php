@@ -132,7 +132,7 @@
                             data-hoffset="['0','0','0','0']"
                             data-y="['top','top','top','top']"
                             data-voffset="['39','100','100','110']"
-                            data-fontsize="['42','60','50','30']"
+                            data-fontsize="['48','60','50','30']"
                             data-lineheight="['100','100','100','50']"
                             data-width="none"
                             data-height="none"
@@ -230,7 +230,7 @@
                             data-hoffset="['9','50','0','0']"
                             data-y="['top','top','top','top']"
                             data-voffset="['246px','180','180','180']"
-                            data-fontsize="['26','16','14','14']"
+                            data-fontsize="['30','16','14','14']"
                             data-lineheight="['70','70','70','50']"
                             data-width="none"
                             data-height="none"
@@ -395,4 +395,8 @@
         </div>
     </div>
 </div>
-
+<style>
+      .tp-parallax-wrap{
+        left:80px !important;
+    }
+</style>
