@@ -131,22 +131,20 @@ website:   	http://www.themepunch.com
 	border:none;
 	object-fit: cover;
 	width: 100% !important;
-	height: 84vh !important;
+	height: 100vh !important;
 }
 .rev_slider,
 .rev_slider ul,
 .rev_slider li {
   width: 100% !important;
-  height:84vh !important;
+  height:100vh !important;
   overflow: hidden !important;
 }
 
-.rev_slider img {
-  object-fit: cover !important;
-  width: 100% !important;
-  height: 84vh !important;
-}
-/* @media (min-width: 1266px) and (max-width: 1920px) {
+
+
+
+@media (min-width: 1266px) and (max-width: 1920px) {
 	.rev_slider_wrapper.bannercontainer {
         height: 200px ;
     }
@@ -159,9 +157,9 @@ div#slider1{
 }
 .rev_slider_wrapper.bannercontainer{
 	height: 475px ;
-} */
+}
 
-/* #slider1 {
+ #slider1 {
     width: 100%;
     height: 100vh; 
     max-height: 400px; 
@@ -187,8 +185,15 @@ div#slider1{
 	.rev_slider_wrapper.bannercontainer{
 		max-height:510px;
 	}
-} */
-
+}
+@media (min-width: 1620px) and (max-width: 1920px){
+	#slider1 {
+        max-height: 700px;
+    }
+	.rev_slider_wrapper.bannercontainer{
+		max-height: 620px;
+	}
+}
 
 .rev_slider >ul,
 .rev_slider_wrapper >ul,

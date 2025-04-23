@@ -43,7 +43,9 @@ function revolutionSliderActiver () {
 			navigation: {
 				arrows:{enable:true} 
 			}, 
-		
+			gridwith: 1170,
+			gridheight: 770,
+			gridheight:window.innerHeight 
 		});
 	};
 }

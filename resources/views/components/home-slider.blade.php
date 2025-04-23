@@ -5,15 +5,7 @@
             <div id="slider1" class="rev_slider" data-version="5.0">
                 <ul>
                     <li data-index="rs-1" data-transition="fade">
-                        {{-- <img src="{{asset('assets/images/hosting/slider/5.png')}}" alt="" class="slidez-new" /> --}}
-                        <img
-                            src="{{ asset('assets/images/hosting/slider/5.png') }}"
-                            alt=""
-                            class="rev-slidebg"
-                            data-bgfit="cover"
-                            data-bgposition="center center"
-                            data-bgrepeat="no-repeat"
-                        />
+                        <img src="{{asset('assets/images/hosting/slider/5.png')}}" alt="" class="slidez-new" />
                         <div
                             class="tp-caption montserrat fweight-6 text-white tp-resizeme start"
                             data-x="['left','left','center','center']"
@@ -131,7 +123,7 @@
                         </div>
                     </li>
                 <!-- SLIDE  -->
-                    <li data-index="rs-2" data-transition="slideup">
+                    {{-- <li data-index="rs-2" data-transition="slideup">
                         <img src="{{asset('assets/images/hosting/slider/3.png')}}" 
                         alt=""
                         class="rev-slidebg"
@@ -406,7 +398,7 @@
                             >
                             <a class="btn thm-btn inverse" href="#">Order Now!</a>
                         </div>
-                    </li>
+                    </li> --}}
                 </ul>
             </div>
         </div>
