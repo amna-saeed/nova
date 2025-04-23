@@ -44,9 +44,9 @@
                                             </div>
                                             <div class="content-box">
                                                 <h1>ISLAMAD ADDRESS</h1>
-                                                <p>Nazim-ud-din Rd,suit no.1 & 2, floor 2nd, Muhammadi plaza F-6/4 Blue Area, Islamabad, Islamabad Capital Territory 46000, Pakistan</p>
+                                                <p>Nazim-ud-din Rd,suit no.1 & 2, floor 2nd, Muhammadi plaza  nazim ud-din rd F-6/4 Blue Area, Islamabad, Islamabad Capital Territory 46000, Pakistan</p>
                                                 <h1>LAHORE ADDRESS</h1>
-                                                <p>Shop # 10 1st floor Askari Mall Sector B Askari 11 Lahore</p>
+                                                <p>office #10 1st floor Askari Mall Sector B Askari 11 Lahore</p>
                                             </div>
                                         </li>
                                     </div>

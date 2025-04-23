@@ -9,7 +9,7 @@
                         <div
                             class="tp-caption montserrat fweight-6 text-white tp-resizeme start"
                             data-x="['left','left','center','center']"
-                            data-hoffset="['0','50','0','0']"
+                            data-hoffset="['0','0','0','0']"
                             data-y="['top','top','top','top']"
                             data-voffset="['83','100','100','110']"
                             data-fontsize="['65','60','50','30']"
@@ -123,21 +123,16 @@
                         </div>
                     </li>
                 <!-- SLIDE  -->
-                    {{-- <li data-index="rs-2" data-transition="slideup">
-                        <img src="{{asset('assets/images/hosting/slider/3.png')}}" 
-                        alt=""
-                        class="rev-slidebg"
-                        data-bgfit="cover"
-                        data-bgposition="center center"
-                        data-bgrepeat="no-repeat"
+                    <li data-index="rs-2" data-transition="slideup">
+                        <img src="{{asset('assets/images/hosting/slider/3.png')}}" class="slidez-new"
                         />
                         <div
                             class="tp-caption montserrat fweight-6 text-white tp-resizeme start"
                             data-x="['left','left','center','center']"
-                            data-hoffset="['0','50','0','0']"
+                            data-hoffset="['0','0','0','0']"
                             data-y="['top','top','top','top']"
                             data-voffset="['39','100','100','110']"
-                            data-fontsize="['50','60','50','30']"
+                            data-fontsize="['42','60','50','30']"
                             data-lineheight="['100','100','100','50']"
                             data-width="none"
                             data-height="none"
@@ -235,7 +230,7 @@
                             data-hoffset="['9','50','0','0']"
                             data-y="['top','top','top','top']"
                             data-voffset="['246px','180','180','180']"
-                            data-fontsize="['30','16','14','14']"
+                            data-fontsize="['26','16','14','14']"
                             data-lineheight="['70','70','70','50']"
                             data-width="none"
                             data-height="none"
@@ -276,19 +271,15 @@
                     </li>
                     <li data-index="rs-3" data-transition="slideup">
                         <img src="{{asset('assets/images/hosting/slider/2.png')}}" 
-                        alt=""
-                        class="rev-slidebg"
-                        data-bgfit="cover"
-                        data-bgposition="center center"
-                        data-bgrepeat="no-repeat"
+                        class="slidez-new"
                         />
                         <div
                             class="tp-caption montserrat fweight-6 text-white tp-resizeme start"
                             data-x="['left','left','center','center']"
-                            data-hoffset="['0','50','0','0']"
+                            data-hoffset="['0','0','0','0']"
                             data-y="['top','top','top','top']"
                             data-voffset="['79','100','100','110']"
-                            data-fontsize="['65','60','50','30']"
+                            data-fontsize="['56','60','50','30']"
                             data-lineheight="['100','100','100','50']"
                             data-width="none"
                             data-height="none"
@@ -310,10 +301,10 @@
                         <div
                             class="tp-caption montserrat fweight-6 text-white tp-resizeme"
                             data-x="['left','left','center','center']"
-                            data-hoffset="['0','50','0','0']"
+                            data-hoffset="['0','0','0','0']"
                             data-y="['top','top','top','top']"
                             data-voffset="['159px','180','180','180']"
-                            data-fontsize="['33','32','32','32']"
+                            data-fontsize="['27','32','32','32']"
                             data-lineheight="['50','40','40','30']"
                             data-width="none"
                             data-height="none"
@@ -338,7 +329,7 @@
                             data-hoffset="['8','50','0','0']"
                             data-y="['top','top','top','top']"
                             data-voffset="['188','220','220','220']"
-                            data-fontsize="['26','16','14','14']"
+                            data-fontsize="['24','16','14','14']"
                             data-lineheight="['70','70','70','50']"
                             data-width="none"
                             data-height="none"
@@ -398,7 +389,7 @@
                             >
                             <a class="btn thm-btn inverse" href="#">Order Now!</a>
                         </div>
-                    </li> --}}
+                    </li>
                 </ul>
             </div>
         </div>

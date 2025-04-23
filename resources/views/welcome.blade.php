@@ -7,7 +7,7 @@
     @include('components.services')
     @include('components.coverage')
     
-    @include('components.who-we')
+    {{-- @include('components.who-we') --}}
 
     {{-- @include('components.novaApp') --}}
 
