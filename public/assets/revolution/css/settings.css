@@ -159,11 +159,11 @@ div#slider1{
 	height: 475px ;
 }
 
- #slider1 {
+ /* #slider1 {
     width: 100%;
     height: 100vh; 
     max-height: 400px; 
-}
+} */
 .rev_slider_wrapper.bannercontainer{
 	height: 100vh; 
     max-height: 600px;
