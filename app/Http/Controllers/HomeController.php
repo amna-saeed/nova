@@ -57,4 +57,8 @@ class HomeController extends Controller
     {
         return view('pages.terms-condition');
     }
+    public function PaymentPage()
+    {
+        return view('pages.payment');
+    }
 }

@@ -41,9 +41,15 @@
                     <div class="city-tabs-sidebar">
                     <!-- Nested Tabs -->
                         <ul class="nav nav-tabs" id="cityTabs">
-                            <li class="nav-item"><button class="city-nav-links active" data-city="islamabad ">Islamabad</button></li>
-                            <li class="nav-item"><button class="city-nav-links" data-city="lahore">Lahore</button></li>
-                            <li class="nav-item"><button class="city-nav-links" data-city="risalpur">Risalpul</button></li>
+                            <li class="nav-item"><button class="city-nav-links active" data-city="islamabad ">Islamabad
+                                <img src="{{asset('assets/images/webImg/islamabad.png')}}" class="coun-img" />  
+                            </button></li>
+                            <li class="nav-item"><button class="city-nav-links" data-city="lahore">Lahore
+                                <img src="{{asset('assets/images/webImg/Lahore.png')}}" class="coun-img" />     
+                            </button></li>
+                            <li class="nav-item"><button class="city-nav-links" data-city="risalpur">Risalpul
+                                <img src="{{asset('assets/images/webImg/Risalpur.png')}}" class="coun-img" />       
+                            </button></li>
                         </ul>
                     </div>
                     <!-- Sliders for Nested Tabs -->
@@ -1455,7 +1461,7 @@ ul#mainTabs {
     width: 145px;
 }
 
-button.city-nav-links.active {
+/* button.city-nav-links.active {
     background: #da0000;
     border: 1px solid #da0000;
     color: #ffff;
@@ -1464,8 +1470,36 @@ button.city-nav-links.active {
     font-size: 15px;
     margin-right: 0px;
     width: 125px;
+} */
+button.city-nav-links.active {
+    background: #da0000;
+    border: 1px solid #da0000;
+    color: #ffff;
+    padding: 9px 7px;
+    border-radius: 7px;
+    font-size: 15px;
+    margin-right: 0px;
+    width: 125px;
+    display: flex;
+    justify-content: space-between;
 }
 button.city-nav-links{
+    background: #fff;
+    border: 1px solid black;
+    color: #fff;
+    background-color: black;
+    padding: 9px 7px;
+    border-radius: 7px;
+    font-size: 15px;
+    margin-right: 0px;
+    width: 125px;
+    display: flex;
+    justify-content: space-between;
+}
+img.coun-img {
+    width: 30px;
+}
+/* button.city-nav-links{
     background: #fff;
     border: 1px solid black;
     color: #fff;
@@ -1475,7 +1509,7 @@ button.city-nav-links{
     font-size: 15px;
     margin-right: 0px;
     width: 125px;
-}
+} */
 
 /*  */
 .pc-tab-main ul.nav-tabs {

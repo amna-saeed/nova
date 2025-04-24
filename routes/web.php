@@ -22,6 +22,7 @@ Route::get('/customer-care', [HomeController::class, 'carePage'])->name('custome
 Route::get('/career', [HomeController::class, 'careerPage'])->name('career');
 Route::get('/privacy-policy', [HomeController::class, 'privacyPage'])->name('privacy-policy');
 Route::get('/terms-condition', [HomeController::class, 'termsPage'])->name('terms-condition');
+Route::get('/payment', [HomeController::class, 'PaymentPage'])->name('payment');
 // services
 Route::get('/internet', [HomeController::class, 'internetPage'])->name('internet');
 

@@ -168,12 +168,13 @@
                 <div class="donate-btn clearfix">
                     <div class="single-header-info pb-sm-20">
                         <div class="icon-box">
+                            <a href="{{ route('payment') }}">
                             <div class="inner-box">
                                 <i class="flaticon-interface-2"></i>
-                            </div>
+                            </div></a>
                         </div>
                         <div class="content">
-                            <a href="{{ route('contact-us') }}">
+                            <a href="{{ route('payment') }}">
                             <h3>Pay Now</h3></a>
                         </div>
                     </div>

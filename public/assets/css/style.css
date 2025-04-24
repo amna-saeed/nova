@@ -1838,11 +1838,31 @@ p.about-content-100 {
 	background-size: cover;
 	height:327px;
 }
+.bg-card-bnner-100{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	position: relative;
+	background: url(../images/resources/cards_.png) center center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	/* height: 525px; */
+	clip-path: polygon(0 11%, 100% 0, 100% 100%, 0% 100%);
+}
+
 .inner-header-career11 {
 	padding-top: 40px;
 	padding-bottom: 40px;
 	position: relative;
 	background: url(../images/resources/taxupdate.png) center center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 525px;
+}
+.inner-header-payment {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	position: relative;
+	background: url(../images/resources/payment-banner.jpeg) center center no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 	height: 525px;
@@ -2446,15 +2466,7 @@ section.contact-content.sec-padding {
     margin-bottom: 13px;
 }
 
-h3.touch-contz {
-    font-size: 38px;
-    color: #da0000;
-    font-family: "Unbounded", Sans-serif !important;
-    margin-bottom: 16px;
-    text-align: left;
-    margin: 85px 20px 7px;
-    line-height: 39px;
-}
+
 .inner-soclz {
     display: flex;
     flex-direction: row;
@@ -2462,20 +2474,7 @@ h3.touch-contz {
     font-size: 26px;
     margin-left: 74px;
 }
-p.hearing-sson {
-	text-align: left;
-    font-size: 24px;
-    text-transform: capitalize;
-    color: #585858;
-    font-weight: 600;
-    margin: 0px 20px 40px;
-}
-.contact-content {
-	background: linear-gradient(45deg, #f1f1f1, rgb(197 195 196));
-	color: #161515;
-	padding: 100px 20px;
-	clip-path: polygon(0 11%, 100% 0, 100% 100%, 0% 100%);
-}
+
 
 .contact-content .contact-form textarea {
 	height: 165px !important;
@@ -2867,8 +2866,18 @@ p.about-nova {
     border-radius: 7px !important;
     font-size: 14px !important;
     margin-right: 17px !important;
-    background: linear-gradient(45deg, #464545, #e7e4e445) !important;
+    /* background: linear-gradient(45deg, #464545, #e7e4e445) !important; */
+	background: linear-gradient(45deg, #e11313, #e8e3e370) !important;
     margin-bottom: 35px;
+}
+.mrg-btn-100:hover {
+	padding: 12px 43px !important;
+    border-radius: 7px !important;
+    font-size: 14px !important;
+    margin-right: 17px !important;
+    background: linear-gradient(45deg, #e11313, #e8e3e370) !important;
+    margin-bottom: 35px;
+    color: #fff !important;
 }
 .mrg-btn-100:hover{
 	padding: 12px 43px !important;
