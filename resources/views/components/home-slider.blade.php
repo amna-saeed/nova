@@ -320,7 +320,7 @@
                             data-responsive_offset="on"
                             style="z-index: 7; white-space: nowrap;color: rgb(16 69 87);font-weight: 600;"
                         >
-                        At Your FingerTips (bold line)
+                        At Your FingerTips
                         </div>
 
                         <div
