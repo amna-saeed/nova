@@ -2,6 +2,10 @@
 @section('content')
 
     <section class="inner-header-payment">
+        <div class="complete-bnr-txt">
+            <h1>Smart & simple</h1><br />
+            <h1>online payments</h1>
+        </div>
     </section>
 
     <section class="contact-payment">
@@ -67,6 +71,16 @@ section.contact-payment{
     text-align: center;
     color: black;
     line-height: 25px;
+}
+.complete-bnr-txt h1 {
+    font-size: 62px;
+    margin: 0px;
+    line-height: 49px;
+    text-transform: capitalize;
+    color: #da0000;
+}
+.complete-bnr-txt {
+    margin: 129px 57px;
 }
 .icons-pay-box img {
     width: 75%;
