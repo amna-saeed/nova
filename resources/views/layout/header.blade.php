@@ -8,7 +8,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-lg-7 col-md-9 col-sm-12 col-xs-12">
+            <div class="col-lg-5 col-md-9 col-sm-12 col-xs-12 pr-0">
                 <div class="navigation">
                     <div class="nav-header pull-left">
                         <ul>
@@ -20,17 +20,21 @@
                                         <div class="row btm-roz"> 
                                             <div class="col-md-4">
                                                 <ul>
-                                                    <li class="drop-txt"><a href="{{ route('internet') }}">Internet</a></li>
+                                                    <li class="drop-txt"><a href="{{ route('internet') }}">Internet
+                                                        <img src="{{asset('assets/images/webImg/blackinternet (1).png')}}" class="head-icnz" />
+                                                    </a></li>
                                                 </ul>
                                             </div>
                                             <div class="col-md-4">
                                                 <ul>
-                                                    <li class="drop-txt"><a href="{{ route('internet') }}">Cable</a></li>
+                                                    <li class="drop-txt"><a href="{{ route('internet') }}"> HD/Catv 
+                                                        <img src="{{asset('assets/images/webImg/TVBlack (1).png')}}" class="head-icnz" /></a></li>
                                                 </ul>
                                             </div>
                                             <div class="col-md-4">
                                                 <ul>
-                                                    <li class="drop-txt"><a href="{{ route('internet') }}">LandLine</a></li>
+                                                    <li class="drop-txt"><a href="{{ route('internet') }}">telephone
+                                                        <img src="{{asset('assets/images/webImg/phoneblack (1).png')}}" class="head-icnz" /></a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -164,13 +168,13 @@
                     </div>
                 </div>
             </div>
-            <div class="donate-col col-xs-12 col-sm-12 col-lg-3 col-md-3 pl-0">
+            <div class="donate-col col-xs-12 col-sm-12 col-lg-5 col-md-3 pl-0">
                 <div class="donate-btn clearfix">
                     <div class="single-header-info pb-sm-20">
                         <div class="icon-box">
                             <a href="{{ route('payment') }}">
                             <div class="inner-box">
-                                <i class="flaticon-interface-2"></i>
+                                <img class="headrz-env" src="{{'assets/images/webImg/paynow.png'}}" />
                             </div></a>
                         </div>
                         <div class="content">
@@ -192,6 +196,20 @@
                             </a>
                         </div>
                     </div>
+                    <div class="single-header-info">
+                        <div class="icon-box">
+                            <a href="{{ route('contact-us') }}">
+                            <div class="inner-box">
+                                <img class="headrz-env" src="{{'assets/images/webImg/AINova.png'}}" />
+                            </div>
+                            </a>
+                        </div>
+                        <div class="content">
+                            <a href="{{ route('contact-us') }}">
+                            <h3>Nova AI</h3>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -209,7 +227,15 @@
     width: 56%;
 }
 .navigation .nav-header > ul{
-    padding-left: 37px;
+    padding-left: 0px;
+}
+.single-header-info .icon-box, .single-header-info .content {
+    display: table-cell;
+    vertical-align: sub !important;
+}
+.donate-btn.clearfix{
+    text-align: right;
+    float: right;
 }
 .single-header-info .content h3 {
     font-size: 14px;
@@ -226,20 +252,31 @@
     padding-top: 9px !important;
     padding-left: 0px;
 }
-.single-header-info .icon-box .inner-box {
+/* .single-header-info .icon-box .inner-box {
     width: 50px;
     height: 52px;
     border: 1px solid #E1E1E1;
     text-align: center;
     line-height: 53px;
     margin-right: 4px;
+} */
+.single-header-info .icon-box .inner-box {
+    width: 50px;
+    height: 52px;
+    line-height: 53px;
+    margin-right: 5px;
+    border: 1px solid #ffffff !important;
+    text-align: right !important;
 }
 .single-header-info .icon-box .inner-box i:before {
-    font-size: 26px;
+    font-size: 20px;
     color: #000000;
 }
+img.headrz-env {
+    width: 20px;
+}
 .navigation .nav-header > ul > li > a{
-    margin: 26px 16px;
+    margin:26px 12px;
 }
 .navigation .nav-header > ul > li > ul.dropz {
     position: absolute;

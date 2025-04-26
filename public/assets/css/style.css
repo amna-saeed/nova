@@ -1858,6 +1858,10 @@ p.about-content-100 {
 	background-size: cover;
 	height: 525px;
 }
+img.head-icnz {
+    width: 16px;
+    margin-left: 9px;
+}
 .inner-header-payment {
 	padding-top: 40px;
 	padding-bottom: 40px;
