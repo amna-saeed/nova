@@ -5,57 +5,6 @@
         </div>
     </section>
     
-  
-
-    <section class="about-content-bordz">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="box-radius">
-                        <img src="{{asset('assets/images/webImg/service-10-1.webp')}}" class="speed-100" alt="" />
-                    </div>
-                    <div class="btmz-img">
-                        <img src="{{asset('assets/images/webImg/4.png')}}" class="speed-10011" alt="" />
-                        <p class="sevz-200">Ultra-speed <br/>
-                            Connection</p>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="box-radius">
-                        <img src="{{asset('assets/images/webImg/service-9-1.webp')}}" class="speed-100" alt="" />
-                    </div>
-                    <div class="btmz-img">
-                        <img src="{{asset('assets/images/webImg/4.png')}}" class="speed-10011" alt="" />
-                        <p class="sevz-200">250+ World
-                             <br/>
-                             Channels</p>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="box-radius">
-                        <img src="{{asset('assets/images/webImg/home-2-slide-2.webp')}}" class="speed-100" alt="" />
-                    </div>
-                    <div class="btmz-img">
-                        <img src="{{asset('assets/images/webImg/4.png')}}" class="speed-10011" alt="" />
-                        <p class="sevz-200">4K and 8K <br/>
-                            Quality</p>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="box-radius">
-                        <img src="{{asset('assets/images/webImg/service-12-1.webp')}}" class="speed-100" alt="" />
-                    </div>
-                    <div class="btmz-img">
-                        <img src="{{asset('assets/images/webImg/4.png')}}" class="speed-10011" alt="" />
-                        <p class="sevz-200">Flexible Tariff <br/>
-                            Plans</p>
-                    </div>
-                </div>
-            </div>
-           
-        </div>
-    </section>
-
     <section class="about-content-padding">
         <div class="container">
             <p class="about-content-100">
@@ -64,32 +13,26 @@
                 We are committed to keeping you connected with reliable, innovative, and customer-focused solutions designed 
                 to meet the demands of both personal and corporate users.
             </p>
-            {{-- <div class="row mrgnz-down">
-                <div class="col-lg-6">
-                    <img src="{{asset('assets/images/webImg/ONT1.webp')}}" class="disc-100" alt="" />
-                </div>
-                <div class="col-lg-6">
-                    <h1 class="choose-head">About Us</h1>
-                    <ul class="choose-bulets">
-                        <li> Nova Communication is a premier provider of <span class="bold-about"> Fiber Internet, Digital TV, IPTV, Telephone, Cloud,</span> and <span class="bold-about">ICT services </span> Pakistan.</li>
-                        <li> With our robust fiber-optic network and cutting-edge solutions, we deliver <span class="bold-about">unmatched digital experiences</span> homes and businesses.</li>
-                        <li> Our commitment to reliability, innovation, and customer satisfaction has earned us a reputation as a trusted leader in the digital space.</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <h1 class="choose-head">Why Choose Nova</h1>
-                    <ul class="choose-bulets">
-                        <li><span class="chosse-bold">Industry-Leading GPON Network: </span>  <span class="bold-about"> Our 300+ km buried GPON infrastructure</span> ensures uninterrupted service and blazing-fast connectivity</li>
-                        <li><span class="chosse-bold">Next-Gen IPTV Experience</span> Enjoy personalized, flexible streaming across <span class="bold-about">  multiple devices</span>.</li>
-                        <li><span class="chosse-bold">Comprehensive Cloud & ICT Solutions: </span>Tailored for both  <span class="bold-about"> home users and enterprises.</span></li>
-                    </ul>
-                </div>
-                <div class="col-lg-6">
-                    <img src="{{asset('assets/images/webImg/TV1.webp')}}" class="disc-100" alt="" />
-                </div>
-            </div> --}}
+            <h2 class="ofrz-100">What We Offer:</h2>
+            <p class="about-content-100">
+                THE  <span class="red-400">PROFESSIONAL COMMUNICATIONS</span>, based in Pakistan, holds the necessary 
+                national licenses to operate as a leading <span class="red-400">internet and telecom service provider</span>.
+                These licenses allow <span class="red-400">Nova Communication</span> to offer a wide range of telecom services, including Broadband, Internet access for homes and businesses, 
+                Lease Lines, Virtual Private Networks (VPNs), and other value-added services.
+                These licenses not only validate our operations but also guarantee our customers that we are dedicated to delivering dependable, secure, and compliant 
+                connectivity solutions.
+            </p>
+            <h2 class="ofrz-100">Our Processes:</h2>
+            <p class="about-content-100">
+                At THE <span class="red-400">PROFESSIONAL COMMUNICATIONS</span>, we pride ourselves on not only delivering reliable connectivity solutions but also doing so with the fastest delivery cycles in the industry.
+                Our streamlined processes and agile approach allow us to expedite the implementation of our services, minimizing downtime and ensuring swift deployment.
+                We understand the value of time in today's fast-paced world, and our commitment to delivering fast turnaround times sets us apart. With THE PROFESSIONAL, you can count on rapid deployment without compromising on the quality and reliability of our connectivity solutions.
+            </p>
+            <h2 class="ofrz-100">Our Customers:</h2>
+            <p class="about-content-100">
+                Our customers are at the heart of everything we do at THE PROSFESSIONAL Communications.We cater to a wide range of industries, serving diverse sectors with our connectivity solutions. Our customer base spans various industries, including Banking and Finance, IT and Technology, Healthcare, Education, Manufacturing and Logistics, Retail and E-commerce, Media and Entertainment, and Aviation.
+                Our solutions are designed to meet the connectivity needs of businesses across these sectors, empowering them to leverage the full potential of the digital world.
+            </p>
         </div>
     </section>
 
@@ -135,50 +78,4 @@
 
 <style>
 
-.box-radius {
-    position: relative;
-    width: 280px;
-    height: 280px;
-    border-radius: 50%;
-    overflow: hidden;
-}
-
-section.about-content-bordz {
-    padding-top: 40px;
-    padding-bottom: 100px;
-}
-.box-radius img.speed-100 {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-}
-.speed-10011 {
-    width: 165px;
-    height: auto;
-}
-.sevz-200 {
-    margin-top: 12px;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    color: rgb(86 87 89);
-    line-height: 23px;
-}
-.btmz-img {
-    z-index: 11;
-    position: absolute;
-    margin-top: -40px;
-    left: 22.7%;
-}
-.box-radius::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: rgba(255, 0, 0, 0.5);
-    clip-path: polygon(0 0, 63% 53%, 0 127%);
-    z-index: 2;
-    transform: rotate(276deg);
-}
 </style>

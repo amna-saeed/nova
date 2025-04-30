@@ -1828,6 +1828,8 @@ span.red-400 {
 p.about-content-100 {
     font-size: 19px;
     color: rgb(81 89 108);
+	line-height: 30px;
+    text-align: justify;
 }
 .inner-header {
 	padding-top: 40px;
@@ -1857,6 +1859,53 @@ p.about-content-100 {
 	-webkit-background-size: cover;
 	background-size: cover;
 	height: 525px;
+}
+p.instr-cont {
+    text-align: center;
+    font-size: 28px;
+    margin: 40px 0px 0px;
+    color: #da0000;
+    font-weight: 600;
+    cursor: pointer;
+}
+.pay-box-new h1 {
+    font-size: 31px;
+    font-weight: 800;
+    text-align: center;
+    margin: 19px 0px 6px;
+    color: #282828;
+}
+.pay-box-new p {
+    font-size: 22px;
+    text-align: center;
+    color: black;
+    line-height: 25px;
+}
+.complete-bnr-txt h1 {
+    font-size: 62px;
+    margin: 0px;
+    line-height: 49px;
+    text-transform: capitalize;
+    color: #da0000;
+}
+h2.ofrz-100 {
+    font-size: 25px;
+    margin: 0px;
+    color: black;
+    font-weight: 600;
+}
+.complete-bnr-txt {
+    margin: 129px 57px;
+}
+.icons-pay-box img {
+    width: 75%;
+    margin-bottom: 22px;
+    cursor: pointer;
+}
+.icons-pay-box {
+    width: 100%;
+    text-align: center;
+    margin: 0px;
 }
 img.head-icnz {
     width: 16px;

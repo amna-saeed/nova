@@ -12,7 +12,7 @@
                             data-hoffset="['0','0','0','0']"
                             data-y="['top','top','top','top']"
                             data-voffset="['83','100','100','110']"
-                            data-fontsize="['65','60','50','30']"
+                            data-fontsize="['90','60','50','30']"
                             data-lineheight="['100','100','100','50']"
                             data-width="none"
                             data-height="none"
@@ -26,7 +26,7 @@
                             data-splitin="none"
                             data-splitout="none"
                             data-responsive_offset="on"
-                            style="z-index: 7; white-space: nowrap; font-weight: 600;color: #da0000;"
+                            style="z-index: 7; white-space: nowrap; font-weight: 800;color: #da0000;"
                         >
                             <span class="text-thm">Fast, Faster </span>  
                         </div>
@@ -36,8 +36,8 @@
                             data-hoffset="['1','50','0','0']"
                             data-y="['top','top','top','top']"
                             data-voffset="['175','180','180','180']"
-                            data-fontsize="['65','32','32','32']"
-                            data-lineheight="['50','40','40','30']"
+                            data-fontsize="['95','32','32','32']"
+                            data-lineheight="['100','40','40','30']"
                             data-width="none"
                             data-height="none"
                             data-whitespace="nowrap"
@@ -50,7 +50,7 @@
                             data-splitin="none"
                             data-splitout="none"
                             data-responsive_offset="on"
-                            style="z-index: 7; white-space: nowrap;font-weight: 600; color: #da0000;"
+                            style="z-index: 7; white-space: nowrap;font-weight: 800; color: #da0000;"
                         >
                          Fastest
                         </div>
@@ -59,9 +59,9 @@
                             data-x="['left','left','center','center']"
                             data-hoffset="['8','50','0','0']"
                             data-y="['top','top','top','top']"
-                            data-voffset="['219px','220','220','220']"
-                            data-fontsize="['30','16','14','14']"
-                            data-lineheight="['70','70','70','50']"
+                            data-voffset="['224px','220','220','220']"
+                            data-fontsize="['37','16','14','14']"
+                            data-lineheight="['152','70','70','50']"
                             data-width="none"
                             data-height="none"
                             data-whitespace="nowrap"
@@ -74,7 +74,7 @@
                             data-splitin="none"
                             data-splitout="none"
                             data-responsive_offset="on"
-                            style="z-index: 7; white-space: nowrap;color: #0c0b0b;"
+                            style="z-index: 7; white-space: nowrap;color: #0c0b0b;font-weight: 800"
                         >
                         Feel The Diffrenece With
                         </div>
@@ -83,9 +83,9 @@
                             data-x="['left','left','center','center']"
                             data-hoffset="['8','50','0','0']"
                             data-y="['top','top','top','top']"
-                            data-voffset="['255','260','260','260']"
-                            data-fontsize="['30','16','14','14']"
-                            data-lineheight="['70','70','70','50']"
+                            data-voffset="['309','260','260','260']"
+                            data-fontsize="['37','16','14','14']"
+                            data-lineheight="['83','70','70','50']"
                             data-width="none"
                             data-height="none"
                             data-whitespace="nowrap"
@@ -98,11 +98,11 @@
                             data-splitin="none"
                             data-splitout="none"
                             data-responsive_offset="on"
-                            style="z-index: 7; white-space: nowrap;color: #0c0b0b;"
+                            style="z-index: 7; white-space: nowrap;color: #0c0b0b;font-weight: 800"
                         >
                         Commited Speed 200Mbps
                         </div>
-                        <div
+                        {{-- <div
                             class="tp-caption sbut2 btn-round"
                             data-x="['left','left','center','center']"
                             data-hoffset="['0','200','0','0']"
@@ -120,13 +120,13 @@
                             style="z-index: 7;"
                         >
                             <a class="btn thm-btn inverse" href="#">Order Now!</a>
-                        </div>
+                        </div> --}}
                     </li>
                 <!-- SLIDE  -->
                     <li data-index="rs-2" data-transition="slideup">
-                        <img src="{{asset('assets/images/hosting/slider/3.png')}}" class="slidez-new"
+                        <img src="{{asset('assets/images/hosting/slider/internet-slider.jpeg')}}" class="slidez-new"
                         />
-                        <div
+                        {{-- <div
                             class="tp-caption montserrat fweight-6 text-white tp-resizeme start"
                             data-x="['left','left','center','center']"
                             data-hoffset="['0','0','0','0']"
@@ -148,7 +148,7 @@
                             data-responsive_offset="on"
                             style="z-index: 7; white-space: nowrap; font-weight: 600;color: #da0000;"
                         >
-                            <span class="text-thm">Experience</span> Broadband
+                            <span class="text-thm">TV, Movies</span> aur
                         </div>
 
                         <div
@@ -173,10 +173,10 @@
                             data-responsive_offset="on"
                             style="z-index: 7; white-space: nowrap;color: #da0000;font-weight: 600;"
                         >
-                        Like Never Before
-                        </div>
+                        Entertainment
+                        </div> --}}
 
-                        <div
+                        {{-- <div
                             class="tp-caption raleway white text-white tp-resizeme"
                             data-x="['left','left','center','center']"
                             data-hoffset="['9','50','0','0']"
@@ -247,9 +247,9 @@
                             style="z-index: 7; white-space: nowrap;color: rgb(10 16 28);font-size: 17px;"
                         >
                         Equal Upload and Download speed
-                        </div>
+                        </div> --}}
 
-                        <div
+                        {{-- <div
                             class="tp-caption sbut2 btn-round"
                             data-x="['left','left','center','center']"
                             data-hoffset="['0','200','0','0']"
@@ -267,13 +267,14 @@
                             style="z-index: 7;"
                         >
                             <a class="btn thm-btn inverse" href="#">Order Now!</a>
-                        </div>
-                    </li>
+                        </div> --}}
+                    </li> 
+
                     <li data-index="rs-3" data-transition="slideup">
-                        <img src="{{asset('assets/images/hosting/slider/2.png')}}" 
+                        <img src="{{asset('assets/images/hosting/slider/WhatsAppimage2025-04-30 at 11.58.27 AM.jpeg')}}" 
                         class="slidez-new"
                         />
-                        <div
+                        {{-- <div
                             class="tp-caption montserrat fweight-6 text-white tp-resizeme start"
                             data-x="['left','left','center','center']"
                             data-hoffset="['0','0','0','0']"
@@ -294,10 +295,9 @@
                             data-splitout="none"
                             data-responsive_offset="on"
                             style="z-index: 7; white-space: nowrap; font-weight: 600;color: #da0000;"
-                        >
+                            >
                             <span class="text-thm">HD</span> Entertainment
                         </div>
-
                         <div
                             class="tp-caption montserrat fweight-6 text-white tp-resizeme"
                             data-x="['left','left','center','center']"
@@ -319,10 +319,9 @@
                             data-splitout="none"
                             data-responsive_offset="on"
                             style="z-index: 7; white-space: nowrap;color: rgb(16 69 87);font-weight: 600;"
-                        >
-                        At Your FingerTips
+                            >
+                            At Your FingerTips
                         </div>
-
                         <div
                             class="tp-caption raleway white text-white tp-resizeme"
                             data-x="['left','left','center','center']"
@@ -388,7 +387,7 @@
                             style="z-index: 7;"
                             >
                             <a class="btn thm-btn inverse" href="#">Order Now!</a>
-                        </div>
+                        </div> --}}
                     </li>
                 </ul>
             </div>
