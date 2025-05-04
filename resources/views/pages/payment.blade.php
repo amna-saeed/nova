@@ -46,7 +46,7 @@
                             </div>
                         </div>
                     </div>
-                    <p class="instr-cont">For instruction on how to pay, click here</p>
+                    <p class="instr-cont"><a>For instruction on how to pay, click here</a></p>
                 </div>
             </div>
         </div>
@@ -64,7 +64,7 @@
         margin-bottom: 20px;
     }
 </style>
-    @stop
+@stop
 @section('js')
 
 @endsection

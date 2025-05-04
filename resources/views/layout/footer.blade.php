@@ -107,6 +107,12 @@
                         <div class="footer-widget latest-post">
                             <h3 class="title">Legal</h3>
                             <ul>
+                               <li>
+                                    <span class="border"></span>
+                                    <div class="content">
+                                        <a href="{{route('terms-condition')}}">Terms & Conditions </a>
+                                    </div>
+                                </li>
                                 <li>
                                     <span class="border"></span>
                                     <div class="content">
@@ -116,13 +122,7 @@
                                 <li>
                                     <span class="border"></span>
                                     <div class="content">
-                                        <a href="{{route('terms-condition')}}">Terms & Conditions </a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <span class="border"></span>
-                                    <div class="content">
-                                        <a href="classes-list.html">Refund Policy</a>
+                                        <a href="{{route('refund-policy')}}">Refund Policy</a>
                                     </div>
                                 </li>
                             </ul>

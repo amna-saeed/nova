@@ -53,6 +53,10 @@ class HomeController extends Controller
     {
         return view('pages.privacy-policy');
     }
+    public function refundPage()
+    {
+        return view('pages.refund-policy');
+    }
     public function termsPage()
     {
         return view('pages.terms-condition');
@@ -60,5 +64,15 @@ class HomeController extends Controller
     public function PaymentPage()
     {
         return view('pages.payment');
+    }
+    public function darkfiberPage()
+    {
+        return view('pages.dark-fiber');
+    }
+
+    // payment
+    public function bankpaymentPage()
+    {
+        return view('pages.bank-payment');
     }
 }

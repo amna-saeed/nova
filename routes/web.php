@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\{UserController,WhatsAppController,TestimonialsController,SeoController,HomeController};
+use App\Http\Controllers\{UserController,WhatsAppController,TestimonialsController,SeoController,HomeController,BankController};
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,11 +21,18 @@ Route::get('/customer-center', [HomeController::class, 'customerPage'])->name('c
 Route::get('/customer-care', [HomeController::class, 'carePage'])->name('customer-care');
 Route::get('/career', [HomeController::class, 'careerPage'])->name('career');
 Route::get('/privacy-policy', [HomeController::class, 'privacyPage'])->name('privacy-policy');
+Route::get('/refund-policy', [HomeController::class, 'refundPage'])->name('refund-policy');
 Route::get('/terms-condition', [HomeController::class, 'termsPage'])->name('terms-condition');
 Route::get('/payment', [HomeController::class, 'PaymentPage'])->name('payment');
 // services
 Route::get('/internet', [HomeController::class, 'internetPage'])->name('internet');
+Route::get('/dark-fiber', [HomeController::class, 'darkfiberPage'])->name('dark-fiber');
 
+// payment
+Route::get('/bank-payment', [HomeController::class, 'bankpaymentPage'])->name('bank-payment');
+Route::get('/go-to-bank', [BankController::class, 'redirectToBank'])->name('go.to.bank');
+
+// end
 Route::post('/webhook/whatsapp', [WhatsAppController::class, 'handleIncoming']);
 
 Auth::routes();

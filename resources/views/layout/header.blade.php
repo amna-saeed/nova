@@ -86,34 +86,31 @@
                                             <div class="row mrgnz-t">
                                                 <div class="col-md-4">
                                                     <ul class="outer-box">
-                                                        <li class="drop-txt"><a href="{{ route('internet') }}">Cloud Services</a></li>
+                                                        <li class="drop-txt"><a href="{{ route('dark-fiber') }}">Dark Fiber
+                                                            <img src="{{asset('assets/images/webImg/fiberopticnetwork.png')}}" class="head-icnz" /></a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="col-md-4">
                                                     <ul>
-                                                        <li class="drop-txt"><a href="{{ route('internet') }}">Fiber Optic Networks</a></li>
+                                                        <li class="drop-txt"><a href="{{ route('internet') }}">Co-Location
+                                                            <img src="{{asset('assets/images/webImg/co-locationservices.png')}}" class="head-icnz" /></a></li>
+                                                            </a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="col-md-4">
                                                     <ul>
-                                                        <li class="drop-txt"><a href="{{ route('internet') }}">⁠Internet Bandwidth & Data</a></li>
+                                                        <li class="drop-txt"><a href="{{ route('internet') }}">Data VPN
+                                                            <img src="{{asset('assets/images/webImg/DataVPN.png')}}" class="head-icnz" /></a></li>
+                                                            </a></li>
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="row btm-roz"> 
                                                 <div class="col-md-4">
                                                     <ul>
-                                                        <li class="drop-txt"><a href="{{ route('internet') }}">DPLC & IPLC</a></li>
-                                                    </ul>
-                                                </div>
-                                                <div class="col-md-4">
-                                                    <ul>
-                                                        <li class="drop-txt"><a href="{{ route('internet') }}">Data VPN</a></li>
-                                                    </ul>
-                                                </div>
-                                                <div class="col-md-4">
-                                                    <ul>
-                                                        <li class="drop-txt"><a href="{{ route('internet') }}">⁠Co-location Services</a></li>
+                                                        <li class="drop-txt"><a href="{{ route('internet') }}">Data Center
+                                                            <img src="{{asset('assets/images/webImg/internett(1).png')}}" class="head-icnz" /></a></li>
+                                                            </a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -121,49 +118,6 @@
                                     </li>
                                 </ul>
                             </li>
-                            {{-- <li><a href="{{ route('packages') }}">Packages</a></li> --}}
-                            {{-- <li class="dropdown">
-                                <a href="#">Blogs</a>
-                                <ul class="dropz full-width-dropdown">
-                                    <div class="dropz-content">
-                                        <div class="column">
-                                            <h4>Blog Categories</h4>
-                                        </div>
-                                    </div>
-                                </ul>
-                            </li> --}}
-                            {{-- <li><a href="{{ route('contact-us') }}">Contact Us</a></li> --}}
-                            {{-- <li class="nav-item">
-                                <a href="#">Support Us</a>
-                                <ul class="dropz full-width-dropdown">
-                                    <li class="dropz-content">
-                                        <div class="row mrgnz-t">
-                                            <div class="col-md-6">
-                                                <ul class="outer-box">
-                                                    <li class="drop-txt"><a href="{{ route('internet') }}">Customer Care</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <ul>
-                                                    <li class="drop-txt"><a href="{{ route('internet') }}">Complaint Center</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="row btm-roz"> 
-                                            <div class="col-md-6">
-                                                <ul>
-                                                    <li class="drop-txt"><a href="{{ route('internet') }}">Tax Notification</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <ul>
-                                                    <li class="drop-txt"><a href="{{ route('internet') }}">FAQ</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li> --}}
                         </ul>
                     </div>
                 </div>
@@ -281,7 +235,7 @@ img.headrz-env {
 .navigation .nav-header > ul > li > ul.dropz {
     position: absolute;
     top: 118%;
-    left: 48%;
+    left: 65%;
     width: 100vw;
     background: #ffffff;
     opacity: 0;
