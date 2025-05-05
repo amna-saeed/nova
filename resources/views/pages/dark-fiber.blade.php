@@ -4,6 +4,9 @@
 
 
 <section class="inner-header-fiber">
+    <div class="complete-bnr-txt">
+        <h1>DARK FIBER</h1><br />
+    </div>
 </section>
 
     <div class="tab-nav">
@@ -25,15 +28,17 @@
     <section id="overview">
         <div class="container">
             <div class="srvce-cont-box">
-                <h2 class="agree-head-bullet"><span class="bullet"></span>Dark Fiber</h2>
                 <p class="internet-para">
-                    <ul class="roundz-red">
+                    TPC Communication offers a fully managed Dark Fiber Connectivity service tailored for a diverse range of clients, including cellular operators, local and international telecom providers, telecom infrastructure and tower companies, government agencies, and other PTA-licensed operators. 
+                    <br />Nova Communication’s network is designed with an open architecture that allows seamless interconnection with other networks and supports the integration of advanced technological components that enhance both availability and diversity. 
+                    <br /> This approach enables clients to enter new markets swiftly, with minimal effort and reduced capital investments.
+                    {{-- <ul class="roundz-red">
                         <li class="fntz-red-100">TPC Communication offers a fully managed Dark Fiber Connectivity service tailored for a diverse range of clients, including cellular operators, 
                             local and international telecom providers, telecom infrastructure and tower companies, government agencies, and other PTA-licensed operators.</li>
                         <li class="fntz-red-100">Nova Communication’s network is designed with an open architecture that allows seamless interconnection with other networks and supports the 
                             integration of advanced technological components that enhance both availability and diversity.</li>
                         <li class="fntz-red-100">This approach enables clients to enter new markets swiftly, with minimal effort and reduced capital investments.</li>
-                    </ul>
+                    </ul> --}}
                 </p>
                 <h2 class="agree-head-bullet"><span class="bullet"></span>Metro Fiber Network</h2>
                 <p class="internet-para">
