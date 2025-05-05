@@ -1,8 +1,8 @@
 @extends('layout.main')
 @section('content')
-
+{{-- 
     <section class="inner-header-privacy11">
-    </section>
+    </section> --}}
 
     <section class="terms-info">
         <div class="outer">

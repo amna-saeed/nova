@@ -1,18 +1,15 @@
 @extends('layout.main')
 @section('content')
 
-
-
-<section class="inner-header-fiber">
+<section class="inner-header-center">
     <div class="complete-bnr-txt">
-        <h1>DARK FIBER</h1><br />
+        <h1>DATA CENTER </h1>
     </div>
 </section>
 
     <div class="tab-nav">
         <div class="tabs">
             <a href="#overview" class="tab-link active">Overview</a>
-            <a href="#feature" class="tab-link">Features</a>
         </div>
         <a href="{{route ('payment')}}">
         <button class="callback-btn">
@@ -27,80 +24,49 @@
     <section id="overview">
         <div class="container">
             <div class="srvce-cont-box">
-                <p class="internet-para">
-                    TPC Communication offers a fully managed Dark Fiber Connectivity service tailored for a diverse range of clients, including cellular operators, local and international telecom providers, telecom infrastructure and tower companies, government agencies, and other PTA-licensed operators. 
-                    <br />Nova Communication’s network is designed with an open architecture that allows seamless interconnection with other networks and supports the integration of advanced technological components that enhance both availability and diversity. 
-                    <br /> This approach enables clients to enter new markets swiftly, with minimal effort and reduced capital investments.
-                </p>
-                <h2 class="agree-head-bullet"><span class="bullet"></span>Metro Fiber Network</h2>
+                <h2 class="agree-head-bullet"><span class="bullet"></span>Computer/Hyper Converged Infrastructure</h2>
                 <p class="internet-para">
                     <ul class="roundz-red">
                         <li class="fntz-red-100">
-                            TPC Communication’s extensive metro fiber network, spanning 650 kilometers, represents a substantial infrastructure investment.
+                            Cisco Unified Computing System™ (Cisco UCS®) is an integrated computing infrastructure with intent-based management to automate and accelerate the deployment of all your applications.
                         </li>
                         <li class="fntz-red-100">
-                            This robust infrastructure and expansive coverage underscore our ability to support a wide array of services across a broad geographic area.
+                            Virtualization
+                        </li>
+                        <li>Cloud Computing</li>
+                        <li>Scale-Out</li>
+                        <li>Bare-Metal Workloads</li>
+                        <li>In-memory Analytics</li>
+                        <li>Edge Computing</li>
+                    </ul>
+                </p>
+                <h2 class="agree-head-bullet"><span class="bullet"></span>TPC's Integrated IT Solutions</h2>
+                <p class="internet-para">
+                    <ul class="roundz-red">
+                        <li class="fntz-red-100">
+                            At TPC, we transform how businesses manage their IT infrastructure by partnering with leading technologies like Cisco UCS. This platform unifies industry-standard servers with networking and storage access, enabling a consolidated system that boosts productivity and reduces total cost of ownership for our clients.
+                        </li>
+                        <li>Our offerings also include Dell EMC’s Hyper-Converged Infrastructure (HCI) Portfolio, which accelerates IT outcomes by streamlining operations with integrated systems. TPC helps you simplify the management of complex workloads with scalable, efficient solutions tailored to your enterprise needs.
+                        </li>
+                        <li>Additionally, with Huawei’s Hyper-Converged Infrastructure, TPC empowers organizations to build robust IT environments — from core data centers to edge deployments. We deliver dependable and high-performance infrastructure capable of handling mission-critical workloads with reliability and efficiency.
                         </li>
                     </ul>
                 </p>
-                <h2 class="agree-head-bullet"><span class="bullet"></span>Fiber To The Telco(FTTT)</h2>
+                <h2 class="agree-head-bullet"><span class="bullet"></span>Cisco ACI With TPC</h2>
                 <p class="internet-para">
                     <ul class="roundz-red">
                         <li class="fntz-red-100">
-                            TPC Communication plays a crucial role in advancing Pakistan’s 5G infrastructure by providing fiber-to-the-tower services that connect cellular towers nationwide. This ensures high-speed, reliable data transmission essential for modern communication demands. Clients can choose Dark Fiber on an Indefeasible Right of Use (IRU) basis, offering long-term, customizable control over their network infrastructure. Alternatively, TPC Communication’s Managed Capacity service provides flexible contracts that deliver high-speed connectivity without the complexities of managing the physical network.
+                            At TPC, we help businesses enhance the efficiency of their data center operations with Cisco Application Centric Infrastructure (ACI). 
                         </li>
-                    </ul>
-                </p>
-                <h2 class="agree-head-bullet"><span class="bullet"></span>Operation and Maintence</h2>
-                <p class="internet-para">
-                    <ul class="roundz-red">
                         <li class="fntz-red-100">
-                            TPC Communication also extends its expertise in network management through comprehensive operation and maintenance services. Beyond standard operational support, TPC Communication offers proactive and preventive maintenance, along with cable guard services, ensuring that the fiber optic network is well-maintained and efficiently managed. With a dedicated team deployed nationwide, Nova Communication guarantees that its clients’ fiber networks remain in top condition, ensuring uninterrupted service and optimal performance.
+                            By leveraging Cisco ACI, our clients benefit from increased automation and consistent policy enforcement across both on-premise and cloud environments. 
+                        </li>
+                        <li class="fntz-red-100">
+                            This unified approach simplifies management, improves agility, and drives operational excellence.
                         </li>
                     </ul>
                 </p>
                
-            </div>
-        </div>
-    </section>
-    <section id="feature">
-        <div class="container">
-            <div class="mange-boxes">
-                <div class="box-fea">
-                    <img src="{{asset('assets/images/webImg/security1.png')}}" class="fea-100" alt="" />
-                    <div class="box-fea-100">
-                        <h2>Security</h2>
-                        <p>Features such as biometric access, surveillance cameras, and on-site security personnel.</p>
-                    </div>
-                </div>
-                <div class="box-fea">
-                    <img src="{{asset('assets/images/webImg/scalabaility.png')}}" class="fea-100" alt="" />
-                    <div class="box-fea-100">
-                        <h2>Scalability</h2>
-                        <p>Options to scale up or down based on your needs without the complexities of managing physical infrastructure.</p>
-                    </div>
-                </div>
-                <div class="box-fea">
-                    <img src="{{asset('assets/images/webImg/coolingsystem.png')}}" class="fea-100" alt="" />
-                    <div class="box-fea-100">
-                        <h2>Cooling Systems</h2>
-                        <p>Advanced Cooling and Heating systems to maintain optimal temperature and humidity levels</p>
-                    </div>
-                </div>
-                <div class="box-fea">
-                    <img src="{{asset('assets/images/webImg/redundancy.png')}}" class="fea-100" alt="" />
-                    <div class="box-fea-100">
-                        <h2>Redundancy and Reliability</h2>
-                        <p>Backup power systems like UPS and generators ensure continuous operations.</p>
-                    </div>
-                </div>
-                <div class="box-fea">
-                    <img src="{{asset('assets/images/webImg/networ connectivity.png')}}" class="fea-100" alt="" />
-                    <div class="box-fea-100">
-                        <h2>Network Connectivity</h2>
-                        <p>High-speed connections to maintain uptime and performance</p>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -279,6 +245,7 @@ p.internet-para{
 section {
     min-height: 300px;
 }
+
 </style>
 <script>
     const links = document.querySelectorAll('.tab-link');

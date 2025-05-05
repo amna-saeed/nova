@@ -3,9 +3,9 @@
 
 
 
-<section class="inner-header-fiber">
+<section class="inner-header-location">
     <div class="complete-bnr-txt">
-        <h1>DARK FIBER</h1><br />
+        <h1>CO-LOCATION </h1><br />
     </div>
 </section>
 
@@ -13,10 +13,11 @@
         <div class="tabs">
             <a href="#overview" class="tab-link active">Overview</a>
             <a href="#feature" class="tab-link">Features</a>
+            <a href="#benefit" class="tab-link">Benefits</a>
         </div>
         <a href="{{route ('payment')}}">
         <button class="callback-btn">
-        Order Now
+            Order Now
         </button></a>
     </div>
 
@@ -28,38 +29,17 @@
         <div class="container">
             <div class="srvce-cont-box">
                 <p class="internet-para">
-                    TPC Communication offers a fully managed Dark Fiber Connectivity service tailored for a diverse range of clients, including cellular operators, local and international telecom providers, telecom infrastructure and tower companies, government agencies, and other PTA-licensed operators. 
-                    <br />Nova Communication’s network is designed with an open architecture that allows seamless interconnection with other networks and supports the integration of advanced technological components that enhance both availability and diversity. 
-                    <br /> This approach enables clients to enter new markets swiftly, with minimal effort and reduced capital investments.
-                </p>
-                <h2 class="agree-head-bullet"><span class="bullet"></span>Metro Fiber Network</h2>
-                <p class="internet-para">
                     <ul class="roundz-red">
                         <li class="fntz-red-100">
-                            TPC Communication’s extensive metro fiber network, spanning 650 kilometers, represents a substantial infrastructure investment.
+                            Managing critical infrastructure can be a challenge for businesses, especially when it comes to ensuring security, scalability, and consistent performance.
                         </li>
                         <li class="fntz-red-100">
-                            This robust infrastructure and expansive coverage underscore our ability to support a wide array of services across a broad geographic area.
+                            TPC understands these concerns and offers a solution through our nationwide colocation services. With 200 ADM sites across the country, we provide secure and reliable environments where your essential systems can thrive.
                         </li>
+                        <li>Our state-of-the-art facilities are equipped to meet the demands of modern business operations, offering indoor space solutions, dependable power supply, and outdoor tower locations.</li>
+                        <li>This allows you to focus on your core business activities while TPC ensures your infrastructure remains protected and fully operational.</li>
                     </ul>
                 </p>
-                <h2 class="agree-head-bullet"><span class="bullet"></span>Fiber To The Telco(FTTT)</h2>
-                <p class="internet-para">
-                    <ul class="roundz-red">
-                        <li class="fntz-red-100">
-                            TPC Communication plays a crucial role in advancing Pakistan’s 5G infrastructure by providing fiber-to-the-tower services that connect cellular towers nationwide. This ensures high-speed, reliable data transmission essential for modern communication demands. Clients can choose Dark Fiber on an Indefeasible Right of Use (IRU) basis, offering long-term, customizable control over their network infrastructure. Alternatively, TPC Communication’s Managed Capacity service provides flexible contracts that deliver high-speed connectivity without the complexities of managing the physical network.
-                        </li>
-                    </ul>
-                </p>
-                <h2 class="agree-head-bullet"><span class="bullet"></span>Operation and Maintence</h2>
-                <p class="internet-para">
-                    <ul class="roundz-red">
-                        <li class="fntz-red-100">
-                            TPC Communication also extends its expertise in network management through comprehensive operation and maintenance services. Beyond standard operational support, TPC Communication offers proactive and preventive maintenance, along with cable guard services, ensuring that the fiber optic network is well-maintained and efficiently managed. With a dedicated team deployed nationwide, Nova Communication guarantees that its clients’ fiber networks remain in top condition, ensuring uninterrupted service and optimal performance.
-                        </li>
-                    </ul>
-                </p>
-               
             </div>
         </div>
     </section>
@@ -104,8 +84,73 @@
             </div>
         </div>
     </section>
-
+    <section id="benefit">
+        <div class="bg-mix-400">
+            <div class="cards-mix">
+                <div class="main-three-grip">
+                    <div class="box-cards-white">
+                        <img src="{{asset('assets/images/webImg/costefficiency.png')}}" class="box-img-200" alt="" />
+                        <div class="box-bene-100">
+                            <h2>Cost <br /> Efficiency</h2>
+                        </div>
+                    </div>
+                    <div class="box-cards-white">
+                        <img src="{{asset('assets/images/webImg/operational efficiency.png')}}" class="box-img-200" alt="" />
+                        <div class="box-bene-100">
+                            <h2>Operational <br />Efficiency</h2>
+                        </div>
+                    </div>
+                    <div class="box-cards-white">
+                        <img src="{{asset('assets/images/webImg/flexibility&growth.png')}}" class="box-img-200" alt="" />
+                        <div class="box-bene-100">
+                            <h2>Flexibility & <br />Growth</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
 <style>
+.box-bene-100 h2 {
+    font-size: 22px;
+    color: #da0000;
+    line-height: 25px;
+}
+.cards-mix{
+    border-radius: 17px;
+    border: 9px solid #fff;
+    padding: 60px;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    background: radial-gradient(circle at center, #ead1fa 0%, #f59a9a63 50%, #dae6fe 100%);
+}
+.box-img-200{
+    width: 23%;
+}
+.box-cards-white {
+    background: #ffff;
+    margin: 5px;
+    padding: 25px;
+}
+.main-three-grip {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    text-align: center;
+}
+#benefit {
+  scroll-margin-top: 165px; /* Adjust this to match your fixed header height */
+}
+.bg-mix-400{
+    background: #f1ebee;
+    padding: 50px;
+    margin: 0px 0px 30px;
+}
+.box-fea-100 p {
+    font-size: 17px;
+    color: #464646;
+}
 .box-fea-100 p {
     font-size: 17px;
     color: #464646;

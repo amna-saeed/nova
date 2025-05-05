@@ -92,14 +92,14 @@
                                                 </div>
                                                 <div class="col-md-4">
                                                     <ul>
-                                                        <li class="drop-txt"><a href="{{ route('internet') }}">Co-Location
+                                                        <li class="drop-txt"><a href="{{ route('co-location') }}">Co-Location
                                                             <img src="{{asset('assets/images/webImg/co-locationservices.png')}}" class="head-icnz" /></a></li>
                                                             </a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="col-md-4">
                                                     <ul>
-                                                        <li class="drop-txt"><a href="{{ route('internet') }}">Data VPN
+                                                        <li class="drop-txt"><a href="{{ route('data-vpn') }}">Data VPN
                                                             <img src="{{asset('assets/images/webImg/DataVPN.png')}}" class="head-icnz" /></a></li>
                                                             </a></li>
                                                     </ul>
@@ -108,7 +108,7 @@
                                             <div class="row btm-roz"> 
                                                 <div class="col-md-4">
                                                     <ul>
-                                                        <li class="drop-txt"><a href="{{ route('internet') }}">Data Center
+                                                        <li class="drop-txt"><a href="{{ route('data-center') }}">Data Center
                                                             <img src="{{asset('assets/images/webImg/internett(1).png')}}" class="head-icnz" /></a></li>
                                                             </a></li>
                                                     </ul>

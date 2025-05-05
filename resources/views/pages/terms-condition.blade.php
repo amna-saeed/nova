@@ -1,8 +1,8 @@
 @extends('layout.main')
 @section('content')
 
-    <section class="inner-header-career11">
-    </section>
+    {{-- <section class="inner-header-career11">
+    </section> --}}
 
     <section class="terms-info">
         <div class="outer">
@@ -118,7 +118,7 @@
                                                     <li>TPC may suspend services or deny access at its sole discretion for violations.</li>
                                                 </ul>
                                            </p>
-                                           <h2 class="carres-head">Installment Agreement</h2>
+                                           <h2 class="carres-head agree-100">Installment Agreement</h2>
                                             <p class="career-100">
                                                 This Agreement is made at on between <span class="bold-terms10">The Professional Communication,</span> having its registered office at Muhammadi Plaza 2nd Floor, 
                                                 Blue Area (hereinafter referred to as <span class="bold-terms10">"TPC",</span> which expression shall, where the context so permits, include its successors and 
@@ -179,7 +179,7 @@
                                                   <!-- Add more rows below as needed -->
                                                 </tbody>
                                             </table>
-                                            <h2 class="carres-head">Installment For Hardware</h2>
+                                            <h2 class="carres-head agree-100">Installment For Hardware</h2>
                                             <table>
                                                 <thead>
                                                   <tr>
@@ -232,7 +232,7 @@
                                                   </tr>
                                                 </tbody>
                                             </table>
-                                            <h2 class="carres-head">PC Communication (Pvt) Ltd <br />Hardware Installation & Payment Policy</h2>T
+                                            <h2 class="carres-head agree-100">TPC Communication (Pvt) Ltd <br />Hardware Installation & Payment Policy</h2>T
 
                                             <p class="career-100">
                                                 This document outlines the terms and conditions applicable to the Installation Agreement Form (CAF) between <span class="bold-terms10">TPC Communication (Pvt) Ltd.</span> 
@@ -266,13 +266,17 @@
                                                     <li>Bankruptcy or similar financial distress</li>
                                                     <li>Any adverse change in credit standing (at TPC’s discretion)</li>
                                                 </ul> 
-                                                The customer must respond to such a demand within <span class="bold-terms10">three (3) days</span> of receiving written notice <br/>
-                                                If payment is not made, TPC may:
-                                                <ul class="terms-ul">
-                                                    <li>Repossess hardware</li>
-                                                    <li>Transfer title back to TPC</li>
-                                                    <li>Sell the hardware to recover dues</li>
-                                                </ul>
+                                            </p>
+                                            <p class="career-100">
+                                              The customer must respond to such a demand within <span class="bold-terms10">three (3) days</span> of receiving written notice <br/>
+                                              If payment is not made, TPC may:
+                                              <ul class="terms-ul">
+                                                  <li>Repossess hardware</li>
+                                                  <li>Transfer title back to TPC</li>
+                                                  <li>Sell the hardware to recover dues</li>
+                                              </ul>
+                                            </p>
+                                            <p class="career-100">
                                                 Customers must not obstruct TPC’s agents from repossessing hardware.TPC representatives or agents are authorized to enter customer premises to repossess the equipment.
                                                 Customers may be required to sign documents facilitating repossession.All costs of repossession are recoverable from the customer.
                                                 If sale proceeds do not cover outstanding dues, the customer must pay the shortfall within <span class="bold-terms10">three (3) days</span> of notification.
@@ -282,6 +286,11 @@
                                             <p class="career-100">
                                                 TPC reserves the right to cancel the installment facility at any time. Upon such notice, the customer must pay the outstanding amount within<span class="bold-terms10"> three (3) days.</span>
                                                 </span>  
+                                            </p>
+                                            <h2 class="agree-head-bullet"><span class="bullet"></span>Warranty</h2>
+                                            <p class="career-100">
+                                              Unless otherwise specified, standard warranty terms and duration shall apply to all hardware provided under this agreement. 
+                                              <span class="bold-terms10"> three (3) days.</span>
                                             </p>
                                     </div>
                                 </div>
@@ -304,28 +313,38 @@
     </section> --}}
 
 <style>
-    table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 16px;
-    color: #333;
-  }
+h2.carres-head.agree-100 {
+  margin-bottom: 17px !important;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+  color: #333;
+  margin-top: 15px;
+}
+h2.carres-head.agree-100 {
+  margin-bottom: 20px !important;
+  margin-top: 24px !important;
+}h2.carres-head.agree-100 {
+  margin-bottom: 20px !important;
+  margin-top: 24px !important;
+}
+th, td {
+  padding: 12px;
+  border: 1px solid #b2b2b2;
+  text-align: left;
+}
 
-  th, td {
-    padding: 12px;
-    border: 1px solid #ccc;
-    text-align: left;
-  }
-
-  th {
-    background-color: #f4f4f4;
+th {
+  background-color: #ccc;
     color: #000;
-  }
+}
 .outer {
     margin-top: 30px;
 }
   tr:nth-child(even) {
-    background-color: #f9f9f9;
+    background-color:rgb(0 0 0 / 7%);
   }
 .agree-head-bullet {
     font-size: 23px;

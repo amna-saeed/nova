@@ -65,9 +65,25 @@ class HomeController extends Controller
     {
         return view('pages.payment');
     }
+    public function faqsPage()
+    {
+        return view('pages.faqs');
+    }
     public function darkfiberPage()
     {
         return view('pages.dark-fiber');
+    }
+    public function locationPage()
+    {
+        return view('pages.co-location');
+    }
+    public function dataPage()
+    {
+        return view('pages.data-vpn');
+    }
+    public function datacenterPage()
+    {
+        return view('pages.data-center');
     }
 
     // payment

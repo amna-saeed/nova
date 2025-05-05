@@ -24,9 +24,13 @@ Route::get('/privacy-policy', [HomeController::class, 'privacyPage'])->name('pri
 Route::get('/refund-policy', [HomeController::class, 'refundPage'])->name('refund-policy');
 Route::get('/terms-condition', [HomeController::class, 'termsPage'])->name('terms-condition');
 Route::get('/payment', [HomeController::class, 'PaymentPage'])->name('payment');
+Route::get('/faqs', [HomeController::class, 'faqsPage'])->name('faqs');
 // services
 Route::get('/internet', [HomeController::class, 'internetPage'])->name('internet');
 Route::get('/dark-fiber', [HomeController::class, 'darkfiberPage'])->name('dark-fiber');
+Route::get('/co-location', [HomeController::class, 'locationPage'])->name('co-location');
+Route::get('/data-vpn', [HomeController::class, 'dataPage'])->name('data-vpn');
+Route::get('/data-center', [HomeController::class, 'datacenterPage'])->name('data-center');
 
 // payment
 Route::get('/bank-payment', [HomeController::class, 'bankpaymentPage'])->name('bank-payment');

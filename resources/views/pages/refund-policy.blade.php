@@ -1,8 +1,8 @@
 @extends('layout.main')
 @section('content')
 
-    <section class="inner-header-refund11">
-    </section>
+    {{-- <section class="inner-header-refund11">
+    </section> --}}
 
     <section class="terms-info">
         <div class="outer">

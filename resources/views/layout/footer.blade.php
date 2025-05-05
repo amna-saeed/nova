@@ -147,12 +147,6 @@
                                 <li>
                                     <span class="border"></span>
                                     <div class="content">
-                                        <a href="{{route('contact-us')}}">Tax Notification</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <span class="border"></span>
-                                    <div class="content">
                                         <a href="{{route('contact-us')}}">FAQ</a>
                                     </div>
                                 </li>

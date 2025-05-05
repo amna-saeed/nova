@@ -2230,6 +2230,34 @@ h4.hosting-tmngs {
 	background-size: cover;
 	height: 470px;
 }
+.inner-header-location{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	position: relative;
+	background: url(../images/resources/colocation.png) center center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: auto;
+	border-bottom: 1px solid #77a2cc;
+}
+.inner-header-center{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	position: relative;
+	background: url(../images/resources/datacenter.png) center center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 470px;
+}
+.inner-header-vpn{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	position: relative;
+	background: url(../images/resources/VPN.png) center center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 470px;
+}
 .nav-tabs {
     border-bottom: 1px solid #ffffff !important;
 }
