@@ -11,9 +11,8 @@
 
     <div class="tab-nav">
         <div class="tabs">
-        <a href="#overview" class="tab-link active">Overview</a>
-        <a href="#pkges" class="tab-link">Package Plans</a>
-        <a href="#feature" class="tab-link">Features</a>
+            <a href="#overview" class="tab-link active">Overview</a>
+            <a href="#feature" class="tab-link">Features</a>
         </div>
         <a href="{{route ('payment')}}">
         <button class="callback-btn">
@@ -21,9 +20,9 @@
         </button></a>
     </div>
 
-    <section id="pkges">
+    {{-- <section id="pkges">
         @include('components.packages')
-    </section>    
+    </section>     --}}
 
     <section id="overview">
         <div class="container">
@@ -71,9 +70,8 @@
             </div>
         </div>
     </section>
-
-    <div class="container">
-        <section id="feature">
+    <section id="feature">
+        <div class="container">
             <div class="mange-boxes">
                 <div class="box-fea">
                     <img src="{{asset('assets/images/webImg/security1.png')}}" class="fea-100" alt="" />
@@ -118,8 +116,9 @@
                     </div>
                 </div>
             </div>
-        </section>
-    </div>
+        </div>
+    </section>
+
 <style>
 .box-fea-100 p {
     font-size: 17px;
@@ -127,6 +126,15 @@
 }
 img.fea-100 {
     width: 10%;
+}
+#feature {
+  scroll-margin-top: 165px; /* Adjust this to match your fixed header height */
+}
+p.internet-para{
+    font-size: 18px;
+    color: rgb(81 89 108);
+    margin-bottom: 22px;
+    line-height: 30px;
 }
 .sec-title h2.pkg-slidez {
     color: #da0000;
