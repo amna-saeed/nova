@@ -118,6 +118,13 @@
                                                     <li>TPC may suspend services or deny access at its sole discretion for violations.</li>
                                                 </ul>
                                            </p>
+                                           <div class="row">
+                                            <div class="col-lg-12 p-0">
+                                              <div class="bg-agree">
+                                                <img src="{{asset('assets/images/webImg/bg-form.png')}}" class="agree-partner" />
+                                              </div>
+                                            </div>
+                                           </div>
                                            <h2 class="carres-head agree-100">Installment Agreement</h2>
                                             <p class="career-100">
                                                 This Agreement is made at on between <span class="bold-terms10">The Professional Communication,</span> having its registered office at Muhammadi Plaza 2nd Floor, 
@@ -329,6 +336,10 @@ h2.carres-head.agree-100 {
 }h2.carres-head.agree-100 {
   margin-bottom: 20px !important;
   margin-top: 24px !important;
+}
+img.agree-partner {
+    width: 100%;
+    margin: 40px 0px 20px;
 }
 th, td {
   padding: 12px;

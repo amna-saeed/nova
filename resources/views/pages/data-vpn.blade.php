@@ -173,7 +173,7 @@
 }
 .cards-mix{
     border-radius: 17px;
-    border: 9px solid #fff;
+    border: 1px solid #fff;
     padding: 60px;
     width: 100%;
     max-width: 1100px;

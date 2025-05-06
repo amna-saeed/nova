@@ -1888,13 +1888,11 @@ p.instr-cont a{
 	text-decoration: underline;
 }
 p.instr-cont {
-    text-align: center;
+	text-align: center;
     font-size: 28px;
     margin: 40px 0px 0px;
-    color: #da0000;
+    color: #252424;
     font-weight: 600;
-    cursor: pointer;
-	text-decoration: underline;
 }
 .pay-box-new h1 {
     font-size: 31px;

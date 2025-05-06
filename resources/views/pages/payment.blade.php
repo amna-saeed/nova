@@ -46,7 +46,7 @@
                             </div>
                         </div>
                     </div>
-                    <p class="instr-cont"><a>For instruction on how to pay, click here</a></p>
+                    <p class="instr-cont">For instruction on how to pay,<a class="red-under"> click here</a></p>
                 </div>
             </div>
         </div>
