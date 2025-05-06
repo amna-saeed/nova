@@ -152,14 +152,17 @@
                     </div>
                     <div class="single-header-info">
                         <div class="icon-box">
-                            <a href="https://api.whatsapp.com/send/?phone=51111111872&amp;text&amp;app_absent=0" target="_blank">
+                            <a 
+                                href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" 
+                                target="_blank">
                             <div class="inner-box">
                                 <img class="headrz-env" src="{{'assets/images/webImg/AINova.png'}}" />
                             </div>
                             </a>
                         </div>
                         <div class="content">
-                            <a href="https://api.whatsapp.com/send/?phone=51111111872&amp;text&amp;app_absent=0" target="_blank">
+                            <a  href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" 
+                                target="_blank" >
                             <h3>Nova AI</h3>
                             </a>
                         </div>
