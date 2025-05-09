@@ -26,11 +26,15 @@ Route::get('/terms-condition', [HomeController::class, 'termsPage'])->name('term
 Route::get('/payment', [HomeController::class, 'PaymentPage'])->name('payment');
 Route::get('/faqs', [HomeController::class, 'faqsPage'])->name('faqs');
 // services
-Route::get('/internet', [HomeController::class, 'internetPage'])->name('internet');
 Route::get('/dark-fiber', [HomeController::class, 'darkfiberPage'])->name('dark-fiber');
 Route::get('/co-location', [HomeController::class, 'locationPage'])->name('co-location');
 Route::get('/data-vpn', [HomeController::class, 'dataPage'])->name('data-vpn');
 Route::get('/data-center', [HomeController::class, 'datacenterPage'])->name('data-center');
+Route::get('/internet', [HomeController::class, 'internetPage'])->name('internet');
+Route::get('/voice-services', [HomeController::class, 'voicePage'])->name('voice-services');
+Route::get('/sme-services', [HomeController::class, 'smePage'])->name('sme-services');
+Route::get('/networking-solutions', [HomeController::class, 'networkingPage'])->name('networking-solutions');
+Route::get('/technology-partner', [HomeController::class, 'technologyPage'])->name('technology-partner');
 
 // payment
 Route::get('/bank-payment', [HomeController::class, 'bankpaymentPage'])->name('bank-payment');

@@ -48,30 +48,25 @@
                                         <div class="row btm-roz"> 
                                             <div class="col-md-4">
                                                 <ul>
-                                                    <li class="drop-txt"><a href="{{ route('internet') }}">Data & Internet </a></li>
+                                                    <li class="drop-txt"><a href="{{ route('internet') }}">Internet</a></li>
                                                 </ul>
                                             </div>
                                             <div class="col-md-4">
                                                 <ul>
-                                                    <li class="drop-txt"><a href="{{ route('internet') }}">CIR</a></li>
+                                                    <li class="drop-txt"><a href="{{ route('voice-services') }}">Voice Services</a></li>
                                                 </ul>
                                             </div>
                                             
                                             <div class="col-md-4">
                                                 <ul>
-                                                    <li class="drop-txt"><a href="{{ route('internet') }}">IPBX</a></li>
+                                                    <li class="drop-txt"><a href="{{ route('sme-services') }}">SME Services</a></li>
                                                 </ul>
                                             </div>
                                         </div>
                                         <div class="row btm-roz"> 
                                             <div class="col-md-4">
                                                 <ul>
-                                                    <li class="drop-txt"><a href="{{ route('internet') }}">Networking</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-md-4">
-                                                <ul>
-                                                    <li class="drop-txt"><a href="{{ route('internet') }}">Managed Wifi</a></li>
+                                                    <li class="drop-txt"><a href="{{ route('networking-solutions') }}">Networking Solution In Pakistan</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -152,17 +147,14 @@
                     </div>
                     <div class="single-header-info">
                         <div class="icon-box">
-                            <a 
-                                href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" 
-                                target="_blank">
-                            <div class="inner-box">
-                                <img class="headrz-env" src="{{'assets/images/webImg/AINova.png'}}" />
-                            </div>
+                            <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank">
+                                <div class="inner-box">
+                                    <img class="headrz-env" src="{{'assets/images/webImg/AINova.png'}}" />
+                                </div>
                             </a>
                         </div>
                         <div class="content">
-                            <a  href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" 
-                                target="_blank" >
+                            <a  href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank" >
                             <h3>Nova AI</h3>
                             </a>
                         </div>

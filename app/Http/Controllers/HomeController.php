@@ -85,6 +85,22 @@ class HomeController extends Controller
     {
         return view('pages.data-center');
     }
+    public function voicePage()
+    {
+        return view('pages.voice-services');
+    }
+    public function smePage()
+    {
+        return view('pages.sme-services');
+    }
+    public function networkingPage()
+    {
+        return view('pages.networking-solutions');
+    }
+    public function technologyPage()
+    {
+        return view('pages.technology-partner');
+    }
 
     // payment
     public function bankpaymentPage()

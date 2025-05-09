@@ -1,9 +1,11 @@
 @extends('layout.main')
 @section('content')
 
-<section class="inner-header-vpn">
+
+
+<section class="inner-header-fiber">
     <div class="complete-bnr-txt">
-        <h1>INTERNET SERVICES </h1>
+        <h1>DARK FIBER</h1><br />
     </div>
 </section>
 
@@ -11,7 +13,6 @@
         <div class="tabs">
             <a href="#overview" class="tab-link active">Overview</a>
             <a href="#feature" class="tab-link">Features</a>
-            <a href="#benefit" class="tab-link">Benefits</a>
         </div>
         <a href="{{route ('payment')}}">
         <button class="callback-btn">
@@ -27,129 +28,84 @@
         <div class="container">
             <div class="srvce-cont-box">
                 <p class="internet-para">
+                    TPC Communication offers a fully managed Dark Fiber Connectivity service tailored for a diverse range of clients, including cellular operators, local and international telecom providers, telecom infrastructure and tower companies, government agencies, and other PTA-licensed operators. 
+                    <br />Nova Communication’s network is designed with an open architecture that allows seamless interconnection with other networks and supports the integration of advanced technological components that enhance both availability and diversity. 
+                    <br /> This approach enables clients to enter new markets swiftly, with minimal effort and reduced capital investments.
+                </p>
+                <h2 class="agree-head-bullet"><span class="bullet"></span>Metro Fiber Network</h2>
+                <p class="internet-para">
                     <ul class="roundz-red">
                         <li class="fntz-red-100">
-                            Your business’s internet connection is the backbone of your organization, and inefficiencies or limitations in this connection can disrupt business processes, causing workflow interruptions that affect productivity and, ultimately, your bottom line.
+                            TPC Communication’s extensive metro fiber network, spanning 650 kilometers, represents a substantial infrastructure investment.
                         </li>
                         <li class="fntz-red-100">
-                            Whether you're a small startup or a large corporation, TPC offers customized internet solutions designed to match your specific business needs. 
+                            This robust infrastructure and expansive coverage underscore our ability to support a wide array of services across a broad geographic area.
                         </li>
-                        <li> Our tailored packages deliver the ideal combination of speed, bandwidth, and dedicated support to ensure optimal performance and satisfaction.</li>
-                        <li>We understand how critical it is to keep your business online at all times.</li>
-                        <li>That’s why our 24/7 Enterprise Network Operations Center (ENOC), staffed by seasoned professionals, actively monitors and manages your network to reduce downtime and enhance productivity.</li>
-                        <li>Partner with TPC to future-proof your internet connection—because when it comes to staying ahead, your business deserves nothing less than the best.</li>
                     </ul>
                 </p>
+                <h2 class="agree-head-bullet"><span class="bullet"></span>Fiber To The Telco(FTTT)</h2>
+                <p class="internet-para">
+                    <ul class="roundz-red">
+                        <li class="fntz-red-100">
+                            TPC Communication plays a crucial role in advancing Pakistan’s 5G infrastructure by providing fiber-to-the-tower services that connect cellular towers nationwide. This ensures high-speed, reliable data transmission essential for modern communication demands. Clients can choose Dark Fiber on an Indefeasible Right of Use (IRU) basis, offering long-term, customizable control over their network infrastructure. Alternatively, TPC Communication’s Managed Capacity service provides flexible contracts that deliver high-speed connectivity without the complexities of managing the physical network.
+                        </li>
+                    </ul>
+                </p>
+                <h2 class="agree-head-bullet"><span class="bullet"></span>Operation and Maintence</h2>
+                <p class="internet-para">
+                    <ul class="roundz-red">
+                        <li class="fntz-red-100">
+                            TPC Communication also extends its expertise in network management through comprehensive operation and maintenance services. Beyond standard operational support, TPC Communication offers proactive and preventive maintenance, along with cable guard services, ensuring that the fiber optic network is well-maintained and efficiently managed. With a dedicated team deployed nationwide, Nova Communication guarantees that its clients’ fiber networks remain in top condition, ensuring uninterrupted service and optimal performance.
+                        </li>
+                    </ul>
+                </p>
+               
             </div>
         </div>
     </section>
     <section id="feature">
         <div class="container">
-            <div class="manage-secnd-boxes">
+            <div class="mange-boxes">
                 <div class="box-fea">
-                    <img src="{{asset('assets/images/webImg/new-wifi.png')}}" class="fea-100" alt="" />
+                    <img src="{{asset('assets/images/webImg/security1.png')}}" class="fea-100" alt="" />
                     <div class="box-fea-100">
-                        <h2>Blazing-Fast & Uninterrupted Internet</h2>
-                    </div>
-                </div>
-                <div class="box-fea">
-                    <img src="{{asset('assets/images/webImg/networking.png')}}" class="fea-100" alt="" />
-                    <div class="box-fea-100">
-                        <h2>Extensive Network Coverage</h2>
+                        <h2>Security</h2>
+                        <p>Features such as biometric access, surveillance cameras, and on-site security personnel.</p>
                     </div>
                 </div>
                 <div class="box-fea">
-                    <img src="{{asset('assets/images/webImg/cloud services.png')}}" class="fea-100" alt="" />
+                    <img src="{{asset('assets/images/webImg/scalabaility.png')}}" class="fea-100" alt="" />
                     <div class="box-fea-100">
-                        <h2>Custom Solutions</h2>
+                        <h2>Scalability</h2>
+                        <p>Options to scale up or down based on your needs without the complexities of managing physical infrastructure.</p>
                     </div>
                 </div>
                 <div class="box-fea">
-                    <img src="{{asset('assets/images/webImg/24x7.png')}}" class="fea-100" alt="" />
+                    <img src="{{asset('assets/images/webImg/coolingsystem.png')}}" class="fea-100" alt="" />
                     <div class="box-fea-100">
-                        <h2>24/7 ENOC</h2>
+                        <h2>Cooling Systems</h2>
+                        <p>Advanced Cooling and Heating systems to maintain optimal temperature and humidity levels</p>
                     </div>
                 </div>
-                
-            </div>
-        </div>
-    </section>
-    <section id="benefit">
-        <div class="bg-mix-400">
-            <div class="cards-mix">
-                <div class="main-title-grip-3">
-                    <div class="box-cards-white">
-                        <img src="{{asset('assets/images/webImg/improved productivity.png')}}" class="box-img-200" alt="" />
-                        <div class="box-bene-100">
-                            <h2>Enhanced <br />Productivity</h2>
-                        </div>
+                <div class="box-fea">
+                    <img src="{{asset('assets/images/webImg/redundancy.png')}}" class="fea-100" alt="" />
+                    <div class="box-fea-100">
+                        <h2>Redundancy and Reliability</h2>
+                        <p>Backup power systems like UPS and generators ensure continuous operations.</p>
                     </div>
-                    <div class="box-cards-white">
-                        <img src="{{asset('assets/images/webImg/scalability.png')}}" class="box-img-200" alt="" />
-                        <div class="box-bene-100">
-                            <h2>Scalability</h2>
-                        </div>
-                    </div>
-                    <div class="box-cards-white">
-                        <img src="{{asset('assets/images/webImg/costefficiency.png')}}" class="box-img-200" alt="" />
-                        <div class="box-bene-100">
-                            <h2>Improved <br /> Revenue</h2>
-                        </div>
-                    </div>
-                   
                 </div>
-                <div class="main-title-grip-3">
-                    <div class="box-cards-white">
-                        <img src="{{asset('assets/images/webImg/fiberopticnetwork.png')}}" class="box-img-200" alt="" />
-                        <div class="box-bene-100">
-                            <h2>Future-Proof Connectivity</h2>
-                        </div>
-                    </div>
-                    <div class="box-cards-white">
-                        <img src="{{asset('assets/images/webImg/enhanced user.png')}}" class="box-img-200" alt="" />
-                        <div class="box-bene-100">
-                            <h2>Peace Of <br />Mind</h2>
-                        </div>
+                <div class="box-fea">
+                    <img src="{{asset('assets/images/webImg/networ connectivity.png')}}" class="fea-100" alt="" />
+                    <div class="box-fea-100">
+                        <h2>Network Connectivity</h2>
+                        <p>High-speed connections to maintain uptime and performance</p>
                     </div>
                 </div>
             </div>
-            
         </div>
     </section>
 
 <style>
-.box-bene-100 h2 {
-    font-size: 22px;
-    color: #da0000;
-    line-height: 25px;
-}
-.cards-mix{
-    border-radius: 17px;
-    border: 1px solid #fff;
-    padding: 60px;
-    width: 100%;
-    max-width: 1100px;
-    margin: 0 auto;
-    background: radial-gradient(circle at center, #ead1fa 0%, #f59a9a63 50%, #dae6fe 100%);
-}
-.box-img-200{
-    width: 23%;
-}
-.box-cards-white {
-    background: #ffff;
-    margin: 5px;
-    padding: 25px;
-}
-.main-title-grip-3{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    text-align: center;
-}
-.bg-mix-400{
-    background: #f1ebee;
-    padding: 50px;
-    margin: 0px 0px 30px;
-}
 .box-fea-100 p {
     font-size: 17px;
     color: #464646;
@@ -158,9 +114,6 @@ img.fea-100 {
     width: 10%;
 }
 #feature {
-  scroll-margin-top: 165px; /* Adjust this to match your fixed header height */
-}
-#benefit {
   scroll-margin-top: 165px; /* Adjust this to match your fixed header height */
 }
 p.internet-para{
@@ -195,17 +148,16 @@ p.internet-para{
 .box-fea {
     box-shadow: rgb(229 169 169) 0px -1px 7px 0px;
     text-align: center;
-    padding: 30px 20px;
+    padding: 19px;
     margin: 6px;
     border-radius: 13px;
     background: linear-gradient(45deg, #ffffff, rgb(194 172 183));
 }
-.manage-secnd-boxes {
+.mange-boxes {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     margin-top: 25px;
     margin-bottom: 25px;
-    padding: 0px 85px;
 }
 .srvce-cont-box {
     padding-left: 30px;
@@ -325,7 +277,7 @@ p.internet-para{
   }
 }
 section {
-    min-height: 220px;
+    min-height: 300px;
 }
 </style>
 <script>

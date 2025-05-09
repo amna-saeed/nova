@@ -11,8 +11,8 @@
                             data-x="['left','left','center','center']"
                             data-hoffset="['0','0','0','0']"
                             data-y="['top','top','top','top']"
-                            data-voffset="['83','100','100','110']"
-                            data-fontsize="['80','60','50','30']"
+                            data-voffset="['109px','100','100','110']"
+                            data-fontsize="['52','60','50','30']"
                             data-lineheight="['100','100','100','50']"
                             data-width="none"
                             data-height="none"
@@ -26,18 +26,18 @@
                             data-splitin="none"
                             data-splitout="none"
                             data-responsive_offset="on"
-                            style="z-index: 7; white-space: nowrap; font-weight: 700;color: #da0000;"
+                            style="z-index: 7; white-space: nowrap; font-weight: 500;color: #fff;"
                             >
-                            <span class="text-thm">Fast, Faster </span>  
+                            <span class="text-thm" style="color: #fff;">Fast, Faster </span>  
                         </div>
                         <div
                             class="tp-caption montserrat fweight-6 text-white tp-resizeme"
                             data-x="['left','left','center','center']"
                             data-hoffset="['1','50','0','0']"
                             data-y="['top','top','top','top']"
-                            data-voffset="['184','180','180','180']"
-                            data-fontsize="['90','32','32','32']"
-                            data-lineheight="['100','40','40','30']"
+                            data-voffset="['192','180','180','180']"
+                            data-fontsize="['97','32','32','32']"
+                            data-lineheight="['93','40','40','30']"
                             data-width="none"
                             data-height="none"
                             data-whitespace="nowrap"
@@ -50,18 +50,18 @@
                             data-splitin="none"
                             data-splitout="none"
                             data-responsive_offset="on"
-                            style="z-index: 7; white-space: nowrap;font-weight: 700; color: #da0000;"
+                            style="z-index: 7; white-space: nowrap;font-weight: 600; color: #fff;text-shadow: 4px 1px 1px #9b9b9b;"
                             >
-                         Fastest
+                            Fastest
                         </div>
                         <div
                             class="tp-caption raleway white text-white tp-resizeme"
                             data-x="['left','left','center','center']"
                             data-hoffset="['8','50','0','0']"
                             data-y="['top','top','top','top']"
-                            data-voffset="['232','220','220','220']"
-                            data-fontsize="['37','16','14','14']"
-                            data-lineheight="['152','70','70','50']"
+                            data-voffset="['315','220','220','220']"
+                            data-fontsize="['29','16','14','14']"
+                            data-lineheight="['44','70','70','50']"
                             data-width="none"
                             data-height="none"
                             data-whitespace="nowrap"
@@ -74,18 +74,18 @@
                             data-splitin="none"
                             data-splitout="none"
                             data-responsive_offset="on"
-                            style="z-index: 7; white-space: nowrap;color: #0c0b0b;font-weight: 700"
+                            style="z-index: 7; white-space: nowrap;font-weight: 400;background: black;border-radius: 26px;padding: 3px 18px;"
                             >
-                            Feel The Diffrenece With
+                            Feel The Diffrenece With Commited
                         </div>
                         <div
                             class="tp-caption raleway white text-white tp-resizeme"
                             data-x="['left','left','center','center']"
                             data-hoffset="['8','50','0','0']"
                             data-y="['top','top','top','top']"
-                            data-voffset="['319','260','260','260']"
-                            data-fontsize="['37','16','14','14']"
-                            data-lineheight="['83','70','70','50']"
+                            data-voffset="['365','260','260','260']"
+                            data-fontsize="['28','16','14','14']"
+                            data-lineheight="['40','70','70','50']"
                             data-width="none"
                             data-height="none"
                             data-whitespace="nowrap"
@@ -98,9 +98,9 @@
                             data-splitin="none"
                             data-splitout="none"
                             data-responsive_offset="on"
-                            style="z-index: 7; white-space: nowrap;color: #0c0b0b;font-weight: 700"
+                            style="z-index: 7; white-space: nowrap;font-weight: 400;background: black;border-radius: 26px;padding: 3px 18px;"
                             >
-                            Commited Speed 200Mbps
+                             Speed 200Mbps
                         </div>
                     </li> 
                 <!-- SLIDE  -->
@@ -112,8 +112,8 @@
                             data-x="['left','left','center','center']"
                             data-hoffset="['0','0','0','0']"
                             data-y="['top','top','top','top']"
-                            data-voffset="['80','100','100','110']"
-                            data-fontsize="['55','60','50','30']"
+                            data-voffset="['127','100','100','110']"
+                            data-fontsize="['42','60','50','30']"
                             data-lineheight="['100','100','100','50']"
                             data-width="none"
                             data-height="none"
@@ -127,19 +127,18 @@
                             data-splitin="none"
                             data-splitout="none"
                             data-responsive_offset="on"
-                            style="z-index: 7; white-space: nowrap; font-weight: 700;color: #da0000;"
+                            style="z-index: 7; white-space: nowrap; font-weight: 500;color: #fff !important;"
                             >
-                            <span class="text-thm">As One Of The Largest </span>
+                            <span class="text-thm" style="color: #fcfcfc !important;">Experience Broadband </span>
                         </div>
-
                         <div
-                            class="tp-caption montserrat fweight-7 text-white tp-resizeme"
+                            class="tp-caption montserrat fweight-6 text-white tp-resizeme start"
                             data-x="['left','left','center','center']"
-                            data-hoffset="['6','50','0','0']"
+                            data-hoffset="['0','0','0','0']"
                             data-y="['top','top','top','top']"
-                            data-voffset="['169px','180','180','180']"
-                            data-fontsize="['59','32','32','32']"
-                            data-lineheight="['78','40','40','30']"
+                            data-voffset="['187','100','100','110']"
+                            data-fontsize="['57','60','50','30']"
+                            data-lineheight="['100','100','100','50']"
                             data-width="none"
                             data-height="none"
                             data-whitespace="nowrap"
@@ -148,22 +147,45 @@
                             data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
                             data-mask_in="x:0px;y:0px;"
                             data-mask_out="x:inherit;y:inherit;"
-                            data-start="1500"
+                            data-start="1000"
                             data-splitin="none"
                             data-splitout="none"
                             data-responsive_offset="on"
-                            style="z-index: 7; white-space: nowrap;color: #da0000;font-weight: 700;"
+                            style="z-index: 7; white-space: nowrap; font-weight: 800;color: #d2a800 !important;"
                             >
-                           & Fastest Growing
-                        </div> 
-
+                            <span class="text-thm" style="color: #d2a800 !important;">Like Never Before</span>
+                        </div>
+                        <div
+                            class="tp-caption montserrat fweight-6 text-white tp-resizeme start"
+                            data-x="['left','left','center','center']"
+                            data-hoffset="['0','0','0','0']"
+                            data-y="['top','top','top','top']"
+                            data-voffset="['270','100','100','110']"
+                            data-fontsize="['30','60','50','30']"
+                            data-lineheight="['100','100','100','50']"
+                            data-width="none"
+                            data-height="none"
+                            data-whitespace="nowrap"
+                            data-transform_idle="o:1;"
+                            data-transform_in="z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
+                            data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                            data-mask_in="x:0px;y:0px;"
+                            data-mask_out="x:inherit;y:inherit;"
+                            data-start="1000"
+                            data-splitin="none"
+                            data-splitout="none"
+                            data-responsive_offset="on"
+                            style="z-index: 7; white-space: nowrap; font-weight: 500;color: #fcfcfc !important;"
+                            >
+                            <span class="text-thm" style="color: #fcfcfc !important;">As One Of The Largest & Fastest Growing</span>
+                        </div>
                          <div
-                            class="tp-caption raleway white text-white tp-resizeme"
+                            class="tp-caption raleway white text-white tp-resizeme" 
                             data-x="['left','left','center','center']"
                             data-hoffset="['9','50','0','0']"
                             data-y="['top','top','top','top']"
-                            data-voffset="['237','180','180','180']"
-                            data-fontsize="['33','16','14','14']"
+                            data-voffset="['323','180','180','180']"
+                            data-fontsize="['30','16','14','14']"
                             data-lineheight="['70','70','70','50']"
                             data-width="none"
                             data-height="none"
@@ -177,7 +199,7 @@
                             data-splitin="none"
                             data-splitout="none"
                             data-responsive_offset="on"
-                            style="z-index: 7; white-space: nowrap;color: #ffff;font-weight: 500;"
+                            style="z-index: 7; white-space: nowrap;color: #ffff !important;font-weight: 300;"
                             >
                            Network Infrastructure
                         </div>
@@ -194,6 +216,6 @@
 </div>
 <style>
       .tp-parallax-wrap{
-        left:80px !important;
+        left:100px !important;
     }
 </style>

@@ -6,14 +6,7 @@
 
     @include('components.services')
     @include('components.coverage')
-    
-    {{-- @include('components.who-we') --}}
 
-    {{-- @include('components.novaApp') --}}
-
-    {{-- @include('components.speed') --}}
-
-  
     <!--Blog Section-->
     <section class="blog-section pt-15 pb-0">
         <div class="container">
@@ -166,6 +159,9 @@
             </div> 
         </div> 
     </div> 
+
+    {{-- form --}}
+    @include('components.forms')
 @stop
 @section('js')
    
