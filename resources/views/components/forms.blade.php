@@ -22,7 +22,7 @@
 .box-form-outer {
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    right: 20px;.open-form-overlay
     cursor: pointer;
     z-index: 1000;
 }
@@ -47,11 +47,10 @@ button.btn-form {
     bottom: 80px;
     right: 20px;
     padding: 20px;
-    border: 1px solid #b6b4b4;
     z-index: 999;
-    box-shadow: 0 0 10px rgb(182 182 182);
-    border-radius: 8px;
-    background: #909090;
+    box-shadow: 0 0 7px rgb(4 40 110);
+    border-radius: 5px;
+    background: linear-gradient(45deg, #27a1ca, transparent);
 }
 
 
@@ -61,6 +60,7 @@ button.btn-form {
     width: 249px;
     padding: 12px;
     border: 1px solid #b4b2b2;
+    background: #fff !important;
     border-radius: 30px;
 }
 </style>
