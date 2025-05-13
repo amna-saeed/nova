@@ -27,13 +27,13 @@
                                             </div>
                                             <div class="col-md-4">
                                                 <ul>
-                                                    <li class="drop-txt"><a href="{{ route('internet') }}"> HD/Catv 
+                                                    <li class="drop-txt"><a href="{{ route('hd-catv') }}"> HD/Catv 
                                                         <img src="{{asset('assets/images/webImg/TVBlack (1).png')}}" class="head-icnz" /></a></li>
                                                 </ul>
                                             </div>
                                             <div class="col-md-4">
                                                 <ul>
-                                                    <li class="drop-txt"><a href="{{ route('internet') }}">telephone
+                                                    <li class="drop-txt"><a href="{{ route('telephone') }}">telephone
                                                         <img src="{{asset('assets/images/webImg/phoneblack (1).png')}}" class="head-icnz" /></a></li>
                                                 </ul>
                                             </div>

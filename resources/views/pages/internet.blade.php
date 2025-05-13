@@ -1,114 +1,114 @@
 @extends('layout.main')
 @section('content')
 
-<section class="inner-header-vpn">
+
+
+<section class="inner-header-location">
     <div class="complete-bnr-txt">
-        <h1>INTERNET SERVICES </h1>
+        <h1>Internet </h1><br />
     </div>
 </section>
 
     <div class="tab-nav">
         <div class="tabs">
-            <a href="#overview" class="tab-link active">Overview</a>
             <a href="#feature" class="tab-link">Features</a>
             <a href="#benefit" class="tab-link">Benefits</a>
         </div>
         <a href="{{route ('payment')}}">
         <button class="callback-btn">
-        Order Now
+            Order Now
         </button></a>
     </div>
-
-    {{-- <section id="pkges">
+    <section id="pkges">
         @include('components.packages')
-    </section>     --}}
+    </section>    
 
-    <section id="overview">
-        <div class="container">
-            <div class="srvce-cont-box">
-                <p class="internet-para">
-                    <ul class="roundz-red">
-                        <li class="fntz-red-100">
-                            Your business’s internet connection is the backbone of your organization, and inefficiencies or limitations in this connection can disrupt business processes, causing workflow interruptions that affect productivity and, ultimately, your bottom line.
-                        </li>
-                        <li class="fntz-red-100">
-                            Whether you're a small startup or a large corporation, TPC offers customized internet solutions designed to match your specific business needs. 
-                        </li>
-                        <li> Our tailored packages deliver the ideal combination of speed, bandwidth, and dedicated support to ensure optimal performance and satisfaction.</li>
-                        <li>We understand how critical it is to keep your business online at all times.</li>
-                        <li>That’s why our 24/7 Enterprise Network Operations Center (ENOC), staffed by seasoned professionals, actively monitors and manages your network to reduce downtime and enhance productivity.</li>
-                        <li>Partner with TPC to future-proof your internet connection—because when it comes to staying ahead, your business deserves nothing less than the best.</li>
-                    </ul>
-                </p>
-            </div>
-        </div>
-    </section>
     <section id="feature">
         <div class="container">
-            <div class="manage-secnd-boxes">
+            <div class="mange-boxes">
                 <div class="box-fea">
                     <img src="{{asset('assets/images/webImg/new-wifi.png')}}" class="fea-100" alt="" />
                     <div class="box-fea-100">
-                        <h2>Blazing-Fast & Uninterrupted Internet</h2>
+                        <h2>Instant Communication</h2>
+                        <p>Email, messaging apps, and video calls make global communication fast and easy.</p>
                     </div>
                 </div>
                 <div class="box-fea">
-                    <img src="{{asset('assets/images/webImg/networking.png')}}" class="fea-100" alt="" />
+                    <img src="{{asset('assets/images/webImg/DPLC.png')}}" class="fea-100" alt="" />
                     <div class="box-fea-100">
-                        <h2>Extensive Network Coverage</h2>
+                        <h2>Access to Information</h2>
+                        <p>Search engines and websites provide unlimited knowledge on nearly every topic.</p>
+                    </div>
+                </div>
+                <div class="box-fea">
+                    <img src="{{asset('assets/images/webImg/operational efficiency.png')}}" class="fea-100" alt="" />
+                    <div class="box-fea-100">
+                        <h2>E-Commerce & Online Services</h2>
+                        <p>Shop, bank, and access services like food delivery or telemedicine from anywhere.</p>
+                    </div>
+                </div>
+                <div class="box-fea">
+                    <img src="{{asset('assets/images/webImg/bandwidth.png')}}" class="fea-100" alt="" />
+                    <div class="box-fea-100">
+                        <h2>Remote Work & Learning</h2>
+                        <p>Enables virtual jobs, online courses, and webinars across the globe.</p>
+                    </div>
+                </div>
+                <div class="box-fea">
+                    <img src="{{asset('assets/images/webImg/IPBX.png')}}" class="fea-100" alt="" />
+                    <div class="box-fea-100">
+                        <h2>Entertainment</h2>
+                        <p>Streaming movies, music, games, and social media offer endless options.</p>
                     </div>
                 </div>
                 <div class="box-fea">
                     <img src="{{asset('assets/images/webImg/cloud services.png')}}" class="fea-100" alt="" />
                     <div class="box-fea-100">
-                        <h2>Custom Solutions</h2>
+                        <h2>Social Connectivity</h2>
+                        <p>Platforms like Facebook, Instagram, and LinkedIn help people stay connected.</p>
                     </div>
                 </div>
-                <div class="box-fea">
-                    <img src="{{asset('assets/images/webImg/24x7.png')}}" class="fea-100" alt="" />
-                    <div class="box-fea-100">
-                        <h2>24/7 ENOC</h2>
-                    </div>
-                </div>
-                
             </div>
         </div>
     </section>
     <section id="benefit">
         <div class="bg-mix-400">
             <div class="cards-mix">
-                <div class="main-title-grip-3">
+                <div class="main-three-grip">
                     <div class="box-cards-white">
-                        <img src="{{asset('assets/images/webImg/improved productivity.png')}}" class="box-img-200" alt="" />
+                        <img src="{{asset('assets/images/webImg/internet bandwidth.png')}}" class="box-img-200" alt="" />
                         <div class="box-bene-100">
-                            <h2>Enhanced <br />Productivity</h2>
+                            <h2>Global <br /> Reach</h2>
                         </div>
                     </div>
                     <div class="box-cards-white">
-                        <img src="{{asset('assets/images/webImg/scalability.png')}}" class="box-img-200" alt="" />
+                        <img src="{{asset('assets/images/webImg/internett(1).png')}}" class="box-img-200" alt="" />
                         <div class="box-bene-100">
-                            <h2>Scalability</h2>
+                            <h2>Interactivity </h2>
                         </div>
                     </div>
-                    <div class="box-cards-white">
-                        <img src="{{asset('assets/images/webImg/costefficiency.png')}}" class="box-img-200" alt="" />
-                        <div class="box-bene-100">
-                            <h2>Improved <br /> Revenue</h2>
-                        </div>
-                    </div>
-                   
-                </div>
-                <div class="main-title-grip-3">
                     <div class="box-cards-white">
                         <img src="{{asset('assets/images/webImg/fiberopticnetwork.png')}}" class="box-img-200" alt="" />
                         <div class="box-bene-100">
-                            <h2>Future-Proof Connectivity</h2>
+                            <h2>Multimedia <br />Support</h2>
                         </div>
                     </div>
                     <div class="box-cards-white">
-                        <img src="{{asset('assets/images/webImg/enhanced user.png')}}" class="box-img-200" alt="" />
+                        <img src="{{asset('assets/images/webImg/co-locationservices.png')}}" class="box-img-200" alt="" />
                         <div class="box-bene-100">
-                            <h2>Peace Of <br />Mind</h2>
+                            <h2>Searchability </h2>
+                        </div>
+                    </div>
+                    <div class="box-cards-white">
+                        <img src="{{asset('assets/images/webImg/cloud services.png')}}" class="box-img-200" alt="" />
+                        <div class="box-bene-100">
+                            <h2>Cloud Integration</h2>
+                        </div>
+                    </div>
+                    <div class="box-cards-white">
+                        <img src="{{asset('assets/images/webImg/scalabaility.png')}}" class="box-img-200" alt="" />
+                        <div class="box-bene-100">
+                            <h2>Scalability</h2>
                         </div>
                     </div>
                 </div>
@@ -116,7 +116,6 @@
             
         </div>
     </section>
-
 <style>
 .box-bene-100 h2 {
     font-size: 22px;
@@ -140,10 +139,13 @@
     margin: 5px;
     padding: 25px;
 }
-.main-title-grip-3{
+.main-three-grip {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 2fr);
     text-align: center;
+}
+#benefit {
+  scroll-margin-top: 165px; /* Adjust this to match your fixed header height */
 }
 .bg-mix-400{
     background: #f1ebee;
@@ -154,13 +156,14 @@
     font-size: 17px;
     color: #464646;
 }
+.box-fea-100 p {
+    font-size: 17px;
+    color: #464646;
+}
 img.fea-100 {
     width: 10%;
 }
 #feature {
-  scroll-margin-top: 165px; /* Adjust this to match your fixed header height */
-}
-#benefit {
   scroll-margin-top: 165px; /* Adjust this to match your fixed header height */
 }
 p.internet-para{
@@ -195,17 +198,16 @@ p.internet-para{
 .box-fea {
     box-shadow: rgb(229 169 169) 0px -1px 7px 0px;
     text-align: center;
-    padding: 30px 20px;
+    padding: 19px;
     margin: 6px;
     border-radius: 13px;
     background: linear-gradient(45deg, #ffffff, rgb(194 172 183));
 }
-.manage-secnd-boxes {
+.mange-boxes {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     margin-top: 25px;
     margin-bottom: 25px;
-    padding: 0px 85px;
 }
 .srvce-cont-box {
     padding-left: 30px;
@@ -325,7 +327,7 @@ p.internet-para{
   }
 }
 section {
-    min-height: 220px;
+    min-height: 300px;
 }
 </style>
 <script>

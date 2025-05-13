@@ -101,6 +101,14 @@ class HomeController extends Controller
     {
         return view('pages.technology-partner');
     }
+    public function hdCatvPage()
+    {
+        return view('pages.hd-catv');
+    }
+    public function telephonePage()
+    {
+        return view('pages.telephone');
+    }
 
     // payment
     public function bankpaymentPage()

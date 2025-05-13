@@ -579,7 +579,7 @@
                                 </div>
                                 <div class="tx-pricingBox-price-change text-center mt-20">
                                     <sub class="tx-price__currency">PKR</sub><br />
-                                    <span class="tx-price__price">400*</span><br />
+                                    <span class="tx-price__price">500*</span><br />
                                 </div>
 
                                 <div class="tx-wrapper">
@@ -606,7 +606,7 @@
                                 </div>
                                 <div class="tx-pricingBox-price-change text-center mt-20">
                                     <sub class="tx-price__currency">PKR</sub><br />
-                                    <span class="tx-price__price">800*</span><br />
+                                    <span class="tx-price__price">300*</span><br />
                                 </div>
 
                                 <div class="tx-wrapper">
@@ -665,7 +665,7 @@
                                 </div>
                                 <div class="tx-pricingBox-price-change text-center mt-20">
                                     <sub class="tx-price__currency">PKR</sub><br />
-                                    <span class="tx-price__price">400*</span><br />
+                                    <span class="tx-price__price">500*</span><br />
                                 </div>
 
                                 <div class="tx-wrapper">
@@ -692,7 +692,7 @@
                                 </div>
                                 <div class="tx-pricingBox-price-change text-center mt-20">
                                     <sub class="tx-price__currency">PKR</sub><br />
-                                    <span class="tx-price__price">800*</span><br />
+                                    <span class="tx-price__price">300*</span><br />
                                 </div>
 
                                 <div class="tx-wrapper">

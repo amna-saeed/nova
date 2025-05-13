@@ -2256,6 +2256,15 @@ h4.hosting-tmngs {
 	background-size: cover;
 	height: 470px;
 }
+.inner-header-telephone-bnr{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	position: relative;
+	background: url(../images/resources/telephone-bnr.jpeg) center center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 454px;
+}
 .nav-tabs {
     border-bottom: 1px solid #ffffff !important;
 }

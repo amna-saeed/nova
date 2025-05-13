@@ -172,7 +172,7 @@
     justify-content: space-between;
     transform: translateY(-50%);
     pointer-events: none;
-    bottom:-787px;
+    bottom:-840px;
 }
 
  #services-prevBtn, #services-nextBtn {

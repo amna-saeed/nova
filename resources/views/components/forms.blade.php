@@ -5,15 +5,34 @@
     </div>
 
     <!-- Form -->
-    <div class="open-form-overlay" id="formOverlay">
+    <div class="open-form-outer-box" id="formOverlay">
         <form>
-            <input type="text" placeholder="Name" value="" class="form-user" />
-            <input type="text" placeholder="Email" value="" class="form-user" />
-            <input type="text" placeholder="Message" value=""  />
-            <div class="w-100 text-center">
-                <button class="btn-form">Submit <span class="send-icon"><img src="" /></span></button>
+            <div class="mb-3">
+              <input type="text" class="form-control" placeholder="Name" />
             </div>
-        </form>
+            <div class="mb-3">
+              <input type="text" class="form-control" placeholder="Phone" />
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" placeholder="Email" />
+            </div>
+            <div class="mb-3">
+              <select class="form-select">
+                <option selected disabled>Select Option</option>
+                <option value="new">New Connection</option>
+                <option value="info">Information</option>
+                <option value="billing">Billing</option>
+                <option value="complaint">Complaint</option>
+                <option value="feedback">Feedback</option>
+              </select>
+            </div>
+            <div class="w-100 text-center">
+              <button type="submit" class="btn btn-primary">
+                Submit <span class="send-icon"></span>
+              </button>
+            </div>
+          </form>
+          
     </div>
 </div>
 
@@ -22,12 +41,12 @@
 .box-form-outer {
     position: fixed;
     bottom: 20px;
-    right: 20px;.open-form-overlay
+    right: 20px;
     cursor: pointer;
     z-index: 1000;
 }
 img.gif-form {
-    width: 77px;
+    width: 85px;
 }
 button.btn-form {
     color: #fff;
@@ -41,20 +60,18 @@ button.btn-form {
 
 
 /* Hidden form by default */
-.open-form-overlay {
+.open-form-outer-box {
     display: none;
     position: fixed;
     bottom: 80px;
     right: 20px;
     padding: 20px;
     z-index: 999;
-    box-shadow: 0 0 7px rgb(4 40 110);
-    border-radius: 5px;
-    background: linear-gradient(45deg, #27a1ca, transparent);
+    border-radius: 7px;
+    background: linear-gradient(45deg, #feb291, #c4d0d8);
+    border: 1px solid #b0b0b0;
 }
-
-
-.open-form-overlay form input {
+.open-form-outer-box form input {
     display: block;
     margin-bottom: 10px;
     width: 249px;
@@ -62,6 +79,41 @@ button.btn-form {
     border: 1px solid #b4b2b2;
     background: #fff !important;
     border-radius: 30px;
+    height: 45px;
+    font-size: 15px;
+    font-weight: 600;
+}
+select.form-select{
+    margin-bottom: 10px;
+    width: 249px;
+    padding: 12px;
+    border: 1px solid #b4b2b2;
+    background: #fff !important;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(77 78 78) !important;
+}
+::placeholder{
+    color: rgb(77 78 78) !important;
+}
+button.btn.btn-primary {
+    background: #d1dae1;
+    padding: 7px 23px;
+    letter-spacing: 0px;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #052a73;
+    font-weight: 700;
+}
+button.btn.btn-primary:hover {
+  background: #052a73;
+  padding: 7px 23px;
+  letter-spacing: 0px;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #fdfdfd;
+  font-weight: 700;
 }
 </style>
 

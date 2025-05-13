@@ -35,6 +35,8 @@ Route::get('/voice-services', [HomeController::class, 'voicePage'])->name('voice
 Route::get('/sme-services', [HomeController::class, 'smePage'])->name('sme-services');
 Route::get('/networking-solutions', [HomeController::class, 'networkingPage'])->name('networking-solutions');
 Route::get('/technology-partner', [HomeController::class, 'technologyPage'])->name('technology-partner');
+Route::get('/hd-catv', [HomeController::class, 'hdCatvPage'])->name('hd-catv');
+Route::get('/telephone', [HomeController::class, 'telephonePage'])->name('telephone');
 
 // payment
 Route::get('/bank-payment', [HomeController::class, 'bankpaymentPage'])->name('bank-payment');
