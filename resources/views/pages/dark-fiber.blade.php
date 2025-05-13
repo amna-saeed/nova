@@ -28,7 +28,7 @@
         <div class="container">
             <div class="srvce-cont-box">
                 <p class="internet-para">
-                    TPC Communication offers a fully managed Dark Fiber Connectivity service tailored for a diverse range of clients, including cellular operators, local and international telecom providers, telecom infrastructure and tower companies, government agencies, and other PTA-licensed operators. 
+                    nova communication Communication offers a fully managed Dark Fiber Connectivity service tailored for a diverse range of clients, including cellular operators, local and international telecom providers, telecom infrastructure and tower companies, government agencies, and other PTA-licensed operators. 
                     <br />Nova Communication’s network is designed with an open architecture that allows seamless interconnection with other networks and supports the integration of advanced technological components that enhance both availability and diversity. 
                     <br /> This approach enables clients to enter new markets swiftly, with minimal effort and reduced capital investments.
                 </p>
@@ -36,7 +36,7 @@
                 <p class="internet-para">
                     <ul class="roundz-red">
                         <li class="fntz-red-100">
-                            TPC Communication’s extensive metro fiber network, spanning 650 kilometers, represents a substantial infrastructure investment.
+                            nova communication Communication’s extensive metro fiber network, spanning 650 kilometers, represents a substantial infrastructure investment.
                         </li>
                         <li class="fntz-red-100">
                             This robust infrastructure and expansive coverage underscore our ability to support a wide array of services across a broad geographic area.
@@ -47,7 +47,7 @@
                 <p class="internet-para">
                     <ul class="roundz-red">
                         <li class="fntz-red-100">
-                            TPC Communication plays a crucial role in advancing Pakistan’s 5G infrastructure by providing fiber-to-the-tower services that connect cellular towers nationwide. This ensures high-speed, reliable data transmission essential for modern communication demands. Clients can choose Dark Fiber on an Indefeasible Right of Use (IRU) basis, offering long-term, customizable control over their network infrastructure. Alternatively, TPC Communication’s Managed Capacity service provides flexible contracts that deliver high-speed connectivity without the complexities of managing the physical network.
+                            nova communication Communication plays a crucial role in advancing Pakistan’s 5G infrastructure by providing fiber-to-the-tower services that connect cellular towers nationwide. This ensures high-speed, reliable data transmission essential for modern communication demands. Clients can choose Dark Fiber on an Indefeasible Right of Use (IRU) basis, offering long-term, customizable control over their network infrastructure. Alternatively, nova communication Communication’s Managed Capacity service provides flexible contracts that deliver high-speed connectivity without the complexities of managing the physical network.
                         </li>
                     </ul>
                 </p>
@@ -55,7 +55,7 @@
                 <p class="internet-para">
                     <ul class="roundz-red">
                         <li class="fntz-red-100">
-                            TPC Communication also extends its expertise in network management through comprehensive operation and maintenance services. Beyond standard operational support, TPC Communication offers proactive and preventive maintenance, along with cable guard services, ensuring that the fiber optic network is well-maintained and efficiently managed. With a dedicated team deployed nationwide, Nova Communication guarantees that its clients’ fiber networks remain in top condition, ensuring uninterrupted service and optimal performance.
+                            nova communication Communication also extends its expertise in network management through comprehensive operation and maintenance services. Beyond standard operational support, nova communication Communication offers proactive and preventive maintenance, along with cable guard services, ensuring that the fiber optic network is well-maintained and efficiently managed. With a dedicated team deployed nationwide, Nova Communication guarantees that its clients’ fiber networks remain in top condition, ensuring uninterrupted service and optimal performance.
                         </li>
                     </ul>
                 </p>

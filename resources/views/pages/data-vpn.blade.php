@@ -29,7 +29,7 @@
                 <p class="internet-para">
                     <ul class="roundz-red">
                         <li class="fntz-red-100">
-                            TPC Data VPN is your digital guardian. Using industry-leading encryption protocols, we ensure that your data traffic is securely encrypted, keeping your login credentials, financial information, and business communications confidential and protected.
+                            nova communication Data VPN is your digital guardian. Using industry-leading encryption protocols, we ensure that your data traffic is securely encrypted, keeping your login credentials, financial information, and business communications confidential and protected.
                         </li>
                         <li class="fntz-red-100">
                             Our Data VPN services enable enterprises to seamlessly connect their branch offices via public or private cloud networks, all while minimizing technological complexity, cutting costs, and reducing operational risks.
@@ -40,7 +40,7 @@
                 <p class="internet-para">
                     <ul class="roundz-red">
                         <li class="fntz-red-100">
-                            TPC provides Layer 2 VPN or “point-to-point” service, which is ideally suited for customers operating a traditional hub-and-spoke network topology.
+                            nova communication provides Layer 2 VPN or “point-to-point” service, which is ideally suited for customers operating a traditional hub-and-spoke network topology.
                         </li>
                     </ul>
                 </p>
@@ -48,7 +48,7 @@
                 <p class="internet-para">
                     <ul class="roundz-red">
                         <li class="fntz-red-100">
-                            With TPC Layer 3 Data VPN, customers can connect two or more branches or offices usingTPC MPLS network.
+                            With nova communication Layer 3 Data VPN, customers can connect two or more branches or offices usingnova communication MPLS network.
                         </li>
                     </ul>
                 </p>
@@ -56,7 +56,7 @@
                 <p class="internet-para">
                     <ul class="roundz-red">
                         <li class="fntz-red-100">
-                            TPC offers Layer 3 VPNs in both point-to-point and point-to-multipoint configurations. 
+                            nova communication offers Layer 3 VPNs in both point-to-point and point-to-multipoint configurations. 
                         </li>
                         <li class="fntz-red-100">
                             This enables customers to achieve “any-to-any” connectivity within their network, giving them the flexibility to design VPNs tailored to their specific requirements.

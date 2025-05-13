@@ -135,13 +135,7 @@
                                 <li>
                                     <span class="border"></span>
                                     <div class="content">
-                                        <a href="{{route('contact-us')}}">Customer Car</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <span class="border"></span>
-                                    <div class="content">
-                                        <a href="{{route('contact-us')}}">Complaint Center</a>
+                                        <a href="{{route('customer-care')}}">Customer Care</a>
                                     </div>
                                 </li>
                                 <li>

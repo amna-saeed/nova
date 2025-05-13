@@ -29,7 +29,7 @@
             <div class="srvce-cont-box">
                 <p class="internet-para">
                     Nova Communication, in partnership with leading global technology vendors, empowers customers to deploy and manage state-of-the-art technology infrastructures across Pakistan. 
-                    <br />TPC shared internet plans are crafted to be both cost-effective and reliable—making them an ideal choice for small to medium-sized businesses. Benefit from flexible plans that can be tailored to your evolving needs, ensuring optimal performance within your budget. Even with shared bandwidth, you'll experience consistent and dependable connectivity to keep your operations running smoothly.  
+                    <br />nova communication shared internet plans are crafted to be both cost-effective and reliable—making them an ideal choice for small to medium-sized businesses. Benefit from flexible plans that can be tailored to your evolving needs, ensuring optimal performance within your budget. Even with shared bandwidth, you'll experience consistent and dependable connectivity to keep your operations running smoothly.  
                     <br /> We provide fast installation, transparent pricing with no hidden charges, and expert support to help you get the most out of your internet service.
                 </p>
                 <h2 class="agree-head-bullet"><span class="bullet"></span>WIRELESS:</h2>
@@ -39,7 +39,7 @@
                             As the world witnesses a surge in the number of disruptions due to the explosion of IoT and mobile devices, networks need to be more responsive to the unexpected.
                         </li>
                         <li class="fntz-red-100">
-                            TPC provides solutions that enhance experiences and lessen these interruptions.
+                            nova communication provides solutions that enhance experiences and lessen these interruptions.
                         </li>
                     </ul>
                 </p>
@@ -47,7 +47,7 @@
                 <p class="internet-para">
                     <ul class="roundz-red">
                         <li class="fntz-red-100">
-                            TPC offers its enterprise customers routing that enables networking for WAN, LAN, and cloud, allowing them to respond to their unique business needs efficiently.
+                            nova communication offers its enterprise customers routing that enables networking for WAN, LAN, and cloud, allowing them to respond to their unique business needs efficiently.
                         </li>
                     </ul>
                 </p>
@@ -55,7 +55,7 @@
                 <p class="internet-para">
                     <ul class="roundz-red">
                         <li class="fntz-red-100">
-                            TPC offers a broad array of deployment options with ever-improving switches helping our customers to generate remarkable results at their data center.
+                            nova communication offers a broad array of deployment options with ever-improving switches helping our customers to generate remarkable results at their data center.
                         </li>
                     </ul>
                 </p>
@@ -71,7 +71,7 @@
                 <p class="internet-para">
                     <ul class="roundz-red">
                         <li class="fntz-red-100">
-                            With the right security solution, TPC helps its customers to leverage the intelligence of our wide-ranging network.
+                            With the right security solution, nova communication helps its customers to leverage the intelligence of our wide-ranging network.
                         </li>
                         <li class="fntz-red-100">
                             Unifying access allows reduced vulnerabilities and enhances visibility. 

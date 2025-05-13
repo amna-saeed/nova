@@ -16,7 +16,6 @@ use App\Http\Controllers\{UserController,WhatsAppController,TestimonialsControll
 Route::get('/', [HomeController::class, 'home']);
 Route::get('/contact-us', [HomeController::class, 'ContactPage'])->name('contact-us');
 Route::get('/about-us', [HomeController::class, 'aboutPage'])->name('about-us');
-Route::get('/packages', [HomeController::class, 'packagesPage'])->name('packages');
 Route::get('/customer-center', [HomeController::class, 'customerPage'])->name('customer-center');
 Route::get('/customer-care', [HomeController::class, 'carePage'])->name('customer-care');
 Route::get('/career', [HomeController::class, 'careerPage'])->name('career');
@@ -30,6 +29,7 @@ Route::get('/dark-fiber', [HomeController::class, 'darkfiberPage'])->name('dark-
 Route::get('/co-location', [HomeController::class, 'locationPage'])->name('co-location');
 Route::get('/data-vpn', [HomeController::class, 'dataPage'])->name('data-vpn');
 Route::get('/data-center', [HomeController::class, 'datacenterPage'])->name('data-center');
+Route::get('/bisiness-internet', [HomeController::class, 'BusinessinternetPage'])->name('bisiness-internet');
 Route::get('/internet', [HomeController::class, 'internetPage'])->name('internet');
 Route::get('/voice-services', [HomeController::class, 'voicePage'])->name('voice-services');
 Route::get('/sme-services', [HomeController::class, 'smePage'])->name('sme-services');

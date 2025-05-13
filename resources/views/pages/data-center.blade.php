@@ -17,10 +17,6 @@
         </button></a>
     </div>
 
-    {{-- <section id="pkges">
-        @include('components.packages')
-    </section>     --}}
-
     <section id="overview">
         <div class="container">
             <div class="srvce-cont-box">
@@ -40,23 +36,23 @@
                         <li>Edge Computing</li>
                     </ul>
                 </p>
-                <h2 class="agree-head-bullet"><span class="bullet"></span>TPC's Integrated IT Solutions</h2>
+                <h2 class="agree-head-bullet"><span class="bullet"></span>nova communication's Integrated IT Solutions</h2>
                 <p class="internet-para">
                     <ul class="roundz-red">
                         <li class="fntz-red-100">
-                            At TPC, we transform how businesses manage their IT infrastructure by partnering with leading technologies like Cisco UCS. This platform unifies industry-standard servers with networking and storage access, enabling a consolidated system that boosts productivity and reduces total cost of ownership for our clients.
+                            At nova communication, we transform how businesses manage their IT infrastructure by partnering with leading technologies like Cisco UCS. This platform unifies industry-standard servers with networking and storage access, enabling a consolidated system that boosts productivity and reduces total cost of ownership for our clients.
                         </li>
-                        <li>Our offerings also include Dell EMC’s Hyper-Converged Infrastructure (HCI) Portfolio, which accelerates IT outcomes by streamlining operations with integrated systems. TPC helps you simplify the management of complex workloads with scalable, efficient solutions tailored to your enterprise needs.
+                        <li>Our offerings also include Dell EMC’s Hyper-Converged Infrastructure (HCI) Portfolio, which accelerates IT outcomes by streamlining operations with integrated systems. nova communication helps you simplify the management of complex workloads with scalable, efficient solutions tailored to your enterprise needs.
                         </li>
-                        <li>Additionally, with Huawei’s Hyper-Converged Infrastructure, TPC empowers organizations to build robust IT environments — from core data centers to edge deployments. We deliver dependable and high-performance infrastructure capable of handling mission-critical workloads with reliability and efficiency.
+                        <li>Additionally, with Huawei’s Hyper-Converged Infrastructure, nova communication empowers organizations to build robust IT environments — from core data centers to edge deployments. We deliver dependable and high-performance infrastructure capable of handling mission-critical workloads with reliability and efficiency.
                         </li>
                     </ul>
                 </p>
-                <h2 class="agree-head-bullet"><span class="bullet"></span>Cisco ACI With TPC</h2>
+                <h2 class="agree-head-bullet"><span class="bullet"></span>Cisco ACI With nova communication</h2>
                 <p class="internet-para">
                     <ul class="roundz-red">
                         <li class="fntz-red-100">
-                            At TPC, we help businesses enhance the efficiency of their data center operations with Cisco Application Centric Infrastructure (ACI). 
+                            At nova communication, we help businesses enhance the efficiency of their data center operations with Cisco Application Centric Infrastructure (ACI). 
                         </li>
                         <li class="fntz-red-100">
                             By leveraging Cisco ACI, our clients benefit from increased automation and consistent policy enforcement across both on-premise and cloud environments. 

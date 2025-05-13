@@ -45,6 +45,10 @@ class HomeController extends Controller
     {
         return view('pages.internet');
     }
+    public function BusinessinternetPage()
+    {
+        return view('pages.bisiness-internet');
+    }
     public function careerPage()
     {
         return view('pages.career');

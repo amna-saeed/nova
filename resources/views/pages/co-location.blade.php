@@ -34,10 +34,10 @@
                             Managing critical infrastructure can be a challenge for businesses, especially when it comes to ensuring security, scalability, and consistent performance.
                         </li>
                         <li class="fntz-red-100">
-                            TPC understands these concerns and offers a solution through our nationwide colocation services. With 200 ADM sites across the country, we provide secure and reliable environments where your essential systems can thrive.
+                            nova communication understands these concerns and offers a solution through our nationwide colocation services. With 200 ADM sites across the country, we provide secure and reliable environments where your essential systems can thrive.
                         </li>
                         <li>Our state-of-the-art facilities are equipped to meet the demands of modern business operations, offering indoor space solutions, dependable power supply, and outdoor tower locations.</li>
-                        <li>This allows you to focus on your core business activities while TPC ensures your infrastructure remains protected and fully operational.</li>
+                        <li>This allows you to focus on your core business activities while nova communication ensures your infrastructure remains protected and fully operational.</li>
                     </ul>
                 </p>
             </div>

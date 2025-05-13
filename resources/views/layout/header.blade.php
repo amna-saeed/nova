@@ -48,7 +48,7 @@
                                         <div class="row btm-roz"> 
                                             <div class="col-md-4">
                                                 <ul>
-                                                    <li class="drop-txt"><a href="{{ route('internet') }}">Internet Service</a></li>
+                                                    <li class="drop-txt"><a href="{{ route('bisiness-internet') }}">Internet Service</a></li>
                                                 </ul>
                                             </div>
                                             <div class="col-md-4">
