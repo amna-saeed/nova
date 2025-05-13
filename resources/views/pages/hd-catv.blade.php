@@ -19,7 +19,7 @@
     </div>
     <div class="container">
         <video class="vdeo-pkgz-desk" autoplay="" loop="" muted="" poster="">
-            <source src="{{asset('assets/images/webImg/Comp 2.mp4')}}" type="video/mp4" class="video-pkg-inner">
+            <source src="{{asset('assets/images/webImg/Comp2.mp4')}}" type="video/mp4" class="video-pkg-inner">
         </video>
     </div>
 
