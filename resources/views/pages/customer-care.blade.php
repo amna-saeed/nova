@@ -47,15 +47,26 @@
                     <i class="fas fa-map-marker-alt sizing"></i>
                     <div>
                         <h5>Islamabad</h5>
-                        <p>suit no.1 & 2, floor 2nd, Muhammadi plaza Nazim ud din Road F-6/4 Blue Area, Islamabad</p>
+                            <a 
+                                href="https://maps.app.goo.gl/cRQXmxzxSBMB26CR7" 
+                                target="_blank" 
+                                rel="noopener noreferrer">
+                                <p>Suit No. 1 & 2, Floor 2nd, Muhammadi Plaza, Nazim ud Din Road, F-6/4, Blue Area, Islamabad</p>
+                            </a>
+                        </p>
                     </div>
+                    
                 </div>
 
                 <div class="col-md-3 support-item support-divider">
                     <i class="fas fa-map-marker-alt sizing"></i>
                     <div>
                         <h5>Lahore </h5>
-                        <p>Office # 10 1st floor Askari Mall Sector B Askari 11 Lahore</p>
+                        <a 
+                            href="https://maps.app.goo.gl/iPRjUAcBxrUFdt7N6" 
+                            target="_blank" 
+                            rel="noopener noreferrer">
+                            <p>Office # 10 1st floor Askari Mall Sector B Askari 11 Lahore</p></a>
                     </div>
                 </div>
 
@@ -63,7 +74,11 @@
                     <i class="fas fa-map-marker-alt sizing"></i>
                     <div>
                         <h5>Risalpur</h5>
-                        <p>Eagle Market, PAF Academy Risalpur, Nowshera KPK</p>
+                        <a 
+                            href="https://maps.app.goo.gl/dSzuoeQGDQuqnPbc9" 
+                            target="_blank" 
+                            rel="noopener noreferrer">
+                        <p>Eagle Market, PAF Academy Risalpur, Nowshera KPK</p></a>
                     </div>
                 </div>
             </div>
