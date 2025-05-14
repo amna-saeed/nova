@@ -45,6 +45,10 @@
     </section>
 
 <style>
+
+section {
+    min-height: 169px;
+}
 .slide-buttons.text-center.my-3 {
     position: absolute;
     top: 209.5%;
@@ -54,6 +58,11 @@ video.vdeo-pkgz-desk {
     width: 100%;
     margin: 43px 0px 0px;
     border-radius: 16px;
+}
+.slide-buttons.text-center.my-3 {
+    position: absolute;
+    top: 195.5%;
+    background: red;
 }
 </style>
 <script>
