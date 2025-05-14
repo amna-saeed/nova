@@ -49,6 +49,10 @@ class HomeController extends Controller
     {
         return view('pages.bisiness-internet');
     }
+    public function novaPage()
+    {
+        return view('pages.nova-ai');
+    }
     public function careerPage()
     {
         return view('pages.career');

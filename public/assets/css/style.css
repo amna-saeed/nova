@@ -1617,7 +1617,7 @@ img.follow-scl {
 }
 .footer-widget.latest-post ul li span.border {
 	display: table-cell;
-	vertical-align: top;
+	vertical-align: super;
 }
 .footer-widget.latest-post ul li span.border:before {
 	content: ' ';
@@ -1626,12 +1626,15 @@ img.follow-scl {
 	background: #FFFFFF;
 	display: block;
 }
+.footer-widget .contact li span a{
+	color: #ffff !important;
+}
 .footer-widget.latest-post ul li .content {
 	padding-left: 18px;
 	display: table-cell;
 	vertical-align: top;
 	position: relative;
-	top: -8px;
+	top: -13px;
 }
 .footer-widget.latest-post ul li a {
 	display: block;

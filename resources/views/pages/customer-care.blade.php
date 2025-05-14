@@ -15,8 +15,9 @@
             <div class="col-md-3 support-item">
                 <i class="fas fa-phone sizing"></i>
                 <div>
-                    <h5>051 111 111 872</h5>
-                    <p>HelpLine Number</p>
+                    <h5>
+                        <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank">051 111 111 872</a></h5>
+                        <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank"><p>HelpLine Number</p></a>
                 </div>
             </div>
             <div class="col-md-3 support-item support-divider">
@@ -111,10 +112,11 @@
         box-sizing: border-box;
         min-height: 180px; /* Equal height across columns */
     }
-    
+    .support-item h5 a{
+        color: #fff;
+    }
     .support-item i {
         font-size: 28px;
-        color: #8bc34a;
         margin-top: 5px;
     }
     

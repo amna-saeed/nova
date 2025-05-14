@@ -48,8 +48,17 @@
                             <img src="{{asset('assets/images/webImg/whiteee.png')}}" alt="Awesome Image" />
                             </a>
                             <ul class="contact">
-                                <li><i class="fa fa-map-marker"></i> <span>00 Monroe Ave, Roseland, NJ, 07068 </span></li>
-                                <li><i class="fa fa-phone"></i> <span>(973) 226-6181</span></li>
+                                <li><i class="fa fa-map-marker"></i> <span>
+                                    <a 
+                                        href="https://maps.app.goo.gl/cRQXmxzxSBMB26CR7" 
+                                        target="_blank" 
+                                        rel="noopener noreferrer">
+                                        <p>Suit No. 1 & 2, Floor 2nd, Muhammadi Plaza, Nazim ud Din Road, F-6/4, Blue Area, Islamabad</p>
+                                    </a>    
+                                </span></li>
+                                <li><i class="fa fa-phone"></i> <span>
+                                    <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank">051 111 111 872</a>
+                                    </span></li>
                                 <li><i class="fa fa-envelope"></i> <span>info@nova.pk</span></li>
                             </ul>
                             </div>
@@ -70,24 +79,6 @@
                                         <a href="{{ route('about-us') }}">About Us</a>
                                     </div>
                                 </li>
-                                {{-- <li>
-                                    <span class="border"></span>
-                                    <div class="content">
-                                        <a href="classes-list.html">Services</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <span class="border"></span>
-                                    <div class="content">
-                                        <a href="{{ route('packages') }}">Packages</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <span class="border"></span>
-                                    <div class="content">
-                                        <a href="classes-list.html">Blog </a>
-                                    </div>
-                                </li> --}}
                                 <li>
                                     <span class="border"></span>
                                     <div class="content">
