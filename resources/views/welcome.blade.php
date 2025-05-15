@@ -1,6 +1,6 @@
 @extends('layout.main')
 @section('content')
-   
+    @include('components.pop-up')
     @include('components.home-slider')
     @include('components.packages')
 
@@ -161,7 +161,8 @@
     </div> 
 
     {{-- form --}}
-    @include('components.forms')
+    
+   
 @stop
 @section('js')
    

@@ -143,3 +143,4 @@
         </footer>
     </div>
 </div>
+@include('components.forms')

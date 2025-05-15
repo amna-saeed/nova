@@ -109,6 +109,15 @@
                                                     </ul>
                                                 </div>
                                             </div>
+                                            <div class="row btm-roz"> 
+                                                <div class="col-md-4">
+                                                    <ul>
+                                                        <li class="drop-txt"><a href="{{ route('techonology-partner') }}">Our Tchonology Partner
+                                                            <img src="{{asset('assets/images/webImg/internett(1).png')}}" class="head-icnz" /></a></li>
+                                                            </a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
                                         </div>
                                     </li>
                                 </ul>

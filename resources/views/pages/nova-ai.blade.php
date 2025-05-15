@@ -1,8 +1,10 @@
 @extends('layout.main')
 @section('content')
-    <video class="vdeo-pkgz-desk" autoplay="" loop="" muted="" poster="">
-        <source src="{{asset('assets/images/webImg/AI.mp4')}}" type="video/mp4" class="video-bnr">
-    </video>
+    <section class="inner-header-ai">
+        <div class="complete-bnr-txt">
+            <h1>Nova AI</h1>
+        </div>
+    </section>
     
     <div class="container my-5">
         <div class="row">
