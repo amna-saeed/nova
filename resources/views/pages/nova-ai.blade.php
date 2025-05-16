@@ -2,18 +2,20 @@
 @section('content')
     <section class="inner-header-ai">
         <div class="complete-bnr-txt">
-            <h1>Nova AI</h1>
+            <h1 class="ai-head">Delivering superior services <br /><span class="red-ai">IT solution</span></h1>  
+            <p class="text-ai">Empowering Businesses with Intelligent ICT Services</p>
+            <div class="box-ai">
+                <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank" class="nova-ai-btn">
+                    <button class="get-start-100">Get Started</button></a>
+                <button class="get-faq-100">FAQ</button>
+            </div>
         </div>
     </section>
     
     <div class="container my-5">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank" class="nova-ai-btn">
-                    <button>
-                        Get Connection
-                    </button>
-                </a>
+                    
             </div>
         </div>
     </div>
