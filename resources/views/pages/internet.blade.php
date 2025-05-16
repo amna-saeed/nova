@@ -3,7 +3,7 @@
 
 
 
-<section class="inner-header-location">
+<section class="inner-header-internet-local">
     <div class="complete-bnr-txt">
         <h1>Internet </h1><br />
     </div>

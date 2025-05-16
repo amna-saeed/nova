@@ -48,25 +48,29 @@
                                         <div class="row btm-roz"> 
                                             <div class="col-md-4">
                                                 <ul>
-                                                    <li class="drop-txt"><a href="{{ route('bisiness-internet') }}">Internet Service</a></li>
+                                                    <li class="drop-txt"><a href="{{ route('bisiness-internet') }}">Internet Service
+                                                        <img src="{{asset('assets/images/webImg/interneticonblack.png')}}" class="head-icnz" /></a></li>
                                                 </ul>
                                             </div>
                                             <div class="col-md-4">
                                                 <ul>
-                                                    <li class="drop-txt"><a href="{{ route('voice-services') }}">Voice Services</a></li>
+                                                    <li class="drop-txt"><a href="{{ route('voice-services') }}">Voice Services
+                                                    <img src="{{asset('assets/images/webImg/voiceservices (2).png')}}" class="head-icnz" /></a></li>
                                                 </ul>
                                             </div>
                                             
                                             <div class="col-md-4">
                                                 <ul>
-                                                    <li class="drop-txt"><a href="{{ route('sme-services') }}">SME Services</a></li>
+                                                    <li class="drop-txt"><a href="{{ route('sme-services') }}">SME services
+                                                        <img src="{{asset('assets/images/webImg/sme.png')}}" class="head-icnz" /></a></li>
                                                 </ul>
                                             </div>
                                         </div>
                                         <div class="row btm-roz"> 
                                             <div class="col-md-4">
                                                 <ul>
-                                                    <li class="drop-txt"><a href="{{ route('networking-solutions') }}">Networking Solution In Pakistan</a></li>
+                                                    <li class="drop-txt"><a href="{{ route('networking-solutions') }}">Networking Solution In Pakistan
+                                                        <img src="{{asset('assets/images/webImg/networking (1).png')}}" class="head-icnz" /></a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -88,7 +92,7 @@
                                                 <div class="col-md-4">
                                                     <ul>
                                                         <li class="drop-txt"><a href="{{ route('co-location') }}">Co-Location
-                                                            <img src="{{asset('assets/images/webImg/co-locationservices.png')}}" class="head-icnz" /></a></li>
+                                                            <img src="{{asset('assets/images/webImg/co-locationservices.png')}}" class="head-icnz-location" /></a></li>
                                                             </a></li>
                                                     </ul>
                                                 </div>
@@ -108,12 +112,10 @@
                                                             </a></li>
                                                     </ul>
                                                 </div>
-                                            </div>
-                                            <div class="row btm-roz"> 
                                                 <div class="col-md-4">
                                                     <ul>
                                                         <li class="drop-txt"><a href="{{ route('techonology-partner') }}">Our Tchonology Partner
-                                                            <img src="{{asset('assets/images/webImg/internett(1).png')}}" class="head-icnz" /></a></li>
+                                                            <img src="{{asset('assets/images/webImg/black (2).png')}}" class="head-icnz" /></a></li>
                                                             </a></li>
                                                     </ul>
                                                 </div>

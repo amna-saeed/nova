@@ -1,9 +1,9 @@
 @extends('layout.main')
 @section('content')
 
-<section class="inner-header-vpn">
+<section class="inner-header-vpnz">
     <div class="complete-bnr-txt">
-        <h1>DATA VPN</h1><br />
+        <h1 class="red">DATA VPN</h1><br />
     </div>
 </section>
 
@@ -170,6 +170,11 @@
     font-size: 22px;
     color: #da0000;
     line-height: 25px;
+}
+h1.red {
+    color: #da0000;
+    font-size: 56px;
+    line-height: 68px;
 }
 .cards-mix{
     border-radius: 17px;

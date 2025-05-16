@@ -20,10 +20,6 @@
         </button></a>
     </div>
 
-    {{-- <section id="pkges">
-        @include('components.packages')
-    </section>     --}}
-
     <section id="overview">
         <div class="container">
             <div class="srvce-cont-box">

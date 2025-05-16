@@ -1911,11 +1911,11 @@ p.instr-cont {
     line-height: 25px;
 }
 .complete-bnr-txt h1 {
-    font-size: 62px;
+	font-size: 76px;
     margin: 0px;
     line-height: 49px;
     text-transform: capitalize;
-    color: #da0000;
+    color: #ffff;
 }
 h2.ofrz-100 {
     font-size: 25px;
@@ -1937,7 +1937,11 @@ h2.ofrz-100 {
     margin: 0px;
 }
 img.head-icnz {
-    width: 16px;
+    width: 20px;
+    margin-left: 9px;
+}
+img.head-icnz-location {
+    width: 14px;
     margin-left: 9px;
 }
 .inner-header-payment {
@@ -1948,6 +1952,24 @@ img.head-icnz {
 	-webkit-background-size: cover;
 	background-size: cover;
 	height: 525px;
+}
+.inner-header-internet-local{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	position: relative;
+	background: url(../images/resources/INTERNETSERVICES1-loc.png) center center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 515px;
+}
+.inner-header-hd{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	position: relative;
+	background: url(../images/resources/catv.png) center center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 515px;
 }
 .inner-header-ai {
 	padding-top: 40px;
@@ -2180,7 +2202,16 @@ h4.hosting-tmngs {
 	padding-top: 40px;
 	padding-bottom: 40px;
 	position: relative;
-	background: url(../images/resources/sept-pdp-banner.webp) center center no-repeat;
+	background: url(../images/resources/datafiber.png) center center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 470px;
+}
+.inner-header-location-new{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	position: relative;
+	background: url(../images/resources/co-lation.png) center center no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 	height: 470px;
@@ -2189,10 +2220,10 @@ h4.hosting-tmngs {
 	padding-top: 40px;
 	padding-bottom: 40px;
 	position: relative;
-	background: url(../images/resources/colocation.png) center center no-repeat;
+	background: url(../images/resources/INTERNETSERVICES.png) center center no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
-	height: auto;
+	height: 470px;
 	border-bottom: 1px solid #77a2cc;
 }
 .inner-header-center{
@@ -2213,6 +2244,52 @@ h4.hosting-tmngs {
 	background-size: cover;
 	height: 470px;
 }
+.inner-header-voice{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	position: relative;
+	background: url(../images/resources/voiceservices_.png) center center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 477px;
+}
+.inner-header-vpnz{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	position: relative;
+	background: url(../images/resources/datazvpn.png) center center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 477px;
+}
+.inner-header-tchno{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	position: relative;
+	background: url(../images/resources/Technology.png) center center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 477px;
+}
+.inner-header-sme{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	position: relative;
+	background: url(../images/resources/smeservices.png) center center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 477px;
+}
+.inner-header-network{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	position: relative;
+	background: url(../images/resources/NetworkingPakistan.png) center center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 477px;
+}
+
 .inner-header-telephone-bnr{
 	padding-top: 40px;
 	padding-bottom: 40px;

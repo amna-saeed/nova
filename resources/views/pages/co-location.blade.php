@@ -3,7 +3,7 @@
 
 
 
-<section class="inner-header-location">
+<section class="inner-header-location-new">
     <div class="complete-bnr-txt">
         <h1>CO-LOCATION </h1><br />
     </div>

@@ -10,20 +10,16 @@ use Illuminate\Http\Request;
 class HomeController extends Controller
 {
     
-    // public function home()
-    // {
-    //     $testimonials = Testimonials::all();
-    //     return view('welcome',compact('testimonials'));
-    // }
-    // public function index()
-    // {
-    //     $this->middleware('auth');
-    //     $users = User::all();
-    //     return view('admin.dashboard',compact('users'));
-    // }
-     public function partnerPage()
+    public function home()
     {
-        return view('pages.techonology-partner');
+        $testimonials = Testimonials::all();
+        return view('welcome',compact('testimonials'));
+    }
+    public function index()
+    {
+        $this->middleware('auth');
+        $users = User::all();
+        return view('admin.dashboard',compact('users'));
     }
     public function ContactPage()
     {
@@ -57,7 +53,10 @@ class HomeController extends Controller
     {
         return view('pages.nova-ai');
     }
-   
+    public function partnerPage()
+    {
+        return view('pages.techonology-partner');
+    }
     public function careerPage()
     {
         return view('pages.career');

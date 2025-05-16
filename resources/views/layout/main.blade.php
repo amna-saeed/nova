@@ -5,9 +5,9 @@
     
     <body>
         <div class="se-pre-con"></div>
-        {{-- @include('layout.header') --}}
+        @include('layout.header')
         @yield('content')
-        {{-- @include('layout.footer') --}}
+        @include('layout.footer')
         <!--Scroll to top-->
         <div class="scroll-to-top"><span class="fa fa-arrow-up"></span></div>
         @include('layout.js')

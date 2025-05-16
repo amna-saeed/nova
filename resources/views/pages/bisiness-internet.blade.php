@@ -3,7 +3,7 @@
 
     <section class="inner-header-location">
         <div class="complete-bnr-txt">
-            <h1>Internet </h1><br />
+            <h1>Business </h1><br />
         </div>
     </section>
 

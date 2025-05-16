@@ -3,7 +3,7 @@
 
 <section class="inner-header-telephone-bnr">
     <div class="complete-bnr-txt">
-        <h1>Telephone</h1>
+        <h1 class="red">Telephone</h1>
     </div>
 </section>
 
@@ -101,6 +101,11 @@
 <style>
 section {
     min-height: 220px;
+}
+h1.red {
+    color: #da0000;
+    font-size: 56px;
+    line-height: 68px;
 }
 </style>
 <script>

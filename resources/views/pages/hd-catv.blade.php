@@ -1,9 +1,9 @@
 @extends('layout.main')
 @section('content')
 
-    <section class="inner-header-vpn">
+    <section class="inner-header-hd">
         <div class="complete-bnr-txt">
-            <h1>Upgrade Your CABLE <br /> TV with Fiber</h1>
+            <h1 class="red">Upgrade Your CABLE <br /> TV with Fiber</h1>
         </div>
     </section>
 
@@ -45,7 +45,11 @@
     </section>
 
 <style>
-
+h1.red {
+    color: #da0000;
+    font-size: 49px;
+    line-height: 63px;
+}
 section {
     min-height: 169px;
 }
