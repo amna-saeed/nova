@@ -104,7 +104,7 @@
                         </div>
                     </li> 
                 <!-- SLIDE  -->
-                    {{-- <li data-index="rs-2" data-transition="slideup">
+                    <li data-index="rs-2" data-transition="slideup">
                         <img src="{{asset('assets/images/hosting/slider/internet-slider.jpeg')}}" class="slidez-new"
                         />
                         <div
@@ -208,7 +208,7 @@
                     <li data-index="rs-3" data-transition="slideup">
                         <img src="{{asset('assets/images/hosting/slider/66.png')}}" 
                         class="slidez-new">
-                    </li> --}}
+                    </li>
                 </ul>
             </div>
         </div>
