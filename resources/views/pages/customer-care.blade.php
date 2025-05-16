@@ -1,7 +1,7 @@
 @extends('layout.main')
 @section('content')
     <video class="vdeo-pkgz-desk" autoplay="" loop="" muted="" poster="">
-        <source src="{{asset('assets/images/webImg/Comp2_1.mp4')}}" type="video/mp4" class="video-bnr">
+        <source src="{{asset('assets/images/webImg/customercare.mp4')}}" type="video/mp4" class="video-bnr">
     </video>
     <div class="about-content-padding">
         <div class="container">

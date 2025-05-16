@@ -126,7 +126,7 @@
                                 <li>
                                     <span class="border"></span>
                                     <div class="content">
-                                        <a href="{{route('customer-care')}}">Customer Care</a>
+                                        <a href="{{route('contact-us')}}">Contact Us</a>
                                     </div>
                                 </li>
                                 <li>

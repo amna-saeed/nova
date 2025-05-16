@@ -3,8 +3,7 @@
 
     <section class="inner-header-payment">
         <div class="complete-bnr-txt">
-            <h1>Smart & simple</h1><br />
-            <h1>online payments</h1>
+            <h1 class="red">Smart & simple <br /> Online payments</h1>
         </div>
     </section>
 
@@ -20,7 +19,11 @@
                                         <img src="{{asset('assets/images/webImg/Kuickpay.png')}}" />
                                     </a>
                                 </div>
-                                <div class="pay-box-new">
+                                <div class="clicking-box">
+                                    <a href="https://customers.nova.net.pk/novatel/billing/customerPortal/DashboardController/kuickPayment/novateluser" target="_blank"
+                                    class="blink-clicking">Click Here</a>
+                                </div>
+                               <div class="pay-box-new">
                                     <p>Your wallet just went digital</p>
                                 </div>
                             </div>
@@ -29,6 +32,10 @@
                                     <a href="https://easypay.easypaisa.com.pk/easypay-merchant/faces/pg/site/Login.jsf" target="_blank">
                                         <img src="{{asset('assets/images/webImg/easypaisa.png')}}" />
                                     </a>
+                                </div>
+                                <div class="clicking-box">
+                                    <a href="https://easypay.easypaisa.com.pk/easypay-merchant/faces/pg/site/Login.jsf" target="_blank"
+                                    class="blink-clicking">Click Here</a>
                                 </div>
                                 <div class="pay-box-new">
                                     <p>Secure. Swift. Seamless. Pay with confidence</p>
@@ -39,6 +46,10 @@
                                     <a href="https://customers.nova.net.pk" target="_blank">
                                         <img src="{{asset('assets/images/webImg/nova-pay.png')}}" />
                                     </a>
+                                </div>
+                                <div class="clicking-box">
+                                    <a href="https://customers.nova.net.pk" target="_blank"
+                                        class="blink-clicking">Click Here</a>
                                 </div>
                                 <div class="pay-box-new">
                                     <p>Smarter relationships start here</p>
@@ -53,16 +64,48 @@
     </section>
 
 <style>
-    section.contact-payment{
-        border-top-right-radius: 16px;
-        border-top-left-radius: 16px;
-        position: relative;
-        top: -13px;
-        padding: 80px 30px;
-        background: linear-gradient(45deg, #f8f8f8, rgb(193 191 192));
-        box-shadow: rgb(183 132 169) 0px -1px 13px 0px;
-        margin-bottom: 20px;
-    }
+.clicking-box {
+  text-align: center;
+}
+
+.blink-clicking {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    background: linear-gradient(45deg, #8d5dff, #da0000);
+    animation: blinkEffect 1s infinite;
+    border-radius: 6px;
+    padding: 7px 11px;
+}
+a.blink-clicking:hover{
+    color: #fff;
+}
+@keyframes blinkEffect {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+}
+.pay-box-new {
+    margin-top: 22px;
+}
+h1.red {
+    color: #da0000;
+    font-size: 54px;
+    line-height: 67px;
+} 
+section.contact-payment{
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+    position: relative;
+    top: -13px;
+    padding: 80px 30px;
+    background: linear-gradient(45deg, #f8f8f8, rgb(193 191 192));
+    box-shadow: rgb(183 132 169) 0px -1px 13px 0px;
+    margin-bottom: 20px;
+}
 </style>
 @stop
 @section('js')

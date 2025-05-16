@@ -1858,7 +1858,7 @@ p.about-content-100 {
 	padding-top: 40px;
 	padding-bottom: 40px;
 	position: relative;
-	background: url(../images/resources/taxupdate.png) center center no-repeat;
+	background: url(../images/resources/career.png) center center no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 	height: 440px;
@@ -2591,16 +2591,18 @@ section.contact-content.sec-padding {
 }
 
 .boxing-outer {
-    margin-bottom: 13px;
+    margin-bottom: 0px;
 }
-
 
 .inner-soclz {
     display: flex;
     flex-direction: row;
-    gap: 36px;
-    font-size: 26px;
-    margin-left: 74px;
+    gap: 39px;
+    font-size: 28px;
+    margin-left: 0px;
+    justify-content: center;
+    margin-top: 36px;
+    font-weight: 400 !important;
 }
 
 
@@ -2608,10 +2610,10 @@ section.contact-content.sec-padding {
 	height: 165px !important;
 }
 .inner-soclz li a {
-    color: #363636;
+    color: #fff;
 }
 .inner-soclz li a:hover {
-    color: #da0000;
+    color: #ba1800;
 }
 .icon img {
     width: 40px;
@@ -2855,72 +2857,7 @@ h2.terms-faqs {
     font-weight: 600;
     margin-bottom: 15px;
 }
-.accordion-button::after {
-    display: none; 
-}
-.accordion-button {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 18px;
-}
-.accordion-button .icon {
-    margin-left: auto;
-    transition: transform 0.3s ease-in-out;
-}
-.accordion-button[aria-expanded="true"] .icon {
-    transform: rotate(180deg);
-}
-div#faqAccordion{
-    margin-right: 20px;
-}
-.accordion-button:not(.collapsed){
-    color: #da0000 !important;
-    background-color: #ffeef0 !important;
-    box-shadow: inset 0 calc(-1* var(--bs-accordion-border-width)) 0 #ffeef0 !important;
-}
-h2.accordion-header {
-    margin: 0px;
-}
-.accordion-button {
-    position: relative !important;
-    display: flex !important;
-    align-items: center !important;
-    width: 100% !important;
-    padding: 15px 17px 15px 22px!important;
-    font-size: 18px !important;
-    text-align: left !important;
-    color: #da0000 !important;
-    background-color: #ffeef0 !important;
-    box-shadow: inset 0 calc(-1* var(--bs-accordion-border-width)) 0 #ffeef0 !important;
-    border: 0 !important;
-    border-radius: 0 !important;
-    overflow-anchor: none !important;
-    transition: var(--bs-accordion-transition) !important;
-}
-.accordion-item {
-    margin-bottom: 10px !important;
-}
-.icon {
-    font-size: 11px !important;
-    width: 30px !important;
-    height: 30px !important;
-    background: #ffffff !important;
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    border-radius: 45px !important;
-    margin-right: 15px !important;
-    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.3) !important;
-    flex-shrink: 0 !important;
-    padding: 4px !important;
-}
-.accordion-body{
-    font-size: 16px !important;
-    color: rgb(74 74 74) !important;
-    padding: 17px 22px !important;
 
-}
 h1.choose-head {
     font-size: 28px;
     font-weight: 700;

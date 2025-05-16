@@ -11,8 +11,8 @@
                             data-x="['left','left','center','center']"
                             data-hoffset="['0','0','0','0']"
                             data-y="['top','top','top','top']"
-                            data-voffset="['109px','100','100','110']"
-                            data-fontsize="['52','60','50','30']"
+                            data-voffset="['115px','100','100','110']"
+                            data-fontsize="['35','60','50','30']"
                             data-lineheight="['100','100','100','50']"
                             data-width="none"
                             data-height="none"
@@ -28,15 +28,15 @@
                             data-responsive_offset="on"
                             style="z-index: 7; white-space: nowrap; font-weight: 500;color: #fff;"
                             >
-                            <span class="text-thm" style="color: #fff;">Fast, Faster </span>  
+                            <span class="text-thm" style="color: #fff;">Powering Your Digital Life with</span>  
                         </div>
                         <div
                             class="tp-caption montserrat fweight-6 text-white tp-resizeme"
                             data-x="['left','left','center','center']"
                             data-hoffset="['1','50','0','0']"
                             data-y="['top','top','top','top']"
-                            data-voffset="['192','180','180','180']"
-                            data-fontsize="['97','32','32','32']"
+                            data-voffset="['181','180','180','180']"
+                            data-fontsize="['63','32','32','32']"
                             data-lineheight="['93','40','40','30']"
                             data-width="none"
                             data-height="none"
@@ -52,14 +52,14 @@
                             data-responsive_offset="on"
                             style="z-index: 7; white-space: nowrap;font-weight: 600; color: #fff;text-shadow: 4px 1px 1px #9b9b9b;"
                             >
-                            Fastest
+                            Speed & Reliability
                         </div>
                         <div
                             class="tp-caption raleway white text-white tp-resizeme"
                             data-x="['left','left','center','center']"
                             data-hoffset="['8','50','0','0']"
                             data-y="['top','top','top','top']"
-                            data-voffset="['315','220','220','220']"
+                            data-voffset="['295','220','220','220']"
                             data-fontsize="['29','16','14','14']"
                             data-lineheight="['44','70','70','50']"
                             data-width="none"
@@ -76,14 +76,14 @@
                             data-responsive_offset="on"
                             style="z-index: 7; white-space: nowrap;font-weight: 400;background: black;border-radius: 26px;padding: 3px 18px;"
                             >
-                            Feel The Diffrenece With Commited
+                            Fiber-Fast. Buffer-Free
                         </div>
                         <div
                             class="tp-caption raleway white text-white tp-resizeme"
                             data-x="['left','left','center','center']"
                             data-hoffset="['8','50','0','0']"
                             data-y="['top','top','top','top']"
-                            data-voffset="['365','260','260','260']"
+                            data-voffset="['345','260','260','260']"
                             data-fontsize="['28','16','14','14']"
                             data-lineheight="['40','70','70','50']"
                             data-width="none"
@@ -100,11 +100,11 @@
                             data-responsive_offset="on"
                             style="z-index: 7; white-space: nowrap;font-weight: 400;background: black;border-radius: 26px;padding: 3px 18px;"
                             >
-                             Speed 200Mbps
+                            Future-Ready    
                         </div>
                     </li> 
                 <!-- SLIDE  -->
-                    <li data-index="rs-2" data-transition="slideup">
+                    {{-- <li data-index="rs-2" data-transition="slideup">
                         <img src="{{asset('assets/images/hosting/slider/internet-slider.jpeg')}}" class="slidez-new"
                         />
                         <div
@@ -208,7 +208,7 @@
                     <li data-index="rs-3" data-transition="slideup">
                         <img src="{{asset('assets/images/hosting/slider/66.png')}}" 
                         class="slidez-new">
-                    </li>
+                    </li> --}}
                 </ul>
             </div>
         </div>
