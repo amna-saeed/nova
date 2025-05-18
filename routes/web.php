@@ -34,11 +34,11 @@ Route::get('/internet', [HomeController::class, 'internetPage'])->name('internet
 Route::get('/voice-services', [HomeController::class, 'voicePage'])->name('voice-services');
 Route::get('/sme-services', [HomeController::class, 'smePage'])->name('sme-services');
 Route::get('/networking-solutions', [HomeController::class, 'networkingPage'])->name('networking-solutions');
-Route::get('/technology-partner', [HomeController::class, 'technologyPage'])->name('technology-partner');
 Route::get('/hd-catv', [HomeController::class, 'hdCatvPage'])->name('hd-catv');
 Route::get('/telephone', [HomeController::class, 'telephonePage'])->name('telephone');
 Route::get('/nova-ai', [HomeController::class, 'novaPage'])->name('nova-ai');
-Route::get('/techonology-partner', [HomeController::class, 'partnerPage'])->name('techonology-partner');
+Route::get('/techonology-partner', [HomeController::class, 'technologyPage'])->name('techonology-partner');
+Route::get('/business-partner', [HomeController::class, 'businessPage'])->name('business-partner');
 
 // payment
 Route::get('/bank-payment', [HomeController::class, 'bankpaymentPage'])->name('bank-payment');

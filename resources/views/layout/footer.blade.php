@@ -132,7 +132,7 @@
                                 <li>
                                     <span class="border"></span>
                                     <div class="content">
-                                        <a href="{{route('contact-us')}}">FAQ</a>
+                                        <a href="{{route('faqs')}}">FAQ</a>
                                     </div>
                                 </li>
                             </ul>

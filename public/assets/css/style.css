@@ -1843,6 +1843,15 @@ p.about-content-100 {
 	background-size: cover;
 	height:327px;
 }
+.inner-header-business{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	position: relative;
+	background: url(../images/resources/businesspartner.png) center center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height:327px;
+}
 .bg-card-bnner-100{
 	padding-top: 40px;
 	padding-bottom: 40px;
@@ -2316,6 +2325,9 @@ h4.hosting-tmngs {
 }
 .box-img-200{
     width: 23%;
+}
+.box-img-300{
+	width: 13%;
 }
 .box-cards-white {
     background: #ffff;
@@ -2863,6 +2875,14 @@ h1.choose-head {
     font-weight: 700;
     color: #da0000;
     margin: 10px 0px;
+}
+.net-wrk-icnz{
+	width: 27px;
+	margin-left: 9px;
+}
+.business-icnz{
+	width: 27px;
+	margin-left: 9px;
 }
 p.about-nova {
     font-size: 18px;

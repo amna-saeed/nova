@@ -95,7 +95,7 @@
                         </div>
                     </div>
                     <div class="box-cards-white">
-                        <img src="{{asset('assets/images/webImg/co-locationservices.png')}}" class="box-img-200" alt="" />
+                        <img src="{{asset('assets/images/webImg/co-locationservices.png')}}" class="box-img-300" alt="" />
                         <div class="box-bene-100">
                             <h2>Searchability </h2>
                         </div>

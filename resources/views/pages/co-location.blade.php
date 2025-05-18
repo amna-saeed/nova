@@ -81,6 +81,13 @@
                         <p>High-speed connections to maintain uptime and performance</p>
                     </div>
                 </div>
+                <div class="box-fea">
+                    <img src="{{asset('assets/images/webImg/security.png')}}" class="fea-100" alt="" />
+                    <div class="box-fea-100">
+                        <h2>Improved Security</h2>
+                        <p>High-speed connections to maintain uptime and performance</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

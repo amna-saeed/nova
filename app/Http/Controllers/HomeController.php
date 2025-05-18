@@ -53,7 +53,7 @@ class HomeController extends Controller
     {
         return view('pages.nova-ai');
     }
-    public function partnerPage()
+    public function technologyPage()
     {
         return view('pages.techonology-partner');
     }
@@ -77,6 +77,7 @@ class HomeController extends Controller
     {
         return view('pages.payment');
     }
+   
     public function faqsPage()
     {
         return view('pages.faqs');
@@ -109,9 +110,9 @@ class HomeController extends Controller
     {
         return view('pages.networking-solutions');
     }
-    public function technologyPage()
+    public function businessPage()
     {
-        return view('pages.technology-partner');
+        return view('pages.business-partner');
     }
     public function hdCatvPage()
     {

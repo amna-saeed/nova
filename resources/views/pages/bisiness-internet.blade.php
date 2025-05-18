@@ -107,6 +107,12 @@
                             <h2>Peace of <br />Mind</h2>
                         </div>
                     </div>
+                    <div class="box-cards-white">
+                        <img src="{{asset('assets/images/webImg/costsaving.png')}}" class="box-img-200" alt="" />
+                        <div class="box-bene-100">
+                            <h2>Reliable  <br />Support</h2>
+                        </div>
+                    </div>
                 </div>
             </div>
             

@@ -63,13 +63,6 @@
         <div class="container">
             <div class="mange-boxes">
                 <div class="box-fea">
-                    <img src="{{asset('assets/images/webImg/security1.png')}}" class="fea-100" alt="" />
-                    <div class="box-fea-100">
-                        <h2>Security</h2>
-                        <p>Features such as biometric access, surveillance cameras, and on-site security personnel.</p>
-                    </div>
-                </div>
-                <div class="box-fea">
                     <img src="{{asset('assets/images/webImg/scalabaility.png')}}" class="fea-100" alt="" />
                     <div class="box-fea-100">
                         <h2>Scalability</h2>
@@ -77,24 +70,39 @@
                     </div>
                 </div>
                 <div class="box-fea">
-                    <img src="{{asset('assets/images/webImg/coolingsystem.png')}}" class="fea-100" alt="" />
+                    <img src="{{asset('assets/images/webImg/improved compliance.png')}}" class="fea-100" alt="" />
                     <div class="box-fea-100">
-                        <h2>Cooling Systems</h2>
-                        <p>Advanced Cooling and Heating systems to maintain optimal temperature and humidity levels</p>
+                        <h2>Compliance</h2>
+                        <p>Meets the requirements set by the PTA for licensed operators.</p>
+                    </div>
+                </div>
+                
+                <div class="box-fea">
+                    <img src="{{asset('assets/images/webImg/flexibility&growth.png')}}" class="fea-100" alt="" />
+                    <div class="box-fea-100">
+                        <h2>Flexibility</h2>
+                        <p>Allows for the integration of various technology components and services.</p>
                     </div>
                 </div>
                 <div class="box-fea">
                     <img src="{{asset('assets/images/webImg/redundancy.png')}}" class="fea-100" alt="" />
                     <div class="box-fea-100">
-                        <h2>Redundancy and Reliability</h2>
-                        <p>Backup power systems like UPS and generators ensure continuous operations.</p>
+                        <h2>High Capacity</h2>
+                        <p>Supports high-bandwidth applications and services.</p>
+                    </div>
+                </div>
+                <div class="box-fea">
+                    <img src="{{asset('assets/images/webImg/network security.png')}}" class="fea-100" alt="" />
+                    <div class="box-fea-100">
+                        <h2>Fully Managed Service</h2>
+                        <p>High-speed connections to maintain uptime and performanceTPC provides end-to-end management of the Dark Fiber Connectivity, ensuring reliable operation and maintenance.</p>
                     </div>
                 </div>
                 <div class="box-fea">
                     <img src="{{asset('assets/images/webImg/networ connectivity.png')}}" class="fea-100" alt="" />
                     <div class="box-fea-100">
-                        <h2>Network Connectivity</h2>
-                        <p>High-speed connections to maintain uptime and performance</p>
+                        <h2>Extensive Coverage</h2>
+                        <p>The network is deployed in all major cities and Long-Haul Routes, offering widespread availability.</p>
                     </div>
                 </div>
             </div>

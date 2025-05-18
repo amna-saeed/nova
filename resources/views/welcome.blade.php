@@ -162,8 +162,7 @@
     </div> 
 
     {{-- form --}}
-    
-   
+    @include('components.forms')
 @stop
 @section('js')
    

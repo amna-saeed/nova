@@ -66,11 +66,19 @@
                                                 </ul>
                                             </div>
                                         </div>
-                                        <div class="row btm-roz"> 
+                                        <div class="row btm-roz-space"> 
                                             <div class="col-md-4">
                                                 <ul>
                                                     <li class="drop-txt"><a href="{{ route('networking-solutions') }}">Networking Solution In Pakistan
-                                                        <img src="{{asset('assets/images/webImg/networking (1).png')}}" class="head-icnz" /></a></li>
+                                                        <img src="{{asset('assets/images/webImg/networking (1).png')}}" class="net-wrk-icnz" /></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <ul>
+                                                    <li class="drop-txt"><a href="{{ route('business-partner') }}">Our Business Partner
+                                                        <img src="{{asset('assets/images/webImg/businesspartnericon.png')}}" class="business-icnz" /></a>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -104,7 +112,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <div class="row btm-roz"> 
+                                            <div class="row btm-roz-space"> 
                                                 <div class="col-md-4">
                                                     <ul>
                                                         <li class="drop-txt"><a href="{{ route('data-center') }}">Data Center
@@ -208,6 +216,9 @@
 .donate-btn.clearfix{
     text-align: right;
     float: right;
+}
+.row.btm-roz-space{
+    margin-top: 17px;
 }
 .single-header-info .content h3 {
     font-size: 14px;
