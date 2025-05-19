@@ -43,7 +43,7 @@
             <div class="row">
                 <div class="col-lg-4">
                     <div class="border-plan">
-                        <img src="{{asset('assets/images/webImg/addordableplan.png')}}" class="sprt-about-100" alt="" />
+                        <img src="{{asset('assets/images/webImg/sale (1).png')}}" class="sprt-about-100" alt="" />
                         <div class="box-para">
                             <h2>Affordable & Scalable Plans</h2>
                             <p>Packages designed to meet diverse needs.</p>
@@ -52,7 +52,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="border-plan">
-                        <img src="{{asset('assets/images/webImg/customersupport.png')}}" class="sprt-about-100" alt="" />
+                        <img src="{{asset('assets/images/webImg/technical-support.png')}}" class="sprt-about-100" alt="" />
                         <div class="box-para">
                             <h2>24/7 Customer Support</h2>
                             <p>Our dedicated team is here to assist you anytime.</p>
@@ -61,7 +61,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="border-plan">
-                        <img src="{{asset('assets/images/webImg/expandingcoverage.png')}}" class="sprt-about-100" alt="" />
+                        <img src="{{asset('assets/images/webImg/global-connection.png')}}" class="sprt-about-100" alt="" />
                         <div class="box-para">
                             <h2>Expanding Coverage</h2>
                             <p>Proudly serving Islamabad, Lahore, KPK, and beyond.</p>
@@ -75,7 +75,3 @@
     @stop
 @section('js')
 @endsection
-
-<style>
-
-</style>

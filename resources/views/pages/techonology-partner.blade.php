@@ -27,7 +27,7 @@
                 <p class="internet-para">
                     <ul class="roundz-red">
                         <li class="fntz-red-100">
-                            As proud partners with Huawei, a global leader in telecommunications and technology, Nova Communication’s certified Huawei experts deliver excellence by providing and integrating Huawei solutions tailored to our clients’ unique needs — ensuring unmatched service delivery for Nova’s customers.
+                            As proud partners with Huawei, a global leader in telecommunications and technology, <strong>Nova Communication’s</strong> certified Huawei experts deliver excellence by providing and integrating Huawei solutions tailored to our clients’ unique needs — ensuring unmatched service delivery for Nova’s customers.
                         </li>
                     </ul>
                 </p>
@@ -35,7 +35,7 @@
                 <p class="internet-para">
                     <ul class="roundz-red">
                         <li class="fntz-red-100">
-                            Nova Communication proudly hosts one of the largest teams of Cisco Certified Experts in Pakistan as a Cisco Gold Partner.
+                            <strong>Nova Communication</strong> proudly hosts one of the largest teams of Cisco Certified Experts in Pakistan as a Cisco Gold Partner.
                         </li>
                         <li class="fntz-red-100">
                             As industry leaders in delivering Cisco solutions, we offer a comprehensive range of services tailored to meet your specific needs. 

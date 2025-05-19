@@ -533,7 +533,7 @@ blockquote {
 .dropz-content ul li a {
     position: relative;
     text-decoration: none;
-    color: rgb(60 58 58);
+    color: #1a1919;
     font-size: 16px;
     padding-bottom: 2px;
     display: block;
@@ -1842,6 +1842,7 @@ p.about-content-100 {
 	-webkit-background-size: cover;
 	background-size: cover;
 	height:327px;
+	margin-bottom: 25px;
 }
 .inner-header-business{
 	padding-top: 40px;
@@ -1923,10 +1924,12 @@ p.instr-cont {
     color: #282828;
 }
 .pay-box-new p {
-    font-size: 22px;
+	font-size: 18px;
     text-align: center;
     color: black;
     line-height: 25px;
+    text-decoration: underline;
+    font-weight: 600;
 }
 .complete-bnr-txt h1 {
 	font-size: 76px;
@@ -1945,8 +1948,8 @@ h2.ofrz-100 {
     margin: 129px 57px;
 }
 .icons-pay-box img {
-    width: 75%;
-    margin-bottom: 22px;
+    width: 50%;
+    margin-bottom: 25px;
     cursor: pointer;
 }
 .icons-pay-box {
@@ -1966,7 +1969,7 @@ img.head-icnz-location {
 	padding-top: 40px;
 	padding-bottom: 40px;
 	position: relative;
-	background: url(../images/resources/payment-banner.jpeg) center center no-repeat;
+	background: url(../images/resources/pay-cards.png) center center no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 	height: 525px;
@@ -1984,7 +1987,7 @@ img.head-icnz-location {
 	padding-top: 40px;
 	padding-bottom: 40px;
 	position: relative;
-	background: url(../images/resources/catv.png) center center no-repeat;
+	background: url(../images/resources/catv-new.png) center center no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 	height: 515px;
@@ -2312,7 +2315,7 @@ h4.hosting-tmngs {
 	padding-top: 40px;
 	padding-bottom: 40px;
 	position: relative;
-	background: url(../images/resources/telephone-bnr.jpeg) center center no-repeat;
+	background: url(../images/resources/telephone.png) center center no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 	height: 454px;
@@ -2359,11 +2362,9 @@ h4.hosting-tmngs {
 .box-fea-100 p {
     font-size: 17px;
     color: #464646;
+	text-transform: capitalize;
 }
-.box-fea-100 p {
-    font-size: 17px;
-    color: #464646;
-}
+
 img.fea-100 {
     width: 10%;
 }
@@ -2372,10 +2373,11 @@ img.fea-100 {
 }
 p.internet-para{
     font-size: 18px;
-    color: rgb(81 89 108);
+    color: rgb(60 59 59);
     margin-bottom: 22px;
     line-height: 30px;
 }
+
 .sec-title h2.pkg-slidez {
     color: #da0000;
     position: relative;
@@ -2426,12 +2428,14 @@ p.internet-para{
 }
 
 .roundz-red li {
-    position: relative;
+	position: relative;
     padding-left: 25px;
     font-size: 18px;
-    color: rgb(81 89 108);
+    color: rgb(60 59 59);
     margin-bottom: 10px;
     font-weight: 500;
+    text-transform: capitalize;
+	line-height: 28px;
 }
 .roundz-red {
     list-style: none;
@@ -2583,11 +2587,7 @@ h3.fastest-net {
     line-height: 50px;
     padding-left: 41px;
 }
-p.internet-para {
-    font-size: 17px;
-    color: rgb(81 89 108);
-    margin-bottom: 22px;
-}
+
 h3.fastest-net-100 {
     text-align: left;
     font-size: 43px;
@@ -2634,7 +2634,7 @@ section.contact-content.sec-padding {
     color: #fff;
 }
 .inner-soclz li a:hover {
-    color: #ba1800;
+    color: black;
 }
 .icon img {
     width: 40px;

@@ -514,7 +514,7 @@
                                         </li>
                                         <li>
                                             <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-                                            <p>Affordable and reliable for everyday essentials</p>
+                                            <p>Affordable and reliable for everyday</p>
                                         </li>
                                         <li>
                                             <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
@@ -1716,8 +1716,9 @@ button.city-nav-links{
     gap: 10px;
 }
 .tx-pricingBox__styleTwo .tx-listItems {
-    padding: 15px 4px 15px 20px;
+    padding: 15px 4px 0px 18px;
     margin: 0px;
+    height: 122px;
 }
 .tx-pricingBox .tx-listItems li {
     display: flex;

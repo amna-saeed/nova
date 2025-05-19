@@ -52,7 +52,7 @@
                                 href="https://maps.app.goo.gl/cRQXmxzxSBMB26CR7" 
                                 target="_blank" 
                                 rel="noopener noreferrer">
-                                <p>Suit No. 1 & 2, Floor 2nd, Muhammadi Plaza, Nazim ud Din Road, F-6/4, Blue Area, Islamabad</p>
+                                <p>Suite No. 1 & 2, Floor 2nd, Muhammadi Plaza, Nazim ud Din Road, F-6/4, Blue Area, Islamabad</p>
                             </a>
                         </p>
                     </div>
@@ -87,10 +87,10 @@
                         <div class="contact-info"> 
                             <div class="icon-box">
                                 <div class="inner-soclz">
-                                    <li><a href="#"  ><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"  ><i class="fab fa-linkedin-in"></i></a></li>
-                                    <li><a href="#"  ><i class="fab fa-instagram"></i></a></li>
-                                    <li><a href="#"  ><i class="fa-brands fa-x-twitter"></i></a></li>
+                                    <li><a href="https://www.facebook.com/Novacommunicationsofficial.pk" target="_blank"> <i class="fab fa-facebook-f"></i></a></li>
+                                    <li> <a href="https://www.instagram.com/novacommunications.pk/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                    <li> <a href="https://www.linkedin.com/company/67939716/admin/page-posts/published/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li> <a href="https://www.youtube.com/@novacommunicationsinternet3818/community" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
                                 </div>
                             </div>
                         </div>

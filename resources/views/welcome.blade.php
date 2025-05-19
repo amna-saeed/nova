@@ -147,11 +147,11 @@
                         <div class="col-md-12">
                             <div class="linez-same">
                                 <div class="bg-outer-100">
-                                    <a href="#"> <img src="{{asset('assets/images/webImg/fbicon.png')}}" class="follow-scl" /></a>
-                                    <a href="#"><img src="{{asset('assets/images/webImg/instgramicon.png')}}" class="follow-scl" /></a>
-                                    <a href="#"><img src="{{asset('assets/images/webImg/LinkedInIcon.png')}}" class="follow-scl" /></a>
-                                    <a href="#"><img src="{{asset('assets/images/webImg/xicon.png')}}" class="follow-scl" /></a>
-                                    <a href="#"><img src="{{asset('assets/images/webImg/whatsappicon.png')}}" class="follow-scl" /></a>
+                                    <a href="https://www.facebook.com/Novacommunicationsofficial.pk" target="_blank"> <img src="{{asset('assets/images/webImg/fbicon.png')}}" class="follow-scl" /></a>
+                                    <a href="https://www.instagram.com/novacommunications.pk/" target="_blank"><img src="{{asset('assets/images/webImg/instgramicon.png')}}" class="follow-scl" /></a>
+                                    <a href="https://www.linkedin.com/company/67939716/admin/page-posts/published/" target="_blank"><img src="{{asset('assets/images/webImg/LinkedInIcon.png')}}" class="follow-scl" /></a>
+                                    <a href="https://www.youtube.com/@novacommunicationsinternet3818/community" target="_blank"><img src="{{asset('assets/images/webImg/xicon.png')}}" class="follow-scl" /></a>
+                                    <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank"><img src="{{asset('assets/images/webImg/whatsappicon.png')}}" class="follow-scl" /></a>
                                 </div>
                             </div>
                         </div>

@@ -3,7 +3,7 @@
 
     <section class="inner-header-hd">
         <div class="complete-bnr-txt">
-            <h1 class="red">Upgrade Your CABLE <br /> TV with Fiber</h1>
+            <h1 class="red-hdctv">Upgrade Your CABLE <br /> <span class="changes-new">TV with Fiber</span></h1>
         </div>
     </section>
 
@@ -44,11 +44,47 @@
         </div>
     </section>
 
+    <section class="terms">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="blocks-img">
+                      
+                    </div>
+                    <div class="accordion" id="faqAccordion">
+                        <!-- Item 1 -->
+                        <div class="accordion" id="faqAccordion">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="false">
+                                        Why is my internet speed slower on some devices compared to others?
+                                    <i class="fas fa-plus icon"></i>
+                                    </button>
+                                </h2>
+                                <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Device hardware matters — older Wi-Fi adapters or outdated software can limit speed. Ensure your device is up to date and close to the TPC ONT. Interference from electronics or high usage on other devices can also affect speed.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 <style>
-h1.red {
-    color: #da0000;
-    font-size: 49px;
-    line-height: 63px;
+/*  */
+
+/*  */
+h1.red-hdctv {
+    font-size: 43px;
+    line-height: 62px;
+}
+span.changes-new {
+    font-size: 43px;
+    text-shadow: rgb(44 44 44) 5px 0px 1px;
 }
 section {
     min-height: 169px;
@@ -81,6 +117,23 @@ video.vdeo-pkgz-desk {
       });
     });
   </script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    document.querySelectorAll(".accordion-button").forEach(button => {
+        button.addEventListener("click", function() {
+            let icon = this.querySelector(".icon");
+            document.querySelectorAll(".icon").forEach(i => {
+                if (i !== icon) {
+                    i.classList.replace("fa-minus", "fa-plus");
+                }
+            });
+            icon.classList.toggle("fa-plus");
+            icon.classList.toggle("fa-minus");
+        });
+    });
+</script>
+
 @stop
 @section('js')
 @endsection

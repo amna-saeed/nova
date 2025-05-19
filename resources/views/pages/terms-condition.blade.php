@@ -121,11 +121,10 @@
                                            <div class="row">
                                             <div class="col-lg-12 p-0">
                                               <div class="bg-agree">
-                                                <img src="{{asset('assets/images/webImg/bg-form.png')}}" class="agree-partner" />
+                                                <p class="from-text">Customer Agreement Form</p>
                                               </div>
                                             </div>
                                            </div>
-                                           <h2 class="carres-head agree-100">Installment Agreement</h2>
                                             <p class="career-100">
                                                 This Agreement is made at on between <span class="bold-terms10">The Professional Communication,</span> having its registered office at Muhammadi Plaza 2nd Floor, 
                                                 Blue Area (hereinafter referred to as <span class="bold-terms10">"TPC",</span> which expression shall, where the context so permits, include its successors and 
@@ -309,17 +308,22 @@
         </div>
     </section>
 
-    {{-- <section class="about-content-padding">
-        <div class="container-fluid p-0">
-            <div class="row">
-                <div class="col-lg-12">
-                    <img src="{{asset('assets/images/webImg/banner-19.png')}}" class="pkggg-200" alt="" />
-                </div>
-            </div>
-        </div>
-    </section> --}}
-
 <style>
+.bg-agree {
+  background: #da0000;
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
+  padding: 13px 0px;
+  margin: 14px 0px 27px;
+}
+p.from-text {
+  text-align: center;
+  color: #ffff;
+  font-size: 26px;
+  font-weight: 600;
+  margin: 0px;
+}
+
 h2.carres-head.agree-100 {
   margin-bottom: 17px !important;
 }

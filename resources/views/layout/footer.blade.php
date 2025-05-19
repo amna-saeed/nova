@@ -53,13 +53,13 @@
                                         href="https://maps.app.goo.gl/cRQXmxzxSBMB26CR7" 
                                         target="_blank" 
                                         rel="noopener noreferrer">
-                                        <p>Suit No. 1 & 2, Floor 2nd, Muhammadi Plaza, Nazim ud Din Road, F-6/4, Blue Area, Islamabad</p>
+                                        <p>Suite No. 1 & 2, Floor 2nd, Muhammadi Plaza, Nazim ud Din Road, F-6/4, Blue Area, Islamabad</p>
                                     </a>    
                                 </span></li>
                                 <li><i class="fa fa-phone"></i> <span>
                                     <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank">051 111 111 872</a>
                                     </span></li>
-                                <li><i class="fa fa-envelope"></i> <span>info@nova.pk</span></li>
+                                <li><i class="fa fa-envelope"></i> <span>info@nova.net.pk</span></li>
                             </ul>
                             </div>
                     </div>

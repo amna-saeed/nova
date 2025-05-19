@@ -28,13 +28,13 @@
         <div class="container">
             <div class="srvce-cont-box">
                 <p class="internet-para">
-                    nova communication offers a range of internet services tailored to the needs of small and medium-sized businesses, ensuring you have the connectivity and security required for efficient operations.
+                    <strong>Nova Communication</strong> offers a range of internet services tailored to the needs of small and medium-sized businesses, ensuring you have the connectivity and security required for efficient operations.
                 </p>
                 <h2 class="agree-head-bullet"><span class="bullet"></span>Dedicated Internet Services:</h2>
                 <p class="internet-para">
                     <ul class="roundz-red">
                         <li class="fntz-red-100">
-                            For businesses demanding top-notch performance, nova communication dedicated internet services deliver unmatched speed and reliability via our robust fiber optic network. 
+                            For businesses demanding top-notch performance, <strong>Nova Communication</strong> dedicated internet services deliver unmatched speed and reliability via our robust fiber optic network. 
                         </li>
                         <li class="fntz-red-100">
                             Enjoy uninterrupted connectivity with guaranteed bandwidth and high uptime—perfect for high-definition streaming, large-scale data transfers, or remote work environments.
@@ -51,7 +51,7 @@
                 <p class="internet-para">
                     <ul class="roundz-red">
                         <li class="fntz-red-100">
-                            nova communication Data VPN provides robust encryption to safeguard your business’s digital communications and sensitive information. 
+                            <strong>Nova Communication</strong> Data VPN provides robust encryption to safeguard your business’s digital communications and sensitive information. 
                         </li>
                         <li class="fntz-red-100">
                             Protect login credentials, financial data, and internal communications with our cost-effective VPN solution, ensuring your SME’s digital operations remain secure, private, and fully protected from external threats.

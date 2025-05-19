@@ -2,9 +2,7 @@
 @section('content')
 
     <section class="inner-header-payment">
-        <div class="complete-bnr-txt">
-            <h1 class="red">Smart & simple <br /> Online payments</h1>
-        </div>
+       
     </section>
 
     <section class="contact-payment">
@@ -21,10 +19,10 @@
                                 </div>
                                 <div class="clicking-box">
                                     <a href="https://customers.nova.net.pk/novatel/billing/customerPortal/DashboardController/kuickPayment/novateluser" target="_blank"
-                                    class="blink-clicking">Click Here</a>
+                                    class="blink-clicking">Pay Now</a>
                                 </div>
                                <div class="pay-box-new">
-                                    <p>Your wallet just went digital</p>
+                                <p>Instruction</p>
                                 </div>
                             </div>
                             <div class="col-lg-4">
@@ -35,10 +33,10 @@
                                 </div>
                                 <div class="clicking-box">
                                     <a href="https://easypay.easypaisa.com.pk/easypay-merchant/faces/pg/site/Login.jsf" target="_blank"
-                                    class="blink-clicking">Click Here</a>
+                                    class="blink-clicking">Pay Now</a>
                                 </div>
                                 <div class="pay-box-new">
-                                    <p>Secure. Swift. Seamless. Pay with confidence</p>
+                                    <p>Instruction</p>
                                 </div>
                             </div>
                             <div class="col-lg-4">
@@ -49,15 +47,14 @@
                                 </div>
                                 <div class="clicking-box">
                                     <a href="https://customers.nova.net.pk" target="_blank"
-                                        class="blink-clicking">Click Here</a>
+                                        class="blink-clicking">Pay Now</a>
                                 </div>
                                 <div class="pay-box-new">
-                                    <p>Smarter relationships start here</p>
+                                    <p>Instruction</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <p class="instr-cont">For instruction on how to pay,<a class="red-under"> click here</a></p>
                 </div>
             </div>
         </div>
