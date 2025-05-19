@@ -8,7 +8,9 @@
           </button>
         </div>
         <div class="modal-body">
+          <a href="{{route('internet')}}">
             <img src="{{asset('assets/images/webImg/NOVA6popup.png')}}" class="modal-newss" />
+          </a>
         </div>
       </div>
     </div>

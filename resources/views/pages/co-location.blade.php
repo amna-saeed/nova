@@ -85,7 +85,7 @@
                     <img src="{{asset('assets/images/webImg/security.png')}}" class="fea-100" alt="" />
                     <div class="box-fea-100">
                         <h2>Improved Security</h2>
-                        <p>High-speed connections to maintain uptime and performance</p>
+                        <p>Enhanced protection through advanced encryption and real-time threat detection.</p>
                     </div>
                 </div>
             </div>

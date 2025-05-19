@@ -39,6 +39,7 @@ Route::get('/telephone', [HomeController::class, 'telephonePage'])->name('teleph
 Route::get('/nova-ai', [HomeController::class, 'novaPage'])->name('nova-ai');
 Route::get('/techonology-partner', [HomeController::class, 'technologyPage'])->name('techonology-partner');
 Route::get('/business-partner', [HomeController::class, 'businessPage'])->name('business-partner');
+Route::get('/read-more', [HomeController::class, 'companyPage'])->name('company-overview');
 
 // payment
 Route::get('/bank-payment', [HomeController::class, 'bankpaymentPage'])->name('bank-payment');

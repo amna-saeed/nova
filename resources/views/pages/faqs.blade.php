@@ -1,6 +1,10 @@
 @extends('layout.main')
 @section('content')
 
+<section class="inner-header-faq">
+</section>
+
+
 <section id="faq" class="about-content-padding">
     <div class="container">
         <div class="row">

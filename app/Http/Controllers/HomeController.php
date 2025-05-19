@@ -122,6 +122,10 @@ class HomeController extends Controller
     {
         return view('pages.telephone');
     }
+    public function companyPage()
+    {
+        return view('pages.company-overview');
+    }
 
     // payment
     public function bankpaymentPage()

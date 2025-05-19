@@ -1872,6 +1872,15 @@ p.about-content-100 {
 	background-size: cover;
 	height: 440px;
 }
+.inner-header-faq {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	position: relative;
+	background: url(../images/resources/faq.png) center center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 440px;
+}
 .inner-header-privacy11 {
 	padding-top: 40px;
 	padding-bottom: 40px;

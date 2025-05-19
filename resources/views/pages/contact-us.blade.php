@@ -6,7 +6,7 @@
     <div class="about-content-padding">
         <div class="container">
             <div class="sec-title text-center wow fadeInUp" data-wow-delay="200ms" data-wow-duration="2500ms">
-                <h2 class="headings-care">Great Service Starts With Great Support</h2>
+                <h2 class="headings-care">Exceptional Services Starts with Great Support</h2>
             </div>
         </div>
     </div>
@@ -175,6 +175,7 @@
         color: #141414 !important;
         font-size: 36px !important;
         margin: 40px 0px 22px;
+        font-family: sans-serif;
     }
     video.vdeo-pkgz-desk {
         border: none;
