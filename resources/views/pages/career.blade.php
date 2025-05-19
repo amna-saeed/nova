@@ -129,10 +129,10 @@
         <p>Nova provides you the platform to work and excel in a rewarding environment so that you become a refined professional in your chosen field of interest. As one of the top employers of the country, we enable you to dream big and then achieve it in an environment full of ideas, growth and challenges.</p>
       </section>
       <div class="box-reading">
-        <a  href="{{ route('read-more') }}">Read More</a>
-        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="28" viewBox="0 0 27 15" fill="none" style="cursor: pointer;">
+        <a  href="{{ route('company-overview') }}"> Read More
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="28" viewBox="0 0 27 15" fill="none" style="cursor: pointer;">
           <g clip-path="url(#clip0_87_254)"><path d="M13.2392 17.1522L13.226 7.76336C13.226 7.55208 13.2988 7.37373 13.4442 7.22829C13.5896 7.08286 13.7678 7.01032 13.9787 7.01067C14.19 7.01067 14.3684 7.08339 14.5138 7.22882C14.6592 7.37425 14.7318 7.55243 14.7314 7.76336L14.7182 17.1522L18.7326 13.1378C18.8822 12.9882 19.0585 12.9134 19.2613 12.9134C19.4641 12.9134 19.64 12.9882 19.789 13.1378C19.9386 13.2875 20.0135 13.4637 20.0135 13.6666C20.0135 13.8694 19.9386 14.0453 19.789 14.1942L14.5069 19.4763C14.3573 19.6259 14.181 19.7008 13.9782 19.7008C13.7754 19.7008 13.5995 19.6259 13.4505 19.4763L8.16848 14.1942C8.01883 14.0446 7.944 13.8683 7.944 13.6655C7.944 13.4627 8.01883 13.2868 8.16848 13.1378C8.31814 12.9882 8.49439 12.9134 8.69722 12.9134C8.90005 12.9134 9.07594 12.9882 9.22489 13.1378L13.2392 17.1522Z" fill="#da0000"></path></g></svg>
-         
+        </a>
         </div>
         
       <div class="row">

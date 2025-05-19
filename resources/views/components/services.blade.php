@@ -1,8 +1,6 @@
 <div class="bg-services-light">
     <div class="sec-title text-center wow fadeInUp" data-wow-delay="200ms" data-wow-duration="2500ms">
-        <span class="double-line"></span> &ensp;
         <h2>Our Services</h2>
-        &ensp; <span class="double-line"></span>
     </div>
     <div class="container mt-4">
         <div class="services-slider-wrapper">
@@ -26,7 +24,7 @@
                     </div>
                     <div class="services-slider-items">
                         <div class="slide-content">
-                            <img src="{{asset('assets/images/webImg/b12.png')}}" alt="Slide 1" class="servicesz-slde-img">
+                            <img src="{{asset('assets/images/webImg/b12.png')}}" alt="Slide 2" class="servicesz-slde-img">
                             <div class="slide-text">
                                 <div class="uk-srvce-txt">
                                     <h4>INTERNET</h4>
@@ -41,7 +39,7 @@
                     </div>
                     <div class="services-slider-items">
                         <div class="slide-content">
-                            <img src="{{asset('assets/images/webImg/phone!!.png')}}" alt="Slide 1" class="servicesz-slde-img">
+                            <img src="{{asset('assets/images/webImg/phone!!.png')}}" alt="Slide 3" class="servicesz-slde-img">
                             <div class="slide-text">
                                 <div class="uk-srvce-txt">
                                     <h4>TELEPHONE</h4>
@@ -111,7 +109,7 @@
                     currentIndex = totalSlides;
                     slideContainer.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
                 }
-            }, 500);
+            }, 400);
         }
     
         function nextSlide() {
@@ -125,7 +123,7 @@
         }
     
         function startAutoplay() {
-            autoplayInterval = setInterval(nextSlide, 3000);
+            autoplayInterval = setInterval(nextSlide, 1000);
         }
     
         function stopAutoplay() {

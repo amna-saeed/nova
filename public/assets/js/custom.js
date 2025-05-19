@@ -39,7 +39,7 @@ function revolutionSliderActiver () {
 		$("#slider1").revolution({
 			sliderType:"standard",
 			sliderLayout:"auto",
-			delay:11000,
+			delay:1000,
 			navigation: {
 				arrows:{enable:true} 
 			}, 
@@ -311,37 +311,37 @@ if($('.testimonials').length) {
 }
 
 // 10 clientsCarosule
-function clientsCarosule () {
-	if ($('.clients-carousel').length) {
-		$('.clients-carousel').owlCarousel({
-			items: 2,
-		    loop: true,
-		    margin: 50,
-		    nav: false,
-		    dots: false,
-		    autoplay: true,
-		    autoplayTimeout: 3000,
-		    autoplayHoverPause: true,
-		    responsive: {
-		        0:{
-		            items:2
-		        },
-		        480:{
-		            items:3
-		        },
-		        600:{
-		            items:2
-		        },
-		        1000:{
-		            items:2
-		        },
-		        1200:{
-		            items:2
-		        }
-		    }
-		});
-	}
-}
+// function clientsCarosule () {
+// 	if ($('.clients-carousel').length) {
+// 		$('.clients-carousel').owlCarousel({
+// 			items: 2,
+// 		    loop: true,
+// 		    margin: 50,
+// 		    nav: false,
+// 		    dots: false,
+// 		    autoplay: true,
+// 		    autoplayTimeout: 3000,
+// 		    autoplayHoverPause: true,
+// 		    responsive: {
+// 		        0:{
+// 		            items:2
+// 		        },
+// 		        480:{
+// 		            items:3
+// 		        },
+// 		        600:{
+// 		            items:2
+// 		        },
+// 		        1000:{
+// 		            items:2
+// 		        },
+// 		        1200:{
+// 		            items:2
+// 		        }
+// 		    }
+// 		});
+// 	}
+// }
 
 // 11 owlCarosule
 if ($('.owl-carousel-1col').length) {
