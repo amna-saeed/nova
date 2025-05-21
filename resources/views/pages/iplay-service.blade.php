@@ -21,7 +21,7 @@
     </div>
     <div class="container">
         <video class="vdeo-pkgz-desk" autoplay="" loop="" muted="" poster="">
-            <source src="{{asset('assets/images/webImg/Comp2.mp4')}}" type="video/mp4" class="video-pkg-inner">
+            <source src="{{asset('assets/images/webImg/Joybox.mp4')}}" type="video/mp4" class="video-pkg-inner">
         </video>
     </div>
 
@@ -46,14 +46,14 @@
         <div class="container">
             <div class="manage-secnd-boxes">
                 <div class="box-fea">
-                    <img src="{{asset('assets/images/webImg/scalability.png')}}" class="fea-100" alt="" />
+                    <img src="{{asset('assets/images/webImg/2_.png')}}" class="fea-100" alt="" />
                     <div class="box-fea-100">
                         <h2>Ease of use</h2>
                         <p>Designed with user-friendly features that make setup and operation straightforward for everyone</p>
                     </div>
                 </div>
                 <div class="box-fea">
-                    <img src="{{asset('assets/images/webImg/scalability.png')}}" class="fea-100" alt="" />
+                    <img src="{{asset('assets/images/webImg/4_.png')}}" class="fea-100" alt="" />
                     <div class="box-fea-100">
                         <h2>On-demand content</h2>
                         <p>Access a variety of on-demand movies, shows, and videos, turning your TV into an entertainment hub..
@@ -61,7 +61,7 @@
                     </div>
                 </div>
                 <div class="box-fea">
-                    <img src="{{asset('assets/images/webImg/scalability.png')}}" class="fea-100" alt="" />
+                    <img src="{{asset('assets/images/webImg/3_.png')}}" class="fea-100" alt="" />
                     <div class="box-fea-100">
                         <h2>Affordable entertainment</h2>
                         <p>With easy installments and ongoing offers, enjoy your favorite content without putting a dent in your pocket.
@@ -69,7 +69,7 @@
                     </div>
                 </div>
                 <div class="box-fea">
-                    <img src="{{asset('assets/images/webImg/scalability.png')}}" class="fea-100" alt="" />
+                    <img src="{{asset('assets/images/webImg/1_.png')}}" class="fea-100" alt="" />
                     <div class="box-fea-100">
                         <h2>Parental controls</h2>
                         <p>Streaming movies, music, games, and social media offer endless options.</p>

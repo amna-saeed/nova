@@ -21,7 +21,7 @@
     </div>
     <div class="container">
         <video class="vdeo-pkgz-desk" autoplay="" loop="" muted="" poster="">
-            <source src="{{asset('assets/images/webImg/Comp2.mp4')}}" type="video/mp4" class="video-pkg-inner">
+            <source src="{{asset('assets/images/webImg/digitalboxgif.mp4')}}" type="video/mp4" class="video-pkg-inner">
         </video>
     </div>
     <section id="pkg">
@@ -45,28 +45,28 @@
       <div class="container">
           <div class="manage-secnd-boxes">
               <div class="box-fea">
-                  <img src="{{asset('assets/images/webImg/scalability.png')}}" class="fea-100" alt="" />
+                  <img src="{{asset('assets/images/webImg/television-record(2).png')}}" class="fea-100" alt="" />
                   <div class="box-fea-100">
                       <h2>Record live TV</h2>
                       <p>Capture live TV instantly on a flash drive.</p>
                   </div>
               </div>
               <div class="box-fea">
-                  <img src="{{asset('assets/images/webImg/scalability.png')}}" class="fea-100" alt="" />
+                  <img src="{{asset('assets/images/webImg/facetime-button.png')}}" class="fea-100" alt="" />
                   <div class="box-fea-100">
                       <h2>wide channel selection </h2>
                       <p>Choose from an extensive range of digital channels.</p>
                   </div>
               </div>
               <div class="box-fea">
-                  <img src="{{asset('assets/images/webImg/scalability.png')}}" class="fea-100" alt="" />
+                  <img src="{{asset('assets/images/webImg/hd-film.png')}}" class="fea-100" alt="" />
                   <div class="box-fea-100">
                       <h2> Crystal clear picture quality</h2>
                       <p>Experience high-definition visuals and superior sound quality. </p>
                   </div>
               </div>
               <div class="box-fea">
-                  <img src="{{asset('assets/images/webImg/scalability.png')}}" class="fea-100" alt="" />
+                  <img src="{{asset('assets/images/webImg/clapper.png')}}" class="fea-100" alt="" />
                   <div class="box-fea-100">
                       <h2>Media player</h2>
                       <p>Play videos, music, and view photos directly from your USB drive in full HD.</p>
