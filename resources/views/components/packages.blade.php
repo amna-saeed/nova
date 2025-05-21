@@ -84,7 +84,9 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                                 <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank" class="btn-redz-box">
+                                    <img src="{{asset('assets/images/webImg/reddd.png')}}" class="call-pkg-red" alt="" />
+                                </a>
                             </div>
                             <div class="tx-pricingBox tx-pricingBox__styleTwo">
                                 <div class="tx-pricingBox-header d-block text-center pt-10">
@@ -118,7 +120,9 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                                 <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank" class="btn-redz-box">
+                                    <img src="{{asset('assets/images/webImg/reddd.png')}}" class="call-pkg-red" alt="" />
+                                </a>
                             </div>
                             <div class="tx-pricingBox tx-pricingBox__styleTwo">
                                 <div class="tx-pricingBox-header d-block text-center pt-10">
@@ -153,7 +157,9 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                                 <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank" class="btn-redz-box">
+                                    <img src="{{asset('assets/images/webImg/reddd.png')}}" class="call-pkg-red" alt="" />
+                                </a>
                             </div>
                             <div class="tx-pricingBox tx-pricingBox__styleTwo">
                                 <div class="tx-pricingBox-header d-block text-center pt-10">
@@ -187,7 +193,9 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                                 <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank" class="btn-redz-box">
+                                    <img src="{{asset('assets/images/webImg/reddd.png')}}" class="call-pkg-red" alt="" />
+                                </a>
                             </div>
                             <div class="tx-pricingBox tx-pricingBox__styleTwo">
                                 <div class="tx-pricingBox-header d-block text-center pt-10">
@@ -220,7 +228,9 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                                 <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank" class="btn-redz-box">
+                                    <img src="{{asset('assets/images/webImg/reddd.png')}}" class="call-pkg-red" alt="" />
+                                </a>
                             </div>
                             <div class="tx-pricingBox tx-pricingBox__styleTwo">
                                 <div class="tx-pricingBox-header d-block text-center pt-10">
@@ -253,7 +263,9 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                                 <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank" class="btn-redz-box">
+                                    <img src="{{asset('assets/images/webImg/reddd.png')}}" class="call-pkg-red" alt="" />
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -290,7 +302,9 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                                 <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank" class="btn-redz-box">
+                                    <img src="{{asset('assets/images/webImg/reddd.png')}}" class="call-pkg-red" alt="" />
+                                </a>
                             </div>
                             <div class="tx-pricingBox tx-pricingBox__styleTwo">
                                 <div class="tx-pricingBox-header d-block text-center pt-10">
@@ -324,7 +338,9 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                                 <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank" class="btn-redz-box">
+                                    <img src="{{asset('assets/images/webImg/reddd.png')}}" class="call-pkg-red" alt="" />
+                                </a>
                             </div>
                             <div class="tx-pricingBox tx-pricingBox__styleTwo">
                                 <div class="tx-pricingBox-header d-block text-center pt-10">
@@ -358,7 +374,9 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                                 <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank" class="btn-redz-box">
+                                    <img src="{{asset('assets/images/webImg/reddd.png')}}" class="call-pkg-red" alt="" />
+                                </a>
                             </div>
                             <div class="tx-pricingBox tx-pricingBox__styleTwo">
                                 <div class="tx-pricingBox-header d-block text-center pt-10">
@@ -392,7 +410,9 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                                 <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank" class="btn-redz-box">
+                                    <img src="{{asset('assets/images/webImg/reddd.png')}}" class="call-pkg-red" alt="" />
+                                </a>
                             </div>
                             <div class="tx-pricingBox tx-pricingBox__styleTwo">
                                 <div class="tx-pricingBox-header d-block text-center pt-10">
@@ -426,7 +446,9 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                                 <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank" class="btn-redz-box">
+                                    <img src="{{asset('assets/images/webImg/reddd.png')}}" class="call-pkg-red" alt="" />
+                                </a>
                             </div>
                             <div class="tx-pricingBox tx-pricingBox__styleTwo">
                                 <div class="tx-pricingBox-header d-block text-center pt-10">
@@ -455,7 +477,9 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                                 <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank" class="btn-redz-box">
+                                    <img src="{{asset('assets/images/webImg/reddd.png')}}" class="call-pkg-red" alt="" />
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -491,7 +515,9 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                                 <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank" class="btn-redz-box">
+                                    <img src="{{asset('assets/images/webImg/reddd.png')}}" class="call-pkg-red" alt="" />
+                                </a>
                             </div>
                             <div class="tx-pricingBox tx-pricingBox__styleTwo">
                                 <div class="tx-pricingBox-header d-block text-center pt-10">
@@ -522,7 +548,9 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                                 <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank" class="btn-redz-box">
+                                    <img src="{{asset('assets/images/webImg/reddd.png')}}" class="call-pkg-red" alt="" />
+                                </a>
                             </div>
                             <div class="tx-pricingBox tx-pricingBox__styleTwo">
                                 <div class="tx-pricingBox-header d-block text-center pt-10">
@@ -553,7 +581,9 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                                 <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank" class="btn-redz-box">
+                                    <img src="{{asset('assets/images/webImg/reddd.png')}}" class="call-pkg-red" alt="" />
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -598,7 +628,9 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                                 <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank" class="btn-redz-box">
+                                    <img src="{{asset('assets/images/webImg/reddd.png')}}" class="call-pkg-red" alt="" />
+                                </a>
                             </div>
                             <div class="tx-pricingBox tx-pricingBox__styleTwo">
                                 <div class="tx-pricingBox-header d-block text-center pt-10">
@@ -625,7 +657,9 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                                 <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank" class="btn-redz-box">
+                                    <img src="{{asset('assets/images/webImg/reddd.png')}}" class="call-pkg-red" alt="" />
+                                </a>
                             </div>
                             <div class="tx-pricingBox tx-pricingBox__styleTwo">
                                 <div class="tx-pricingBox-header d-block text-center pt-10">
@@ -652,7 +686,9 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                                 <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank" class="btn-redz-box">
+                                    <img src="{{asset('assets/images/webImg/reddd.png')}}" class="call-pkg-red" alt="" />
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -684,7 +720,9 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                                 <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank" class="btn-redz-box">
+                                    <img src="{{asset('assets/images/webImg/reddd.png')}}" class="call-pkg-red" alt="" />
+                                </a>
                             </div>
                             <div class="tx-pricingBox tx-pricingBox__styleTwo">
                                 <div class="tx-pricingBox-header d-block text-center pt-10">
@@ -711,7 +749,9 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                                 <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank" class="btn-redz-box">
+                                    <img src="{{asset('assets/images/webImg/reddd.png')}}" class="call-pkg-red" alt="" />
+                                </a>
                             </div>
                             <div class="tx-pricingBox tx-pricingBox__styleTwo">
                                 <div class="tx-pricingBox-header d-block text-center pt-10">
@@ -738,7 +778,9 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                                 <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank" class="btn-redz-box">
+                                    <img src="{{asset('assets/images/webImg/reddd.png')}}" class="call-pkg-red" alt="" />
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -770,7 +812,9 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                                 <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank" class="btn-redz-box">
+                                    <img src="{{asset('assets/images/webImg/reddd.png')}}" class="call-pkg-red" alt="" />
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -808,7 +852,9 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                                 <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank" class="btn-redz-box">
+                                    <img src="{{asset('assets/images/webImg/reddd.png')}}" class="call-pkg-red" alt="" />
+                                </a>
                             </div>
                             <div class="tx-pricingBox tx-pricingBox__styleTwo">
                                 <div class="tx-pricingBox-header d-block text-center pt-10">
@@ -833,7 +879,9 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                                 <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank" class="btn-redz-box">
+                                    <img src="{{asset('assets/images/webImg/reddd.png')}}" class="call-pkg-red" alt="" />
+                                </a>
                             </div>
                             <div class="tx-pricingBox tx-pricingBox__styleTwo">
                                 <div class="tx-pricingBox-header d-block text-center pt-10">
@@ -858,7 +906,9 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                                 <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank" class="btn-redz-box">
+                                    <img src="{{asset('assets/images/webImg/reddd.png')}}" class="call-pkg-red" alt="" />
+                                </a>
                             </div>
                             <div class="tx-pricingBox tx-pricingBox__styleTwo">
                                 <div class="tx-pricingBox-header d-block text-center pt-10">
@@ -883,7 +933,9 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                                 <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank" class="btn-redz-box">
+                                    <img src="{{asset('assets/images/webImg/reddd.png')}}" class="call-pkg-red" alt="" />
+                                </a>
                             </div>
                             <div class="tx-pricingBox tx-pricingBox__styleTwo">
                                 <div class="tx-pricingBox-header d-block text-center pt-10">
@@ -908,7 +960,9 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                                 <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank" class="btn-redz-box">
+                                    <img src="{{asset('assets/images/webImg/reddd.png')}}" class="call-pkg-red" alt="" />
+                                </a>
                             </div>
                           
                            
@@ -937,7 +991,9 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                                 <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank" class="btn-redz-box">
+                                    <img src="{{asset('assets/images/webImg/reddd.png')}}" class="call-pkg-red" alt="" />
+                                </a>
                             </div>
                             <div class="tx-pricingBox tx-pricingBox__styleTwo">
                                 <div class="tx-pricingBox-header d-block text-center pt-10">
@@ -962,7 +1018,9 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                                 <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank" class="btn-redz-box">
+                                    <img src="{{asset('assets/images/webImg/reddd.png')}}" class="call-pkg-red" alt="" />
+                                </a>
                             </div>
                             <div class="tx-pricingBox tx-pricingBox__styleTwo">
                                 <div class="tx-pricingBox-header d-block text-center pt-10">
@@ -987,7 +1045,9 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                                 <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank" class="btn-redz-box">
+                                    <img src="{{asset('assets/images/webImg/reddd.png')}}" class="call-pkg-red" alt="" />
+                                </a>
                             </div>
                             <div class="tx-pricingBox tx-pricingBox__styleTwo">
                                 <div class="tx-pricingBox-header d-block text-center pt-10">
@@ -1012,7 +1072,9 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                                 <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank" class="btn-redz-box">
+                                    <img src="{{asset('assets/images/webImg/reddd.png')}}" class="call-pkg-red" alt="" />
+                                </a>
                             </div>
                             <div class="tx-pricingBox tx-pricingBox__styleTwo">
                                 <div class="tx-pricingBox-header d-block text-center pt-10">
@@ -1037,7 +1099,9 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                                 <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank" class="btn-redz-box">
+                                    <img src="{{asset('assets/images/webImg/reddd.png')}}" class="call-pkg-red" alt="" />
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -1069,7 +1133,9 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                                 <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank" class="btn-redz-box">
+                                    <img src="{{asset('assets/images/webImg/reddd.png')}}" class="call-pkg-red" alt="" />
+                                </a>
                             </div>
                         </div>
                     </div> --}}
@@ -1498,6 +1564,12 @@ button.city-nav-links{
     background-color: #fff;
     border-radius: 8px;
     overflow: hidden;
+}
+img.call-pkg-red {
+    width: 46%;
+    position: relative;
+    left: 26%;
+    animation: blinkEffect 1.4s infinite;
 }
 .package-cart ul li.nav-item button.active {
     text-transform: capitalize;

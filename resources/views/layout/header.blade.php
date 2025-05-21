@@ -17,7 +17,7 @@
                             </li>
                         
                             <!-- Residential Menu -->
-                            <li class="nav-item {{ Request::is('internet*') || Request::is('hd-catv*') || Request::is('telephone*') ? 'active' : '' }}">
+                            <li class="nav-item {{ Request::is('internet*') || Request::is('hd-catv*') || Request::is('iplay-service*') || Request::is('digital-box*') || Request::is('telephone*') ? 'active' : '' }}">
                                 <a href="#">Residential</a>
                                 <ul class="dropz full-width-dropdown">
                                     <li class="dropz-content">
@@ -27,20 +27,21 @@
                                                     <li class="drop-txt {{ Request::is('internet*') ? 'active' : '' }}">
                                                         <a href="{{ route('internet') }}">
                                                             Internet
-                                                            <img src="{{ asset('assets/images/webImg/blackinternet (1).png') }}" class="head-icnz" />
+                                                            <img src="{{ asset('assets/images/webImg/blackinternet (1).png') }}" class="head-icnz black-icon" />
+                                                            <img src="{{ asset('assets/images/webImg/internet-red.png') }}" class="head-icnz red-icon" />
                                                         </a>
                                                     </li>
                                                 </ul>
                                             </div>
                                             <div class="col-md-4 position-relative">
                                                 <ul>
-                                                    <li class="drop-txt dropdown-wrapper {{ Request::is('hd-catv*') ? 'active' : '' }}">
+                                                    <li class="drop-txt dropdown-wrapper {{ Request::is('hd-catv*') || Request::is('iplay-service*') || Request::is('digital-box*') ? 'active' : '' }}">
                                                         <a href="{{ route('hd-catv') }}" class="dropdown-toggle">
-                                                            HD/Catv 
-                                                            <img src="{{ asset('assets/images/webImg/TVBlack (1).png') }}" class="head-icnz" />
+                                                           Video
+                                                            <img src="{{ asset('assets/images/webImg/video-black.png') }}" class="head-icnz black-icon" />
+                                                            <img src="{{ asset('assets/images/webImg/video-red.png') }}" class="head-icnz red-icon" />
                                                             <img src="{{ asset('assets/images/webImg/dropdown-red.png') }}" class="arrow-hover" />
                                                             <img src="{{ asset('assets/images/webImg/dropdownblack.png') }}" class="arrow-black" />
-                                                            {{-- <span class="arrow">&#9662;</span> --}}
                                                         </a>
                                             
                                                         <!-- Full-width dropdown -->
@@ -55,15 +56,15 @@
                                                                         </a>
                                                                     </div>
                                                                     <div class="col-md-4 dropdown-item">
-                                                                        <a href="{{ route('hd-catv') }}"
-                                                                           class="dropdown-toggle {{ Request::is('hd-catv*') ? 'active' : '' }}">
+                                                                        <a href="{{ route('iplay-service') }}"
+                                                                           class="dropdown-toggle {{ Request::is('iplay-service*') ? 'active' : '' }}">
                                                                             <img src="{{ asset('assets/images/webImg/iplayicon.png') }}" class="dropdown-icon" />
                                                                             <span class="drop-txt">IPlay Service</span>
                                                                         </a>
                                                                     </div>
                                                                     <div class="col-md-4 dropdown-item">
-                                                                        <a href="{{ route('hd-catv') }}"
-                                                                           class="dropdown-toggle {{ Request::is('hd-catv*') ? 'active' : '' }}">
+                                                                        <a href="{{ route('digital-box') }}"
+                                                                           class="dropdown-toggle {{ Request::is('digital-box*') ? 'active' : '' }}">
                                                                             <img src="{{ asset('assets/images/webImg/digitalboxicon.png') }}" class="dropdown-icon" />
                                                                             <span class="drop-txt">Digital Box</span>
                                                                         </a>
@@ -80,7 +81,8 @@
                                                     <li class="drop-txt {{ Request::is('telephone*') ? 'active' : '' }}">
                                                         <a href="{{ route('telephone') }}">
                                                             Telephone
-                                                            <img src="{{ asset('assets/images/webImg/phoneblack (1).png') }}" class="head-icnz" />
+                                                            <img src="{{ asset('assets/images/webImg/phoneblack (1).png') }}" class="head-icnz black-icon" />
+                                                            <img src="{{ asset('assets/images/webImg/phone-red.png') }}" class="head-icnz red-icon" />
                                                         </a>
                                                     </li>
                                                 </ul>
@@ -101,7 +103,8 @@
                                                     <li class="drop-txt {{ Request::is('bisiness-internet*') ? 'active' : '' }}">
                                                         <a href="{{ route('bisiness-internet') }}">
                                                             Internet Service
-                                                            <img src="{{ asset('assets/images/webImg/interneticonblack.png') }}" class="head-icnz" />
+                                                            <img src="{{ asset('assets/images/webImg/interneticonblack.png') }}" class="head-icnz black-icon" />
+                                                            <img src="{{ asset('assets/images/webImg/internet-data-red.png') }}" class="head-icnz red-icon" />
                                                         </a>
                                                     </li>
                                                 </ul>
@@ -111,7 +114,8 @@
                                                     <li class="drop-txt {{ Request::is('voice-services*') ? 'active' : '' }}">
                                                         <a href="{{ route('voice-services') }}">
                                                             Voice Services
-                                                            <img src="{{ asset('assets/images/webImg/voiceservices (2).png') }}" class="head-icnz" />
+                                                            <img src="{{ asset('assets/images/webImg/voiceservices (2).png') }}" class="head-icnz black-icon" />
+                                                            <img src="{{ asset('assets/images/webImg/voiceservices-red.png') }}" class="head-icnz red-icon" />
                                                         </a>
                                                     </li>
                                                 </ul>
@@ -121,7 +125,8 @@
                                                     <li class="drop-txt {{ Request::is('sme-services*') ? 'active' : '' }}">
                                                         <a href="{{ route('sme-services') }}">
                                                             SME Services
-                                                            <img src="{{ asset('assets/images/webImg/sme.png') }}" class="head-icnz" />
+                                                            <img src="{{ asset('assets/images/webImg/sme.png') }}" class="head-icnz black-icon" />
+                                                            <img src="{{ asset('assets/images/webImg/sme-red.png') }}" class="head-icnz red-icon" />
                                                         </a>
                                                     </li>
                                                 </ul>
@@ -134,7 +139,8 @@
                                                     <li class="drop-txt {{ Request::is('networking-solutions*') ? 'active' : '' }}">
                                                         <a href="{{ route('networking-solutions') }}">
                                                             Networking Solution In Pakistan
-                                                            <img src="{{ asset('assets/images/webImg/networking (1).png') }}" class="net-wrk-icnz" />
+                                                            <img src="{{ asset('assets/images/webImg/networking (1).png') }}" class="net-wrk-icnz black-icon" />
+                                                            <img src="{{ asset('assets/images/webImg/networking-red.png') }}" class="head-icnz red-icon" style="width: 27px;"/>
                                                         </a>
                                                     </li>
                                                 </ul>
@@ -144,7 +150,8 @@
                                                     <li class="drop-txt {{ Request::is('business-partner*') ? 'active' : '' }}">
                                                         <a href="{{ route('business-partner') }}">
                                                             Our Business Partner
-                                                            <img src="{{ asset('assets/images/webImg/businesspartnericon.png') }}" class="business-icnz" />
+                                                            <img src="{{ asset('assets/images/webImg/businesspartnericon.png') }}" class="business-icnz black-icon" />
+                                                            <img src="{{ asset('assets/images/webImg/red-partner.png') }}" class="head-icnz red-icon" style="width: 27px;"/>
                                                         </a>
                                                     </li>
                                                 </ul>
@@ -165,7 +172,8 @@
                                                     <li class="drop-txt {{ Request::is('dark-fiber*') ? 'active' : '' }}">
                                                         <a href="{{ route('dark-fiber') }}">
                                                             Dark Fiber
-                                                            <img src="{{ asset('assets/images/webImg/fiberopticnetwork.png') }}" class="head-icnz" />
+                                                            <img src="{{ asset('assets/images/webImg/fiberopticnetwork.png') }}" class="head-icnz black-icon" />
+                                                            <img src="{{ asset('assets/images/webImg/red-darkfiber.png') }}" class="head-icnz red-icon" />
                                                         </a>
                                                     </li>
                                                 </ul>
@@ -175,7 +183,8 @@
                                                     <li class="drop-txt {{ Request::is('co-location*') ? 'active' : '' }}">
                                                         <a href="{{ route('co-location') }}">
                                                             Co-Location
-                                                            <img src="{{ asset('assets/images/webImg/co-locationservices.png') }}" class="head-icnz-location" />
+                                                            <img src="{{ asset('assets/images/webImg/co-locationservices.png') }}" class="head-icnz-location black-icon" />
+                                                            <img src="{{ asset('assets/images/webImg/colocation-red.png') }}" class="head-icnz red-icon" style="width: 14px;" />
                                                         </a>
                                                     </li>
                                                 </ul>
@@ -195,7 +204,8 @@
                                                     <li class="drop-txt {{ Request::is('data-center*') ? 'active' : '' }}">
                                                         <a href="{{ route('data-center') }}">
                                                             Data Center
-                                                            <img src="{{ asset('assets/images/webImg/internett(1).png') }}" class="head-icnz" />
+                                                            <img src="{{ asset('assets/images/webImg/internett(1).png') }}" class="head-icnz black-icon" />
+                                                            <img src="{{ asset('assets/images/webImg/internet-data-red.png') }}" class="head-icnz red-icon" />
                                                         </a>
                                                     </li>
                                                 </ul>
@@ -208,7 +218,8 @@
                                                     <li class="drop-txt {{ Request::is('techonology-partner*') ? 'active' : '' }}">
                                                         <a href="{{ route('techonology-partner') }}">
                                                             Our Technology Partner
-                                                            <img src="{{ asset('assets/images/webImg/black (2).png') }}" class="head-icnz" />
+                                                            <img src="{{ asset('assets/images/webImg/black (2).png') }}" class="head-icnz black-icon" />
+                                                            <img src="{{ asset('assets/images/webImg/technologypartnerred(2).png') }}" class="head-icnz red-icon" />
                                                         </a>
                                                     </li>
                                                 </ul>
@@ -224,71 +235,122 @@
             </div>
             <div class="donate-col col-xs-12 col-sm-12 col-lg-5 col-md-3 pl-0">
                 <div class="donate-btn clearfix">
-                    <div class="single-header-info pb-sm-20">
+                    {{-- Pay Now --}}
+                    <div class="single-header-info pb-sm-20 {{ Request::is('payment*') ? 'active' : '' }}">
                         <div class="icon-box">
                             <a href="{{ route('payment') }}">
-                            <div class="inner-box">
-                                <img class="headrz-env" src="{{'assets/images/webImg/paynow.png'}}" />
-                            </div></a>
+                                <div class="inner-box">
+                                    <img class="headrz-env black-icon" src="{{ asset('assets/images/webImg/paynow.png') }}" />
+                                    <img class="headrz-env red-icon" src="{{ asset('assets/images/webImg/red-wallet.png') }}" />
+                                </div>
+                            </a>
                         </div>
-                        <div class="content ">
+                        <div class="content">
                             <a href="{{ route('payment') }}">
-                            <h3>Pay Now</h3></a>
+                                <h3 class="{{ Request::is('payment*') ? 'active' : '' }}">Pay Now</h3>
+                            </a>
                         </div>
                     </div>
-                    <div class="single-header-info">
+
+                    {{-- Contact Us --}}
+                    <div class="single-header-info {{ Request::is('contact-us*') ? 'active' : '' }}">
                         <div class="icon-box">
                             <a href="{{ route('contact-us') }}">
-                            <div class="inner-box">
-                                <i class="flaticon-telephone"></i>
-                            </div>
+                                <div class="inner-box">
+                                    <img class="headrz-env black-icon" src="{{ asset('assets/images/webImg/phoneblack (1).png') }}" />
+                                    <img class="headrz-env red-icon" src="{{ asset('assets/images/webImg/phone-red.png') }}" />
+                                </div>
                             </a>
                         </div>
                         <div class="content">
                             <a href="{{ route('contact-us') }}">
-                            <h3>Contact Us</h3>
+                                <h3 class="{{ Request::is('contact-us*') ? 'active' : '' }}">Contact Us</h3>
                             </a>
                         </div>
                     </div>
-                    <div class="single-header-info">
+
+                    {{-- Nova AI --}}
+                    <div class="single-header-info {{ Request::is('nova-ai*') ? 'active' : '' }}">
                         <div class="icon-box">
                             <a href="{{ route('nova-ai') }}">
                                 <div class="inner-box">
-                                    <img class="headrz-env" src="{{'assets/images/webImg/AINova.png'}}" />
+                                    <img class="headrz-env black-icon" src="{{ asset('assets/images/webImg/AINova.png') }}" />
+                                    <img class="headrz-env red-icon" src="{{ asset('assets/images/webImg/red-ai-help.png') }}" />
                                 </div>
                             </a>
                         </div>
-                        {{-- <div class="icon-box">
-                            <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank">
-                                <div class="inner-box">
-                                    <img class="headrz-env" src="{{'assets/images/webImg/AINova.png'}}" />
-                                </div>
-                            </a>
-                        </div> --}}
-                        {{-- <div class="content">
-                            <a  href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank" >
-                            <h3>Nova AI</h3>
-                            </a>
-                        </div> --}}
                         <div class="content">
-                            <a  href="{{ route('nova-ai') }}">
-                            <h3>Nova AI</h3>
+                            <a href="{{ route('nova-ai') }}">
+                                <h3 class="{{ Request::is('nova-ai*') ? 'active' : '' }}">Nova AI</h3>
                             </a>
                         </div>
                     </div>
+
                 </div>
             </div>
+            
         </div>
     </div>
 </nav>
 
 <style>
+/* Default: only black icon is visible */
+.black-icon {
+    display: inline-block;
+}
+.red-icon {
+    display: none;
+}
+
+/* Show red icon on active OR hover */
+.single-header-info.active .black-icon,
+.single-header-info:hover .black-icon {
+    display: none;
+}
+.single-header-info.active .red-icon,
+.single-header-info:hover .red-icon {
+    display: inline-block;
+}
+
+.single-header-info.active h3,
+.single-header-info h3.active {
+    color: #da0000 !important; 
+}
+a.dropdown-toggle:hover .drop-txt,
+a.dropdown-toggle.active .drop-txt {
+    color: #da0000 !important; 
+}
+.drop-txt.active {
+    color: #da0000;
+}
 
 .dropdown-wrapper {
     position: relative;
 }
 /*  */
-/* Hide red arrow by default, show black */
+.head-icnz {
+    width: 20px;
+    margin-left: 10px;
+}
+
+/* Default: show black icon, hide red */
+.head-icnz.red-icon {
+    display: none;
+}
+.head-icnz.black-icon {
+    display: inline;
+}
+
+/* On hover or active: show red, hide black */
+.drop-txt:hover .black-icon,
+.drop-txt.active .black-icon {
+    display: none;
+}
+.drop-txt:hover .red-icon,
+.drop-txt.active .red-icon {
+    display: inline;
+}
+
 .arrow-hover {
     display: none;
     width: 20px;
@@ -305,12 +367,20 @@ span.drops-text {
     margin-left: 32px;
 }
 
-/* On hover or active, toggle visibility */
+.head-icnz.red-icon,
+.arrow-hover {
+    display: none;
+}
+
+.dropdown-wrapper:hover .red-icon,
+.dropdown-wrapper.active .red-icon,
 .dropdown-wrapper:hover .arrow-hover,
 .dropdown-wrapper.active .arrow-hover {
     display: inline;
 }
 
+.dropdown-wrapper:hover .black-icon,
+.dropdown-wrapper.active .black-icon,
 .dropdown-wrapper:hover .arrow-black,
 .dropdown-wrapper.active .arrow-black {
     display: none;
@@ -324,16 +394,16 @@ span.drops-text {
 
 .custom-dropdown-box {
     position: absolute;
-    top: 160%;
+    top: 258%;
     left: 30%;
     width: 100vw;
     background: #ffffff;
     border-top: 1px solid #ddd;
-    padding:31px 176px 17px;
+    padding: 34px 177px 24px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     opacity: 0;
     visibility: hidden;
-    transform: translateX(-45%) translateY(10px) scale(0.95); 
+    transform: translateX(-45%) translateY(10px) scale(0.95);
     transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out, visibility 0.5s;
     z-index: 9999;
 }

@@ -26,7 +26,7 @@
       $('#exampleModal').modal('show');
     });
   </script>
-  <style>
+<style>
 .modal-header {
     border: none;
     padding: 0px;

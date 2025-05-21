@@ -85,12 +85,6 @@
                                         <a href="{{route('career')}}">Careers</a>
                                     </div>
                                 </li>
-                                <li>
-                                    <span class="border"></span>
-                                    <div class="content">
-                                        <a href="{{ route('contact-us') }}">Contact</a>
-                                    </div>
-                                </li>
                             </ul>
                         </div>
                     </div>

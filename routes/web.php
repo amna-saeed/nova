@@ -40,6 +40,8 @@ Route::get('/nova-ai', [HomeController::class, 'novaPage'])->name('nova-ai');
 Route::get('/techonology-partner', [HomeController::class, 'technologyPage'])->name('techonology-partner');
 Route::get('/business-partner', [HomeController::class, 'businessPage'])->name('business-partner');
 Route::get('/read-more', [HomeController::class, 'companyPage'])->name('company-overview');
+Route::get('/iplay-service', [HomeController::class, 'iplayPage'])->name('iplay-service');
+Route::get('/digital-box', [HomeController::class, 'digitalPage'])->name('digital-box');
 
 // payment
 Route::get('/bank-payment', [HomeController::class, 'bankpaymentPage'])->name('bank-payment');

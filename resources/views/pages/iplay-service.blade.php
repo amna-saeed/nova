@@ -1,15 +1,17 @@
 @extends('layout.main')
 @section('content')
-    <section class="inner-header-hd">
+    <section class="inner-header-iplay">
         <div class="complete-bnr-txt">
-            <h1 class="red-hdctv">Upgrade Your CABLE <br /> <span class="changes-new">TV with Fiber</span></h1>
+            <h1 class="red-hdctv">Watch Your TV Your Way</h1>
         </div>
     </section>
 
     <div class="tab-nav">
         <div class="tabs">
-            <a href="#overview" class="tab-link active">Overview</a>
-            <a href="#pkges" class="tab-link" data-toggle="modal" data-target="#termsModal1">Terms & Conditions</a>
+          <a href="#overview" class="tab-link">Overview</a>
+          <a href="#pkg" class="tab-link active">Package</a>
+          <a href="#feature" class="tab-link">Features</a>
+          <a class="tab-link" data-toggle="modal" data-target="#termsModal1">Terms & Conditions</a>
         </div>
         <div class="mdz-right">
           <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank">
@@ -23,20 +25,56 @@
         </video>
     </div>
 
-
+    <section id="pkg">
+      @include('components.iplayPkg')
+    </section>
     <section id="overview">
         <div class="container">
             <div class="srvce-cont-box">
                 <p class="internet-para">
                     <ul class="roundz-red">
                         <li class="fntz-red-100">
-                            Enjoy more channels, sharper quality, and faster speeds.
-                        </li>
-                        <li class="fntz-red-100">
-                            From blockbuster movies to live sports, experience it all in ultra-fast quality.
+                           Unlock smart TV capabilities with Joy Box, transforming your standard TV into a high-tech entertainment hub with intuitive features and seamless connectivity.
                         </li>
                     </ul>
                 </p>
+            </div>
+        </div>
+    </section>
+
+      <section id="feature">
+        <div class="container">
+            <div class="manage-secnd-boxes">
+                <div class="box-fea">
+                    <img src="{{asset('assets/images/webImg/scalability.png')}}" class="fea-100" alt="" />
+                    <div class="box-fea-100">
+                        <h2>Ease of use</h2>
+                        <p>Designed with user-friendly features that make setup and operation straightforward for everyone</p>
+                    </div>
+                </div>
+                <div class="box-fea">
+                    <img src="{{asset('assets/images/webImg/scalability.png')}}" class="fea-100" alt="" />
+                    <div class="box-fea-100">
+                        <h2>On-demand content</h2>
+                        <p>Access a variety of on-demand movies, shows, and videos, turning your TV into an entertainment hub..
+                          High-definition viewing</p>
+                    </div>
+                </div>
+                <div class="box-fea">
+                    <img src="{{asset('assets/images/webImg/scalability.png')}}" class="fea-100" alt="" />
+                    <div class="box-fea-100">
+                        <h2>Affordable entertainment</h2>
+                        <p>With easy installments and ongoing offers, enjoy your favorite content without putting a dent in your pocket.
+                          Recording and playback</p>
+                    </div>
+                </div>
+                <div class="box-fea">
+                    <img src="{{asset('assets/images/webImg/scalability.png')}}" class="fea-100" alt="" />
+                    <div class="box-fea-100">
+                        <h2>Parental controls</h2>
+                        <p>Streaming movies, music, games, and social media offer endless options.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -57,16 +95,15 @@
                     <h2>Terms & Condition</h2>
                   </div>
                   <ul class="roundz-red internet-para termzz-mdl">
-                    <li class="fntz-red-100 bd-200">RF ONT is mandatory for subscribing to Nova Communication’s Cable TV service.</li>
-                    <li class="fntz-red-100 bd-200">Only PEMRA-approved channels are available on our network.</li>
-                    <li class="fntz-red-100 bd-200">Channel availability is subject to change and may be replaced depending on availability.</li>
-                    <li class="fntz-red-100 bd-200">Your TV/LED/LCD must support the PAL color system and B/G sound system to ensure compatibility and proper signal reception.</li>
-                    <li class="fntz-red-100 bd-200">Nova Communication will not be responsible for poor picture quality if third-party TV devices (e.g., tuners, converters) are used.</li>
-                    <li class="fntz-red-100 bd-200">Cable TV service can be used on up to four (4) TV sets simultaneously under standard charges.</li>
-                    <li class="fntz-red-100 bd-200">An additional charge of Rs. 200 per month will apply for a 5th TV connection.</li>
-                    <li class="fntz-red-100 bd-200">Billing begins as soon as a Cable TV plan is assigned to your account.</li>
-                    <li class="fntz-red-100 bd-200">Any additional cabling or hardware required will be charged based on actual cost.</li>
-                    <li class="fntz-red-100 bd-200">Please note that channel quality is not in HD.</li>
+                    <li class="fntz-red-100 bd-200">Only one iPlay Box can be used per TV.</li>
+                    <li class="fntz-red-100 bd-200">There is no return policy for the iPlay Box.</li>
+                    <li class="fntz-red-100 bd-200">Channels available on the iPlay Box are subject to change based on availability.</li>
+                    <li class="fntz-red-100 bd-200">The TV must have an HDMI port to view channels in HD resolution.</li>
+                    <li class="fntz-red-100 bd-200">Nova Communication Internet is mandatory to subscribe to the iPlay Box for accessing Live Channels and VOD.</li>
+                    <li class="fntz-red-100 bd-200">To use YouTube or other Android applications on the iPlay Box, the customer must have an active Nova Communication Internet package.</li>
+                    <li class="fntz-red-100 bd-200">Support for third-party apps will not be provided.</li>
+                    <li class="fntz-red-100 bd-200">iPlay Box-supported apps  will function only if an Internet package is active.</li>
+                    <li class="fntz-red-100 bd-200">The VOD (Video On Demand) service is complimentary with the iPlay Box subscription.</li>
                   </ul>
                 </div>
               </div>
@@ -91,7 +128,11 @@
 <style>
 body{
     padding-right: 0px !important;
-}    
+} 
+a.tab-link.active {
+    cursor: pointer !important;
+}
+
 .modal-header {
   border: none;
   padding: 0px;
@@ -146,7 +187,7 @@ div#termsModal1 {
   background: none !important;
 }
 .modal.show {
-    background: linear-gradient(rgb(30 30 30 / 84%), #da00002e), url(/assets/images/resources/terms-backgrnd.png) center center no-repeat !important;
+    background: linear-gradient(rgb(30 30 30 / 84%), #da00002e), url(/assets/images/resources/i-playtv1.png) center center no-repeat !important;
     background-size: cover !important;
 }
 li.fntz-red-100.bd-200 {

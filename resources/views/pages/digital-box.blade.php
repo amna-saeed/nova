@@ -1,6 +1,6 @@
 @extends('layout.main')
 @section('content')
-    <section class="inner-header-hd">
+    <section class="inner-header-digital">
         <div class="complete-bnr-txt">
             <h1 class="red-hdctv">Upgrade Your CABLE <br /> <span class="changes-new">TV with Fiber</span></h1>
         </div>
@@ -8,7 +8,9 @@
 
     <div class="tab-nav">
         <div class="tabs">
-            <a href="#overview" class="tab-link active">Overview</a>
+            <a href="#overview" class="tab-link ">Overview</a>
+            <a href="#pkg" class="tab-link active">Packages</a>
+              <a href="#feature" class="tab-link">Features</a>
             <a href="#pkges" class="tab-link" data-toggle="modal" data-target="#termsModal1">Terms & Conditions</a>
         </div>
         <div class="mdz-right">
@@ -22,18 +24,16 @@
             <source src="{{asset('assets/images/webImg/Comp2.mp4')}}" type="video/mp4" class="video-pkg-inner">
         </video>
     </div>
-
-
+    <section id="pkg">
+      @include('components.digitalPkg')
+    </section>
     <section id="overview">
         <div class="container">
             <div class="srvce-cont-box">
                 <p class="internet-para">
                     <ul class="roundz-red">
                         <li class="fntz-red-100">
-                            Enjoy more channels, sharper quality, and faster speeds.
-                        </li>
-                        <li class="fntz-red-100">
-                            From blockbuster movies to live sports, experience it all in ultra-fast quality.
+                          Watch your TV in a whole new way with Digital set-top-box — <span class="red-fnt">enjoy 180+ Digital & HD channels</span> including movies, sports, news, and more.
                         </li>
                     </ul>
                 </p>
@@ -41,6 +41,40 @@
         </div>
     </section>
 
+    <section id="feature">
+      <div class="container">
+          <div class="manage-secnd-boxes">
+              <div class="box-fea">
+                  <img src="{{asset('assets/images/webImg/scalability.png')}}" class="fea-100" alt="" />
+                  <div class="box-fea-100">
+                      <h2>Record live TV</h2>
+                      <p>Capture live TV instantly on a flash drive.</p>
+                  </div>
+              </div>
+              <div class="box-fea">
+                  <img src="{{asset('assets/images/webImg/scalability.png')}}" class="fea-100" alt="" />
+                  <div class="box-fea-100">
+                      <h2>wide channel selection </h2>
+                      <p>Choose from an extensive range of digital channels.</p>
+                  </div>
+              </div>
+              <div class="box-fea">
+                  <img src="{{asset('assets/images/webImg/scalability.png')}}" class="fea-100" alt="" />
+                  <div class="box-fea-100">
+                      <h2> Crystal clear picture quality</h2>
+                      <p>Experience high-definition visuals and superior sound quality. </p>
+                  </div>
+              </div>
+              <div class="box-fea">
+                  <img src="{{asset('assets/images/webImg/scalability.png')}}" class="fea-100" alt="" />
+                  <div class="box-fea-100">
+                      <h2>Media player</h2>
+                      <p>Play videos, music, and view photos directly from your USB drive in full HD.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
     {{-- Modal --}}
     <div class="modal fade" id="termsModal1" tabindex="-1" role="dialog" aria-labelledby="termsModalLabel1" aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -57,16 +91,14 @@
                     <h2>Terms & Condition</h2>
                   </div>
                   <ul class="roundz-red internet-para termzz-mdl">
-                    <li class="fntz-red-100 bd-200">RF ONT is mandatory for subscribing to Nova Communication’s Cable TV service.</li>
-                    <li class="fntz-red-100 bd-200">Only PEMRA-approved channels are available on our network.</li>
-                    <li class="fntz-red-100 bd-200">Channel availability is subject to change and may be replaced depending on availability.</li>
-                    <li class="fntz-red-100 bd-200">Your TV/LED/LCD must support the PAL color system and B/G sound system to ensure compatibility and proper signal reception.</li>
-                    <li class="fntz-red-100 bd-200">Nova Communication will not be responsible for poor picture quality if third-party TV devices (e.g., tuners, converters) are used.</li>
-                    <li class="fntz-red-100 bd-200">Cable TV service can be used on up to four (4) TV sets simultaneously under standard charges.</li>
-                    <li class="fntz-red-100 bd-200">An additional charge of Rs. 200 per month will apply for a 5th TV connection.</li>
-                    <li class="fntz-red-100 bd-200">Billing begins as soon as a Cable TV plan is assigned to your account.</li>
-                    <li class="fntz-red-100 bd-200">Any additional cabling or hardware required will be charged based on actual cost.</li>
-                    <li class="fntz-red-100 bd-200">Please note that channel quality is not in HD.</li>
+                    <li class="fntz-red-100 bd-200">RF ONT is mandatory to subscribe to the Digital Box service.</li>
+                    <li class="fntz-red-100 bd-200">Subscription to Basic Cable TV service is required in order to avail the Digital Box.</li>
+                    <li class="fntz-red-100 bd-200">One Digital Box can be provided per TV set at the customer’s premises.</li>
+                    <li class="fntz-red-100 bd-200">A standard one-year warranty is applicable on the Digital Box.</li>
+                    <li class="fntz-red-100 bd-200">Channels are subject to availability and may change without prior notice.</li>
+                    <li class="fntz-red-100 bd-200">Billing will commence as soon as the Digital Box plan is assigned.</li>
+                    <li class="fntz-red-100 bd-200">Any additional cabling or hardware required will be charged as per actual cost.</li>
+                    <li class="fntz-red-100 bd-200">8.TO view channels in HD resolution, your TV must have an HDMI port.</li>
                   </ul>
                 </div>
               </div>
@@ -146,7 +178,7 @@ div#termsModal1 {
   background: none !important;
 }
 .modal.show {
-    background: linear-gradient(rgb(30 30 30 / 84%), #da00002e), url(/assets/images/resources/terms-backgrnd.png) center center no-repeat !important;
+    background: linear-gradient(rgb(30 30 30 / 84%), #da00002e), url(/assets/images/resources/digitaltv3.png) center center no-repeat !important;
     background-size: cover !important;
 }
 li.fntz-red-100.bd-200 {

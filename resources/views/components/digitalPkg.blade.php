@@ -14,20 +14,12 @@
             <div class="slider-wrapper">
                 {{-- slider3 --}}
                 <div id="slider3" class="slider d-flex" data-type="nested">
-                    <div class="city-tabs-sidebar">
-                        <!-- Nested Tabs -->
-                        <ul class="nav nav-tabs" id="cityTabs">
-                            <li class="nav-item"><button class="city-nav-links active" data-city="islamabad">Islamabad</button></li>
-                            <li class="nav-item"><button class="city-nav-links" data-city="lahore">Lahore</button></li>
-                        </ul>
-                    </div>
-            
                     <!-- Sliders for Nested Tabs -->
                     <div class="slide-container city-slider" data-city="islamabad">
                         <div class="slider-items horizontal-slider">
                             <div class="tx-pricingBox tx-pricingBox__styleTwo">
                                 <div class="tx-pricingBox-header d-block text-center pt-10">
-                                    <h5 class="tx-title">Analog </h5>
+                                    <h5 class="tx-title">cable tv <br />Basic Channel</h5>
                                 </div>
                                 <div class="tx-pricingBox-price-change text-center mt-20">
                                     <sub class="tx-price__currency">PKR</sub><br />
@@ -50,15 +42,17 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                                <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank" class="btn-redz-box">
+                                    <img src="{{asset('assets/images/webImg/reddd.png')}}" class="call-pkg-red" alt="" />
+                                </a>
                             </div>
                             <div class="tx-pricingBox tx-pricingBox__styleTwo">
                                 <div class="tx-pricingBox-header d-block text-center pt-10">
-                                    <h5 class="tx-title">Digital Service </h5>
+                                    <h5 class="tx-title">Digital and HD <br />Channeles</h5>
                                 </div>
                                 <div class="tx-pricingBox-price-change text-center mt-20">
                                     <sub class="tx-price__currency">PKR</sub><br />
-                                    <span class="tx-price__price">300*</span><br />
+                                    <span class="tx-price__price">350*</span><br />
                                 </div>
 
                                 <div class="tx-wrapper">
@@ -77,11 +71,13 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                                <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank" class="btn-redz-box">
+                                    <img src="{{asset('assets/images/webImg/reddd.png')}}" class="call-pkg-red" alt="" />
+                                </a>
                             </div>
                             <div class="tx-pricingBox tx-pricingBox__styleTwo">
                                 <div class="tx-pricingBox-header d-block text-center pt-10">
-                                    <h5 class="tx-title">IPlay Tv Service</h5>
+                                    <h5 class="tx-title">Iplay services <br />Digital and HD channels</h5>
                                 </div>
                                 <div class="tx-pricingBox-price-change text-center mt-20">
                                     <sub class="tx-price__currency">PKR</sub><br />
@@ -92,118 +88,24 @@
                                     <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
                                         <li>
                                             <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-                                            <p>Space Efficiency</p>
+                                            <p>Higher Quality</p>
                                         </li>
                                         <li>
                                             <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-                                            <p>Easy to Upgrade and Maintain</p>
+                                            <p>Longer Transmission Range</p>
                                         </li>
                                         <li>
                                             <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-                                            <p>Parental Controls & Encryption</p>
+                                            <p>Better Signal Integrity</p>
                                         </li>
                                     </ul>
                                 </div>
-                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
+                                <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank" class="btn-redz-box">
+                                    <img src="{{asset('assets/images/webImg/reddd.png')}}" class="call-pkg-red" alt="" />
+                                </a>
                             </div>
                         </div>
                     </div>
-            
-                    <div class="slide-container city-slider hidden" data-city="lahore">
-                        <div class="slider-items horizontal-slider">
-                            <div class="tx-pricingBox tx-pricingBox__styleTwo">
-                                <div class="tx-pricingBox-header d-block text-center pt-10">
-                                    <h5 class="tx-title">Analog</h5>
-                                </div>
-                                <div class="tx-pricingBox-price-change text-center mt-20">
-                                    <sub class="tx-price__currency">PKR</sub><br />
-                                    <span class="tx-price__price">500*</span><br />
-                                </div>
-
-                                <div class="tx-wrapper">
-                                    <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
-                                        <li>
-                                            <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-                                            <p>Lower cost </p>
-                                        </li>
-                                        <li>
-                                            <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-                                            <p>Higher Fidelity</p>
-                                        </li>
-                                        <li>
-                                            <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-                                            <p>Continuous Signal</p>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
-                            </div>
-                            <div class="tx-pricingBox tx-pricingBox__styleTwo">
-                                <div class="tx-pricingBox-header d-block text-center pt-10">
-                                    <h5 class="tx-title">Digital Service</h5>
-                                </div>
-                                <div class="tx-pricingBox-price-change text-center mt-20">
-                                    <sub class="tx-price__currency">PKR</sub><br />
-                                    <span class="tx-price__price">300*</span><br />
-                                </div>
-
-                                <div class="tx-wrapper">
-                                    <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
-                                        <li>
-                                            <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-                                            <p>Better Picture & Sound Quality</p>
-                                        </li>
-                                        <li>
-                                            <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-                                            <p>Signal Stability & Error Correction</p>
-                                        </li>
-                                        <li>
-                                            <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-                                            <p>Encryption & Access Control</p>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
-                            </div>
-                            <div class="tx-pricingBox tx-pricingBox__styleTwo">
-                                <div class="tx-pricingBox-header d-block text-center pt-10">
-                                    <h5 class="tx-title">IPlay Tv  Service</h5>
-                                </div>
-                                <div class="tx-pricingBox-price-change text-center mt-20">
-                                    <sub class="tx-price__currency">PKR</sub><br />
-                                    <span class="tx-price__price">300*</span><br />
-                                </div>
-
-                                <div class="tx-wrapper">
-                                    <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
-                                        <li>
-                                            <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-                                            <p>More Channels & Services</p>
-                                        </li>
-                                        <li>
-                                            <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-                                            <p>Interactive Features</p>
-                                        </li>
-                                        <li>
-                                            <span class="tx-icon"> <i aria-hidden="true" class="fas fa-check"></i> </span>
-                                            <p>Storage & Playback Options</p>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div href="" class="tx-button tx-button__styleDark"> Order Now! </div>
-                            </div>
-                        </div>
-                    </div>
-                 
-                </div>
-
-                <div class="slide-buttons text-center my-3">
-                    <button id="prevBtn" class="btn btn-primary mx-2">
-                        <i class="fa fa-arrow-left"></i>
-                    </button>
-                    <button id="nextBtn" class="btn btn-primary mx-2">
-                        <i class="fa fa-arrow-right"></i>
-                    </button>
                 </div>
             </div>
         </div>
@@ -225,126 +127,7 @@
     });
   </script>
 
-<script>
-    document.addEventListener("DOMContentLoaded", () => {
-        const mainTabs = document.querySelectorAll("#mainTabs .tabs-outer");
-        const sliders = document.querySelectorAll(".slider[data-type='nested']");
-        const cityTabs = document.querySelectorAll(".city-nav-links");
-        const citySliders = document.querySelectorAll(".city-slider");
-    
-        mainTabs.forEach(tab => {
-            tab.addEventListener("click", () => {
-                mainTabs.forEach(t => t.classList.remove("active"));
-                tab.classList.add("active");
-    
-                sliders.forEach(slider => slider.classList.add("hidden"));
-    
-                let sliderId = "";
-                if (tab.id === "internet_trutv_tab") sliderId = "slider2";
-                else if (tab.id === "phone_tab") sliderId = "slider3";
-                else if (tab.id === "remote_tab") sliderId = "slider4";
-    
-                const nestedSlider = document.getElementById(sliderId);
-                nestedSlider.classList.remove("hidden");
-    
-                const defaultCity = "islamabad";
-                cityTabs.forEach(btn => {
-                    const city = btn.getAttribute("data-city").trim().toLowerCase();
-                    btn.classList.toggle("active", city === defaultCity);
-                });
-    
-                citySliders.forEach(slider => {
-                    const city = slider.getAttribute("data-city").trim().toLowerCase();
-                    slider.classList.toggle("hidden", city !== defaultCity);
-    
-                    const items = slider.querySelector(".slider-items");
-                    if (items) {
-                        items.style.transform = "translateX(0px)";
-                        items.dataset.offset = "0";
-                    }
-                });
-    
-                attachSlideEvents();
-            });
-        });
-    
-        cityTabs.forEach(cityTab => {
-            cityTab.addEventListener("click", () => {
-                cityTabs.forEach(t => t.classList.remove("active"));
-                cityTab.classList.add("active");
-    
-                const selectedCity = cityTab.getAttribute("data-city").trim().toLowerCase();
-    
-                citySliders.forEach(slider => {
-                    const city = slider.getAttribute("data-city").trim().toLowerCase();
-                    slider.classList.toggle("hidden", city !== selectedCity);
-    
-                    const items = slider.querySelector(".slider-items");
-                    if (items) {
-                        items.style.transform = "translateX(0px)";
-                        items.dataset.offset = "0";
-                    }
-                });
-    
-                attachSlideEvents();
-            });
-        });
-    
-        attachSlideEvents();
-    });
-    
-    function attachSlideEvents() {
-        const prevBtn = document.getElementById("prevBtn");
-        const nextBtn = document.getElementById("nextBtn");
 
-        if (prevBtn && nextBtn) {
-            prevBtn.onclick = () => scrollSlider("prev");
-            nextBtn.onclick = () => scrollSlider("next");
-        }
-    }
-
-    function scrollSlider(direction) {
-        const slider = document.querySelector(".slider[data-type='nested']:not(.hidden) .city-slider:not(.hidden) .slider-items");
-        if (!slider) return;
-
-        const itemWidth = slider.children[0]?.offsetWidth || 300;
-        const scrollAmount = itemWidth + 20;
-
-        if (direction === "next") {
-            slider.scrollBy({ left: scrollAmount, behavior: "smooth" });
-        } else {
-            slider.scrollBy({ left: -scrollAmount, behavior: "smooth" });
-        }
-    }
-    
-    function getCurrentSliderItems() {
-        const nestedSlider = document.querySelector(".slider[data-type='nested']:not(.hidden) .city-slider:not(.hidden) .slider-items");
-        return nestedSlider;
-    }
-    
-    function slide(direction) {
-        const slider = getCurrentSliderItems();
-        if (!slider) return;
-    
-        const itemWidth = slider.children[0]?.offsetWidth + 20 || 320;
-        const visibleCount = 3;
-        const totalItems = slider.children.length;
-    
-        let offset = parseFloat(slider.dataset.offset || "0");
-        const maxOffset = -(itemWidth * (totalItems - visibleCount));
-    
-        if (direction === "next") {
-            offset -= itemWidth;
-            if (offset < maxOffset) offset = maxOffset;
-        } else {
-            offset += itemWidth;
-            if (offset > 0) offset = 0;
-        }
-    
-        slider.style.transform = `translateX(${offset}px)`;
-        slider.dataset.offset = offset;
-    }
-</script>
     
 <script>
     document.querySelectorAll('.nav-links').forEach(button => {
@@ -397,11 +180,11 @@ span.bold-pkg-300 {
   align-items: flex-start;
 }
 #slider3.slider {
-  display: flex;
-  gap: 20px;
-  align-items: flex-start;
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: space-around;
 }
-
 #slider4.slider {
   display: flex;
   gap: 20px;
@@ -412,8 +195,10 @@ span.bold-pkg-300 {
     padding: 24px 0px;
     border-radius: 15px;
     box-shadow: rgb(81 89 108) 0px 2px 8px 0px;
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
 }
-
 .city-tabs-sidebar {
   flex: 0 0 150px;
 }
@@ -430,17 +215,18 @@ span.bold-pkg-300 {
     scroll-behavior: smooth;
     gap: 0px;
     padding-bottom: 0px;
+    justify-content: center;
 
 }
 
 .tx-pricingBox {
     scroll-snap-align: start; /* This ensures full card starts in view */
-  flex: 0 0 calc((100% - 40px) / 3);
-  min-width: 280px;
-  box-sizing: border-box;
-  height: 430px;
-  scroll-snap-align: start;
-  overflow-x: auto;
+    flex: 0 0 calc((100% - 40px) / 3);
+    min-width: 280px;
+    box-sizing: border-box;
+    height: 457px;
+    scroll-snap-align: start;
+    overflow-x: auto;
 }
 .tx-pricingBox,
 .tx-pricingBox * {
@@ -718,6 +504,8 @@ button.city-nav-links{
     color: #000000;
     margin: 0px;
     font-family: 'Poppins';
+    line-height: 28px;
+    text-transform: capitalize;
 }
 .tx-pricingBox__styleTwo .tx-pricingBox-price {
     min-height: 73px;   
@@ -737,7 +525,7 @@ button.city-nav-links{
     padding: 54px 9px;
     position: relative;
     z-index: 1;
-    width: 65%;
+    width: 54%;
     background: #da0000;
     border-radius: 118px;
     height: 171px;
@@ -773,20 +561,7 @@ button.city-nav-links{
     font-family: 'Poppins';
     margin-top: 19px;
 }
-/* .tx-pricingBox__styleTwo .tx-pricingBox-price::after {
-    position: absolute;
-    left: 0;
-    content: "";
-    top: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 40px;
-    width: calc(100% - 45px);
-    background: #ffeef0;
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-    z-index: -1;
-} */
+
 .tx-pricingBox__styleTwo .tx-featureImg-wrapper {
     max-width: 100%;
 }
@@ -799,6 +574,13 @@ button.city-nav-links{
     text-align: center;
     width: 100%;
     align-items: center;
+    height: 130px;
+}
+img.call-pkg-red {
+    width: 46%;
+    position: relative;
+    left: 26%;
+    animation: blinkEffect 1.4s infinite;
 }
 .elementor img {
     height: auto;

@@ -126,6 +126,14 @@ class HomeController extends Controller
     {
         return view('pages.company-overview');
     }
+    public function iplayPage()
+    {
+        return view('pages.iplay-service');
+    }
+    public function digitalPage()
+    {
+        return view('pages.digital-box');
+    }
 
     // payment
     public function bankpaymentPage()

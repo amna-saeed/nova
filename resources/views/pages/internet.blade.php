@@ -15,10 +15,11 @@
             <a href="#feature" class="tab-link">Features</a>
             <a href="#benefit" class="tab-link">Benefits</a>
         </div>
-        <a href="{{route ('payment')}}">
-        <button class="callback-btn">
-            Order Now
-        </button></a>
+        <div class="mdz-right">
+            <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank">
+                <img src="{{asset('assets/images/webImg/img-contactus.png')}}" class="call-new" alt="" />
+            </a>
+        </div>
     </div>
     <section id="pkges">
         @include('components.packages')
