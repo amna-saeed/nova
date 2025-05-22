@@ -9,9 +9,11 @@ pipelines:
             - echo "🔧 Installing tools..."
             - apk add --no-cache curl lftp
 
-            - echo "📂 Uploading files via FTP..."
+            - echo "📂 Uploading files via FTP (SSL verification disabled)..."
             - lftp -c "
-                set ftp:ssl-allow yes;
+                set ssl:verify-certificate no;
+                set ftp:ssl-force true;
+                set ftp:ssl-protect-data true;
                 open -u amna@amna.clusterstacks.com,m2sxbAmyG_M5 ftp.clusterstacks.com;
                 mirror -R ./ ./ --delete --verbose"
 
