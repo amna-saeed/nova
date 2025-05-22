@@ -2,10 +2,10 @@
 
 <div class="bg-pkg-light-200">
     <div class="sec-title text-center mb-25">
-        <h2 class="pkg-slidez mb-0">High-Speed Internet</h2>
-        <h2 class="pkg-slidez mb-0">Blazing-Fast Speeds For Smooth Streaming & Downloads</h2>
-        <h2 class="pkg-slidez mb-0">NOVA To NOVA Free Calls</h2>
-        <h2 class="pkg-slidez mb-0">4000+ Movies Content</h2>
+        <h2 class="pkg-slidez mb-0">Transforming your standard TV into </h2>
+        <h2 class="pkg-slidez mb-0">a high-tech entertainment</h2>
+        <h2 class="pkg-slidez mb-0">200+ channles</h2>
+        <h2 class="pkg-slidez mb-0">4000+ movies </h2>
     </div>
     <div class="container mt-4">
         <!-- Main Tabs -->
@@ -226,6 +226,7 @@ ul#mainTabs {
     font-weight: 800;
     line-height: 30px;
     margin-top: 69px;
+    text-transform: capitalize;
 }
 .slider-nav {
     position: absolute;

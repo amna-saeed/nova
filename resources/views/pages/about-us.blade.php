@@ -2,36 +2,43 @@
 @section('content')
     <section class="inner-header">
         <div class="container">
+            <div class="complete-bnr-txt">
+                <h1 class="red-hdctv">Your Gateway to Seamless  <br /> <span class="changes-new">Connectivity</span></h1>
+            </div>
         </div>
     </section>
     
     <section class="about-content-padding">
         <div class="container">
+            <h1 class="wlcm-head">Welcome to NOVA!</h1>
             <p class="about-content-100">
-                Nova Communication is a leading <span class="red-400">ICT provider </span>
-                delivering high-speed internet, <span class="red-400">iPlay (interactive TV)</span>, and <span class="red-400">telephone services</span> to homes and businesses. 
-                We are committed to keeping you connected with reliable, innovative, and customer-focused solutions designed 
-                to meet the demands of both personal and corporate users.
+               The Professional Communications Pvt. Ltd operates under the brand name of <span class="red-400">NOVA in Pakistan</span>
+               as a trusted name in digital connectivity since 2004. At <span class="red-400">NOVA,</span> we are committed to revolutionizing Pakistan’s digital landscape by providing innovative Internet and ICT solutions that drive businesses and empower individuals.
+               Whether you’re looking for high-speed internet, cloud services, or advanced telecom solutions, we offer reliable, secure, and cutting-edge services to meet the evolving needs of the digital world.
+               As technology evolves, so do we. Our solutions are designed to help our customers stay ahead of the curve in today’s fast-paced digital world.Whether you need high-speed internet, enterprise-level telecom systems, or cloud-based IT services, NOVAs is your trusted partner.
             </p>
-            <h2 class="ofrz-100">What We Offer:</h2>
+            
             <p class="about-content-100">
-                THE  <span class="red-400">PROFESSIONAL COMMUNICATIONS</span>, based in Pakistan, holds the necessary 
-                national licenses to operate as a leading <span class="red-400">internet and telecom service provider</span>.
-                These licenses allow <span class="red-400">Nova Communication</span> to offer a wide range of telecom services, including Broadband, Internet access for homes and businesses, 
-                Lease Lines, Virtual Private Networks (VPNs), and other value-added services.
-                These licenses not only validate our operations but also guarantee our customers that we are dedicated to delivering dependable, secure, and compliant 
-                connectivity solutions.
-            </p>
-            <h2 class="ofrz-100">Our Processes:</h2>
+                <span class="red-400">Our vision</span> is to bridge the digital divide and accelerate Pakistan's technological progress, providing scalable and tailored solutions for every sector—from homes and businesses to enterprises and government sectors..
+               </p>
+           
             <p class="about-content-100">
-                At THE <span class="red-400">PROFESSIONAL COMMUNICATIONS</span>, we pride ourselves on not only delivering reliable connectivity solutions but also doing so with the fastest delivery cycles in the industry.
-                Our streamlined processes and agile approach allow us to expedite the implementation of our services, minimizing downtime and ensuring swift deployment.
-                We understand the value of time in today's fast-paced world, and our commitment to delivering fast turnaround times sets us apart. With THE PROFESSIONAL, you can count on rapid deployment without compromising on the quality and reliability of our connectivity solutions.
-            </p>
-            <h2 class="ofrz-100">Our Customers:</h2>
+                <span class="red-400">Our mission</span>, is to deliver world-class internet and ICT services that contribute to Pakistan’s growth and technological advancement, while keeping the customer experience at the forefront of everything we do.</p>
+            <h2 class="ofrz-100">Our Core Services:</h2>
             <p class="about-content-100">
-                Our customers are at the heart of everything we do at THE PROSFESSIONAL Communications.We cater to a wide range of industries, serving diverse sectors with our connectivity solutions. Our customer base spans various industries, including Banking and Finance, IT and Technology, Healthcare, Education, Manufacturing and Logistics, Retail and E-commerce, Media and Entertainment, and Aviation.
-                Our solutions are designed to meet the connectivity needs of businesses across these sectors, empowering them to leverage the full potential of the digital world.
+                 <ul class="terms-ul">
+                    <li>Connecting Pakistan to the Future</li>
+                    <li>High-Speed Internet Connectivity</li>
+                    <li>Unlock the power of seamless, uninterrupted browsing with our fiber-optic internet solutions that deliver fast, reliable speeds.</li>
+                    <li>ICT Solutions for Businesses</li>
+                    <li>From VoIP systems to secure cloud infrastructure, we provide end-to-end communication and technology solutions that optimize business operations.</li>
+                    <li>Managed IT Services</li>
+                    <li>Enhance your IT infrastructure with managed services that provide proactive monitoring, support, and maintenance for your business’s critical systems.</li>
+                    <li>Dedicated Hosting and Cloud Solutions</li>
+                    <li>Empower your business with secure, scalable cloud hosting services that guarantee uptime and performance.</li>
+                    <li>Smart City Solutions</li>
+                    <li>Transform urban infrastructure with integrated digital technologies, helping cities achieve greater efficiency, sustainability, and connectivity.</li>
+                </ul>   
             </p>
         </div>
     </section>

@@ -6,37 +6,83 @@
 
     <!-- Form -->
     <div class="open-form-outer-box" id="formOverlay">
-        <form>
+          @if(Session::has('success'))
+              <div class= "alert alert-success">
+                  {{Session::get('success')}}
+              </div>
+          @endif
+          <form action="{{ route('submit-lead') }}" method="POST">
+            
+            {{ csrf_field() }}
             <div class="mb-3">
-              <input type="text" class="form-control" placeholder="Name" />
+                <input type="text" name="name" class="form-control" placeholder="Name" required />
             </div>
             <div class="mb-3">
-              <input type="text" class="form-control" placeholder="Phone" />
+                <input type="text" name="phone" class="form-control" placeholder="Phone" required />
             </div>
             <div class="mb-3">
-              <input type="email" class="form-control" placeholder="Email" />
+                <input type="email" name="email" class="form-control" placeholder="Email" required />
             </div>
             <div class="mb-3">
-              <select class="form-select">
-                <option selected disabled>Select Option</option>
-                <option value="new">New Connection</option>
-                <option value="info">Information</option>
-                <option value="billing">Billing</option>
-                <option value="complaint">Complaint</option>
-                <option value="feedback">Feedback</option>
-              </select>
+                <select name="option" class="form-select" required>
+                    <option selected disabled>Select Option</option>
+                    <option value="new">New Connection</option>
+                    <option value="info">Information</option>
+                    <option value="billing">Billing</option>
+                    <option value="complaint">Complaint</option>        
+                    <option value="feedback">Feedback</option>
+                </select>
             </div>
             <div class="w-100 text-center">
-              <button type="submit" class="btn btn-primary">
-                Submit <span class="send-icon"></span>
-              </button>
+                <button type="submit" class="btn btn-primary">
+                    Submit <span class="send-icon"></span>
+                </button>
             </div>
-          </form>
-          
+        </form>
+
     </div>
 </div>
 
+<script>
+window.addEventListener('DOMContentLoaded', function () {
+    const successAlert = document.querySelector('.alert-success');
+    const formOverlay = document.getElementById('formOverlay');
+
+    // If there is a success message, show only the message and hide the form
+    if (successAlert) {
+        // Show form container (to show the success message)
+        formOverlay.style.display = 'block';
+
+        // Hide the form inside (but keep success message visible)
+        const form = formOverlay.querySelector('form');
+        if (form) {
+            form.style.display = 'none';
+        }
+    }
+});
+
+// Toggle function for manual open/close
+function toggleForm() {
+    const formOverlay = document.getElementById('formOverlay');
+    const form = formOverlay.querySelector('form');
+    const successAlert = document.querySelector('.alert-success');
+
+    // Only toggle the form if there is no success message
+    if (!successAlert) {
+        if (formOverlay.style.display === 'block') {
+            formOverlay.style.display = 'none';
+        } else {
+            formOverlay.style.display = 'block';
+            if (form) form.style.display = 'block';
+        }
+    }
+}
+</script>
+
+
+
 <style>
+
 /* Fixed icon style */
 .box-form-outer {
     position: fixed;
@@ -48,6 +94,9 @@
 img.gif-form {
     width: 85px;
 }
+.open-form-outer-box {
+    transition: opacity 0.5s ease;
+}
 button.btn-form {
     color: #fff;
     background: green;
@@ -57,7 +106,11 @@ button.btn-form {
     border-radius: 7px;
     letter-spacing: 1px;
 }
-
+.alert-success {
+    color: #da0000;
+    font-size: 15px;
+    font-weight: 700;
+}
 
 /* Hidden form by default */
 .open-form-outer-box {

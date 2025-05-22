@@ -2,13 +2,12 @@
 @section('content')
     <section class="inner-header-digital">
         <div class="complete-bnr-txt">
-            <h1 class="red-hdctv">Upgrade Your CABLE <br /> <span class="changes-new">TV with Fiber</span></h1>
+            <h1 class="red-hdctv">Experience Seamless Connectivity with <br /> <span class="changes-new">Our Advanced Digital Box</span></h1>
         </div>
     </section>
 
     <div class="tab-nav">
         <div class="tabs">
-            <a href="#overview" class="tab-link ">Overview</a>
             <a href="#pkg" class="tab-link active">Packages</a>
               <a href="#feature" class="tab-link">Features</a>
             <a href="#pkges" class="tab-link" data-toggle="modal" data-target="#termsModal1">Terms & Conditions</a>
@@ -26,19 +25,6 @@
     </div>
     <section id="pkg">
       @include('components.digitalPkg')
-    </section>
-    <section id="overview">
-        <div class="container">
-            <div class="srvce-cont-box">
-                <p class="internet-para">
-                    <ul class="roundz-red">
-                        <li class="fntz-red-100">
-                          Watch your TV in a whole new way with Digital set-top-box — <span class="red-fnt">enjoy 180+ Digital & HD channels</span> including movies, sports, news, and more.
-                        </li>
-                    </ul>
-                </p>
-            </div>
-        </div>
     </section>
 
     <section id="feature">
@@ -186,8 +172,8 @@ li.fntz-red-100.bd-200 {
 }
 /*  */
 h1.red-hdctv {
-    font-size: 43px;
-    line-height: 62px;
+    font-size: 35px;
+    line-height: 61px;
 }
 span.changes-new {
     font-size: 43px;

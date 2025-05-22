@@ -7,8 +7,7 @@
 <section  class="partner-serivce">
     <div class="container">
         <p class="com-para">
-            <strong>Nova Communication</strong> proudly hosts one of the largest teams of Cisco Certified Experts in Pakistan as a Cisco Gold Partner. As industry leaders in delivering Cisco solutions, we offer a comprehensive range of services tailored to meet your specific needs. Our experts not only provide cutting-edge Cisco technologies but also integrate them seamlessly to ensure optimal performance and value.
-        </p>
+            <strong>From Corporate</strong> internet services to seamless communication, we empower your business to connect, collaborate and conqure.</p>
         <div class="toping">
             <div class="slider">
                 <div class="slide-track">

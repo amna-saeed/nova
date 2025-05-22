@@ -8,7 +8,6 @@
 
     <div class="tab-nav">
         <div class="tabs">
-          <a href="#overview" class="tab-link">Overview</a>
           <a href="#pkg" class="tab-link active">Package</a>
           <a href="#feature" class="tab-link">Features</a>
           <a class="tab-link" data-toggle="modal" data-target="#termsModal1">Terms & Conditions</a>
@@ -27,19 +26,6 @@
 
     <section id="pkg">
       @include('components.iplayPkg')
-    </section>
-    <section id="overview">
-        <div class="container">
-            <div class="srvce-cont-box">
-                <p class="internet-para">
-                    <ul class="roundz-red">
-                        <li class="fntz-red-100">
-                           Unlock smart TV capabilities with Joy Box, transforming your standard TV into a high-tech entertainment hub with intuitive features and seamless connectivity.
-                        </li>
-                    </ul>
-                </p>
-            </div>
-        </div>
     </section>
 
       <section id="feature">

@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\{UserController,WhatsAppController,TestimonialsController,SeoController,HomeController,BankController};
+use App\Http\Controllers\LeadController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -43,9 +44,13 @@ Route::get('/read-more', [HomeController::class, 'companyPage'])->name('company-
 Route::get('/iplay-service', [HomeController::class, 'iplayPage'])->name('iplay-service');
 Route::get('/digital-box', [HomeController::class, 'digitalPage'])->name('digital-box');
 
+Route::post('/submit-lead', [LeadController::class, 'submit'])->name('submit-lead');
+
 // payment
 Route::get('/bank-payment', [HomeController::class, 'bankpaymentPage'])->name('bank-payment');
 Route::get('/go-to-bank', [BankController::class, 'redirectToBank'])->name('go.to.bank');
+
+
 
 // end
 Route::post('/webhook/whatsapp', [WhatsAppController::class, 'handleIncoming']);
