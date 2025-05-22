@@ -15,7 +15,7 @@ pipelines:
                 set ftp:ssl-force true;
                 set ftp:ssl-protect-data true;
                 open -u amna@amna.clusterstacks.com,m2sxbAmyG_M5 ftp.clusterstacks.com;
-                mirror -R ./ ./ --verbose"
+                mirror -R ./ ./ --verbose" 
 
             - echo "🚀 Triggering Laravel Deploy Hook..."
             - curl -s "https://amna.clusterstacks.com/deploy-hook?token=helloPakistan"
