@@ -1,0 +1,19 @@
+image: alpine
+
+pipelines:
+  branches:
+    main:
+      - step:
+          name: 🚀 FTP Deploy with Laravel Hook
+          script:
+            - echo "🔧 Installing tools..."
+            - apk add --no-cache curl lftp
+
+            - echo "📂 Uploading files via FTP..."
+            - lftp -c "
+                set ftp:ssl-allow yes;
+                open -u amna@amna.clusterstacks.com,m2sxbAmyG_M5 ftp.clusterstacks.com;
+                mirror -R ./ ./ --delete --verbose"
+
+            - echo "🚀 Triggering Laravel Deploy Hook..."
+            - curl -s "https://amna.clusterstacks.com/deploy-hook?token=helloPakistan"
