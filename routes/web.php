@@ -75,3 +75,25 @@ Route::controller(TestimonialsController::class)->group(function () {
     Route::get('testimonials/delete/{id}', 'delete')->name('testimonials.delete');
     Route::get('quotes/index', 'quotesIndex')->name('quotes.index');
 });
+
+// ashar code
+
+Route::get('/deploy-hook', function () {
+    // Optional: Add a secret token check
+    if (Request::get('token') !== env('DEPLOY_SECRET')) {
+        abort(403, 'Unauthorized');
+    }
+
+    putenv('COMPOSER_HOME=' . base_path() . '/vendor/bin/composer');
+
+    // Run composer install
+    shell_exec('cd ' . base_path() . ' && composer install --no-interaction --prefer-dist');
+
+    // Run Laravel migrations
+    Artisan::call('migrate', ['--force' => true]);
+
+    // Optional: Clear & cache config
+    Artisan::call('config:cache');
+
+    return response()->json(['status' => 'Deployed successfully']);
+});
