@@ -1,0 +1,32 @@
+name: 🚀 FTP Deploy with Laravel Hook
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  ftp-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout code
+        uses: actions/checkout@v3
+
+      - name: 🔧 Install tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y curl lftp
+
+      - name: 📂 Upload only changed files via FTP
+        run: |
+          lftp -c "
+            set ssl:verify-certificate no;
+            set ftp:ssl-force true;
+            set ftp:ssl-protect-data true;
+            open -u amna@amna.clusterstacks.com,m2sxbAmyG_M5 ftp.clusterstacks.com;
+            mirror -R ./ ./ --verbose"
+
+      - name: 🚀 Trigger Laravel Deploy Hook
+        run: |
+          curl -s "https://amna.clusterstacks.com/deploy-hook?token=helloPakistan"
