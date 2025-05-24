@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\{UserController,WhatsAppController,TestimonialsController,SeoController,HomeController,BankController};
 use App\Http\Controllers\LeadController;
+use App\Http\Controllers\CareerController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -58,6 +59,8 @@ Route::post('/webhook/whatsapp', [WhatsAppController::class, 'handleIncoming']);
 Auth::routes();
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
+// routes/web.php
+Route::post('/send-cv', [CareerController::class, 'sendCV'])->name('send.cv');
 
 Route::resource('/user', UserController::class);
 Route::controller(UserController::class)->group(function () {

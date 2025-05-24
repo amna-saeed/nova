@@ -3,11 +3,11 @@
 
 
 
-<section class="inner-header-internet-local">
-    <div class="complete-bnr-txt">
-        <h1>Internet </h1><br />
-    </div>
-</section>
+    <section class="inner-header-internet-local">
+        <div class="complete-bnr-txt">
+            <h1>Internet </h1><br />
+        </div>
+    </section>
 
     <div class="tab-nav">
         <div class="tabs">
@@ -21,6 +21,7 @@
             </a>
         </div>
     </div>
+
     <section id="pkges">
         @include('components.packages')
     </section>    
@@ -73,6 +74,7 @@
             </div>
         </div>
     </section>
+    
     <section id="benefit">
         <div class="bg-mix-400">
             <div class="cards-mix">

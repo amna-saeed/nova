@@ -2,10 +2,15 @@
 @section('content')
 
     <section class="inner-header-career11">
-        <div class="complete-bnr-txt">
-            <h1 class="ai-head">Find the best<br /><span class="red-ai">Job Offer</span></h1>  
-        </div>
+      <div class="complete-bnr-txt">
+        <h1 class="ai-head">Find the best<br /><span class="red-ai">Job Offer</span></h1>  
+      </div>
     </section>
+
+    
+    <div id="cvFormContainer" style="display: none; margin-top: 20px;">
+      @include('components.apply-form')
+    </div>
 
     <section class="hiring-process">
         <h2><strong>Hiring</strong> <span class="gradient-text">process</span></h2>
@@ -50,71 +55,95 @@
         <div class="job-card">
           <div class="icon-circle">📊</div>
           <h4>FTTH/GPON (Technician)</h4>
-          <p class="deadline">Deadline: 2025-06-30</p>
-          <div class="tags">
-            <span class="tag selected">Full Time/Permanent</span>
-            <span class="tag">Day Shift</span>
-          </div>
+          <p class="deadline"><strong>Requirements:</strong> </p>
+            <ul class="deadline">
+              <li>DAE or equivalence in relevant field</li>
+              <li>2 Years in GPON/Fiber optic installment & Maintenance</li>
+              <li>Install & configure Gpon equipments</li>
+              <li>Route, pull & Test fiber cables</li>
+              <li>Perform fiber splicing & termination</li>
+              <li>Troubleshoot network issues</li>
+              <li>Conduct site surveys & plan deployments</li>
+              <li>Ensure network reliability</li>
+              <li>Provide technical support</li>
+              <li>Strong grasp of GPON technology and protocols.</li>
+              <li>Familiarity with industry-standard tools and equipment.</li>
+              <li>Excellent problem-solving and communication skills.</li>
+            </ul>
           <hr>
           <div class="card-footer">
             <span>📍 Islamabad</span>
             <span>👥 2 positions</span>
-            <button>View details</button>
+          <button class="sndng-cv openFormBtn">Apply Now</button>
           </div>
         </div>
-  
+
         <!-- Card 2 -->
         <div class="job-card">
           <div class="icon-circle">📊</div>
-          <h4>Marketing & Sales Manager</h4>
-          <p class="deadline">Deadline: 2025-08-31</p>
-          <div class="tags">
-            <span class="tag selected">Full Time/Permanent</span>
-            <span class="tag">Day Shift</span>
-          </div>
-          <hr>
-          <div class="card-footer">
-            <span>📍 Lahore</span>
-            <span>👥 2 positions</span>
-            <button>View details</button>
-          </div>
+            <h4>Marketing & Sales Manager</h4>
+            <p class="deadline"><strong>Requirements:</strong> </p>
+              <ul class="deadline">
+                <li>Strong Communication skills in english are essential</li>
+                <li>a business degree with a technical background is preferred</li>
+                <li>2,3 years of relevant marketing & sales preferably in the IT industry</li>
+                <li>Develope & execute marketing & sales strategies for IT Products & services, targeting both individual & business.</li>
+                <li>Collaborate with the tech team to design customized, cost effective  solutions for client</li>
+                <li>Develope % implement marketing plans & sales startegies to meet business goals</li>
+                <li>Stay updated with current technology trends & emerging markets trends.</li>
+                <li>Monitor competitors' activities & develop awareness of emerging market trends.</li>
+              </ul>
+            <hr>
+            <div class="card-footer">
+              <span>📍 Lahore <br /><p>(Askari 10,11 & DHA Rahbar)</p></span>
+              <span>👥 2 positions</span>
+              <button>Apply Now</button>
+            </div>
         </div>
-  
         <!-- Card 3 -->
-        <div class="job-card">
+          <div class="job-card">
           <div class="icon-circle">📊</div>
-          <h4>Assistant Account Manager( Sales )</h4>
-          <p class="deadline">Deadline: 2025-08-31</p>
-          <div class="tags">
-            <span class="tag selected">Full Time/Permanent</span>
-            <span class="tag">Day Shift</span>
-          </div>
+          <h4>Fiber Cable (Technician)</h4>
+          <p class="deadline"><strong>Requirements:</strong> </p>
+            <ul class="deadline">
+                <li>Matric/Inter or equivalent</li>
+                <li>Fiber/CATV technicians install, repair, & maintain cabling for ISP services</li>
+                <li>provide technical support to customer & internal teams.</li>
+                <li>Fiber/CATV support to customer & intenal teams</li>
+                <li>Fiber/CATV cable routing, cable pulling, installation, termination, testing & commissioning of equipment.</li>
+                <li>Troubleshoot & resolve network & service issue</li>
+                <li>Prior experience in Fiber/CATV field</li>
+                <li>Good Communication & diagnostic skills</li>
+            </ul>
           <hr>
           <div class="card-footer">
-            <span>📍 Faisalabad</span>
-            <span>👥 6 positions</span>
-            <button>View details</button>
+            <span>📍 Islamabad</span>
+            <span>👥 2 positions</span>
+            <button>Apply Now</button>
           </div>
         </div>
       </div>
     </section>
-      
+
     <section class="growth-section">
       <div class="images-grid">
         <div class="image-box purple">
-          <img src="{{asset('assets/images/webImg/services-img.png')}}" class="box-img-200" alt="" />
-          <div class="label">Events ↗</div>
+          <img src="{{asset('assets/images/webImg/ofce-lctn.jpeg')}}" class="box-img-200" alt="" />
+          <div class="label">Office ↗</div>
         </div>
         <div class="image-box">
-          <img src="{{asset('assets/images/webImg/services-img.png')}}" />
-          <div class="label">Trainings ↗</div>
+          <img src="{{asset('assets/images/webImg/mtngs2-emply.jpeg')}}" />
+          <div class="label">Meetings ↗</div>
         </div>
         <div class="image-box">
-          <img src="{{asset('assets/images/webImg/services-img.png')}}"  />
+          <img src="{{asset('assets/images/webImg/recep-ofce.jpeg')}}"  />
+          <div class="label">Front Desk ↗</div>
+        </div>
+        <div class="image-box">
+          <img src="{{asset('assets/images/webImg/mtngs-emply.jpeg')}}"  />
           <div class="label">Presentation Sessions ↗</div>
         </div>
-        <div class="square purple-bg"></div>
-        <div class="square orange-bg"></div>
+        
       </div>
       <div class="content">
         <h2><span class="gradient-text">Growth</span> with <strong>Nova</strong></h2>
@@ -134,18 +163,23 @@
           <g clip-path="url(#clip0_87_254)"><path d="M13.2392 17.1522L13.226 7.76336C13.226 7.55208 13.2988 7.37373 13.4442 7.22829C13.5896 7.08286 13.7678 7.01032 13.9787 7.01067C14.19 7.01067 14.3684 7.08339 14.5138 7.22882C14.6592 7.37425 14.7318 7.55243 14.7314 7.76336L14.7182 17.1522L18.7326 13.1378C18.8822 12.9882 19.0585 12.9134 19.2613 12.9134C19.4641 12.9134 19.64 12.9882 19.789 13.1378C19.9386 13.2875 20.0135 13.4637 20.0135 13.6666C20.0135 13.8694 19.9386 14.0453 19.789 14.1942L14.5069 19.4763C14.3573 19.6259 14.181 19.7008 13.9782 19.7008C13.7754 19.7008 13.5995 19.6259 13.4505 19.4763L8.16848 14.1942C8.01883 14.0446 7.944 13.8683 7.944 13.6655C7.944 13.4627 8.01883 13.2868 8.16848 13.1378C8.31814 12.9882 8.49439 12.9134 8.69722 12.9134C8.90005 12.9134 9.07594 12.9882 9.22489 13.1378L13.2392 17.1522Z" fill="#da0000"></path></g></svg>
         </a>
         </div>
-        
-      <div class="row">
-        <div class="col-lg-4">
-          <img src="{{asset('assets/images/webImg/services-img.png')}}" class="box-img-300" alt="" />
+      <div class="images-grid">
+        <div class="image-box purple">
+          <img src="{{asset('assets/images/webImg/ofce-lctn.jpeg')}}" class="box-img-200" alt="" />
+          <div class="label">Office ↗</div>
         </div>
-        <div class="col-lg-4">
-          <img src="{{asset('assets/images/webImg/services-img.png')}}" class="box-img-300" alt="" />
+        <div class="image-box">
+          <img src="{{asset('assets/images/webImg/mtngs2-emply.jpeg')}}" />
+          <div class="label">Meetings ↗</div>
         </div>
-        <div class="col-lg-4">
-          <img src="{{asset('assets/images/webImg/services-img.png')}}" class="box-img-300" alt="" />
+        <div class="image-box">
+          <img src="{{asset('assets/images/webImg/recep-ofce.jpeg')}}"  />
+          <div class="label">Front Desk ↗</div>
         </div>
-      </div>
+        <div class="image-box">
+          <img src="{{asset('assets/images/webImg/mtngs-emply.jpeg')}}"  />
+          <div class="label">Presentation Sessions ↗</div>
+        </div>
     </div>
 
     <section class="benefits-section">
@@ -178,6 +212,30 @@
       </div>
     </section>
 <style>
+ul.deadline li {
+  color: #070707;
+  font-size: 13px;
+  text-align: justify;
+  line-height: 23px;
+}
+ul.deadline{
+  padding: 0px 0px 0px 23px;
+}
+.card-footer p {
+  font-size: 9px;
+  color: black;
+}
+.deadline strong {
+    font-size: 15px;
+    color: #da0000;
+    margin: 5px 0 5px;
+}
+ul.deadline li {
+    color: black;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 24px;
+}
 .benefits-section {
   text-align: center;
 }
@@ -214,7 +272,6 @@ h2 {
     gap: 14px;
     margin-top: 40px;
     grid-template-columns: repeat(3, 3fr);
-    grid-template-columns: repeat(3, 1fr);
     align-items: center;
     width: 100%;
     max-width: 960px;
@@ -251,7 +308,7 @@ section.why-select {
 section.why-select p{
   font-size: 19px;
     max-width: 800px;
-    margin: 0 auto 40px;
+    margin: 0 auto 17px;
     color: #212121;
     line-height: 29px;
     text-align: center;
@@ -324,12 +381,7 @@ section {
     font-weight: 600;
     color: black;
     font-family: system-ui;
-}
-
-.deadline {
-    font-size: 14px;
-    color: #393838;
-    margin: 5px 0 10px;
+    margin: 0px;
 }
 
 .tags {
@@ -360,14 +412,15 @@ hr {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 13px;
+    font-size: 15px;
+    color: black;
 }
 
 .card-footer button {
-  background-color: #4e5cf3;
+  background-color: #313bae;
   color: white;
   border: none;
-  padding: 6px 12px;
+  padding: 7px 14px;
   border-radius: 6px;
   font-size: 13px;
   cursor: pointer;
@@ -446,7 +499,7 @@ span.red-ai {
 
 .images-grid {
   display: grid;
-  grid-template-columns: repeat(2, 150px);
+  grid-template-columns: repeat(2, 210px);
   gap: 20px;
   position: relative;
 }
@@ -459,9 +512,9 @@ span.red-ai {
 }
 
 .image-box img {
-  width: 100%;
-  height: auto;
-  display: block;
+    width: 100%;
+    height: 127px;
+    display: block;
 }
 
 .label {
@@ -517,9 +570,8 @@ p {
   color: #666;
 }
 
-    </style>
-    @stop
-@section('js')
-   
+</style>
 
+@stop
+@section('js')
 @endsection
