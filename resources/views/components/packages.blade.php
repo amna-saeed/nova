@@ -1269,14 +1269,14 @@
     function slide(direction) {
         const slider = getCurrentSliderItems();
         if (!slider) return;
-    
+
         const itemWidth = slider.children[0]?.offsetWidth + 20 || 320;
-        const visibleCount = 3;
+        const visibleCount = window.innerWidth <= 768 ? 1 : 3;  // Responsive slide count
         const totalItems = slider.children.length;
-    
+
         let offset = parseFloat(slider.dataset.offset || "0");
         const maxOffset = -(itemWidth * (totalItems - visibleCount));
-    
+
         if (direction === "next") {
             offset -= itemWidth;
             if (offset < maxOffset) offset = maxOffset;
@@ -1284,10 +1284,11 @@
             offset += itemWidth;
             if (offset > 0) offset = 0;
         }
-    
+
         slider.style.transform = `translateX(${offset}px)`;
         slider.dataset.offset = offset;
     }
+
 </script>
     
 <script>
@@ -1402,6 +1403,7 @@ ul#mainTabs {
     justify-content: center;
     display: flex;
     margin-bottom: 20px;
+    flex-wrap: wrap;
 }
 .sec-title h2.pkg-slidez {
     color: #da0000;
@@ -1880,5 +1882,134 @@ img.call-pkg-red {
     padding: 14px 50px;
     border-top: 2px solid #da0000   ;
 }
+@media (min-width: 320px) and (max-width: 525px) {
+ 
+    .sec-title h2.pkg-slidez {
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 30px;
+        margin-top: 18px;
+        height: 50px;
+    }
+    .nav-links{
+        background: #fff;
+        border: 1px solid black;
+        color: black;
+        padding: 8px 2px;
+        border-radius: 8px;
+        font-size: 15px;
+        margin-right: 6px;
+        width: 104px;
+    }
+    .nav-links.active {
+        background: #da0000;
+        border: 1px solid #da0000;
+        color: #ffff;
+        padding: 8px 2px;
+        border-radius: 8px;
+        font-size: 15px;
+        margin-right: 6px;
+        width: 104px;
+    }
+    .bg-pkg-light-200 {
+        margin: 20px 0px 2px;
+    }
+    h1.plans-net-100 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    ul#mainTabs{
+        margin-bottom: 8px;
+    }
+    .bg-pkg-light-200 .container.mt-4{
+        padding: 0px;
+    }
+    .bg-linear-pkg{
+        border-radius: 12px;
+    }
+    #cityTabs {
+        display: flex;
+        flex-direction: row;
+        gap: 4px;
+        position: absolute;
+        top: 274px;
+        left: 9%;
+        border: none !important;
+    }
+    #slider2.slider, #slider3.slider, #slider4.slider {
+        display: block;
+        margin-top: 50px;
+    }
+    .slider, #slider3.slider, #slider4.slider {
+        position: inherit;
+    }
+  
+    .slide-container {
+        overflow: hidden;
+        padding-left: 33px;
+        padding-right: 24px;
+    }
+    button.city-nav-links.active {
+        padding: 8px 14px;
+        border-radius: 7px;
+        font-size: 13px;
+        margin-right: 0px;
+        width: 100px;
+    }
+    button.city-nav-links{
+        padding: 8px 14px;
+        border-radius: 7px;
+        font-size: 13px;
+        margin-right: 0px;
+        width: 100px;
+    }
+     .slider-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .tx-pricingBox {
+        flex: 0 0 91%;
+        min-width: 97%;
+    }
+    .tx-pricingBox__styleTwo .tx-pricingBox-price{
+        width: 56%;
+    }
+    .tx-pricingBox__styleTwo{
+        margin: 5px 9px;
+    }
+    img.call-pkg-red {
+        width: 41%;
+        left: 30%;
+    }
+    #prevBtn {
+        left: 11px;
+    }
+    .slide-buttons.text-center.my-3 {
+        position: absolute;
+        top: 82%;
+        background: red;
+    }
+    #nextBtn {
+        right: -368px;
+    }
+    .tx-pricingBox__styleTwo .tx-pricingBox-price-change{
+        width: 55%;
+    }
+    .footer-widget.latest-post {
+        display: none;
+    }
+    .about-widget img {
+        height: 70px;
+    }
+    .footer-widget .contact{
+        text-align: left;
+    }
+    .footer-widget {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+}
+
 
 </style>

@@ -215,7 +215,7 @@
     </div>
 </div>
 <style>
-      .tp-parallax-wrap{
-        left:100px !important;
-    }
+.tp-parallax-wrap{
+    left:100px !important;
+}
 </style>

@@ -14,17 +14,14 @@
             <a href="#overview" class="tab-link active">Overview</a>
             <a href="#feature" class="tab-link">Features</a>
         </div>
-        <a href="{{route ('payment')}}">
-        <button class="callback-btn">
-        Order Now
-        </button></a>
+        <div class="mdz-right">
+            <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank">
+                <img src="{{asset('assets/images/webImg/img-contactus.png')}}" class="call-new" alt="" />
+            </a>
+        </div>
     </div>
 
-    {{-- <section id="pkges">
-        @include('components.packages')
-    </section>     --}}
-
-    <section id="overview">
+    <section id="overview" class="h-srvce-100">
         <div class="container">
             <div class="srvce-cont-box">
                 <p class="internet-para">
@@ -61,7 +58,7 @@
             </div>
         </div>
     </section>
-    <section id="feature">
+    <section id="feature" class="h-srvce-100">
         <div class="container">
             <div class="mange-boxes">
                 <div class="box-fea">
@@ -89,20 +86,13 @@
         </div>
     </section>
 
-<style>
-.box-fea-100 p {
-    font-size: 17px;
-    color: #464646;
-}
-h1.red {
-    color: #da0000;
-    font-size: 56px;
-    line-height: 68px;
-}
-section {
-    min-height: 300px;
-}
-</style>
+    <style>
+        @media (min-width: 320px) and (max-width: 525px) {
+            .footer-widget.latest-post {
+                display: none;
+            }
+        }
+    </style>
 <script>
     const links = document.querySelectorAll('.tab-link');
     links.forEach(link => {

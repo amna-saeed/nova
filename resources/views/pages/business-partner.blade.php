@@ -118,6 +118,16 @@ p.com-para {
     width: 270px;
 }
  
+@media (min-width: 320px) and (max-width: 525px) { 
+    p.com-para {
+        font-size: 17px;
+        color: #303030;
+        text-align: center;
+        font-family: sans-serif;
+        padding: 0px 5px;
+        line-height: 24px;
+    } 
+}
 </style>
 
 @stop

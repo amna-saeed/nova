@@ -35,7 +35,6 @@
     position: relative;
     outline: none;
 }
-
 .search select.form-control{
     border-radius:0px;
     padding: 5px 5px;
@@ -218,4 +217,10 @@ table tr td {
     .pricingTable > .pricingTable-header:after {
         border-left: 459px solid rgba(0, 0, 0, 0);
     }
+}
+@media (min-width: 320px) and (max-width: 525px) {
+    .rev_slider_wrapper.bannercontainer{
+        display: none;
+    }
+ 
 }

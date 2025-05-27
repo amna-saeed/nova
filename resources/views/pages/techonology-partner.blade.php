@@ -5,7 +5,7 @@
 
     <section class="inner-header-tchno">
         <div class="complete-bnr-txt">
-            <h1 class="red">Techonology <br /> Partner</h1>
+            <h1 class="red-chng">Techonology <br /> Partner</h1>
         </div>
     </section>
 
@@ -13,11 +13,11 @@
         <div class="tabs">
             <a href="#overview" class="tab-link active">Our Partners</a>
         </div>
-        <a href="{{route ('payment')}}">
-            <button class="callback-btn">
-            Order Now
-            </button>
-        </a>
+        <div class="mdz-right">
+            <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank">
+                <img src="{{asset('assets/images/webImg/img-contactus.png')}}" class="call-new" alt="" />
+            </a>
+        </div>
     </div>
 
     <section id="overview">
@@ -49,28 +49,34 @@
         </div>
     </section>
   
-
-<style>
-section {
-    min-height: 300px;
-}
-h1.red {
-    color: #da0000;
-    font-size: 56px;
-    line-height: 68px;
-}
-</style>
-<script>
-    const links = document.querySelectorAll('.tab-link');
-    links.forEach(link => {
-      link.addEventListener('click', function (e) {
-        e.preventDefault();
-        links.forEach(l => l.classList.remove('active'));
-        this.classList.add('active');
-        const section = document.querySelector(this.getAttribute('href'));
-        section.scrollIntoView({ behavior: 'smooth' });
-      });
-    });
+    <style>
+        h1.red-chng {
+            color: #da0000;
+            font-size: 56px;
+            line-height: 68px;
+        }
+        @media (min-width: 320px) and (max-width: 525px) {
+            .footer-widget.latest-post {
+                display: none;
+            }
+            h1.red-chng{
+                color: #da0000 !important;
+                font-size: 29px;
+                line-height: 33px;
+            }
+        }
+    </style>
+    <script>
+        const links = document.querySelectorAll('.tab-link');
+        links.forEach(link => {
+            link.addEventListener('click', function (e) {
+                e.preventDefault();
+                links.forEach(l => l.classList.remove('active'));
+                this.classList.add('active');
+                const section = document.querySelector(this.getAttribute('href'));
+                section.scrollIntoView({ behavior: 'smooth' });
+            });
+        });
   </script>
 @stop
 @section('js')

@@ -9,15 +9,15 @@
     </div>
     <div class="container mt-4">
         <!-- Main Tabs -->
-        <h1 class="plans-net-100 mt-0">Your Net , Your Plan</h1>
+        <h1 class="plans-net-100">Your Net , Your Plan</h1>
         <div class="bg-linear-pkg">
             <div class="slider-wrapper">
-                {{-- slider3 --}}
-                <div id="slider3" class="slider d-flex" data-type="nested">
+                {{-- slider2 --}}
+                <div id="slider2" class="slider active d-flex" data-type="nested">
                     <!-- Sliders for Nested Tabs -->
                     <div class="slide-container city-slider" data-city="islamabad">
                         <div class="slider-items horizontal-slider">
-                            <div class="tx-pricingBox tx-pricingBox__styleTwo">
+                              <div class="tx-pricingBox tx-pricingBox__styleTwo">
                                 <div class="tx-pricingBox-header d-block text-center pt-10">
                                     <h5 class="tx-title">1ST BOX </h5>
                                 </div>
@@ -77,9 +77,16 @@
                             </div>
                         </div>
                     </div>
+                   
                 </div>
-
-                
+                <div class="slide-buttons text-center my-3">
+                    <button id="prevBtn" class="btn btn-primary mx-2">
+                        <i class="fa fa-arrow-left"></i>
+                    </button>
+                    <button id="nextBtn" class="btn btn-primary mx-2">
+                        <i class="fa fa-arrow-right"></i>
+                    </button>
+                </div>
             </div>
         </div>
     </div>
@@ -100,7 +107,127 @@
     });
   </script>
 
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const mainTabs = document.querySelectorAll("#mainTabs .tabs-outer");
+        const sliders = document.querySelectorAll(".slider[data-type='nested']");
+        const cityTabs = document.querySelectorAll(".city-nav-links");
+        const citySliders = document.querySelectorAll(".city-slider");
+    
+        mainTabs.forEach(tab => {
+            tab.addEventListener("click", () => {
+                mainTabs.forEach(t => t.classList.remove("active"));
+                tab.classList.add("active");
+    
+                sliders.forEach(slider => slider.classList.add("hidden"));
+    
+                let sliderId = "";
+                if (tab.id === "internet_trutv_tab") sliderId = "slider2";
+                else if (tab.id === "phone_tab") sliderId = "slider3";
+                else if (tab.id === "remote_tab") sliderId = "slider4";
+    
+                const nestedSlider = document.getElementById(sliderId);
+                nestedSlider.classList.remove("hidden");
+    
+                const defaultCity = "islamabad";
+                cityTabs.forEach(btn => {
+                    const city = btn.getAttribute("data-city").trim().toLowerCase();
+                    btn.classList.toggle("active", city === defaultCity);
+                });
+    
+                citySliders.forEach(slider => {
+                    const city = slider.getAttribute("data-city").trim().toLowerCase();
+                    slider.classList.toggle("hidden", city !== defaultCity);
+    
+                    const items = slider.querySelector(".slider-items");
+                    if (items) {
+                        items.style.transform = "translateX(0px)";
+                        items.dataset.offset = "0";
+                    }
+                });
+    
+                attachSlideEvents();
+            });
+        });
+    
+        cityTabs.forEach(cityTab => {
+            cityTab.addEventListener("click", () => {
+                cityTabs.forEach(t => t.classList.remove("active"));
+                cityTab.classList.add("active");
+    
+                const selectedCity = cityTab.getAttribute("data-city").trim().toLowerCase();
+    
+                citySliders.forEach(slider => {
+                    const city = slider.getAttribute("data-city").trim().toLowerCase();
+                    slider.classList.toggle("hidden", city !== selectedCity);
+    
+                    const items = slider.querySelector(".slider-items");
+                    if (items) {
+                        items.style.transform = "translateX(0px)";
+                        items.dataset.offset = "0";
+                    }
+                });
+    
+                attachSlideEvents();
+            });
+        });
+    
+        attachSlideEvents();
+    });
+    
+    function attachSlideEvents() {
+        const prevBtn = document.getElementById("prevBtn");
+        const nextBtn = document.getElementById("nextBtn");
 
+        if (prevBtn && nextBtn) {
+            prevBtn.onclick = () => scrollSlider("prev");
+            nextBtn.onclick = () => scrollSlider("next");
+        }
+    }
+
+    function scrollSlider(direction) {
+        const slider = document.querySelector(".slider[data-type='nested']:not(.hidden) .city-slider:not(.hidden) .slider-items");
+        if (!slider) return;
+
+        const itemWidth = slider.children[0]?.offsetWidth || 300;
+        const scrollAmount = itemWidth + 20;
+
+        if (direction === "next") {
+            slider.scrollBy({ left: scrollAmount, behavior: "smooth" });
+        } else {
+            slider.scrollBy({ left: -scrollAmount, behavior: "smooth" });
+        }
+    }
+    
+    function getCurrentSliderItems() {
+        const nestedSlider = document.querySelector(".slider[data-type='nested']:not(.hidden) .city-slider:not(.hidden) .slider-items");
+        return nestedSlider;
+    }
+    
+    function slide(direction) {
+        const slider = getCurrentSliderItems();
+        if (!slider) return;
+
+        const itemWidth = slider.children[0]?.offsetWidth + 20 || 320;
+        const visibleCount = window.innerWidth <= 768 ? 1 : 3;  // Responsive slide count
+        const totalItems = slider.children.length;
+
+        let offset = parseFloat(slider.dataset.offset || "0");
+        const maxOffset = -(itemWidth * (totalItems - visibleCount));
+
+        if (direction === "next") {
+            offset -= itemWidth;
+            if (offset < maxOffset) offset = maxOffset;
+        } else {
+            offset += itemWidth;
+            if (offset > 0) offset = 0;
+        }
+
+        slider.style.transform = `translateX(${offset}px)`;
+        slider.dataset.offset = offset;
+    }
+
+</script>
     
 <script>
     document.querySelectorAll('.nav-links').forEach(button => {
@@ -147,6 +274,8 @@ span.bold-pkg-300 {
     font-weight: 800;
     color: #555353;
 }
+
+
 #slider2.slider {
   display: flex;
   gap: 20px;
@@ -172,28 +301,19 @@ span.bold-pkg-300 {
     max-width: 900px;
     margin: 0 auto;
 }
-.city-tabs-sidebar {
-  flex: 0 0 150px;
-}
-#cityTabs {
-    display: flex;
-    flex-direction: column;
-    gap: 7px;
-    position: absolute;
-    top: 137px;
-}
 .horizontal-slider {
     display: flex;
     overflow-x: hidden;
     scroll-behavior: smooth;
     gap: 0px;
     padding-bottom: 0px;
+    width: 100%;
+    margin: 0 auto;
     justify-content: center;
-
 }
 
 .tx-pricingBox {
-    scroll-snap-align: start; /* This ensures full card starts in view */
+scroll-snap-align: start; /* This ensures full card starts in view */
   flex: 0 0 calc((100% - 40px) / 3);
   min-width: 280px;
   box-sizing: border-box;
@@ -217,6 +337,7 @@ ul#mainTabs {
     justify-content: center;
     display: flex;
     margin-bottom: 20px;
+    flex-wrap: wrap;
 }
 .sec-title h2.pkg-slidez {
     color: #da0000;
@@ -226,7 +347,6 @@ ul#mainTabs {
     font-weight: 800;
     line-height: 30px;
     margin-top: 69px;
-    text-transform: capitalize;
 }
 .slider-nav {
     position: absolute;
@@ -267,9 +387,8 @@ ul#mainTabs {
     border: none !important;
 }
 .slide-buttons.text-center.my-3 {
-    position: absolute;
-    top:152.5%;
-    background: red;
+
+    display: none;
 }
 #prevBtn {
     left: 220px;
@@ -380,6 +499,12 @@ button.city-nav-links{
     background-color: #fff;
     border-radius: 8px;
     overflow: hidden;
+}
+img.call-pkg-red {
+    width: 46%;
+    position: relative;
+    left: 26%;
+    animation: blinkEffect 1.4s infinite;
 }
 .package-cart ul li.nav-item button.active {
     text-transform: capitalize;
@@ -533,7 +658,20 @@ button.city-nav-links{
     font-family: 'Poppins';
     margin-top: 19px;
 }
-
+/* .tx-pricingBox__styleTwo .tx-pricingBox-price::after {
+    position: absolute;
+    left: 0;
+    content: "";
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    width: calc(100% - 45px);
+    background: #ffeef0;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    z-index: -1;
+} */
 .tx-pricingBox__styleTwo .tx-featureImg-wrapper {
     max-width: 100%;
 }
@@ -546,13 +684,6 @@ button.city-nav-links{
     text-align: center;
     width: 100%;
     align-items: center;
-    height: 130px;
-}
-img.call-pkg-red {
-    width: 46%;
-    position: relative;
-    left: 26%;
-    animation: blinkEffect 1.4s infinite;
 }
 .elementor img {
     height: auto;
@@ -592,8 +723,9 @@ img.call-pkg-red {
     gap: 10px;
 }
 .tx-pricingBox__styleTwo .tx-listItems {
-    padding: 15px 4px 15px 20px;
+    padding: 15px 4px 0px 18px;
     margin: 0px;
+    height: 122px;
 }
 .tx-pricingBox .tx-listItems li {
     display: flex;
@@ -683,5 +815,215 @@ img.call-pkg-red {
     padding: 14px 50px;
     border-top: 2px solid #da0000   ;
 }
+
+@media (min-width: 320px) and (max-width: 525px) {
+ 
+     .sec-title h2.pkg-slidez {
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 30px;
+        margin-top: 18px;
+        height: 0px;
+    }
+    .nav-links{
+        background: #fff;
+        border: 1px solid black;
+        color: black;
+        padding: 8px 2px;
+        border-radius: 8px;
+        font-size: 15px;
+        margin-right: 6px;
+        width: 104px;
+    }
+    .nav-links.active {
+        background: #da0000;
+        border: 1px solid #da0000;
+        color: #ffff;
+        padding: 8px 2px;
+        border-radius: 8px;
+        font-size: 15px;
+        margin-right: 6px;
+        width: 104px;
+    }
+    .bg-pkg-light-200 {
+        margin: 20px 0px 2px;
+    }
+    h1.plans-net-100 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    ul#mainTabs{
+        margin-bottom: 8px;
+    }
+    .bg-pkg-light-200 .container.mt-4{
+        padding: 0px;
+    }
+    .bg-linear-pkg{
+        border-radius: 12px;
+    }
+    #cityTabs {
+        display: flex;
+        flex-direction: row;
+        gap: 4px;
+        position: absolute;
+        top: 274px;
+        left: 9%;
+        border: none !important;
+    }
+    #slider2.slider {
+        display: block;
+        margin-top: 0px;
+    }
+    .slider, #slider3.slider, #slider4.slider {
+        position: inherit;
+    }
+  
+    .slide-container {
+        overflow: hidden;
+        padding-left: 33px;
+        padding-right: 24px;
+    }
+    button.city-nav-links.active {
+        padding: 8px 14px;
+        border-radius: 7px;
+        font-size: 13px;
+        margin-right: 0px;
+        width: 100px;
+    }
+    button.city-nav-links{
+        padding: 8px 14px;
+        border-radius: 7px;
+        font-size: 13px;
+        margin-right: 0px;
+        width: 100px;
+    }
+     .slider-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .tx-pricingBox {
+        flex: 0 0 91%;
+        min-width: 97%;
+    }
+    .tx-pricingBox__styleTwo .tx-pricingBox-price{
+        width: 56%;
+    }
+    .tx-pricingBox__styleTwo{
+        margin: 5px 9px;
+    }
+    img.call-pkg-red {
+        width: 41%;
+        left: 30%;
+    }
+    #prevBtn {
+        left: 11px;
+    }
+    .slide-buttons.text-center.my-3 {
+        position: absolute;
+        top: 119.5% !important;
+        background: red;
+        display: block;
+    }
+ 
+    #nextBtn {
+        right: -368px;
+    }
+    .tx-pricingBox__styleTwo .tx-pricingBox-price-change{
+        width: 55%;
+    }
+    .footer-widget.latest-post {
+        display: none;
+    }
+    .about-widget img {
+        height: 70px;
+    }
+    .footer-widget .contact{
+        text-align: left;
+    }
+    .footer-widget {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+       .slider-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .slider {
+        position: relative;
+        width: 100%;
+        max-width: 1040px;
+        margin: auto;
+        overflow: hidden;
+    }
+    #slider2.slider {
+        display: flex;
+        gap: 20px;
+        align-items: flex-start;
+        }
+        #slider3.slider {
+        display: flex;
+        gap: 20px;
+        align-items: flex-start;
+        }
+
+        #slider4.slider {
+        display: flex;
+        gap: 20px;
+        align-items: flex-start;
+        }
+        .bg-linear-pkg{
+            background: linear-gradient(45deg, #f8f8f8, rgb(193 191 192));
+            padding: 24px 0px;
+            border-radius: 15px;
+            box-shadow: rgb(81 89 108) 0px 2px 8px 0px;
+        }
+
+
+        .horizontal-slider {
+            display: flex;
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+            gap: 0px;
+            padding-bottom: 0px;
+
+        }
+
+        .tx-pricingBox {
+        scroll-snap-align: start; /* This ensures full card starts in view */
+        flex: 0 0 calc((100% - 40px) / 3);
+        min-width: 305px;
+        box-sizing: border-box;
+        height: 430px;
+        scroll-snap-align: start;
+        overflow-x: auto;
+        }
+        #slider2.slider {
+        display: flex;
+        gap: 20px;
+        align-items: flex-start;
+        }
+        #slider3.slider {
+        display: flex;
+        gap: 20px;
+        align-items: flex-start;
+        }
+
+        #slider4.slider {
+        display: flex;
+        gap: 20px;
+        align-items: flex-start;
+        }
+        .bg-linear-pkg{
+            background: linear-gradient(45deg, #f8f8f8, rgb(193 191 192));
+            padding: 24px 0px;
+            border-radius: 15px;
+            box-shadow: rgb(81 89 108) 0px 2px 8px 0px;
+        }
+        .horizontal-slider {
+            justify-content: start;
+        }
+}
+
 
 </style>

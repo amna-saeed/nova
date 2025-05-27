@@ -14,13 +14,14 @@
             <a href="#overview" class="tab-link active">Overview</a>
             <a href="#feature" class="tab-link">Features</a>
         </div>
-        <a href="{{route ('payment')}}">
-        <button class="callback-btn">
-        Order Now
-        </button></a>
+        <div class="mdz-right">
+            <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank">
+                <img src="{{asset('assets/images/webImg/img-contactus.png')}}" class="call-new" alt="" />
+            </a>
+        </div>
     </div>
 
-    <section id="overview">
+    <section id="overview" class="h-srvce-100">
         <div class="container">
             <div class="srvce-cont-box">
                 <p class="internet-para">
@@ -46,7 +47,7 @@
             </div>
         </div>
     </section>
-    <section id="feature">
+    <section id="feature" class="h-srvce-100">
         <div class="container">
             <div class="mange-boxes">
                 <div class="box-fea">
@@ -98,55 +99,13 @@
 
 <style>
 
-img.fea-100 {
-    width: 10%;
-}
 #feature {
   scroll-margin-top: 165px; /* Adjust this to match your fixed header height */
 }
-
-.sec-title h2.pkg-slidez {
-    color: #da0000;
-    position: relative;
-    display: inline-block;
-    font-size: 33px;
-    font-weight: 800;
-    line-height: 30px;
-    margin-top: 45px;
-}
-.box-fea-100 {
-    color: #ffff;
-    margin: 0px;
-}
-.box-fea-100 h2 {
-    margin: 10px;
-    font-size: 22px;
-    font-weight: 600;
-    color: #da0000;
-}
-
-.box-fea {
-    box-shadow: rgb(229 169 169) 0px -1px 7px 0px;
-    text-align: center;
-    padding: 19px;
-    margin: 6px;
-    border-radius: 13px;
-    background: linear-gradient(45deg, #ffffff, rgb(194 172 183));
-}
-.mange-boxes {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-.srvce-cont-box {
-    padding-left: 30px;
-    padding-top: 45px;
-    width: 94%;
-}
-
-section {
-    min-height: 300px;
+@media (min-width: 320px) and (max-width: 525px) {
+    .footer-widget.latest-post {
+        display: none;
+    }
 }
 </style>
 <script>

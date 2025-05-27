@@ -103,6 +103,30 @@ section.contact-payment{
     box-shadow: rgb(183 132 169) 0px -1px 13px 0px;
     margin-bottom: 20px;
 }
+
+@media (min-width: 320px) and (max-width: 525px) {
+    section.contact-payment{
+        padding: 40px 19px 11px;
+    }
+    .icons-pay-box img {
+        width: 46%;
+        margin-bottom: 15px;
+        cursor: pointer;
+    }
+    .pay-box-new p
+    {
+        font-size: 16px;
+        text-align: center;
+        color: black;
+        line-height: 12px;
+        text-decoration: underline;
+        font-weight: 600;
+        margin-bottom: 25px;
+    }
+    .footer-widget.latest-post {
+        display: none;
+    }
+}
 </style>
 @stop
 @section('js')

@@ -1,9 +1,6 @@
 @extends('layout.main')
 @section('content')
 
-    {{-- <section class="inner-header-refund11">
-    </section> --}}
-
     <section class="terms-info">
         <div class="outer">
             <div class="container">
@@ -56,64 +53,15 @@
     </section>
 
 
-<style>
+
+    <style>
+        @media (min-width: 320px) and (max-width: 525px) {
+            .footer-widget.latest-post {
+            display: none;
+            }
+        }
+    </style>
     
-    .agree-head-bullet {
-        font-size: 23px;
-        color: black;
-        margin: 0 0 10px;
-        position: relative;
-        padding-left: 30px;
-        text-align: left;
-    }
-    .outer {
-        margin-top: 30px;
-    }
-    ul.terms-ul li{
-        font-size: 19px;
-        color: rgb(54 54 54);
-        line-height: 34px   ;
-        text-align: justify;
-    }
-    h2.carres-head {
-        margin: 0px !important;
-        line-height: 42px;
-        font-size: 35px !important;
-        text-align: center;
-        color: #da0000;
-    }
-    .agree-head-bullet .bullet {
-        position: absolute;
-        left: 0;
-        top: 10px;
-        width: 16px;
-        height: 16px;
-        border-radius: 50%;
-        background: linear-gradient(45deg, #452d2d, #da0000);
-        display: inline-block;
-    }
-    h2.agree-head {
-        text-align: left;
-        font-size: 23px;
-        color: black;
-        margin: 0px 0px 2px;
-    }
-    h2.carres-head {
-        margin: 0px !important;
-        line-height: 42px;
-        font-size: 35px !important;
-    }
-    .terms-info .contact-info{
-        padding: 0px 90px;
-    }
-    span.bold-terms10 {
-        color: #da0000;
-        font-weight: 500;
-    }
-    
-    
-    
-</style> 
 
 @stop
 @section('js')

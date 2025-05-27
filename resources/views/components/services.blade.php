@@ -1,70 +1,75 @@
-<div class="bg-services-light">
-    <div class="sec-title text-center wow fadeInUp" data-wow-delay="200ms" data-wow-duration="2500ms">
-        <h2>Our Services</h2>
-    </div>
-    <div class="container mt-4">
-        <div class="services-slider-wrapper">
-            <!-- Sliders for Services -->
-            <div id="services-slider" class="services-slider">
-                <div class="services-slide-container">
-                    <div class="services-slider-items">
-                        <div class="slide-content">
-                            <img src="{{asset('assets/images/webImg/services-img.png')}}" alt="Slide 1" class="servicesz-slde-img">
-                            <div class="slide-text">
-                                <div class="uk-srvce-txt">
-                                    <h4>IPLAY TV</h4>
-                                    <div class="srvce-box-200">
-                                        <p>200+ live channels across all genres</p>
-                                        <p>Catch-up TV and video on demand</p>
-                                        <p>Easy-to-use interface with parental controls</p>
+<div class="row">
+    <div class="col-lg-12 p-0">
+        <div class="bg-services-light">
+            <div class="sec-title text-center wow fadeInUp" data-wow-delay="200ms" data-wow-duration="2500ms">
+                <h2>Our Services</h2>
+            </div>
+            <div class="container mt-4">
+                <div class="services-slider-wrapper">
+                    <!-- Sliders for Services -->
+                    <div id="services-slider" class="services-slider">
+                        <div class="services-slide-container">
+                            <div class="services-slider-items">
+                                <div class="slide-content">
+                                    <img src="{{asset('assets/images/webImg/services-img.png')}}" alt="Slide 1" class="servicesz-slde-img">
+                                    <div class="slide-text">
+                                        <div class="uk-srvce-txt">
+                                            <h4>IPLAY TV</h4>
+                                            <div class="srvce-box-200">
+                                                <p>200+ live channels across all genres</p>
+                                                <p>Catch-up TV and video on demand</p>
+                                                <p>Easy-to-use interface with parental controls</p>
+                                            </div>
+                                        </div>  
                                     </div>
-                                </div>  
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="services-slider-items">
-                        <div class="slide-content">
-                            <img src="{{asset('assets/images/webImg/b12.png')}}" alt="Slide 2" class="servicesz-slde-img">
-                            <div class="slide-text">
-                                <div class="uk-srvce-txt">
-                                    <h4>INTERNET</h4>
-                                    <div class="srvce-box-200">
-                                        <p>Fast. Reliable. Unlimited</p>
-                                        <p>Perfect for homes, gamers, and remote workers</p>
-                                        <p>Unlimited data – no throttling, no surprise limits</p>
+                            <div class="services-slider-items">
+                                <div class="slide-content">
+                                    <img src="{{asset('assets/images/webImg/b12.png')}}" alt="Slide 2" class="servicesz-slde-img">
+                                    <div class="slide-text">
+                                        <div class="uk-srvce-txt">
+                                            <h4>INTERNET</h4>
+                                            <div class="srvce-box-200">
+                                                <p>Fast. Reliable. Unlimited</p>
+                                                <p>Perfect for homes, gamers, and remote workers</p>
+                                                <p>Unlimited data – no throttling, no surprise limits</p>
+                                            </div>
+                                        </div>  
                                     </div>
-                                </div>  
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="services-slider-items">
-                        <div class="slide-content">
-                            <img src="{{asset('assets/images/webImg/phone!!.png')}}" alt="Slide 3" class="servicesz-slde-img">
-                            <div class="slide-text">
-                                <div class="uk-srvce-txt">
-                                    <h4>TELEPHONE</h4>
-                                    <div class="srvce-box-200">
-                                        <p>Clear calls. Low rates</p>
-                                        <p>Unlimited local and long-distance calling</p>
-                                        <p>Enjoy crystal-clear voice quality</p>
+                            <div class="services-slider-items">
+                                <div class="slide-content">
+                                    <img src="{{asset('assets/images/webImg/phone!!.png')}}" alt="Slide 3" class="servicesz-slde-img">
+                                    <div class="slide-text">
+                                        <div class="uk-srvce-txt">
+                                            <h4>TELEPHONE</h4>
+                                            <div class="srvce-box-200">
+                                                <p>Clear calls. Low rates</p>
+                                                <p>Unlimited local and long-distance calling</p>
+                                                <p>Enjoy crystal-clear voice quality</p>
+                                            </div>
+                                        </div>  
                                     </div>
-                                </div>  
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="services-slider-nav">
+                    <button id="services-prevBtn" class="btn btn-outline-primary">
+                        <i class="fa fa-arrow-left"></i>
+                    </button>
+                    <button id="services-nextBtn" class="btn btn-outline-primary">
+                        <i class="fa fa-arrow-right"></i>
+                    </button>
+                </div>
             </div>
-        </div>
-        <div class="services-slider-nav">
-            <button id="services-prevBtn" class="btn btn-outline-primary">
-                <i class="fa fa-arrow-left"></i>
-            </button>
-            <button id="services-nextBtn" class="btn btn-outline-primary">
-                <i class="fa fa-arrow-right"></i>
-            </button>
         </div>
     </div>
 </div>
+
 
 <script>
     document.addEventListener("DOMContentLoaded", function () {
@@ -277,5 +282,49 @@
 .slide-text p {
     font-size: 16px;
     color: #666;
+}
+
+@media (min-width: 320px) and (max-width: 525px) {
+    .slide-content{
+        display: flex;
+        align-items: center;
+        gap: 0px;
+        flex-direction: column;
+    }
+    .slide-text p {
+        font-size: 16px;
+        color: #666;
+        text-align: center;
+        line-height: 23px;
+    }
+    .slide-content img {
+        width: 560px;
+        height: auto;
+        border-radius: 10px;
+    }
+    .slide-text {
+        max-width: 890px;
+        margin-left: 0px;
+    }
+    .services-slider-items {
+        flex: 0 0 100%;
+        box-sizing: border-box;
+        padding: 2px 0px;
+    }
+    .uk-srvce-txt h4 {
+        text-align: center;
+    }
+    .services-slider-nav {
+        bottom: 255px;
+    }
+    #services-prevBtn {
+        left: 4px;
+    }
+    #services-nextBtn {
+        right: 35px;
+    }
+    .bg-services-light{
+        margin: 23px 0px 20px;
+    }
 }
 </style>

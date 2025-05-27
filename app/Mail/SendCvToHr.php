@@ -21,11 +21,11 @@ class SendCvToHr extends Mailable
 
     public function build()
     {
-        return $this->subject('New CV Submission')
-            ->view('emails.cv') 
+        return $this->subject( $this->data['name'] .'New CV Submission')
+            ->view('emails.cv')
             ->attach($this->file->getRealPath(), [
-                'as' => $this->file->getClientOriginalName(),
-                'mime' => $this->file->getMimeType(),
-            ]);
+            'as' => $this->file->getClientOriginalName(),
+            'mime' => $this->file->getClientMimeType(),
+        ]);
     }
 }

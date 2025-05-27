@@ -64,7 +64,53 @@ button.get-start-200{
     font-weight: 600;
     height: 44px;
 }
-  
+ 
+@media (min-width: 320px) and (max-width: 525px) {
+    p.text-ai{
+        display: none;
+    }
+    .footer-widget.latest-post {
+        display: none;
+    }
+   .complete-bnr-txt {
+        margin: 1px 13px;
+    }
+    .complete-bnr-txt h1 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    button.get-start-200 {
+        line-height: 15px;
+        padding: 1px 43px;
+        margin: 19px 5px;
+        border-radius: 42px;
+        border: 1px solid #da0000;
+        background: #da0000;
+        color: #f8f8f8;
+        font-size: 13px;
+        cursor: pointer;
+        font-weight: 600;
+        height: 35px;
+    }
+    a.nova-ai-btn button {
+        line-height: 14px;
+        padding: 3px 20px;
+        margin: 10px 0px;
+        border-radius: 42px;
+        border: 1px solid #da0000;
+        background: #da0000;
+        color: #f8f8f8;
+        font-size: 13px;
+        cursor: pointer;
+        font-weight: 600;
+        height: 35px;
+        font-family: system-ui;
+    }
+    .inner-header-faq{
+        height: 125px;
+    }
+} 
+
 </style>
 
 @stop

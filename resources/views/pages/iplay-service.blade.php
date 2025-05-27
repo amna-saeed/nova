@@ -206,6 +206,45 @@ video.vdeo-pkgz-desk {
     top: 195.5%;
     background: red;
 }
+@media (min-width: 320px) and (max-width: 525px) {
+  .inner-header-hd{
+        height: 172px;
+    }
+    h1.red-hdctv {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    span.changes-new {
+        font-size: 25px;
+        text-shadow: rgb(44 44 44) 5px 0px 1px;
+    }
+    video.vdeo-pkgz-desk {
+        width: 100%;
+        margin: 16px 0px 0px;
+        border-radius: 2px;
+    }
+
+    /* terms */
+    .terms-box h2 {
+      font-size: 19px;
+    }
+    .modal-header .close.new-termz{
+        font-size: 45px;
+    }
+    li.fntz-red-100.bd-200 {
+      font-size: 14px;
+    }
+    .roundz-red li {
+      padding-left: 25px;
+      font-size: 14px;
+      margin-bottom: 10px;
+      line-height: 21px;
+    }
+    .footer-widget.latest-post {
+      display: none;
+  }
+}
+
 </style>
 <script>
     const links = document.querySelectorAll('.tab-link');

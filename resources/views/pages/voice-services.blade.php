@@ -13,17 +13,14 @@
         <div class="tabs">
             <a href="#overview" class="tab-link active">Overview</a>
         </div>
-        <a href="{{route ('payment')}}">
-        <button class="callback-btn">
-        Order Now
-        </button></a>
+         <div class="mdz-right">
+            <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank">
+                <img src="{{asset('assets/images/webImg/img-contactus.png')}}" class="call-new" alt="" />
+            </a>
+        </div>
     </div>
 
-    {{-- <section id="pkges">
-        @include('components.packages')
-    </section>     --}} 
-
-    <section id="overview">
+    <section id="overview" class="h-srvce-100">
         <div class="container">
             <div class="srvce-cont-box">
                 <p class="internet-para">
@@ -83,33 +80,26 @@
         </div>
     </section>
   
+    <script>
+        const links = document.querySelectorAll('.tab-link');
+        links.forEach(link => {
+        link.addEventListener('click', function (e) {
+            e.preventDefault();
+            links.forEach(l => l.classList.remove('active'));
+            this.classList.add('active');
+            const section = document.querySelector(this.getAttribute('href'));
+            section.scrollIntoView({ behavior: 'smooth' });
+        });
+        });
+    </script>
 
-<style>
-.box-fea-100 p {
-    font-size: 17px;
-    color: #464646;
-}
-h1.red {
-    color: #da0000;
-    font-size: 56px;
-    line-height: 68px;
-}
-section {
-    min-height: 300px;
-}
-</style>
-<script>
-    const links = document.querySelectorAll('.tab-link');
-    links.forEach(link => {
-      link.addEventListener('click', function (e) {
-        e.preventDefault();
-        links.forEach(l => l.classList.remove('active'));
-        this.classList.add('active');
-        const section = document.querySelector(this.getAttribute('href'));
-        section.scrollIntoView({ behavior: 'smooth' });
-      });
-    });
-  </script>
+    <style>
+        @media (min-width: 320px) and (max-width: 525px) {
+            .footer-widget.latest-post {
+                display: none;
+            }
+        }
+    </style>
 @stop
 @section('js')
 @endsection

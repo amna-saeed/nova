@@ -3,7 +3,7 @@
 
 <section class="inner-header-center">
     <div class="complete-bnr-txt">
-        <h1>DATA CENTER </h1>
+        <h1 class="red">DATA CENTER </h1>
     </div>
 </section>
 
@@ -11,13 +11,14 @@
         <div class="tabs">
             <a href="#overview" class="tab-link active">Overview</a>
         </div>
-        <a href="{{route ('payment')}}">
-        <button class="callback-btn">
-        Order Now
-        </button></a>
+        <div class="mdz-right">
+            <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank">
+                <img src="{{asset('assets/images/webImg/img-contactus.png')}}" class="call-new" alt="" />
+            </a>
+        </div>
     </div>
 
-    <section id="overview">
+    <section id="overview" class="h-srvce-100">
         <div class="container">
             <div class="srvce-cont-box">
                 <h2 class="agree-head-bullet"><span class="bullet"></span>Computer/Hyper Converged Infrastructure</h2>
@@ -66,41 +67,25 @@
             </div>
         </div>
     </section>
-
-<style>
-
-#feature {
-  scroll-margin-top: 165px; /* Adjust this to match your fixed header height */
-}
-
-.mange-boxes {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-.srvce-cont-box {
-    padding-left: 30px;
-    padding-top: 45px;
-    width: 94%;
-}
-section {
-    min-height: 300px;
-}
-
-</style>
-<script>
-    const links = document.querySelectorAll('.tab-link');
-    links.forEach(link => {
-      link.addEventListener('click', function (e) {
-        e.preventDefault();
-        links.forEach(l => l.classList.remove('active'));
-        this.classList.add('active');
-        const section = document.querySelector(this.getAttribute('href'));
-        section.scrollIntoView({ behavior: 'smooth' });
-      });
-    });
-  </script>
+    <style>
+        @media (min-width: 320px) and (max-width: 525px) {
+            .footer-widget.latest-post {
+                display: none;
+            }
+        }
+    </style>
+    <script>
+        const links = document.querySelectorAll('.tab-link');
+        links.forEach(link => {
+        link.addEventListener('click', function (e) {
+            e.preventDefault();
+            links.forEach(l => l.classList.remove('active'));
+            this.classList.add('active');
+            const section = document.querySelector(this.getAttribute('href'));
+            section.scrollIntoView({ behavior: 'smooth' });
+        });
+        });
+    </script>
 @stop
 @section('js')
 @endsection

@@ -15,17 +15,14 @@
             <a href="#feature" class="tab-link">Features</a>
             <a href="#benefit" class="tab-link">Benefits</a>
         </div>
-        <a href="{{route ('payment')}}">
-        <button class="callback-btn">
-            Order Now
-        </button></a>
+        <div class="mdz-right">
+            <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank">
+                <img src="{{asset('assets/images/webImg/img-contactus.png')}}" class="call-new" alt="" />
+            </a>
+        </div>
     </div>
 
-    {{-- <section id="pkges">
-        @include('components.packages')
-    </section>     --}}
-
-    <section id="overview">
+    <section id="overview" class="h-srvce-100">
         <div class="container">
             <div class="srvce-cont-box">
                 <p class="internet-para">
@@ -40,7 +37,7 @@
             </div>
         </div>
     </section>
-    <section id="feature">
+    <section id="feature" class="h-srvce-100">
         <div class="container">
             <div class="mange-boxes">
                 <div class="box-fea">
@@ -88,7 +85,7 @@
             </div>
         </div>
     </section>
-    <section id="benefit">
+    <section id="benefit" class="h-srvce-100">
         <div class="bg-mix-400">
             <div class="cards-mix">
                 <div class="main-three-grip">
@@ -117,23 +114,6 @@
     </section>
 <style>
 
-.cards-mix{
-    border-radius: 17px;
-    border: 1px solid #fff;
-    padding: 60px;
-    width: 100%;
-    max-width: 1100px;
-    margin: 0 auto;
-    background: radial-gradient(circle at center, #ead1fa 0%, #f59a9a63 50%, #dae6fe 100%);
-}
-.box-img-200{
-    width: 23%;
-}
-.box-cards-white {
-    background: #ffff;
-    margin: 5px;
-    padding: 25px;
-}
 .main-three-grip {
     display: grid;
     grid-template-columns: repeat(3, 2fr);
@@ -142,52 +122,17 @@
 #benefit {
   scroll-margin-top: 165px; /* Adjust this to match your fixed header height */
 }
-.bg-mix-400{
-    background: #f1ebee;
-    padding: 50px;
-    margin: 0px 0px 30px;
-}
 
-img.fea-100 {
-    width: 10%;
-}
 #feature {
   scroll-margin-top: 165px; /* Adjust this to match your fixed header height */
 }
-
-.box-fea-100 {
-    color: #ffff;
-    margin: 0px;
-}
-.box-fea-100 h2 {
-    margin: 10px;
-    font-size: 22px;
-    font-weight: 600;
-    color: #da0000;
-}
-
-.box-fea {
-    box-shadow: rgb(229 169 169) 0px -1px 7px 0px;
-    text-align: center;
-    padding: 19px;
-    margin: 6px;
-    border-radius: 13px;
-    background: linear-gradient(45deg, #ffffff, rgb(194 172 183));
-}
-.mange-boxes {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-.srvce-cont-box {
-    padding-left: 30px;
-    padding-top: 45px;
-    width: 94%;
-}
-
-section {
-    min-height: 300px;
+@media (min-width: 320px) and (max-width: 525px) {
+    .footer-widget.latest-post {
+        display: none;
+    }
+    .main-three-grip {
+        grid-template-columns: repeat(2, 2fr);
+    }
 }
 </style>
 <script>

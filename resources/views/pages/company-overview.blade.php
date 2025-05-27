@@ -3,29 +3,29 @@
 @section('content')
 
 <style>
-img.tabs-img-w {
-  width: 100%;
-  border-radius: 14px;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  height: 243px;
-}
-img.tabs-img-e {
-  width: 100%;
-  border-radius: 14px;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  height: 500px;
-}
-
-.row.box-full-500{
-      width: 100%;
-    max-width: 1052px;
-    margin: 0 auto;
+  img.tabs-img-w {
+    width: 100%;
+    border-radius: 14px;
     text-align: center;
-}
+    justify-content: center;
+    align-items: center;
+    height: 243px;
+  }
+  img.tabs-img-e {
+    width: 100%;
+    border-radius: 14px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+  }
+
+  .row.box-full-500{
+        width: 100%;
+      max-width: 1052px;
+      margin: 0 auto;
+      text-align: center;
+  }
   .tab-image {
     width: 100%;
     border-radius: 15px;
@@ -46,23 +46,58 @@ img.tabs-img-e {
       line-height: 27px;
   }
   .nav-pills .nav-link.active {
-    background-color: rgb(0 0 0 / 16%);
-    color: black !important;
+     background-color: #da0000;
+    color: #fff !important;
   }
-.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
-      color: #fff;
-      background-color: #da0000;
-      color: #fff !important;
-}
- ul#tabMenu {
-    margin: 35px;
-}
-.image-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 15px;
-  max-width: 870px;
-  margin: 26px auto;
+  .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+        color: #fff;
+        background-color: #da0000;
+        color: #fff !important;
+  }
+  ul#tabMenu {
+      margin: 35px;
+  }
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    max-width: 870px;
+    margin: 26px auto;
+  }
+
+@media (min-width: 320px) and (max-width: 525px) {
+  ul#tabMenu {
+    margin: 22px 1px;
+    flex-wrap: wrap;
+  }
+  .nav-pills .nav-link {
+      border-radius: 50px;
+      margin: 0 0px;
+      padding: 2px 20px;
+      font-weight: 550;
+      font-size: 12px;
+      font-family: system-ui;
+      line-height: 27px;
+  }
+  img.tabs-img-w {
+    width: 100%;
+    border-radius: 8px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+  }
+  .footer-widget.latest-post {
+      display: none;
+  }
+  img.tabs-img-e {
+      width: 100%;
+      border-radius: 14px;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+  }
 }
 </style>
 

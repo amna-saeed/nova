@@ -16,7 +16,7 @@
           <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank">
               <img src="{{asset('assets/images/webImg/img-contactus.png')}}" class="call-new" alt="" />
           </a>
-      </div>
+        </div>
     </div>
     <div class="container">
         <video class="vdeo-pkgz-desk" autoplay="" loop="" muted="" poster="">
@@ -196,6 +196,23 @@ video.vdeo-pkgz-desk {
     position: absolute;
     top: 195.5%;
     background: red;
+}
+@media (min-width: 320px) and (max-width: 525px) {
+  h1.red-hdctv {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  span.changes-new {
+    font-size: 19px;
+  }
+  video.vdeo-pkgz-desk {
+    width: 100%;
+    margin: 29px 0px 0px;
+    border-radius: 6px;
+  }
+  .horizontal-slider{
+    justify-content: start;
+  }
 }
 </style>
 <script>

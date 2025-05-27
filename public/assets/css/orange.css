@@ -2,13 +2,16 @@
 /*  ORANGE Color #da0000
 /*===================================================================================*/
 /*  */
-.parallax-banner {
+.parallax-banner-desk {
 	background: url(../images/webImg/coverage1.png);
     background-size: cover;
     height: 388px;	
 	margin-top: 39px;
+	display: block;
 }
-
+.parallax-banner-resp {
+	display: none;
+}
 .banner-title {
     font-size: 40px;
     font-weight: bold;
@@ -1370,4 +1373,16 @@
 
 }
 
-
+@media (min-width: 320px) and (max-width: 525px) {
+	.parallax-banner-desk {
+	display: none;
+	}
+	.parallax-banner-resp {
+        background: url(../images/webImg/resp-cvrg.png);
+        background-size: cover;
+        height: 305px;
+        margin-top: 13px;
+        width: 100%;
+        display: block;
+    }
+}

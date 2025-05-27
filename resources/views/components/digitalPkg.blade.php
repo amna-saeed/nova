@@ -12,13 +12,14 @@
         <h1 class="plans-net-100 mt-0">Your Net , Your Plan</h1>
         <div class="bg-linear-pkg">
             <div class="slider-wrapper">
-                {{-- slider3 --}}
-                <div id="slider3" class="slider d-flex" data-type="nested">
+
+                 <div id="slider2" class="slider active d-flex" data-type="nested">
+                   
                     <!-- Sliders for Nested Tabs -->
                     <div class="slide-container city-slider" data-city="islamabad">
                         <div class="slider-items horizontal-slider">
                             <div class="tx-pricingBox tx-pricingBox__styleTwo">
-                                <div class="tx-pricingBox-header d-block text-center pt-10">
+                               <div class="tx-pricingBox-header d-block text-center pt-10">
                                     <h5 class="tx-title">cable tv <br />Basic Channel</h5>
                                 </div>
                                 <div class="tx-pricingBox-price-change text-center mt-20">
@@ -46,6 +47,7 @@
                                     <img src="{{asset('assets/images/webImg/reddd.png')}}" class="call-pkg-red" alt="" />
                                 </a>
                             </div>
+
                             <div class="tx-pricingBox tx-pricingBox__styleTwo">
                                 <div class="tx-pricingBox-header d-block text-center pt-10">
                                     <h5 class="tx-title">Digital and HD <br />Channeles</h5>
@@ -54,7 +56,6 @@
                                     <sub class="tx-price__currency">PKR</sub><br />
                                     <span class="tx-price__price">350*</span><br />
                                 </div>
-
                                 <div class="tx-wrapper">
                                     <ul class="list-unstyled tx-listItems tx-listItems__styleOne">
                                         <li>
@@ -75,8 +76,9 @@
                                     <img src="{{asset('assets/images/webImg/reddd.png')}}" class="call-pkg-red" alt="" />
                                 </a>
                             </div>
+
                             <div class="tx-pricingBox tx-pricingBox__styleTwo">
-                                <div class="tx-pricingBox-header d-block text-center pt-10">
+                                 <div class="tx-pricingBox-header d-block text-center pt-10">
                                     <h5 class="tx-title">Iplay services <br />Digital and HD channels</h5>
                                 </div>
                                 <div class="tx-pricingBox-price-change text-center mt-20">
@@ -107,6 +109,14 @@
                         </div>
                     </div>
                 </div>
+                <div class="slide-buttons text-center my-3">
+                    <button id="prevBtn" class="btn btn-primary mx-2">
+                        <i class="fa fa-arrow-left"></i>
+                    </button>
+                    <button id="nextBtn" class="btn btn-primary mx-2">
+                        <i class="fa fa-arrow-right"></i>
+                    </button>
+                </div>
             </div>
         </div>
     </div>
@@ -125,9 +135,129 @@
         headings[current].style.display = "block";
       }, 3000); 
     });
-  </script>
+</script>
 
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const mainTabs = document.querySelectorAll("#mainTabs .tabs-outer");
+        const sliders = document.querySelectorAll(".slider[data-type='nested']");
+        const cityTabs = document.querySelectorAll(".city-nav-links");
+        const citySliders = document.querySelectorAll(".city-slider");
+    
+        mainTabs.forEach(tab => {
+            tab.addEventListener("click", () => {
+                mainTabs.forEach(t => t.classList.remove("active"));
+                tab.classList.add("active");
+    
+                sliders.forEach(slider => slider.classList.add("hidden"));
+    
+                let sliderId = "";
+                if (tab.id === "internet_trutv_tab") sliderId = "slider2";
+                else if (tab.id === "phone_tab") sliderId = "slider3";
+                else if (tab.id === "remote_tab") sliderId = "slider4";
+    
+                const nestedSlider = document.getElementById(sliderId);
+                nestedSlider.classList.remove("hidden");
+    
+                const defaultCity = "islamabad";
+                cityTabs.forEach(btn => {
+                    const city = btn.getAttribute("data-city").trim().toLowerCase();
+                    btn.classList.toggle("active", city === defaultCity);
+                });
+    
+                citySliders.forEach(slider => {
+                    const city = slider.getAttribute("data-city").trim().toLowerCase();
+                    slider.classList.toggle("hidden", city !== defaultCity);
+    
+                    const items = slider.querySelector(".slider-items");
+                    if (items) {
+                        items.style.transform = "translateX(0px)";
+                        items.dataset.offset = "0";
+                    }
+                });
+    
+                attachSlideEvents();
+            });
+        });
+    
+        cityTabs.forEach(cityTab => {
+            cityTab.addEventListener("click", () => {
+                cityTabs.forEach(t => t.classList.remove("active"));
+                cityTab.classList.add("active");
+    
+                const selectedCity = cityTab.getAttribute("data-city").trim().toLowerCase();
+    
+                citySliders.forEach(slider => {
+                    const city = slider.getAttribute("data-city").trim().toLowerCase();
+                    slider.classList.toggle("hidden", city !== selectedCity);
+    
+                    const items = slider.querySelector(".slider-items");
+                    if (items) {
+                        items.style.transform = "translateX(0px)";
+                        items.dataset.offset = "0";
+                    }
+                });
+    
+                attachSlideEvents();
+            });
+        });
+    
+        attachSlideEvents();
+    });
+    
+    function attachSlideEvents() {
+        const prevBtn = document.getElementById("prevBtn");
+        const nextBtn = document.getElementById("nextBtn");
 
+        if (prevBtn && nextBtn) {
+            prevBtn.onclick = () => scrollSlider("prev");
+            nextBtn.onclick = () => scrollSlider("next");
+        }
+    }
+
+    function scrollSlider(direction) {
+        const slider = document.querySelector(".slider[data-type='nested']:not(.hidden) .city-slider:not(.hidden) .slider-items");
+        if (!slider) return;
+
+        const itemWidth = slider.children[0]?.offsetWidth || 300;
+        const scrollAmount = itemWidth + 20;
+
+        if (direction === "next") {
+            slider.scrollBy({ left: scrollAmount, behavior: "smooth" });
+        } else {
+            slider.scrollBy({ left: -scrollAmount, behavior: "smooth" });
+        }
+    }
+    
+    function getCurrentSliderItems() {
+        const nestedSlider = document.querySelector(".slider[data-type='nested']:not(.hidden) .city-slider:not(.hidden) .slider-items");
+        return nestedSlider;
+    }
+    
+    function slide(direction) {
+        const slider = getCurrentSliderItems();
+        if (!slider) return;
+
+        const itemWidth = slider.children[0]?.offsetWidth + 20 || 320;
+        const visibleCount = window.innerWidth <= 768 ? 1 : 3;  // Responsive slide count
+        const totalItems = slider.children.length;
+
+        let offset = parseFloat(slider.dataset.offset || "0");
+        const maxOffset = -(itemWidth * (totalItems - visibleCount));
+
+        if (direction === "next") {
+            offset -= itemWidth;
+            if (offset < maxOffset) offset = maxOffset;
+        } else {
+            offset += itemWidth;
+            if (offset > 0) offset = 0;
+        }
+
+        slider.style.transform = `translateX(${offset}px)`;
+        slider.dataset.offset = offset;
+    }
+
+</script>
     
 <script>
     document.querySelectorAll('.nav-links').forEach(button => {
@@ -141,6 +271,9 @@
 
 <style>
 .icon-white {
+    display: none;
+}
+.slide-buttons.text-center.my-3{
     display: none;
 }
 h1.plans-net-100 {
@@ -265,49 +398,6 @@ ul#mainTabs {
     bottom: -260px;
 }
 
-#prevBtn, #nextBtn {
-    background: none;
-    border: none;
-    font-size: 24px;
-    cursor: pointer;
-    pointer-events: all; /* Make them clickable */
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 10;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.7); /* Light background */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    transition: background 0.3s ease-in-out;
-}
-
-#prevBtn:hover, #nextBtn:hover {
-    background: rgb(218 0 0);
-}
-.btn.focus, .btn:focus{
-    outline: none !important;
-    border: none !important;
-}
-.slide-buttons.text-center.my-3 {
-    position: absolute;
-    top:152.5%;
-    background: red;
-}
-#prevBtn {
-    left: 220px;
-}
-#nextBtn {
-    right: -1147px;
-}
-#prevBtn i, #nextBtn i {
-    font-size: 24px;
-    color: #1559a8;
-}
 
 .slider {
     position: relative;
@@ -713,4 +803,178 @@ img.call-pkg-red {
     border-top: 2px solid #da0000   ;
 }
 
+@media (min-width: 320px) and (max-width: 525px) {
+  .sec-title h2.pkg-slidez {
+      font-size: 19px;
+      font-weight: 700;
+      line-height: 22px;
+      margin-top: 18px;
+      height: 22px;
+  }
+    .nav-links{
+        background: #fff;
+        border: 1px solid black;
+        color: black;
+        padding: 8px 2px;
+        border-radius: 8px;
+        font-size: 15px;
+        margin-right: 6px;
+        width: 104px;
+    }
+    .nav-links.active {
+        background: #da0000;
+        border: 1px solid #da0000;
+        color: #ffff;
+        padding: 8px 2px;
+        border-radius: 8px;
+        font-size: 15px;
+        margin-right: 6px;
+        width: 104px;
+    }
+    .bg-pkg-light-200 {
+        margin: 20px 0px 2px;
+    }
+    h1.plans-net-100 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    ul#mainTabs{
+        margin-bottom: 8px;
+    }
+    .bg-pkg-light-200 .container.mt-4{
+        padding: 0px;
+    }
+    .bg-linear-pkg{
+        border-radius: 12px;
+    }
+    #cityTabs {
+        display: flex;
+        flex-direction: row;
+        gap: 4px;
+        position: absolute;
+        top: 274px;
+        left: 9%;
+        border: none !important;
+    }
+    #slider3.slider{
+        display: block;
+        margin-top: 0px;
+    }
+    .slider, #slider3.slider, #slider4.slider {
+        position: inherit;
+    }
+  
+    .slide-container {
+        overflow: hidden;
+        padding-left: 33px;
+        padding-right: 24px;
+    }
+    button.city-nav-links.active {
+        padding: 8px 14px;
+        border-radius: 7px;
+        font-size: 13px;
+        margin-right: 0px;
+        width: 100px;
+    }
+    button.city-nav-links{
+        padding: 8px 14px;
+        border-radius: 7px;
+        font-size: 13px;
+        margin-right: 0px;
+        width: 100px;
+    }
+     .slider-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .tx-pricingBox {
+        flex: 0 0 91%;
+        min-width: 97%;
+    }
+    .tx-pricingBox__styleTwo .tx-pricingBox-price{
+        width: 56%;
+    }
+    .tx-pricingBox__styleTwo{
+        margin: 5px 9px;
+    }
+    img.call-pkg-red {
+        width: 41%;
+        left: 30%;
+    }
+    #prevBtn {
+        left: 11px;
+    }
+    .slide-buttons.text-center.my-3 {
+        position: absolute;
+        top:118.5%;
+        background: red;
+    }
+    
+    #prevBtn, #nextBtn {
+        background: none;
+        border: none;
+        font-size: 24px;
+        cursor: pointer;
+        pointer-events: all; /* Make them clickable */
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 10;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.7); /* Light background */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        transition: background 0.3s ease-in-out;
+    }
+
+    #prevBtn:hover, #nextBtn:hover {
+        background: rgb(218 0 0);
+    }
+    .btn.focus, .btn:focus{
+        outline: none !important;
+        border: none !important;
+    }
+    .slide-buttons.text-center.my-3 {
+        position: absolute;
+        top:117.5% !important;
+        background: red;
+    }
+    #prevBtn {
+        left: 13px;
+    }
+    #nextBtn {
+        right: -1147px;
+    }
+    #prevBtn i, #nextBtn i {
+        font-size: 24px;
+        color: #1559a8;
+    }
+    #nextBtn {
+        right: -368px;
+    }
+    .tx-pricingBox__styleTwo .tx-pricingBox-price-change{
+        width: 55%;
+    }
+    .footer-widget.latest-post {
+        display: none;
+    }
+    .about-widget img {
+        height: 70px;
+    }
+    .footer-widget .contact{
+        text-align: left;
+    }
+    .footer-widget {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .slide-buttons.text-center.my-3{
+        display: block;
+    }
+}
 </style>

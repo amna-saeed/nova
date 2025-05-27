@@ -1,7 +1,7 @@
 @extends('layout.main')
 @section('content')
     @include('components.home-slider')
-    @include('components.pop-up')
+    {{-- @include('components.pop-up') --}}
 
     @include('components.packages')
 

@@ -1,1 +1,2 @@
-<section class="parallax-banner"></section>
+<section class="parallax-banner-desk"></section>
+<section class="parallax-banner-resp"></section>

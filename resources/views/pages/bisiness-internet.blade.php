@@ -13,13 +13,14 @@
             <a href="#feature" class="tab-link">Features</a>
             <a href="#benefit" class="tab-link">Benefits</a>
         </div>
-        <a href="{{route ('payment')}}">
-        <button class="callback-btn">
-            Order Now
-        </button></a>
+        <div class="mdz-right">
+            <a href="https://api.whatsapp.com/send/?phone=51111111872&text=Hello&app_absent=0" target="_blank">
+                <img src="{{asset('assets/images/webImg/img-contactus.png')}}" class="call-new" alt="" />
+            </a>
+        </div>
     </div>
 
-    <section id="overview">
+    <section class="h-100-n" id="overview">
         <div class="container">
             <div class="srvce-cont-box">
                 <p class="internet-para">
@@ -131,6 +132,14 @@
         });
         });
     </script>
+
+    <style>
+    @media (min-width: 320px) and (max-width: 525px) {
+        .footer-widget.latest-post {
+            display: none;
+        }
+    }
+    </style>
 @stop
 @section('js')
 @endsection

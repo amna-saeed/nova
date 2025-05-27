@@ -90,7 +90,9 @@
                                     <li><a href="https://www.facebook.com/Novacommunicationsofficial.pk" target="_blank"> <i class="fab fa-facebook-f"></i></a></li>
                                     <li> <a href="https://www.instagram.com/novacommunications.pk/" target="_blank"><i class="fab fa-instagram"></i></a></li>
                                     <li> <a href="https://www.linkedin.com/company/67939716/admin/page-posts/published/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                                    <li> <a href="https://www.youtube.com/@novacommunicationsinternet3818/community" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                    <li> <a href="https://www.youtube.com/@novacommunicationsinternet3818/community" target="_blank">
+                                        <i class="fa-brands fab fa-youtube"></i>
+                                    </a></li>
                                 </div>
                             </div>
                         </div>
@@ -195,6 +197,26 @@
     .fa-map-marker-alt:before {
         content: "\f3c5";
     }
+
+@media (min-width: 320px) and (max-width: 525px) {
+    h2.headings-care {
+        color: #141414 !important;
+        font-size: 20px !important;
+        margin: 11px 0px 5px;
+    }
+    .support-box{
+        padding: 0px 20px;
+    }
+    .inner-soclz{
+        margin-top: 9px;
+    }
+    .footer-widget.latest-post {
+        display: none;
+    }
+    .support-item{
+        border-top: 1px solid #fffdfd;
+    }
+}
 </style>
 
 @stop

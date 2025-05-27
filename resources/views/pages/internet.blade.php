@@ -133,6 +133,25 @@
         });
         });
     </script>
+
+    <style>
+        @media (min-width: 320px) and (max-width: 525px) {
+            #cityTabs {
+                display: flex;
+                flex-direction: row;
+                gap: 4px;
+                position: absolute;
+                top: 4484px;
+                left: 8%;
+                border: none !important;
+            }
+            .slide-buttons.text-center.my-3 {
+                position: absolute;
+                top: 104%;
+                background: red;
+            }
+        }
+    </style>
 @stop
 @section('js')
 @endsection

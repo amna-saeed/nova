@@ -168,6 +168,19 @@ button.btn.btn-primary:hover {
   color: #fdfdfd;
   font-weight: 700;
 }
+@media (min-width: 320px) and (max-width: 525px) {
+    img.gif-form {
+		width: 77px;
+	}
+	.box-form-outer {
+		position: fixed;
+		bottom: 20px;
+		right: 0px;
+		cursor: pointer;
+		z-index: 1000;
+	}
+}
+
 </style>
 
 <script>

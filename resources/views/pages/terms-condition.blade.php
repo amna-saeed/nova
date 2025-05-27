@@ -12,7 +12,7 @@
                 </div>
                 <div class="sec-content 500">
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-12 p-0">
                             <div class="cntnt-cntrl">
                                 <div class="boxing-outer">
                                     <div class="contact-info">
@@ -308,6 +308,13 @@
         </div>
     </section>
 
+    <style>
+      @media (min-width: 320px) and (max-width: 525px) {
+        .footer-widget.latest-post {
+            display: none;
+        }
+      }
+  </style>
 @stop
 @section('js')
    
