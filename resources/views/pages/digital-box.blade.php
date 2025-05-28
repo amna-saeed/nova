@@ -180,7 +180,8 @@ span.changes-new {
     text-shadow: rgb(44 44 44) 5px 0px 1px;
 }
 section {
-    min-height: 169px;
+    min-height: 169px; 
+    
 }
 .slide-buttons.text-center.my-3 {
     position: absolute;
