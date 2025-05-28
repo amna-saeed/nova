@@ -920,14 +920,13 @@ img.call-pkg-red {
         left: 11px;
     }
     .slide-buttons.text-center.my-3 {
-        position: absolute;
-        top: 88.5% !important;
-        background: red;
+        position: relative !important;
+        top: -214px !important;
         display: block;
     }
  
     #nextBtn {
-        right: -344px;
+        right: 11px;
     }
     .tx-pricingBox__styleTwo .tx-pricingBox-price-change{
         width: 59%;

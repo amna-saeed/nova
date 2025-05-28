@@ -903,14 +903,16 @@ img.call-pkg-red {
         left: 30%;
     }
     #prevBtn {
-        left: 11px;
+        left: 22px;
     }
     .slide-buttons.text-center.my-3 {
-        position: absolute;
-        top:118.5%;
-        background: red;
+        position: relative !important;
+        top: -214px !important;
+        display: block;
     }
-    
+    #nextBtn {
+        right: 11px;
+    }
     #prevBtn, #nextBtn {
         background: none;
         border: none;
@@ -939,24 +941,7 @@ img.call-pkg-red {
         outline: none !important;
         border: none !important;
     }
-    .slide-buttons.text-center.my-3 {
-        position: absolute;
-        top:117.5% !important;
-        background: red;
-    }
-    #prevBtn {
-        left: 13px;
-    }
-    #nextBtn {
-        right: -1147px;
-    }
-    #prevBtn i, #nextBtn i {
-        font-size: 24px;
-        color: #1559a8;
-    }
-    #nextBtn {
-        right: -368px;
-    }
+  
     .tx-pricingBox__styleTwo .tx-pricingBox-price-change{
         width: 55%;
     }

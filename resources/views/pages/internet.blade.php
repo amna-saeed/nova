@@ -145,11 +145,6 @@
                 left: 8%;
                 border: none !important;
             }
-            .slide-buttons.text-center.my-3 {
-                position: absolute;
-                top: 104%;
-                background: red;
-            }
         }
     </style>
 @stop

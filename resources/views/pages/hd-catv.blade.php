@@ -164,21 +164,13 @@ span.changes-new {
 section {
     min-height: 169px;
 }
-.slide-buttons.text-center.my-3 {
-    position: absolute;
-    top: 209.5%;
-    background: red;
-}
+
 video.vdeo-pkgz-desk {
     width: 100%;
     margin: 43px 0px 0px;
     border-radius: 16px;
 }
-.slide-buttons.text-center.my-3 {
-    position: absolute;
-    top: 195.5%;
-    background: red;
-}
+
 @media (min-width: 320px) and (max-width: 525px) {
   .inner-header-hd{
         height: 172px;
@@ -196,13 +188,13 @@ video.vdeo-pkgz-desk {
         margin: 16px 0px 0px;
         border-radius: 2px;
     }
-
+   
     /* terms */
     .terms-box h2 {
       font-size: 19px;
     }
     .modal-header .close.new-termz{
-        font-size: 45px;
+      font-size: 45px;
     }
     li.fntz-red-100.bd-200 {
       font-size: 14px;
@@ -216,6 +208,7 @@ video.vdeo-pkgz-desk {
     .footer-widget.latest-post {
       display: none;
   }
+ 
 }
 
 </style>

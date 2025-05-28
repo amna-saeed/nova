@@ -1493,7 +1493,7 @@ ul#mainTabs {
     padding: 10px;
 } */
 
-#prevBtn, #nextBtn {
+/* #prevBtn, #nextBtn {
     position: absolute;
     transform: translateY(-50%);
     background: rgb(255 255 255);
@@ -1501,9 +1501,9 @@ ul#mainTabs {
     padding: 10px 15px;
     border: none;
     cursor: pointer;
-    /* bottom: 190px; */
+
     top: 0;
-}
+} */
 
 .nav-links.active {
     background: #da0000;
@@ -1922,6 +1922,17 @@ img.call-pkg-red {
     ul#mainTabs{
         margin-bottom: 8px;
     }
+    #prevBtn, #nextBtn{
+        position: absolute;
+        transform: translateY(-50%);
+        background: rgb(255 255 255);
+        color: rgb(172 171 172);
+        padding: 10px 15px;
+        border: none;
+        cursor: pointer;
+        /* bottom: 190px; */
+        top: 0;
+    }
     .bg-pkg-light-200 .container.mt-4{
         padding: 0px;
     }
@@ -1983,15 +1994,15 @@ img.call-pkg-red {
         left: 30%;
     }
     #prevBtn {
-        left: 11px;
+        left: 23px;
     }
     .slide-buttons.text-center.my-3 {
-        position: absolute;
-        top: 64%;
-        background: red;
+        position: relative !important;
+        top: -214px !important;
+        display: block;
     }
     #nextBtn {
-        left: 311px;
+        left: 88% !important;
     }
     .tx-pricingBox__styleTwo .tx-pricingBox-price-change{
         width: 55%;

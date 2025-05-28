@@ -127,6 +127,9 @@ p.com-para {
         padding: 0px 5px;
         line-height: 24px;
     } 
+    .footer-widget.latest-post {
+      display: none;
+    }
 }
 </style>
 
