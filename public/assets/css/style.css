@@ -6300,7 +6300,7 @@ a:hover,a:focus,a:visited{
 	}
 	h2.unique-head {
 		text-transform: capitalize;
-		font-size: 24px !important;
+		font-size: 22px !important;
 		margin-bottom: 0px;
 		margin-top: 15px;
 	}
@@ -6312,18 +6312,21 @@ a:hover,a:focus,a:visited{
 	}
 	p.double-head-under {
 		margin-bottom: 7px;
-		font-size: 24px;
+		font-size: 21px;
 	}
 	h1.why-nova-100{
-		font-size: 25px;
+		font-size: 22px;
 	}
 	h2.fast-head {
-		font-size: 20px;
-		margin: 13px 0px 5px;
+		font-size: 17px;
+        margin: 7px 0px 2px;
+	}
+	.under-content p {
+	    font-size: 16px;
 	}
 	.footer-call-to-action {
 		width: 100%;
-		background-size: contain;
+		background-size: cover;
 		background-repeat: no-repeat;
 		height: 91px;
 	}
@@ -6591,5 +6594,13 @@ a:hover,a:focus,a:visited{
 	.inner-header-telephone-bnr{
 		height: 167px;
 	}
-
+	.border-roundz-400{
+		width: 82px;
+		height: 76px;
+		margin-right: auto;
+		margin-left: auto;
+		border-radius: 73px;
+		padding: 22px;
+		box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	}
 }

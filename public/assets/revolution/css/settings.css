@@ -1417,3 +1417,12 @@ body.rtl .tp-kbimg {left: 0 !important}
 .rev_slider_wrapper, .rev_slider { height: 300px !important; }
 
 }
+
+@media (min-width: 320px) and (max-width: 525px) {
+    .rev_slider_wrapper.bannercontainer{
+        display: none !important;
+    }
+	.rev_slider_wrapper.bannercontainer{
+		display: none !important;
+	}
+}

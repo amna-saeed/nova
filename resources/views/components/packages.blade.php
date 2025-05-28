@@ -1987,11 +1987,11 @@ img.call-pkg-red {
     }
     .slide-buttons.text-center.my-3 {
         position: absolute;
-        top: 82%;
+        top: 64%;
         background: red;
     }
     #nextBtn {
-        right: -368px;
+        left: 311px;
     }
     .tx-pricingBox__styleTwo .tx-pricingBox-price-change{
         width: 55%;

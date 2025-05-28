@@ -921,16 +921,16 @@ img.call-pkg-red {
     }
     .slide-buttons.text-center.my-3 {
         position: absolute;
-        top: 119.5% !important;
+        top: 88.5% !important;
         background: red;
         display: block;
     }
  
     #nextBtn {
-        right: -368px;
+        right: -344px;
     }
     .tx-pricingBox__styleTwo .tx-pricingBox-price-change{
-        width: 55%;
+        width: 59%;
     }
     .footer-widget.latest-post {
         display: none;
@@ -960,24 +960,24 @@ img.call-pkg-red {
         display: flex;
         gap: 20px;
         align-items: flex-start;
-        }
+    }
         #slider3.slider {
         display: flex;
         gap: 20px;
         align-items: flex-start;
-        }
+    }
 
-        #slider4.slider {
+    #slider4.slider {
         display: flex;
         gap: 20px;
         align-items: flex-start;
-        }
-        .bg-linear-pkg{
+    }
+    .bg-linear-pkg{
             background: linear-gradient(45deg, #f8f8f8, rgb(193 191 192));
             padding: 24px 0px;
             border-radius: 15px;
             box-shadow: rgb(81 89 108) 0px 2px 8px 0px;
-        }
+    }
 
 
         .horizontal-slider {
@@ -990,13 +990,13 @@ img.call-pkg-red {
         }
 
         .tx-pricingBox {
-        scroll-snap-align: start; /* This ensures full card starts in view */
-        flex: 0 0 calc((100% - 40px) / 3);
-        min-width: 305px;
-        box-sizing: border-box;
-        height: 430px;
-        scroll-snap-align: start;
-        overflow-x: auto;
+            scroll-snap-align: start; /* This ensures full card starts in view */
+            flex: 0 0 calc((100% - 40px) / 3);
+            min-width: 96%;
+            box-sizing: border-box;
+            height: 430px;
+            scroll-snap-align: start;
+            overflow-x: auto;
         }
         #slider2.slider {
         display: flex;
