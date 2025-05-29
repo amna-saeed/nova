@@ -4,7 +4,7 @@
     <section class="inner-header-payment">
        
     </section>
-
+    @include('components.kuick-modal')
     <section class="contact-payment">
         <div class="outer-bg-pay-500">
             <div class="container">
@@ -22,7 +22,9 @@
                                     class="blink-clicking">Pay Now</a>
                                 </div>
                                <div class="pay-box-new">
-                                <p>Instruction</p>
+                                    <a data-toggle="modal" data-target="#kuickModal1">
+                                        <p>Instruction</p>
+                                    </a>
                                 </div>
                             </div>
                             <div class="col-lg-4">
@@ -36,7 +38,9 @@
                                     class="blink-clicking">Pay Now</a>
                                 </div>
                                 <div class="pay-box-new">
-                                    <p>Instruction</p>
+                                    <a href="{{route('kuick-instruction')}}">
+                                        <p>Instruction</p>
+                                    </a>
                                 </div>
                             </div>
                             <div class="col-lg-4">

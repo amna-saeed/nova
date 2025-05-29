@@ -835,9 +835,18 @@ img.call-pkg-red {
         margin: 20px 0px 2px;
     }
     h1.plans-net-100 {
-        font-size: 20px;
+        font-size: 16px;
         margin-bottom: 10px;
         margin-top: 10px;
+    }
+    .tx-pricingBox .tx-price__price {
+        font-size: 29px;
+    }
+    .tx-pricingBox .tx-price__currency {
+        font-size: 22px;
+    }
+    .tx-pricingBox__styleTwo .tx-title {
+        font-size: 19px;
     }
     ul#mainTabs{
         margin-bottom: 8px;

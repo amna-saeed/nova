@@ -45,7 +45,7 @@
                             </button></li>
                             <li class="nav-item"><button class="city-nav-links" data-city="lahore">Lahore
                             </button></li>
-                            <li class="nav-item"><button class="city-nav-links" data-city="risalpur">Risalpul
+                            <li class="nav-item"><button class="city-nav-links" data-city="risalpur">Risalpur
                             </button></li>
                         </ul>
                     </div>
@@ -596,7 +596,7 @@
                         <ul class="nav nav-tabs" id="cityTabs">
                             <li class="nav-item"><button class="city-nav-links active" data-city="islamabad">Islamabad</button></li>
                             <li class="nav-item"><button class="city-nav-links" data-city="lahore">Lahore</button></li>
-                            <li class="nav-item"><button class="city-nav-links" data-city="risalpur">Risalpul</button></li>
+                            <li class="nav-item"><button class="city-nav-links" data-city="risalpur">Risalpur</button></li>
                         </ul>
                     </div>
             
@@ -826,7 +826,7 @@
                         <ul class="nav nav-tabs" id="cityTabs">
                             <li class="nav-item"><button class="city-nav-links active" data-city="islamabad">Islamabad</button></li>
                             <li class="nav-item"><button class="city-nav-links" data-city="lahore">Lahore</button></li>
-                            {{-- <li class="nav-item"><button class="city-nav-links" data-city="risalpur">Risalpul</button></li> --}}
+                            {{-- <li class="nav-item"><button class="city-nav-links" data-city="risalpur">Risalpur</button></li> --}}
                         </ul>
                     </div>
                     <div class="slide-container city-slider" data-city="islamabad">
@@ -1885,9 +1885,9 @@ img.call-pkg-red {
 @media (min-width: 320px) and (max-width: 525px) {
  
     .sec-title h2.pkg-slidez {
-        font-size: 19px;
-        font-weight: 700;
-        line-height: 30px;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 23px;
         margin-top: 18px;
         height: 50px;
     }
@@ -1915,9 +1915,18 @@ img.call-pkg-red {
         margin: 20px 0px 2px;
     }
     h1.plans-net-100 {
-        font-size: 20px;
+        font-size: 16px;
         margin-bottom: 10px;
         margin-top: 10px;
+    }
+    .tx-pricingBox__styleTwo .tx-title {
+        font-size: 19px;
+    }
+    .tx-pricingBox .tx-price__price {
+        font-size: 29px;
+    }
+    .tx-pricingBox .tx-price__currency {
+        font-size: 22px;
     }
     ul#mainTabs{
         margin-bottom: 8px;

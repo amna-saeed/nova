@@ -29,7 +29,7 @@ Route::get('/faqs', [HomeController::class, 'faqsPage'])->name('faqs');
 // services
 Route::get('/dark-fiber', [HomeController::class, 'darkfiberPage'])->name('dark-fiber');
 Route::get('/co-location', [HomeController::class, 'locationPage'])->name('co-location');
-Route::get('/data-vpn', [HomeController::class, 'dataPage'])->name('data-vpn');
+Route::get('/data-vpn', [HomeController::class, 'dataPage'])->name('data-vpn'); 
 Route::get('/data-center', [HomeController::class, 'datacenterPage'])->name('data-center');
 Route::get('/bisiness-internet', [HomeController::class, 'BusinessinternetPage'])->name('bisiness-internet');
 Route::get('/internet', [HomeController::class, 'internetPage'])->name('internet');
@@ -48,10 +48,7 @@ Route::get('/digital-box', [HomeController::class, 'digitalPage'])->name('digita
 Route::post('/submit-lead', [LeadController::class, 'submit'])->name('submit-lead');
 
 // payment
-Route::get('/bank-payment', [HomeController::class, 'bankpaymentPage'])->name('bank-payment');
-Route::get('/go-to-bank', [BankController::class, 'redirectToBank'])->name('go.to.bank');
-
-
+Route::get('/easypaisa-instruction', [HomeController::class, 'bankpaymentPage'])->name('kuick-instruction');
 
 // end
 Route::post('/webhook/whatsapp', [WhatsAppController::class, 'handleIncoming']);

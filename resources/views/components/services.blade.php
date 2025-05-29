@@ -292,7 +292,7 @@
         flex-direction: column;
     }
     .slide-text p {
-        font-size: 16px;
+        font-size: 14px;
         color: #666;
         text-align: center;
         line-height: 23px;
@@ -313,6 +313,7 @@
     }
     .uk-srvce-txt h4 {
         text-align: center;
+        font-size: 17px;
     }
     .services-slider-nav {
         bottom: 255px;

@@ -613,8 +613,8 @@ button.\33 00.openFormBtn {
         gap: 5px;
     }
     .description {
-        font-size: 16px;
-        max-width: 340px;
+        font-size: 15px;
+        max-width: 317px;
         margin: 0 auto 40px;
         color: #212121;
         line-height: 25px;

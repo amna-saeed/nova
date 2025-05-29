@@ -201,7 +201,7 @@
 @media (min-width: 320px) and (max-width: 525px) {
     h2.headings-care {
         color: #141414 !important;
-        font-size: 20px !important;
+        font-size: 19px !important;
         margin: 11px 0px 5px;
     }
     .support-box{

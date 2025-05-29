@@ -138,6 +138,6 @@ class HomeController extends Controller
     // payment
     public function bankpaymentPage()
     {
-        return view('pages.bank-payment');
+        return view('pages.kuick-instruction');
     }
 }
